@@ -93,19 +93,6 @@ final class AboutViewController: UIViewController, UIGestureRecognizerDelegate {
         communityGuidelinesLabel.text = "komyunitexigaidorainn".localized()
         openSourceLibraryLabel.text = "o-punnso-suraiburari".localized()
         
-        let config = URLSessionConfiguration.default
-        let session = URLSession(configuration: config)
-        let url = URL(string: "https://itunes.apple.com/lookup?id=1579280491")!
-
-        let task = session.dataTask(with: url) { (data: Data?, _: URLResponse?, _: Error?) in
-            if let data = data {
-                let str = String(data: data, encoding: .utf8)!
-                print(str)
-            }
-        }
-        
-        task.resume()
-        
         versionText.text = "ba-jyonn".localized() + " " + version
     }
     
