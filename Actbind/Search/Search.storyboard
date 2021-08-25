@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="Search View Controller" modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="SearchViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkg-It-IIV">
+                                <rect key="frame" x="50" y="105" width="135" height="135"/>
+                                <color key="backgroundColor" name="Red"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fkg-It-IIV" secondAttribute="height" multiplier="1:1" id="49d-Xd-70L"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="rebButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="4Of-xk-QgE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYY-f4-xwK">
+                                <rect key="frame" x="205" y="105" width="135" height="135"/>
+                                <color key="backgroundColor" name="Orange"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="orangeButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="EJk-0v-etd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ysn-G2-VV8">
+                                <rect key="frame" x="50" y="260" width="135" height="135"/>
+                                <color key="backgroundColor" name="Yellow"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="yellowButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zmp-Dx-nxx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5Q-8u-Po2">
+                                <rect key="frame" x="205" y="260" width="135" height="135"/>
+                                <color key="backgroundColor" name="Green"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="greenButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Miv-aE-wUJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66Z-Do-mV7">
+                                <rect key="frame" x="50" y="415" width="135" height="135"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="blueButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Hbe-Yr-IYT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQ3-ju-a3R">
+                                <rect key="frame" x="205" y="415" width="135" height="135"/>
+                                <color key="backgroundColor" name="Purple"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="purpleButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ucZ-Xj-gT1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="カラータグ検索" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1p-Jv-qQq">
+                                <rect key="frame" x="20" y="64" width="350" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="gYY-f4-xwK" firstAttribute="leading" secondItem="fkg-It-IIV" secondAttribute="trailing" constant="20" id="3gw-2B-84b"/>
+                            <constraint firstItem="66Z-Do-mV7" firstAttribute="width" secondItem="66Z-Do-mV7" secondAttribute="height" multiplier="1:1" id="4M8-c4-BkD"/>
+                            <constraint firstItem="gYY-f4-xwK" firstAttribute="top" secondItem="Y1p-Jv-qQq" secondAttribute="bottom" constant="20" id="5W7-Kt-DLu"/>
+                            <constraint firstItem="Y1p-Jv-qQq" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="7OB-4J-n1j"/>
+                            <constraint firstItem="GQ3-ju-a3R" firstAttribute="leading" secondItem="66Z-Do-mV7" secondAttribute="trailing" constant="20" id="7Za-7M-Yoc"/>
+                            <constraint firstItem="66Z-Do-mV7" firstAttribute="width" secondItem="fkg-It-IIV" secondAttribute="width" id="8iP-8P-nwa"/>
+                            <constraint firstItem="fkg-It-IIV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="94X-gY-o1k"/>
+                            <constraint firstItem="A5Q-8u-Po2" firstAttribute="top" secondItem="gYY-f4-xwK" secondAttribute="bottom" constant="20" id="BaT-vR-5aX"/>
+                            <constraint firstItem="gYY-f4-xwK" firstAttribute="width" secondItem="gYY-f4-xwK" secondAttribute="height" multiplier="1:1" id="Bgw-fI-m8v"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A5Q-8u-Po2" secondAttribute="trailing" constant="50" id="CMd-Zn-Ubq"/>
+                            <constraint firstItem="A5Q-8u-Po2" firstAttribute="width" secondItem="fkg-It-IIV" secondAttribute="width" id="F6H-PS-Jld"/>
+                            <constraint firstItem="66Z-Do-mV7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="H7K-ge-Z2i"/>
+                            <constraint firstItem="ysn-G2-VV8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="KqE-Gf-NPF"/>
+                            <constraint firstItem="ysn-G2-VV8" firstAttribute="top" secondItem="fkg-It-IIV" secondAttribute="bottom" constant="20" id="Kst-tF-WRe"/>
+                            <constraint firstItem="66Z-Do-mV7" firstAttribute="top" secondItem="ysn-G2-VV8" secondAttribute="bottom" constant="20" id="Qfa-y0-7g6"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="GQ3-ju-a3R" secondAttribute="trailing" constant="50" id="TQ3-Ss-Lip"/>
+                            <constraint firstItem="A5Q-8u-Po2" firstAttribute="width" secondItem="A5Q-8u-Po2" secondAttribute="height" multiplier="1:1" id="Xcs-RA-BAH"/>
+                            <constraint firstItem="Y1p-Jv-qQq" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Ytf-K9-awP"/>
+                            <constraint firstItem="GQ3-ju-a3R" firstAttribute="top" secondItem="A5Q-8u-Po2" secondAttribute="bottom" constant="20" id="aLZ-Ew-gWf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="gYY-f4-xwK" secondAttribute="trailing" constant="50" id="cC9-Dg-r3X"/>
+                            <constraint firstItem="gYY-f4-xwK" firstAttribute="width" secondItem="fkg-It-IIV" secondAttribute="width" id="juN-k2-HF8"/>
+                            <constraint firstItem="ysn-G2-VV8" firstAttribute="width" secondItem="ysn-G2-VV8" secondAttribute="height" multiplier="1:1" id="khT-2W-3BN"/>
+                            <constraint firstItem="ysn-G2-VV8" firstAttribute="width" secondItem="fkg-It-IIV" secondAttribute="width" id="kxk-IJ-SZY"/>
+                            <constraint firstItem="GQ3-ju-a3R" firstAttribute="width" secondItem="fkg-It-IIV" secondAttribute="width" id="psQ-aS-llY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Y1p-Jv-qQq" secondAttribute="trailing" constant="20" id="qya-5g-an5"/>
+                            <constraint firstItem="GQ3-ju-a3R" firstAttribute="width" secondItem="GQ3-ju-a3R" secondAttribute="height" multiplier="1:1" id="rfY-G4-mMq"/>
+                            <constraint firstItem="A5Q-8u-Po2" firstAttribute="leading" secondItem="ysn-G2-VV8" secondAttribute="trailing" constant="20" id="xa1-Zp-PyT"/>
+                            <constraint firstItem="fkg-It-IIV" firstAttribute="top" secondItem="Y1p-Jv-qQq" secondAttribute="bottom" constant="20" id="yfJ-xv-GL6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="検索" id="xxx-tn-38L">
+                        <barButtonItem key="leftBarButtonItem" id="AGD-mE-iLQ">
+                            <imageReference key="image" image="back"/>
+                            <connections>
+                                <action selector="backButtonAction:" destination="Y6W-OH-hqX" id="IcR-oY-jRA"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" id="nxo-cM-g87">
+                            <imageReference key="image" image="アセット 513"/>
+                            <connections>
+                                <action selector="accountSearchButtonAction:" destination="Y6W-OH-hqX" id="JNR-TD-XM6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="accountSearchButton" destination="nxo-cM-g87" id="Chj-wQ-vBQ"/>
+                        <outlet property="backButton" destination="AGD-mE-iLQ" id="12S-ek-9cb"/>
+                        <outlet property="blueButton" destination="66Z-Do-mV7" id="jin-IB-7xV"/>
+                        <outlet property="colorTagLabel" destination="Y1p-Jv-qQq" id="T88-PP-fiD"/>
+                        <outlet property="greenButton" destination="A5Q-8u-Po2" id="uWW-he-hIa"/>
+                        <outlet property="navigationBarTitle" destination="xxx-tn-38L" id="azd-qA-aEh"/>
+                        <outlet property="orangeButton" destination="gYY-f4-xwK" id="Cok-yZ-LEY"/>
+                        <outlet property="purpleButton" destination="GQ3-ju-a3R" id="dCp-lv-x1E"/>
+                        <outlet property="redButton" destination="fkg-It-IIV" id="Pp3-ga-4J9"/>
+                        <outlet property="yellowButton" destination="ysn-G2-VV8" id="6wW-Fb-UBU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="11.374407582938389"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <image name="アセット 513" width="44" height="44"/>
+        <namedColor name="Background">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Green">
+            <color red="0.20399999618530273" green="0.77999997138977051" blue="0.34900000691413879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Orange">
+            <color red="1" green="0.58399999141693115" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Purple">
+            <color red="0.74099999666213989" green="0.29399999976158142" blue="0.89800000190734863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Red">
+            <color red="1" green="0.050999999046325684" blue="0.097999997437000275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Yellow">
+            <color red="1" green="0.78799998760223389" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,7 @@
+//オランダ語
+
+NSCameraUsageDescription = "Hiermee kunt u een foto maken.";
+NSLocationWhenInUseUsageDescription = "Hierdoor kunt u profiteren van functies zoals video-opname en gesproken zoekopdrachten.";
+NSMicrophoneUsageDescription = "Hiermee kunt u de inhoud van uw filmrol delen en profiteren van andere functies met betrekking tot uw foto's en video's.";
+NSPhotoLibraryUsageDescription = "Hiermee kunt u enkele van de functies van Actbind gebruiken, uw inhoud personaliseren, naar locaties zoeken en meer.";
+NSFaceIDUsageDescription = "Sta Actbind toe Face ID te gebruiken om uw app te ontgrendelen.";

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jgr-sh-gnY">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19107.5"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ChangeMailAddressViewController-->
+        <scene sceneID="jJk-T8-Csu">
+            <objects>
+                <viewController title="ChangeMailAddressViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="jgr-sh-gnY" customClass="ChangeMailAddressViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dJ6-kl-uVa" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ログインする時に、このメールアドレスを使用します。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9j-oB-kPv" userLabel="MailAddressExplanation Label">
+                                <rect key="frame" x="20" y="94" width="350" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3vt-cw-ATR" userLabel="MailAddress TextField">
+                                <rect key="frame" x="20" y="138" width="350" height="48"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <color key="tintColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Lu0-Y1-Zu6"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="email"/>
+                                <connections>
+                                    <action selector="mailAddressTextFieldDidEndOnExit:" destination="jgr-sh-gnY" eventType="editingDidEndOnExit" id="gUg-4N-BqF"/>
+                                    <action selector="mailAddressTextFieldEditingChanged:" destination="jgr-sh-gnY" eventType="editingChanged" id="uro-32-eqV"/>
+                                    <action selector="mailAddressTextFieldEditingDidBegin:" destination="jgr-sh-gnY" eventType="editingDidBegin" id="0hb-tV-eyG"/>
+                                    <action selector="mailAddressTextFieldEditingDidEnd:" destination="jgr-sh-gnY" eventType="editingDidEnd" id="Udl-rI-BTZ"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFQ-Lr-JRk">
+                                <rect key="frame" x="20" y="236" width="350" height="48"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="5ia-M0-n43"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="確認">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="confirmationButtonTouchDown:" destination="jgr-sh-gnY" eventType="touchDown" id="0J7-fL-pNj"/>
+                                    <action selector="confirmationButtonTouchDragOutside:" destination="jgr-sh-gnY" eventType="touchDragOutside" id="5da-bX-Yhr"/>
+                                    <action selector="confirmationButtonTouchUpInside:" destination="jgr-sh-gnY" eventType="touchUpInside" id="YqM-4p-s6E"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ozi-Yw-0tv">
+                                <rect key="frame" x="20" y="730" width="350" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="76o-Hw-xD6" userLabel="Error Image">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                        <color key="tintColor" name="White"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="76o-Hw-xD6" secondAttribute="height" multiplier="1:1" id="17C-AZ-xQ8"/>
+                                            <constraint firstAttribute="width" constant="30" id="MEr-ec-StV"/>
+                                        </constraints>
+                                        <imageReference key="image" image="errorwhiteonly"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8D-zI-XkG">
+                                        <rect key="frame" x="60" y="21" width="275" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="Pink"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="8Ef-Eh-lpF"/>
+                                    <constraint firstAttribute="bottom" secondItem="76o-Hw-xD6" secondAttribute="bottom" constant="15" id="Bzz-0O-T4Q"/>
+                                    <constraint firstItem="76o-Hw-xD6" firstAttribute="leading" secondItem="Ozi-Yw-0tv" secondAttribute="leading" constant="15" id="FbK-C5-VBS"/>
+                                    <constraint firstAttribute="trailing" secondItem="I8D-zI-XkG" secondAttribute="trailing" constant="15" id="IWr-C3-cbS"/>
+                                    <constraint firstItem="I8D-zI-XkG" firstAttribute="centerY" secondItem="76o-Hw-xD6" secondAttribute="centerY" id="czD-qq-SUJ"/>
+                                    <constraint firstItem="76o-Hw-xD6" firstAttribute="top" secondItem="Ozi-Yw-0tv" secondAttribute="top" constant="15" id="f5U-FP-dmb"/>
+                                    <constraint firstItem="I8D-zI-XkG" firstAttribute="leading" secondItem="76o-Hw-xD6" secondAttribute="trailing" constant="15" id="u1g-sS-jrI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nnm-ou-4X5"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="nnm-ou-4X5" firstAttribute="trailing" secondItem="H9j-oB-kPv" secondAttribute="trailing" constant="20" id="CDa-sn-zNM"/>
+                            <constraint firstItem="3vt-cw-ATR" firstAttribute="leading" secondItem="nnm-ou-4X5" secondAttribute="leading" constant="20" id="FWr-jf-MUL"/>
+                            <constraint firstItem="3vt-cw-ATR" firstAttribute="top" secondItem="H9j-oB-kPv" secondAttribute="bottom" constant="8" id="GrY-vA-pkl"/>
+                            <constraint firstItem="H9j-oB-kPv" firstAttribute="leading" secondItem="nnm-ou-4X5" secondAttribute="leading" constant="20" id="J36-NX-2bd"/>
+                            <constraint firstItem="Ozi-Yw-0tv" firstAttribute="leading" secondItem="nnm-ou-4X5" secondAttribute="leading" constant="20" id="J5W-Cr-TRF"/>
+                            <constraint firstItem="nnm-ou-4X5" firstAttribute="trailing" secondItem="Ozi-Yw-0tv" secondAttribute="trailing" constant="20" id="LMW-5d-M1O"/>
+                            <constraint firstItem="iFQ-Lr-JRk" firstAttribute="top" secondItem="3vt-cw-ATR" secondAttribute="bottom" constant="50" id="cBn-vz-zGo"/>
+                            <constraint firstItem="nnm-ou-4X5" firstAttribute="trailing" secondItem="iFQ-Lr-JRk" secondAttribute="trailing" constant="20" id="cnB-jq-aH2"/>
+                            <constraint firstAttribute="bottom" secondItem="Ozi-Yw-0tv" secondAttribute="bottom" constant="54" id="i1f-hb-HQE"/>
+                            <constraint firstItem="iFQ-Lr-JRk" firstAttribute="leading" secondItem="nnm-ou-4X5" secondAttribute="leading" constant="20" id="qaH-1E-6Ii"/>
+                            <constraint firstAttribute="trailing" secondItem="3vt-cw-ATR" secondAttribute="trailing" constant="20" id="vEW-4u-8YW"/>
+                            <constraint firstItem="H9j-oB-kPv" firstAttribute="top" secondItem="nnm-ou-4X5" secondAttribute="top" constant="50" id="x2V-qY-f67"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="連絡先" id="uly-bJ-k3w" userLabel="NavigationBar Title">
+                        <barButtonItem key="backBarButtonItem" title=" " id="WwF-HG-nHT"/>
+                        <barButtonItem key="leftBarButtonItem" id="dpA-Ia-ueq">
+                            <imageReference key="image" image="back" symbolScale="large"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="jgr-sh-gnY" id="DHG-wL-zm7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="dpA-Ia-ueq" id="Fpv-IM-OXx"/>
+                        <outlet property="confirmationButton" destination="iFQ-Lr-JRk" id="dGn-Hn-fTE"/>
+                        <outlet property="confirmationButtonLeft" destination="qaH-1E-6Ii" id="PP8-JI-fcu"/>
+                        <outlet property="confirmationButtonRight" destination="cnB-jq-aH2" id="QdW-73-gDb"/>
+                        <outlet property="errorTextLabel" destination="I8D-zI-XkG" id="wCL-9r-UY6"/>
+                        <outlet property="errorView" destination="Ozi-Yw-0tv" id="4KT-kB-Qh9"/>
+                        <outlet property="errorViewBottom" destination="i1f-hb-HQE" id="RXf-rj-uXL"/>
+                        <outlet property="mailAddressExplanationLabel" destination="H9j-oB-kPv" id="0hp-36-GSd"/>
+                        <outlet property="mailAddressTextField" destination="3vt-cw-ATR" id="kPx-DP-Ao3"/>
+                        <outlet property="navigationBarTitle" destination="uly-bJ-k3w" id="xgp-lP-Hek"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z7L-WG-Bka" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4100" y="5154"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <image name="errorwhiteonly" width="32.333332061767578" height="32.333332061767578"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink">
+            <color red="1" green="0.17599999904632568" blue="0.33300000429153442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextField">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

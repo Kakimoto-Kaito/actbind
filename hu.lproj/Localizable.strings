@@ -1,0 +1,247 @@
+//ハンガリー語
+
+"language" = "Hungarian";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "Kérjük, frissítsen az új verzióra";
+"appude-to" = "Frissítés";
+
+"roguinn" = "Belépés";
+"me-ruadoresugatadasikuarimasenn" = "Helytelen e-mail cím";
+"akaunntogaarimasenn" = "Úgy tűnik, hogy a megadott e-mail cím nem egy fiókhoz tartozik. Kérjük, ellenőrizze az e-mail címét, és próbálja újra.";
+"pasuwa-dogamatigatteimasu" = "Helytelen jelszó az %@ számára";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "A megadott jelszó helytelen. Kérlek próbáld újra.";
+"mouitidojikkou" = "Próbáld újra";
+"atarasiiakaunntowosakusei" = "Új fiók létrehozása";
+
+"namaewonyuuryoku" = "Mi a neved?";
+"namae1" = "Vezetéknév";
+"namae2" = "Keresztnév";
+"namaesetumei" = "A valódi neved használata megkönnyíti a barátaid számára a felismerést.";
+"tugihe" = "Következő";
+"akaunntowoomotinokata" = "Már van fiókja?";
+
+"me-ruadoresuwonyuuryoku" = "Mi az e-mail címed?";
+"me-ruadoresu" = "Email cím";
+"me-ruadoresusetumei" = "Ezt az e-mail címet használja bejelentkezéskor.";
+"me-ruadoresuera-" = "Kérjük valós e-mail címet adjon meg!";
+"siyoudekinaime-ruadoresu" = "Ez az e-mail cím nem használható";
+
+"ninnsyouko-dowonyuuryoku" = "Adja meg az ellenörző kódot";
+"ninnsyouko-do" = "Megerősítő kód";
+"ninnsyouko-dosetumei" = "Kérjük, írja be az %@ -nak elküldött ellenőrző kódot.";
+"ninnsyouko-dorikuesuto" = "Kód újraküldése";
+"ninnsyouko-doera-" = "Ez a kód érvénytelen. Kérjen új kódot.";
+
+"pasuwa-dowonyuuryoku" = "Hozzon létre egy jelszót";
+"pasuwa-do" = "Jelszó";
+"pasuwa-dosetumei" = "Írjon be 8 vagy több betűt és számot, vagy szimbólumot (például! És &).";
+"pasuwa-doera-" = "Kérjük, írja be a helyes jelszót.";
+
+"seibetuwosenntaku" = "Mi a nemed?";
+"dannsei" = "Férfi";
+"jyosei" = "Női";
+"sonota" = "Egyéb";
+
+"tannjyoubiwosenntaku" = "Mikor van a születésnapod?";
+"tannjyoubi" = "Születésnap";
+"tannjyoubisetumei" = "A születésnapod megadásával biztos lehet abban, hogy a korodnak megfelelő Actbind élményt kapsz.";
+"sai" = " éves";
+"jissainotannjyoubi" = "Kérjük, adja meg tényleges születésnapját";
+"akaunntowosakuseidekimasenndesita" = "Nem sikerült fiókot létrehozni";
+"OK" = "rendben";
+
+"yu-za-ne-muwonyuuryoku" = "Hozzon létre egy felhasználói nevet";
+"yu-za-ne-mu" = "Felhasználónév";
+"yu-za-ne-musetumei" = "Az ábécé, számok és aláhúzások (_) 5–30 betű kombinációjával hozzon létre egy eredeti felhasználói nevet, amelyet ismerősei azonosítani tudnak Önnel.";
+"yu-za-ne-muera-" = "Kérjük, írja be a helyes felhasználónevet.";
+"suujidakeera-" = "Csak számokkal rendelkező felhasználónév nem használható.";
+"annda-ba-dakeera-" = "Csak a sáv alatti felhasználónév nem használható.";
+"siyoudekinaiyu-za-ne-mu" = "Ez a felhasználónév nem használható";
+
+"tourokukannryou" = "Fejezze be a regisztrációt";
+"doui" = "A Regisztráció megérintésével elfogadja az Általános Szerződési Feltételeket és az Adatvédelmi irányelveket.";
+"riyoukiyakupuraibasi-porisi-" = "Szolgáltatási feltételek / Adatvédelmi irányelvek";
+"touroku" = "Regisztrálj";
+
+"akaunntowosakiseisiteimasu" = "A fiók létrehozása ...";
+"actbindheyoukoso" = "Üdvözöljük az Actbind oldalán!";
+"hajimeru" = "Rajt";
+"akaunntowosakuseidekimasenndesita" = "Nem sikerült létrehozni a fiókját";
+"modoru" = "Visszatérés";
+
+
+
+
+
+"houkoku" = "Jelentés";
+"monndaiwohoukoku" = "Jelentem a problémát";
+"fi-dobakku" = "Általános visszajelzés";
+"sousinn" = "Küld";
+
+"youkoso" = "Üdvözöljük az Actbind oldalán";
+
+"kensaku" = "Keresés";
+"kara-tagukensaku" = "Színcímke keresés";
+"akaunntokensaku" = "Fiókkeresés";
+
+"houkokusetumei1" = "Ha valakit közvetlen veszély fenyeget, hívja a helyi mentőszolgálatot - ne várjon.";
+"houkokusetumei2" = "Röviden ismertesse a történteket. Hogyan reprodukálja a kérdést?";
+"houkokusetumei3" = "Érintse meg az értékeléshez";
+"houkokusetumei4" = "Röviden magyarázza el, mit szeret, vagy mi javulhat.";
+
+"akaunntohoukokutaitoru" = "Miért jelented ezt a fiókot?";
+"akaunntohoukokutaipu1" = "Valakinek tettetni";
+"akaunntohoukokutaipu2" = "Hamis fiók";
+"akaunntohoukokutaipu3" = "Hamis név";
+"akaunntohoukokutaipu4" = "Nem megfelelő tartalom közzététele";
+"akaunntohoukokutaipu5" = "Zaklatás vagy zaklatás";
+"akaunntohoukokutaipu6" = "Segíteni akarok ennek az embernek";
+
+"toukouhoukokutaitoru" = "Miért jelented ezt a bejegyzést?";
+"toukouhoukokutaipu1" = "Ez levélszemét";
+"toukouhoukokutaipu2" = "Meztelenség vagy szexuális tevékenység";
+"toukouhoukokutaipu3" = "Gyűlöletbeszéd vagy szimbólumok";
+"toukouhoukokutaipu4" = "Erőszak vagy veszélyes szervezetek";
+"toukouhoukokutaipu5" = "Illegális vagy szabályozott áruk értékesítése";
+"toukouhoukokutaipu6" = "Zaklatás vagy zaklatás";
+"toukouhoukokutaipu7" = "Szellemi tulajdon megsértése";
+"toukouhoukokutaipu8" = "Öngyilkosság vagy önsérülés";
+"toukouhoukokutaipu9" = "Átverés";
+"toukouhoukokutaipu10" = "Hamis információk";
+"toukouhoukokutaipu11" = "Terrorizmus";
+
+"houkokuara-totaitoru" = "Köszönöm a jelentést";
+"houkokuara-tomesse-ji1" = "Az Ön által megadott információkat arra használjuk fel, hogy az Actbind biztonságosabb közösséggé váljon.";
+"houkokuara-tomesse-ji2" = "Visszajelzését felhasználjuk az Actbind szolgáltatás fejlesztésére.";
+"tojiru" = "Bezárás";
+
+"actbinddesyea" = "Oszd meg az Actbind oldalon";
+"actbinddesyeasetumei" = "A hozzáférés engedélyezésével megoszthatja.";
+"cameraakusesu" = "Hozzáférés engedélyezése a kamerához";
+"cameraro-ruakusesu" = "Hozzáférés engedélyezése a fényképezőgép tekercséhez";
+
+"kyannseru" = "Megszünteti";
+"syasinn" = "Fénykép";
+"kara-taguwosenntaku" = "Válassza ki a színcímkét";
+"toukouwosakusei" = "Hozz létre posztot";
+"syeasiyou" = "Osszuk meg";
+"kyapusyonnwonyuuryoku" = "Írj feliratot ...";
+"jikann" = "Idő";
+"syea" = "Részvény";
+"toukoutyuu" = "Közzététel ...";
+"toukousimasita" = "Feladva";
+
+"purofi-ru" = "Profil";
+"toukougaarimasenn" = "Nincs bejegyzés";
+"purofi-ruwohennsyuu" = "Profil szerkesztése";
+"hennsyuu" = "Szerkesztés";
+"hozonn" = "Megment";
+"purofi-rusyasinn" = "Profilkép";
+"purofi-rusyasinnhennkou" = "Profilfotó módosítása";
+"syasinnwotoru" = "Fotót készíteni";
+"gennzainosyasinnwosakujyo" = "Az aktuális fénykép eltávolítása";
+"gennzainosyasinnwosakujyosimasuka" = "El akarja távolítani az aktuális fotót?";
+"hennkounaiyousetteityuu" = "Változások beállítása ...";
+"hennkounaiyouhozonn" = "A váloztatásaid el lettek mentve";
+"jikosyoukai" = "Bemutatkozás";
+"jikosyoukaiwohennsyuu" = "Saját bevezető szerkesztése";
+"jikosyoukaiwonyuuryoku" = "Adja meg önbevezetését ...";
+"foro-" = "Kövesse";
+"foro-tyuu" = "Következő";
+"forowa-" = "Követők";
+"tomodati" = "Barátom";
+
+"menyu-" = "Menü";
+"ohayou" = "Jó reggelt kívánok";
+"konnnitiha" = "Helló";
+"konnbannha" = "Jó estét";
+"inotiwomamoru" = "Védje az életét";
+"akuthibithi" = "Az Ön tevékenysége";
+"riyoujikann" = "Az Actbind ideje";
+"itinitinoheikinn" = "Napi átlag";
+"jikann" = "óra";
+"funn" = "perc";
+"kyou" = "Ma";
+"dekore-syonn" = "Díszít";
+"orijinaru" = "Eredeti";
+"red" = "Piros";
+"orange" = "narancs";
+"yellow" = "Sárga";
+"green" = "Zöld";
+"blue" = "Kék";
+"purple" = "Lila";
+"sapo-to" = "Támogatás";
+"supportcentercontent" = "Az esetek nagyszámú támogatását a támogatási központ foglalja össze.";
+"supportcenter" = "Támogatóközpont";
+"supportmethod" = "Támogatási módszer";
+"kotirakara" = "Innen";
+"me-ru" = "Email";
+"me-ruactbindsapo-to" = "E -mailben beszélhet az Actbind ügyfélszolgálatával.";
+"roguauto" = "Kijelentkezés";
+"roguautosimasuka" = "Kijelentkezik az @%@ szolgáltatásból?";
+"ba-jyonn" = "Változat";
+
+"settei" = "Beállítások";
+"akaunnto" = "Számla";
+"puraibasi-" = "Magánélet";
+"sekyuritexi" = "Biztonság";
+"apurinogenngo" = "Alkalmazás nyelve";
+"actbindnituite" = "Az Actbindről";
+
+"kojinnnojyouhou" = "Személyes adat";
+"namae" = "Név";
+"rennrakusakijyouhou" = "Elérhetőségei";
+"seibetu" = "Nem";
+"tannjyoubiwohennkoudekinai" = "Nem sikerült megváltoztatni a születésnapot";
+"kakuninn" = "Megerősítés";
+"atarasiijyouhouhozonn" = "Új információk mentése";
+"gennzainonamae" = "Jelenlegi név";
+"gennzainome-ruadoresu" = "jelenlegi email címed";
+"gennzainoseibetu" = "Jelenlegi nem";
+"gennzainotannjyoubi" = "Jelenlegi születésnap";
+"atarasiinamae" = "Új név";
+"atarasiime-ruadoresu" = "Új e-mail cím";
+"atarasiiseibetu" = "Új nem";
+"atarasiitannjyoubi" = "Új születésnap";
+"hozonnpasuwa-do" = "Kérjük, adja meg a jelszót a mentéshez";
+"kyannseru" = "Megszünteti";
+"akaunntokannri" = "Számlavezetés";
+
+"era-" = "Hiba történt";
+
+"toukousakujyo" = "Törli a bejegyzést?";
+
+"akaunntosakujyo" = "Fiók törlése";
+"sakujyo" = "Töröl";
+"akaunntowosakujyotyuu" = "Fiók törlése ...";
+"akaunntogasakujyosaremasita" = "A fiók törölve";
+"akaunntosakujyosetumei" = "Ha törli a fiókját, nem fog tudni újra bejelentkezni.";
+"sakujyopasuwa-do" = "Kérjük, adja meg jelszavát a törléshez";
+"arigatou" = "Nagyon szépen köszönjük";
+"tanosimi" = "alig várom, hogy újra lássalak téged";
+
+"puraibasi-akusesujyoukyou" = "Hozzáférés az adatvédelmi információkhoz";
+
+"gennzainopasuwa-do" = "Jelenlegi jelszó";
+"atarasiipasuwa-do" = "Új jelszó";
+"atarasiipasuwa-domouitidonyuuryoku" = "Új jelszó megint";
+"gennzainopasuwa-dogamatigatteimasu" = "Hozzon létre egy új jelszót, amelyet korábban nem használt.";
+"pasuwa-dogaittisimasenn" = "A jelszavak nem egyeznek.";
+
+"syasinnwohozonn" = "Fotók mentése";
+"syasinnwohozonnsetumei" = "A fényképeket automatikusan a fényképezőgép tekercsébe menti.";
+
+"riyoukiyaku" = "Szolgáltatási feltételek";
+"puraibasi-porisi-" = "Adatvédelmi irányelvek";
+"komyunitexigaidorainn" = "Közösségi irányelvek";
+"o-punnso-suraiburari" = "Nyílt forráskódú könyvtárak";
+
+"suubyoumae" = "Pont most";
+"funnmae" = "%@ perccel ezelőtt";
+"fukusuufunnmae" = "%@ perce";
+"jikannmae" = "%@ órával ezelőtt";
+"fukusuujikannmae" = "%@ órával ezelőtt";
+"nitimae" = "%@ napja";
+"fukusuunitimae" = "%@ napja";

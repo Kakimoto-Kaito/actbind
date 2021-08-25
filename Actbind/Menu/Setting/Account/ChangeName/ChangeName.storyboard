@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Jm-QG-x9H">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ChangeNameViewController-->
+        <scene sceneID="3S0-SV-imM">
+            <objects>
+                <viewController title="ChangeNameViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="1Jm-QG-x9H" customClass="ChangeNameViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cc7-kB-lDf" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="実名を使用することで、友達があなたを見つけやすくなります。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psy-zc-qsd" userLabel="NameExplanation Label">
+                                <rect key="frame" x="20" y="94" width="350" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="姓" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="oGG-hI-MNo" userLabel="Name1 TextField">
+                                <rect key="frame" x="20" y="138" width="165" height="48"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <color key="tintColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="3Wn-7k-IU5"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="family-name"/>
+                                <connections>
+                                    <action selector="name1TextFieldDidEndOnExit:" destination="1Jm-QG-x9H" eventType="editingDidEndOnExit" id="52V-Gt-g5G"/>
+                                    <action selector="name1TextFieldEditingChanged:" destination="1Jm-QG-x9H" eventType="editingChanged" id="OOK-FF-Txi"/>
+                                    <action selector="name1TextFieldEditingDidBegin:" destination="1Jm-QG-x9H" eventType="editingDidBegin" id="977-WF-hCE"/>
+                                    <action selector="name1TextFieldEditingDidEnd:" destination="1Jm-QG-x9H" eventType="editingDidEnd" id="OaQ-Lh-Do8"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="名" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="M20-y1-3Fb" userLabel="Name2 TextField">
+                                <rect key="frame" x="205" y="138" width="165" height="48"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <color key="tintColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="rLB-JO-cj5"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="given-name"/>
+                                <connections>
+                                    <action selector="name2TextFieldDidEndOnExit:" destination="1Jm-QG-x9H" eventType="editingDidEndOnExit" id="GMG-Ny-ICn"/>
+                                    <action selector="name2TextFieldEditingChanged:" destination="1Jm-QG-x9H" eventType="editingChanged" id="8Zj-9C-Epe"/>
+                                    <action selector="name2TextFieldEditingDidBegin:" destination="1Jm-QG-x9H" eventType="editingDidBegin" id="VUW-PR-7VE"/>
+                                    <action selector="name2TextFieldEditingDidEnd:" destination="1Jm-QG-x9H" eventType="editingDidEnd" id="g9F-xN-emm"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiM-d1-XyO">
+                                <rect key="frame" x="20" y="236" width="350" height="48"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="740-WW-NYq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="確認">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="confirmationButtonTouchDown:" destination="1Jm-QG-x9H" eventType="touchDown" id="945-p1-Clt"/>
+                                    <action selector="confirmationButtonTouchDragOutside:" destination="1Jm-QG-x9H" eventType="touchDragOutside" id="Mh8-ip-pzm"/>
+                                    <action selector="confirmationButtonTouchUpInside:" destination="1Jm-QG-x9H" eventType="touchUpInside" id="TB7-eV-LOo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v5r-2E-KpY"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="kiM-d1-XyO" firstAttribute="top" secondItem="oGG-hI-MNo" secondAttribute="bottom" constant="50" id="1ud-XR-Ofs"/>
+                            <constraint firstItem="v5r-2E-KpY" firstAttribute="trailing" secondItem="psy-zc-qsd" secondAttribute="trailing" constant="20" id="6DS-au-uyQ"/>
+                            <constraint firstItem="oGG-hI-MNo" firstAttribute="top" secondItem="psy-zc-qsd" secondAttribute="bottom" constant="8" id="7h2-s8-4lC"/>
+                            <constraint firstItem="M20-y1-3Fb" firstAttribute="leading" secondItem="oGG-hI-MNo" secondAttribute="trailing" constant="20" id="DDi-jt-yDd"/>
+                            <constraint firstItem="v5r-2E-KpY" firstAttribute="trailing" secondItem="kiM-d1-XyO" secondAttribute="trailing" constant="20" id="Pzb-Th-GMg"/>
+                            <constraint firstItem="kiM-d1-XyO" firstAttribute="top" secondItem="M20-y1-3Fb" secondAttribute="bottom" constant="50" id="YsH-Bk-GNE"/>
+                            <constraint firstItem="psy-zc-qsd" firstAttribute="leading" secondItem="v5r-2E-KpY" secondAttribute="leading" constant="20" id="bIZ-jQ-VeY"/>
+                            <constraint firstItem="v5r-2E-KpY" firstAttribute="trailing" secondItem="M20-y1-3Fb" secondAttribute="trailing" constant="20" id="hxa-H1-VR6"/>
+                            <constraint firstItem="psy-zc-qsd" firstAttribute="top" secondItem="v5r-2E-KpY" secondAttribute="top" constant="50" id="jVJ-nm-431"/>
+                            <constraint firstItem="oGG-hI-MNo" firstAttribute="leading" secondItem="v5r-2E-KpY" secondAttribute="leading" constant="20" id="lcm-fY-EWS"/>
+                            <constraint firstItem="M20-y1-3Fb" firstAttribute="width" secondItem="oGG-hI-MNo" secondAttribute="width" id="reX-LL-LMk"/>
+                            <constraint firstItem="kiM-d1-XyO" firstAttribute="leading" secondItem="v5r-2E-KpY" secondAttribute="leading" constant="20" id="vAZ-FY-ctZ"/>
+                            <constraint firstItem="M20-y1-3Fb" firstAttribute="top" secondItem="psy-zc-qsd" secondAttribute="bottom" constant="8" id="zjd-TS-IRr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="名前" id="kD9-N3-Ov2" userLabel="NavigationBar Title">
+                        <barButtonItem key="backBarButtonItem" title=" " id="BeP-GQ-zwr"/>
+                        <barButtonItem key="leftBarButtonItem" id="fjc-9n-KcE">
+                            <imageReference key="image" image="back" symbolScale="large"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="1Jm-QG-x9H" id="sZr-dn-QWq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="fjc-9n-KcE" id="e6C-ID-ZLU"/>
+                        <outlet property="confirmationButton" destination="kiM-d1-XyO" id="JPS-Hy-JAT"/>
+                        <outlet property="confirmationButtonLeft" destination="vAZ-FY-ctZ" id="Y6d-Q2-AvB"/>
+                        <outlet property="confirmationButtonRight" destination="Pzb-Th-GMg" id="sUJ-kT-vMh"/>
+                        <outlet property="name1TextField" destination="oGG-hI-MNo" id="ckP-BU-rpR"/>
+                        <outlet property="name2TextField" destination="M20-y1-3Fb" id="Xdz-gu-knx"/>
+                        <outlet property="nameExplanationLabel" destination="psy-zc-qsd" id="W1h-cw-IHK"/>
+                        <outlet property="navigationBarTitle" destination="kD9-N3-Ov2" id="NBp-WU-JoX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VCC-Tb-FLl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3441" y="4617"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextField">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,7 @@
+//韓国語
+
+NSCameraUsageDescription = "이렇게하면 사진을 찍을 수 있습니다.";
+NSLocationWhenInUseUsageDescription = "이를 통해 비디오 녹화 및 음성 검색과 같은 기능을 활용할 수 있습니다.";
+NSMicrophoneUsageDescription = "이를 통해 카메라 롤의 콘텐츠를 공유하고 사진 및 비디오와 관련된 다른 기능을 활용할 수 있습니다.";
+NSPhotoLibraryUsageDescription = "이를 통해 Actbind의 일부 기능을 사용하고, 콘텐츠를 개인화하고, 위치를 검색하는 등의 작업을 수행 할 수 있습니다.";
+NSFaceIDUsageDescription = "Actbind가 Face ID를 사용하여 앱을 잠금 해제하도록 허용합니다.";

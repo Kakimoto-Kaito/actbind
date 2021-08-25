@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m1S-Fr-Ytk">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ChangeGenderViewController-->
+        <scene sceneID="2X2-vo-d5d">
+            <objects>
+                <viewController title="ChangeGenderViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="m1S-Fr-Ytk" customClass="ChangeGenderViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2bY-H0-4r9" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="男性" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Enp-gN-Rhd" userLabel="Gender Label">
+                                <rect key="frame" x="176.66666666666666" y="94" width="37" height="21.666666666666671"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="2yz-gI-Y3l" userLabel="Gender SegmentedControl">
+                                <rect key="frame" x="50" y="123.66666666666669" width="290" height="49"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="EJ9-EA-bIY"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="男性"/>
+                                    <segment title="女性"/>
+                                    <segment title="その他"/>
+                                </segments>
+                                <connections>
+                                    <action selector="genderSegmentedControlValueChanged:" destination="m1S-Fr-Ytk" eventType="valueChanged" id="5zM-cI-NUT"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fyd-fO-44b">
+                                <rect key="frame" x="20" y="221.66666666666666" width="350" height="47.999999999999972"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="NzB-n4-OGp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="確認">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="confirmationButtonTouchDown:" destination="m1S-Fr-Ytk" eventType="touchDown" id="Ybu-CO-3cC"/>
+                                    <action selector="confirmationButtonTouchDragOutside:" destination="m1S-Fr-Ytk" eventType="touchDragOutside" id="Qp0-VZ-MOy"/>
+                                    <action selector="confirmationButtonTouchUpInside:" destination="m1S-Fr-Ytk" eventType="touchUpInside" id="YQ3-5X-G57"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kuV-em-g7M"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Fyd-fO-44b" firstAttribute="top" secondItem="2yz-gI-Y3l" secondAttribute="bottom" constant="50" id="Mg9-TD-hP7"/>
+                            <constraint firstItem="kuV-em-g7M" firstAttribute="trailing" secondItem="2yz-gI-Y3l" secondAttribute="trailing" constant="50" id="Y5g-RN-WMf"/>
+                            <constraint firstItem="Fyd-fO-44b" firstAttribute="leading" secondItem="kuV-em-g7M" secondAttribute="leading" constant="20" id="ZRx-9B-ZM1"/>
+                            <constraint firstItem="2yz-gI-Y3l" firstAttribute="leading" secondItem="kuV-em-g7M" secondAttribute="leading" constant="50" id="Zci-hM-4Ah"/>
+                            <constraint firstItem="2yz-gI-Y3l" firstAttribute="top" secondItem="Enp-gN-Rhd" secondAttribute="bottom" constant="8" symbolic="YES" id="bjB-Ck-SMp"/>
+                            <constraint firstItem="kuV-em-g7M" firstAttribute="trailing" secondItem="Fyd-fO-44b" secondAttribute="trailing" constant="20" id="gVM-mF-Nq9"/>
+                            <constraint firstItem="Enp-gN-Rhd" firstAttribute="top" secondItem="kuV-em-g7M" secondAttribute="top" constant="50" id="kjB-Zf-bIq"/>
+                            <constraint firstItem="Enp-gN-Rhd" firstAttribute="centerX" secondItem="2bY-H0-4r9" secondAttribute="centerX" id="paS-vz-Zk8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="性別" id="4lX-m0-C2b" userLabel="NavigationBar Title">
+                        <barButtonItem key="backBarButtonItem" title=" " id="fcU-wg-Ssn"/>
+                        <barButtonItem key="leftBarButtonItem" id="d7r-E4-xG0">
+                            <imageReference key="image" image="back" symbolScale="large"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="m1S-Fr-Ytk" id="Baz-iW-0QJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="d7r-E4-xG0" id="nXb-Nz-Nfg"/>
+                        <outlet property="confirmationButton" destination="Fyd-fO-44b" id="0xL-Ad-0UK"/>
+                        <outlet property="confirmationButtonLeft" destination="ZRx-9B-ZM1" id="1bN-RB-1M1"/>
+                        <outlet property="confirmationButtonRight" destination="gVM-mF-Nq9" id="hSn-lJ-5cR"/>
+                        <outlet property="genderLabel" destination="Enp-gN-Rhd" id="FQA-j2-FW7"/>
+                        <outlet property="genderSegmentedControl" destination="2yz-gI-Y3l" id="LYM-gV-oBh"/>
+                        <outlet property="navigationBarTitle" destination="4lX-m0-C2b" id="Sb9-8m-zhC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Gc-wS-LC4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4888" y="5154"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextField">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

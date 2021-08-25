@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Nuke (10.3.2)
+  - SwiftFormat/CLI (0.48.11)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - Alamofire
+  - Nuke
+  - SwiftFormat/CLI
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Nuke
+    - SwiftFormat
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Nuke: c8be8025c78fedebe3dc9bc9a4a00f16e33921a7
+  SwiftFormat: 938e5865a118c49d63c7a290ddad86335f9e585f
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: 3373c8f252c4637c55f01eb1240ee3c7f386a815
+
+COCOAPODS: 1.10.1

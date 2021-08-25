@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d5J-BL-LuS">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FeedbackViewController-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="FeedbackViewController" id="Y6W-OH-hqX" customClass="FeedbackViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6I-0M-kq7">
+                                <rect key="frame" x="55" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="13a-3y-Ses"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="rate1ButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="XGy-QF-8Z7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mY2-qe-nEs">
+                                <rect key="frame" x="115" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <connections>
+                                    <action selector="rate2ButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="yKA-84-H5Q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsU-zs-2bf">
+                                <rect key="frame" x="175" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="HsU-zs-2bf" secondAttribute="height" multiplier="1:1" id="aMH-zl-WIM"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="rate3ButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zb1-ty-XM1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyi-Wb-YdK">
+                                <rect key="frame" x="235" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <connections>
+                                    <action selector="rate4ButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fty-bm-eLT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlr-Tc-l6D">
+                                <rect key="frame" x="295" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <state key="normal">
+                                    <color key="titleColor" name="Blue"/>
+                                </state>
+                                <connections>
+                                    <action selector="rate5ButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="p8z-ho-IDG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="タップして評価してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bp-Qy-yAe">
+                                <rect key="frame" x="20" y="80" width="350" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vT9-7g-VCn">
+                                <rect key="frame" x="20" y="118" width="350" height="200"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="78O-up-3k8"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <constraints>
+                            <constraint firstItem="rlr-Tc-l6D" firstAttribute="width" secondItem="f6I-0M-kq7" secondAttribute="width" id="43V-bF-ceN"/>
+                            <constraint firstItem="vT9-7g-VCn" firstAttribute="top" secondItem="0bp-Qy-yAe" secondAttribute="bottom" constant="20" id="6IB-pa-VTQ"/>
+                            <constraint firstItem="mY2-qe-nEs" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="9Rk-ex-AgE"/>
+                            <constraint firstItem="HsU-zs-2bf" firstAttribute="width" secondItem="f6I-0M-kq7" secondAttribute="width" id="B1Q-zR-Zya"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0bp-Qy-yAe" secondAttribute="trailing" constant="20" id="CN6-WB-k3g"/>
+                            <constraint firstItem="rlr-Tc-l6D" firstAttribute="leading" secondItem="dyi-Wb-YdK" secondAttribute="trailing" constant="20" id="Cdp-8I-gJA"/>
+                            <constraint firstItem="dyi-Wb-YdK" firstAttribute="width" secondItem="dyi-Wb-YdK" secondAttribute="height" multiplier="1:1" id="GyC-Hj-s3X"/>
+                            <constraint firstItem="vT9-7g-VCn" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Li4-95-L9f"/>
+                            <constraint firstItem="0bp-Qy-yAe" firstAttribute="top" secondItem="HsU-zs-2bf" secondAttribute="bottom" constant="20" id="Mne-iJ-UhT"/>
+                            <constraint firstItem="f6I-0M-kq7" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="QDt-iY-6gD"/>
+                            <constraint firstItem="dyi-Wb-YdK" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="Szr-Ah-Oih"/>
+                            <constraint firstItem="f6I-0M-kq7" firstAttribute="width" secondItem="f6I-0M-kq7" secondAttribute="height" multiplier="1:1" id="UYo-TB-vkx"/>
+                            <constraint firstItem="mY2-qe-nEs" firstAttribute="width" secondItem="mY2-qe-nEs" secondAttribute="height" multiplier="1:1" id="Uuj-Ed-9Z8"/>
+                            <constraint firstItem="0bp-Qy-yAe" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="V9S-Tj-JMg"/>
+                            <constraint firstItem="HsU-zs-2bf" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="XdQ-p5-cbB"/>
+                            <constraint firstItem="dyi-Wb-YdK" firstAttribute="width" secondItem="f6I-0M-kq7" secondAttribute="width" id="XgH-vv-k35"/>
+                            <constraint firstItem="HsU-zs-2bf" firstAttribute="leading" secondItem="mY2-qe-nEs" secondAttribute="trailing" constant="20" id="Xta-BI-1It"/>
+                            <constraint firstItem="rlr-Tc-l6D" firstAttribute="width" secondItem="rlr-Tc-l6D" secondAttribute="height" multiplier="1:1" id="YHZ-0M-v9k"/>
+                            <constraint firstItem="rlr-Tc-l6D" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="Zba-qV-aMc"/>
+                            <constraint firstItem="dyi-Wb-YdK" firstAttribute="leading" secondItem="HsU-zs-2bf" secondAttribute="trailing" constant="20" id="cYA-yJ-eGy"/>
+                            <constraint firstItem="mY2-qe-nEs" firstAttribute="width" secondItem="f6I-0M-kq7" secondAttribute="width" id="fPG-Xq-1pw"/>
+                            <constraint firstAttribute="trailing" secondItem="vT9-7g-VCn" secondAttribute="trailing" constant="20" id="k15-xU-yMh"/>
+                            <constraint firstItem="HsU-zs-2bf" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="o5P-xA-rqC"/>
+                            <constraint firstItem="mY2-qe-nEs" firstAttribute="leading" secondItem="f6I-0M-kq7" secondAttribute="trailing" constant="20" id="yWM-4n-h3c"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="フィードバック" id="rsF-vc-XC4">
+                        <barButtonItem key="leftBarButtonItem" image="cancel" id="3QB-56-uLN" userLabel="Cancel Button">
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="Y6W-OH-hqX" id="fzH-cS-8CA"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="送信" id="77Y-3t-6cp" userLabel="Send Button">
+                            <color key="tintColor" name="Blue"/>
+                            <connections>
+                                <action selector="sendButtonAction:" destination="Y6W-OH-hqX" id="425-VW-z19"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelButton" destination="3QB-56-uLN" id="xAX-KD-Ioy"/>
+                        <outlet property="feedbackTextView" destination="vT9-7g-VCn" id="dEO-yI-cq9"/>
+                        <outlet property="navigationBarTitle" destination="rsF-vc-XC4" id="72s-S1-SYh"/>
+                        <outlet property="rate1Button" destination="f6I-0M-kq7" id="Pxk-Kj-CAZ"/>
+                        <outlet property="rate2Button" destination="mY2-qe-nEs" id="qed-6j-nSc"/>
+                        <outlet property="rate3Button" destination="HsU-zs-2bf" id="XSW-Ag-nDC"/>
+                        <outlet property="rate4Button" destination="dyi-Wb-YdK" id="lov-pw-EIb"/>
+                        <outlet property="rate5Button" destination="rlr-Tc-l6D" id="Kkd-TA-1ok"/>
+                        <outlet property="rateExplanationLabel" destination="0bp-Qy-yAe" id="TuU-mb-Qot"/>
+                        <outlet property="sendButton" destination="77Y-3t-6cp" id="yJC-Vu-wLG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021.7391304347827" y="66.964285714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="488-Xx-gal">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="d5J-BL-LuS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="UTN-M0-QtG">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="Cell"/>
+                        <color key="barTintColor" name="Cell"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" name="BlackWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="NeR-EA-0Vt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yNR-sY-uJq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111.59420289855073" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel" width="44" height="44"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99599999189376831" green="1" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextField">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fgh-F6-Nem">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ImageSpotlightViewController-->
+        <scene sceneID="LgH-hh-ap9">
+            <objects>
+                <viewController title="ImageSpotlightViewController" modalPresentationStyle="fullScreen" id="Fgh-F6-Nem" customClass="ImageSpotlightViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BVX-QQ-TDH" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="geH-u6-VDP" userLabel="Background ImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PCB-Hc-YlM">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ieL-ws-ol9">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dug-Tl-EcH" userLabel="SpotLight ImageView">
+                                <rect key="frame" x="0.0" y="227" width="390" height="390"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Dug-Tl-EcH" secondAttribute="height" multiplier="1:1" id="AxY-bF-GCE"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adc-55-rhi">
+                                <rect key="frame" x="20" y="44" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Adc-55-rhi" secondAttribute="height" multiplier="1:1" id="Gf2-Xy-Wfi"/>
+                                    <constraint firstAttribute="width" constant="48" id="pgn-32-w8d"/>
+                                </constraints>
+                                <state key="normal" image="cancel"/>
+                                <connections>
+                                    <action selector="cancelBurronTouchUpInside:" destination="Fgh-F6-Nem" eventType="touchUpInside" id="wbs-P7-eCN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IaZ-0B-jHS"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="PCB-Hc-YlM" firstAttribute="top" secondItem="BVX-QQ-TDH" secondAttribute="top" id="0Um-eD-owy"/>
+                            <constraint firstItem="geH-u6-VDP" firstAttribute="trailing" secondItem="IaZ-0B-jHS" secondAttribute="trailing" id="7Nx-mt-fzd"/>
+                            <constraint firstItem="PCB-Hc-YlM" firstAttribute="leading" secondItem="IaZ-0B-jHS" secondAttribute="leading" id="DKA-5a-1db"/>
+                            <constraint firstItem="geH-u6-VDP" firstAttribute="top" secondItem="BVX-QQ-TDH" secondAttribute="top" id="HMB-FX-E1U"/>
+                            <constraint firstAttribute="bottom" secondItem="PCB-Hc-YlM" secondAttribute="bottom" id="JoA-x4-AlA"/>
+                            <constraint firstItem="IaZ-0B-jHS" firstAttribute="trailing" secondItem="Dug-Tl-EcH" secondAttribute="trailing" id="K27-Qd-hzk"/>
+                            <constraint firstItem="Dug-Tl-EcH" firstAttribute="leading" secondItem="IaZ-0B-jHS" secondAttribute="leading" id="NCG-eQ-Eat"/>
+                            <constraint firstItem="Adc-55-rhi" firstAttribute="top" secondItem="IaZ-0B-jHS" secondAttribute="top" id="Njf-AK-wnv"/>
+                            <constraint firstItem="geH-u6-VDP" firstAttribute="leading" secondItem="IaZ-0B-jHS" secondAttribute="leading" id="XHg-bT-knw"/>
+                            <constraint firstAttribute="bottom" secondItem="geH-u6-VDP" secondAttribute="bottom" id="g0w-Nl-lW0"/>
+                            <constraint firstItem="IaZ-0B-jHS" firstAttribute="trailing" secondItem="PCB-Hc-YlM" secondAttribute="trailing" id="ssF-Cp-gBy"/>
+                            <constraint firstItem="Dug-Tl-EcH" firstAttribute="centerY" secondItem="BVX-QQ-TDH" secondAttribute="centerY" id="u3g-TX-qaY"/>
+                            <constraint firstItem="Dug-Tl-EcH" firstAttribute="centerX" secondItem="BVX-QQ-TDH" secondAttribute="centerX" id="v1Q-yx-oOw"/>
+                            <constraint firstItem="Adc-55-rhi" firstAttribute="leading" secondItem="IaZ-0B-jHS" secondAttribute="leading" constant="20" id="zeK-Dn-cxJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RmG-rb-b9A"/>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="geH-u6-VDP" id="sGl-ec-vzb"/>
+                        <outlet property="cancelButton" destination="Adc-55-rhi" id="gcE-0Q-nX1"/>
+                        <outlet property="spotLightImageView" destination="Dug-Tl-EcH" id="jIf-9W-bRr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhA-yQ-3fc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185.50724637681162" y="16.741071428571427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel" width="44" height="44"/>
+        <namedColor name="Background">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

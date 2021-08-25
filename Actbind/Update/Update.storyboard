@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lid-HO-hpv">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--UpdateViewController-->
+        <scene sceneID="0NK-x2-IWi">
+            <objects>
+                <viewController storyboardIdentifier="Update" title="UpdateViewController" id="lid-HO-hpv" customClass="UpdateViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oLn-6z-rWe" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D37-DU-cDP">
+                                <rect key="frame" x="20" y="432" width="350" height="48"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Szk-qa-S41"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="アップデート">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="updateButtonTouchDown:" destination="lid-HO-hpv" eventType="touchDown" id="Vqm-oX-mcR"/>
+                                    <action selector="updateButtonTouchDragOutside:" destination="lid-HO-hpv" eventType="touchDragOutside" id="Nhi-FC-hmt"/>
+                                    <action selector="updateButtonTouchUpInside:" destination="lid-HO-hpv" eventType="touchUpInside" id="fZz-e9-xYC"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ejm-4p-3YI" userLabel="Logo">
+                                <rect key="frame" x="146.33333333333334" y="144" width="97.333333333333343" height="97.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ejm-4p-3YI" secondAttribute="height" multiplier="1:1" id="QaF-EK-KKC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新しいバージョンにアップデートしてください" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFg-Yg-7yp">
+                                <rect key="frame" x="20" y="371.33333333333331" width="350" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8h-2N-cCq">
+                                <rect key="frame" x="0.0" y="412" width="390" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Q2e-Ka-xmG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xme-b0-b3w"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <constraints>
+                            <constraint firstItem="g8h-2N-cCq" firstAttribute="centerY" secondItem="oLn-6z-rWe" secondAttribute="centerY" id="1O9-sH-pXC"/>
+                            <constraint firstItem="xme-b0-b3w" firstAttribute="trailing" secondItem="D37-DU-cDP" secondAttribute="trailing" constant="20" id="9V3-vV-3va"/>
+                            <constraint firstItem="xme-b0-b3w" firstAttribute="trailing" secondItem="g8h-2N-cCq" secondAttribute="trailing" id="9WE-4L-TTj"/>
+                            <constraint firstItem="BFg-Yg-7yp" firstAttribute="leading" secondItem="oLn-6z-rWe" secondAttribute="leading" constant="20" id="H76-fR-KsG"/>
+                            <constraint firstItem="Ejm-4p-3YI" firstAttribute="centerX" secondItem="oLn-6z-rWe" secondAttribute="centerX" id="HnF-7L-3MF"/>
+                            <constraint firstAttribute="trailing" secondItem="BFg-Yg-7yp" secondAttribute="trailing" constant="20" id="K25-Zo-XO6"/>
+                            <constraint firstItem="Ejm-4p-3YI" firstAttribute="width" secondItem="oLn-6z-rWe" secondAttribute="width" multiplier="0.25" id="LZS-1T-NzP"/>
+                            <constraint firstItem="g8h-2N-cCq" firstAttribute="leading" secondItem="xme-b0-b3w" secondAttribute="leading" id="Mvl-u0-6we"/>
+                            <constraint firstItem="g8h-2N-cCq" firstAttribute="top" secondItem="BFg-Yg-7yp" secondAttribute="bottom" id="Ro4-hq-pZa"/>
+                            <constraint firstItem="D37-DU-cDP" firstAttribute="leading" secondItem="xme-b0-b3w" secondAttribute="leading" constant="20" id="cDP-dF-ITr"/>
+                            <constraint firstItem="Ejm-4p-3YI" firstAttribute="top" secondItem="xme-b0-b3w" secondAttribute="top" constant="100" id="rPL-VS-3vf"/>
+                            <constraint firstItem="D37-DU-cDP" firstAttribute="top" secondItem="g8h-2N-cCq" secondAttribute="bottom" id="xxn-tI-i2p"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="updateButton" destination="D37-DU-cDP" id="9mf-cf-TgA"/>
+                        <outlet property="updateButtonLeft" destination="cDP-dF-ITr" id="Yow-YD-N42"/>
+                        <outlet property="updateButtonRight" destination="9V3-vV-3va" id="l9h-PB-eAQ"/>
+                        <outlet property="updateLabel" destination="BFg-Yg-7yp" id="I3b-hm-8Gt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PSb-fS-tLO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1223.1884057971015" y="1282.3660714285713"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="1000" height="1000"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

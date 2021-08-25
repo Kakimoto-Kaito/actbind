@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bt6-19-KFa">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ReportAccountViewController-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="ReportAccountViewController" modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="ReportAccountViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="このアカウントを報告する理由" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miY-ZJ-ENT">
+                                <rect key="frame" x="20" y="20" width="350" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="差し迫った危険に直面する人がいる場合は、今すぐ地域の警察または消防機関に緊急通報してください。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARM-6N-RqS">
+                                <rect key="frame" x="20" y="61" width="350" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="理由" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qf7-ZO-kQC">
+                                <rect key="frame" x="20" y="165" width="350" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bMQ-aK-jkT">
+                                <rect key="frame" x="0.0" y="506" width="390" height="216"/>
+                            </pickerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="miY-ZJ-ENT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="08x-Tk-KOH"/>
+                            <constraint firstItem="Qf7-ZO-kQC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="6aI-ss-0KK"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ARM-6N-RqS" secondAttribute="trailing" constant="20" id="Bqm-9H-TLJ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="bMQ-aK-jkT" secondAttribute="trailing" id="S5k-yb-odg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="miY-ZJ-ENT" secondAttribute="trailing" constant="20" id="UL1-uN-FrE"/>
+                            <constraint firstItem="ARM-6N-RqS" firstAttribute="top" secondItem="miY-ZJ-ENT" secondAttribute="bottom" constant="20" id="Ut4-Tf-A4H"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Qf7-ZO-kQC" secondAttribute="trailing" constant="20" id="aWP-01-UUc"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="bMQ-aK-jkT" secondAttribute="bottom" id="cdG-dw-Dl8"/>
+                            <constraint firstItem="miY-ZJ-ENT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="i3h-xq-G1b"/>
+                            <constraint firstItem="bMQ-aK-jkT" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="mju-ai-e9T"/>
+                            <constraint firstItem="ARM-6N-RqS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="siV-kC-U94"/>
+                            <constraint firstItem="Qf7-ZO-kQC" firstAttribute="top" secondItem="ARM-6N-RqS" secondAttribute="bottom" constant="50" id="ue3-Gd-2rd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="報告" id="apw-80-RTP">
+                        <barButtonItem key="leftBarButtonItem" image="cancel" id="TO0-r2-S5p" userLabel="Cancel Button">
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="Y6W-OH-hqX" id="A8W-es-NhN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="送信" id="8J7-e0-KOD">
+                            <color key="tintColor" name="Blue"/>
+                            <connections>
+                                <action selector="sendButtonAction:" destination="Y6W-OH-hqX" id="Rmw-fS-Ais"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelButton" destination="TO0-r2-S5p" id="XHP-q7-0x6"/>
+                        <outlet property="navigationBarTitle" destination="apw-80-RTP" id="8PG-Qp-6bS"/>
+                        <outlet property="reportAccountExplanationLabel" destination="ARM-6N-RqS" id="j6f-je-hAm"/>
+                        <outlet property="reportAccountTitleLabel" destination="miY-ZJ-ENT" id="BFs-8P-sSJ"/>
+                        <outlet property="reportTypeLabel" destination="Qf7-ZO-kQC" id="qsD-ZG-oX4"/>
+                        <outlet property="reportTypePickerView" destination="bMQ-aK-jkT" id="piY-aa-TQk"/>
+                        <outlet property="sendButton" destination="8J7-e0-KOD" id="ZVG-3o-2pH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884.05797101449286" y="66.964285714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BkL-uz-Ov9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="bt6-19-KFa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="KVc-6f-sZt">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="Cell"/>
+                        <color key="barTintColor" name="Cell"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" name="BlackWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="qrL-dM-TI0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7NG-Mq-WAm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel" width="44" height="44"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99599999189376831" green="1" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

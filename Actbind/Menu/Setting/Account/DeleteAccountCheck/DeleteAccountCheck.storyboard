@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a93-Nv-ytg">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19107.5"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DeleteAccountCheckViewController-->
+        <scene sceneID="7fH-mP-Txr">
+            <objects>
+                <viewController title="DeleteAccountCheckViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="a93-Nv-ytg" customClass="DeleteAccountCheckViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oD4-hG-JwR" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アカウント削除" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqT-Bg-3Op" userLabel="DereteTitle Label">
+                                <rect key="frame" x="123.66666666666669" y="94" width="143" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sx-l9-eca">
+                                <rect key="frame" x="20" y="380" width="350" height="48"/>
+                                <color key="backgroundColor" name="EnabledButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="WVn-MP-vGM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="確認">
+                                    <color key="titleColor" name="EnabledButtonText"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextButtonTouchDown:" destination="a93-Nv-ytg" eventType="touchDown" id="1ir-3Z-uy5"/>
+                                    <action selector="nextButtonTouchDragOutside:" destination="a93-Nv-ytg" eventType="touchDragOutside" id="3Qm-wn-85C"/>
+                                    <action selector="nextButtonTouchUpInside:" destination="a93-Nv-ytg" eventType="touchUpInside" id="soY-Ed-eQi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsh-me-Hkp">
+                                <rect key="frame" x="20" y="742" width="350" height="48"/>
+                                <color key="backgroundColor" name="SubButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="nnX-ga-umq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="キャンセル">
+                                    <color key="titleColor" name="Blue"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="cancelButtonTouchDown:" destination="a93-Nv-ytg" eventType="touchDown" id="sdz-Qs-z3U"/>
+                                    <action selector="cancelButtonTouchDragOutside:" destination="a93-Nv-ytg" eventType="touchDragOutside" id="fE3-SB-wib"/>
+                                    <action selector="cancelButtonTouchUpInside:" destination="a93-Nv-ytg" eventType="touchUpInside" id="AIG-Aa-eKX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="削除するには、パスワードを入力してください" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aa-0p-Nw2">
+                                <rect key="frame" x="20" y="219" width="350" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="uta-rV-CDs" userLabel="Password TextField">
+                                <rect key="frame" x="20" y="282" width="350" height="48"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <color key="tintColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="CPx-hC-Ipz"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="alphabet" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                                <connections>
+                                    <action selector="passwordDidEndOnExit:" destination="a93-Nv-ytg" eventType="editingDidEndOnExit" id="PHo-Pu-u6b"/>
+                                    <action selector="passwordTextFieldEditingChanged:" destination="a93-Nv-ytg" eventType="editingChanged" id="TzR-dH-8Dn"/>
+                                    <action selector="passwordTextFieldEditingDidBegin:" destination="a93-Nv-ytg" eventType="editingDidBegin" id="hu4-sy-drz"/>
+                                    <action selector="passwordTextFieldEditingDidEnd:" destination="a93-Nv-ytg" eventType="editingDidEnd" id="hho-e2-NvQ"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アカウントを削除すると再度ログインができなくなります" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjU-AR-xGI">
+                                <rect key="frame" x="20" y="126" width="350" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ah7-E8-DfF">
+                                <rect key="frame" x="20" y="662" width="350" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Kg-ds-dZL" userLabel="Error Image">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                        <color key="tintColor" name="White"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="6Kg-ds-dZL" secondAttribute="height" multiplier="1:1" id="7ew-Wa-Tt2"/>
+                                            <constraint firstAttribute="width" constant="30" id="89f-5r-nMD"/>
+                                        </constraints>
+                                        <imageReference key="image" image="errorwhiteonly"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAg-qx-v41">
+                                        <rect key="frame" x="60" y="21" width="275" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="Pink"/>
+                                <constraints>
+                                    <constraint firstItem="jAg-qx-v41" firstAttribute="centerY" secondItem="6Kg-ds-dZL" secondAttribute="centerY" id="RfK-J5-eGx"/>
+                                    <constraint firstItem="6Kg-ds-dZL" firstAttribute="top" secondItem="Ah7-E8-DfF" secondAttribute="top" constant="15" id="T3Z-sp-H75"/>
+                                    <constraint firstAttribute="height" constant="60" id="cQ5-j0-TJb"/>
+                                    <constraint firstAttribute="trailing" secondItem="jAg-qx-v41" secondAttribute="trailing" constant="15" id="ghH-fQ-HaZ"/>
+                                    <constraint firstItem="jAg-qx-v41" firstAttribute="leading" secondItem="6Kg-ds-dZL" secondAttribute="trailing" constant="15" id="gt6-e9-nEN"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Kg-ds-dZL" secondAttribute="bottom" constant="15" id="lwU-LO-xQE"/>
+                                    <constraint firstItem="6Kg-ds-dZL" firstAttribute="leading" secondItem="Ah7-E8-DfF" secondAttribute="leading" constant="15" id="zkm-Am-1gx"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nb6-hQ-TCn"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="wjU-AR-xGI" firstAttribute="top" secondItem="OqT-Bg-3Op" secondAttribute="bottom" constant="8" symbolic="YES" id="2Yr-uN-lhK"/>
+                            <constraint firstItem="wjU-AR-xGI" firstAttribute="leading" secondItem="nb6-hQ-TCn" secondAttribute="leading" constant="20" id="48t-sM-F2J"/>
+                            <constraint firstItem="fsh-me-Hkp" firstAttribute="leading" secondItem="nb6-hQ-TCn" secondAttribute="leading" constant="20" id="4Gh-HL-MJI"/>
+                            <constraint firstItem="nb6-hQ-TCn" firstAttribute="trailing" secondItem="9aa-0p-Nw2" secondAttribute="trailing" constant="20" id="7Kh-da-wnn"/>
+                            <constraint firstItem="9aa-0p-Nw2" firstAttribute="leading" secondItem="nb6-hQ-TCn" secondAttribute="leading" constant="20" id="EtR-A2-fZJ"/>
+                            <constraint firstItem="1sx-l9-eca" firstAttribute="top" secondItem="uta-rV-CDs" secondAttribute="bottom" constant="50" id="JY3-Kr-NqB"/>
+                            <constraint firstItem="OqT-Bg-3Op" firstAttribute="top" secondItem="nb6-hQ-TCn" secondAttribute="top" constant="50" id="QeJ-Ib-34D"/>
+                            <constraint firstAttribute="bottom" secondItem="Ah7-E8-DfF" secondAttribute="bottom" constant="122" id="Qhu-r7-K3Y"/>
+                            <constraint firstItem="nb6-hQ-TCn" firstAttribute="trailing" secondItem="fsh-me-Hkp" secondAttribute="trailing" constant="20" id="SDO-Ra-vQF"/>
+                            <constraint firstItem="nb6-hQ-TCn" firstAttribute="trailing" secondItem="Ah7-E8-DfF" secondAttribute="trailing" constant="20" id="TdB-Wx-XOE"/>
+                            <constraint firstItem="OqT-Bg-3Op" firstAttribute="centerX" secondItem="oD4-hG-JwR" secondAttribute="centerX" id="WHk-Cl-DSJ"/>
+                            <constraint firstItem="nb6-hQ-TCn" firstAttribute="trailing" secondItem="1sx-l9-eca" secondAttribute="trailing" constant="20" id="aeV-lx-obo"/>
+                            <constraint firstItem="nb6-hQ-TCn" firstAttribute="trailing" secondItem="uta-rV-CDs" secondAttribute="trailing" constant="20" id="dRi-W7-cqg"/>
+                            <constraint firstItem="nb6-hQ-TCn" firstAttribute="bottom" secondItem="fsh-me-Hkp" secondAttribute="bottom" constant="20" id="fuQ-sU-RdJ"/>
+                            <constraint firstItem="Ah7-E8-DfF" firstAttribute="leading" secondItem="nb6-hQ-TCn" secondAttribute="leading" constant="20" id="gxr-0c-V7D"/>
+                            <constraint firstItem="1sx-l9-eca" firstAttribute="leading" secondItem="nb6-hQ-TCn" secondAttribute="leading" constant="20" id="h1N-wc-t9L"/>
+                            <constraint firstItem="uta-rV-CDs" firstAttribute="leading" secondItem="nb6-hQ-TCn" secondAttribute="leading" constant="20" id="qsA-fR-sLr"/>
+                            <constraint firstItem="9aa-0p-Nw2" firstAttribute="top" secondItem="wjU-AR-xGI" secondAttribute="bottom" constant="50" id="sJE-EY-aBe"/>
+                            <constraint firstItem="uta-rV-CDs" firstAttribute="top" secondItem="9aa-0p-Nw2" secondAttribute="bottom" constant="20" id="syg-wj-X8n"/>
+                            <constraint firstItem="nb6-hQ-TCn" firstAttribute="trailing" secondItem="wjU-AR-xGI" secondAttribute="trailing" constant="20" id="trZ-BY-dob"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="アカウント管理" id="9Uz-2M-QMg" userLabel="NavigationBar Title">
+                        <barButtonItem key="backBarButtonItem" title=" " id="VT2-Ep-EBl"/>
+                        <barButtonItem key="leftBarButtonItem" id="gg5-VT-fLV">
+                            <imageReference key="image" image="back" symbolScale="large"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="a93-Nv-ytg" id="RZo-ac-axE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="gg5-VT-fLV" id="yjf-Ed-pTl"/>
+                        <outlet property="cancelButton" destination="fsh-me-Hkp" id="Pwb-bJ-vdp"/>
+                        <outlet property="cancelButtonLeft" destination="4Gh-HL-MJI" id="FHQ-V6-SNY"/>
+                        <outlet property="cancelButtonRight" destination="SDO-Ra-vQF" id="kAS-nd-Lzl"/>
+                        <outlet property="dereteLabel" destination="wjU-AR-xGI" id="ebR-pO-1Xz"/>
+                        <outlet property="dereteTitleLabel" destination="OqT-Bg-3Op" id="SQv-Ud-Tho"/>
+                        <outlet property="errorLabel" destination="jAg-qx-v41" id="oLJ-7M-V2m"/>
+                        <outlet property="errorView" destination="Ah7-E8-DfF" id="o2p-AK-glj"/>
+                        <outlet property="errorViewBottom" destination="Qhu-r7-K3Y" id="AY5-aY-nPZ"/>
+                        <outlet property="navigationBarTitle" destination="9Uz-2M-QMg" id="IVE-1Q-7v3"/>
+                        <outlet property="nextButton" destination="1sx-l9-eca" id="cBl-sh-WwW"/>
+                        <outlet property="nextButtonLeft" destination="h1N-wc-t9L" id="I8F-f8-dvG"/>
+                        <outlet property="nextButtonRight" destination="aeV-lx-obo" id="wa2-KR-It5"/>
+                        <outlet property="passwordLabel" destination="9aa-0p-Nw2" id="uCl-wH-5RS"/>
+                        <outlet property="passwordTextField" destination="uta-rV-CDs" id="dlN-S1-775"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Jz-bv-xTG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3359" y="5210"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <image name="errorwhiteonly" width="32.333332061767578" height="32.333332061767578"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EnabledButton">
+            <color red="0.77300000190734863" green="0.77300000190734863" blue="0.7839999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EnabledButtonText">
+            <color red="0.89399999380111694" green="0.89399999380111694" blue="0.90200001001358032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink">
+            <color red="1" green="0.17599999904632568" blue="0.33300000429153442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubButton">
+            <color red="0.93300002813339233" green="0.93300002813339233" blue="0.93300002813339233" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextField">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

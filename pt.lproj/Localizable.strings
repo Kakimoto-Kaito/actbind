@@ -1,0 +1,247 @@
+//ポルトガル語
+
+"language" = "Portuguese";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "Atualize para a nova versão";
+"appude-to" = "Atualizar";
+
+"roguinn" = "Conecte-se";
+"me-ruadoresugatadasikuarimasenn" = "Endereço de e-mail incorreto";
+"akaunntogaarimasenn" = "O endereço de e-mail que você inseriu não parece pertencer a uma conta. Verifique seu endereço de e-mail e tente novamente.";
+"pasuwa-dogamatigatteimasu" = "Senha incorreta para @%@";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "A senha que você digitou está incorreta. Por favor, tente novamente.";
+"mouitidojikkou" = "Tente novamente";
+"atarasiiakaunntowosakusei" = "Criar nova conta";
+
+"namaewonyuuryoku" = "Qual o seu nome?";
+"namae1" = "Primeiro nome";
+"namae2" = "Último nome";
+"namaesetumei" = "Usar seu nome real facilita para seus amigos reconhecê-lo.";
+"tugihe" = "Próximo";
+"akaunntowoomotinokata" = "já tem uma conta?";
+
+"me-ruadoresuwonyuuryoku" = "Qual é o seu e-mail?";
+"me-ruadoresu" = "Endereço de e-mail";
+"me-ruadoresusetumei" = "Use este endereço de e-mail ao fazer login.";
+"me-ruadoresuera-" = "Por favor insira um endereço de e-mail válido.";
+"siyoudekinaime-ruadoresu" = "Este endereço de e-mail não pode ser usado";
+
+"ninnsyouko-dowonyuuryoku" = "Introduza o código de confirmação";
+"ninnsyouko-do" = "Código de confirmação";
+"ninnsyouko-dosetumei" = "Digite o código de confirmação que enviamos para %@";
+"ninnsyouko-dorikuesuto" = "Reenviar código";
+"ninnsyouko-doera-" = "Este código é inválido. Solicite um novo código.";
+
+"pasuwa-dowonyuuryoku" = "Crie uma senha";
+"pasuwa-do" = "Senha";
+"pasuwa-dosetumei" = "Insira uma combinação de 8 ou mais letras e números ou símbolos (como! E &).";
+"pasuwa-doera-" = "Por favor, digite a senha correta.";
+
+"seibetuwosenntaku" = "Qual é o seu gênero?";
+"dannsei" = "Masculino";
+"jyosei" = "Fêmeo";
+"sonota" = "De outros";
+
+"tannjyoubiwosenntaku" = "Quando é seu aniversario?";
+"tannjyoubi" = "Aniversário";
+"tannjyoubisetumei" = "Fornecer seu aniversário ajuda a garantir que você tenha a experiência Actbind certa para sua idade.";
+"sai" = " anos de idade";
+"jissainotannjyoubi" = "Por favor, insira seu aniversário real";
+"akaunntowosakuseidekimasenndesita" = "Não foi possível criar uma conta";
+"OK" = "Está bem";
+
+"yu-za-ne-muwonyuuryoku" = "Crie um nome de usuário";
+"yu-za-ne-mu" = "Nome de usuário";
+"yu-za-ne-musetumei" = "Use uma combinação de 5 a 30 letras do alfabeto, números e sublinhados (_) para criar um nome de usuário original que seus amigos possam identificar com você.";
+"yu-za-ne-muera-" = "Por favor, insira o nome de usuário correto.";
+"suujidakeera-" = "Você não pode usar um nome de usuário apenas com números.";
+"annda-ba-dakeera-" = "Você não pode usar um nome de usuário apenas abaixo da barra.";
+"siyoudekinaiyu-za-ne-mu" = "Este nome de usuário não pode ser usado";
+
+"tourokukannryou" = "Concluir a inscrição";
+"doui" = "Ao tocar em Inscrever-se, você concorda com nossos Termos de Serviço e Política de Privacidade.";
+"riyoukiyakupuraibasi-porisi-" = "Termos do serviço e política de privacidade";
+"touroku" = "Inscrever-se";
+
+"akaunntowosakiseisiteimasu" = "Criando sua conta ...";
+"actbindheyoukoso" = "Bem-vindo ao Actbind!";
+"hajimeru" = "Começar";
+"akaunntowosakuseidekimasenndesita" = "Não foi possível criar sua conta";
+"modoru" = "Retorna";
+
+
+
+
+
+"houkoku" = "Relatório";
+"monndaiwohoukoku" = "Reportar um problema";
+"fi-dobakku" = "Feedback Geral";
+"sousinn" = "Mandar";
+
+"youkoso" = "Bem-vindo ao Actbind";
+
+"kensaku" = "Procurar";
+"kara-tagukensaku" = "Pesquisa de marca de cor";
+"akaunntokensaku" = "Pesquisa de conta";
+
+"houkokusetumei1" = "Se alguém estiver em perigo imediato, ligue para os serviços de emergência locais - não espere.";
+"houkokusetumei2" = "Explique resumidamente o que aconteceu. Como você reproduz o problema?";
+"houkokusetumei3" = "Por favor, toque para avaliar";
+"houkokusetumei4" = "Explique resumidamente o que você ama ou o que poderia melhorar.";
+
+"akaunntohoukokutaitoru" = "Por que você está denunciando esta conta?";
+"akaunntohoukokutaipu1" = "Fingindo para alguém";
+"akaunntohoukokutaipu2" = "Conta falsa";
+"akaunntohoukokutaipu3" = "Nome falso";
+"akaunntohoukokutaipu4" = "Postagem de conteúdo impróprio";
+"akaunntohoukokutaipu5" = "Intimidação ou assédio";
+"akaunntohoukokutaipu6" = "Eu quero ajudar essa pessoa";
+
+"toukouhoukokutaitoru" = "Por que você está reportando este post?";
+"toukouhoukokutaipu1" = "Isso é spam";
+"toukouhoukokutaipu2" = "Nudez ou atividade sexual";
+"toukouhoukokutaipu3" = "Discurso ou símbolos de ódio";
+"toukouhoukokutaipu4" = "Violência ou organizações perigosas";
+"toukouhoukokutaipu5" = "Venda de bens ilegais ou regulamentados";
+"toukouhoukokutaipu6" = "Intimidação ou assédio";
+"toukouhoukokutaipu7" = "Violação de propriedade intelectual";
+"toukouhoukokutaipu8" = "Suicídio ou automutilação";
+"toukouhoukokutaipu9" = "Fraudar";
+"toukouhoukokutaipu10" = "Informação falsa";
+"toukouhoukokutaipu11" = "Terrorismo";
+
+"houkokuara-totaitoru" = "Obrigado pelo seu relatório";
+"houkokuara-tomesse-ji1" = "Usaremos as informações fornecidas para tornar o Actbind uma comunidade mais segura.";
+"houkokuara-tomesse-ji2" = "Usaremos seus comentários para melhorar o serviço Actbind.";
+"tojiru" = "Perto";
+
+"actbinddesyea" = "Compartilhar no Actbind";
+"actbinddesyeasetumei" = "Ao permitir o acesso, você poderá compartilhar.";
+"cameraakusesu" = "Permitir acesso à câmera";
+"cameraro-ruakusesu" = "Permitir acesso ao rolo da câmera";
+
+"kyannseru" = "Cancelar";
+"syasinn" = "foto";
+"kara-taguwosenntaku" = "Selecione a etiqueta de cor";
+"toukouwosakusei" = "Criar postagem";
+"syeasiyou" = "Vamos dividir";
+"kyapusyonnwonyuuryoku" = "Escreva uma legenda ...";
+"jikann" = "Tempo";
+"syea" = "Compartilhar";
+"toukoutyuu" = "Postando ...";
+"toukousimasita" = "Postou";
+
+"purofi-ru" = "Perfil";
+"toukougaarimasenn" = "Sem postagens";
+"purofi-ruwohennsyuu" = "Editar Perfil";
+"hennsyuu" = "Editar";
+"hozonn" = "Salve";
+"purofi-rusyasinn" = "Foto de perfil";
+"purofi-rusyasinnhennkou" = "Alterar foto do perfil";
+"syasinnwotoru" = "Tirar fotos";
+"gennzainosyasinnwosakujyo" = "Remover foto atual";
+"gennzainosyasinnwosakujyosimasuka" = "Quer remover a foto atual?";
+"hennkounaiyousetteityuu" = "Definindo alterações ...";
+"hennkounaiyouhozonn" = "suas alterações foram salvas";
+"jikosyoukai" = "Bio";
+"jikosyoukaiwohennsyuu" = "Editar biografia";
+"jikosyoukaiwonyuuryoku" = "Entre na biografia ...";
+"foro-" = "Seguir";
+"foro-tyuu" = "Segue";
+"forowa-" = "Seguidores";
+"tomodati" = "Amigo";
+
+"menyu-" = "Cardápio";
+"ohayou" = "Bom Dia";
+"konnnitiha" = "Boa tarde";
+"konnbannha" = "Boa noite";
+"inotiwomamoru" = "Proteja sua vida";
+"akuthibithi" = "Sua atividade";
+"riyoujikann" = "Tempo no Actbind";
+"itinitinoheikinn" = "Média diária";
+"jikann" = "h";
+"funn" = "m";
+"kyou" = "Hoje";
+"dekore-syonn" = "Decorar";
+"orijinaru" = "Original";
+"red" = "Vermelho";
+"orange" = "laranja";
+"yellow" = "Amarelo";
+"green" = "Verde";
+"blue" = "Azul";
+"purple" = "Roxo";
+"sapo-to" = "Apoio, suporte";
+"supportcentercontent" = "O suporte com um grande número de casos será resumido no centro de suporte.";
+"supportcenter" = "Centro de Apoio";
+"supportmethod" = "Método de apoio";
+"kotirakara" = "Daqui";
+"me-ru" = "O email";
+"me-ruactbindsapo-to" = "Você pode falar com o suporte do Actbind por e-mail.";
+"roguauto" = "Sair";
+"roguautosimasuka" = "Sair de %@?";
+"ba-jyonn" = "Versão";
+
+"settei" = "Definições";
+"akaunnto" = "Conta";
+"puraibasi-" = "Privacidade";
+"sekyuritexi" = "Segurança";
+"apurinogenngo" = "Idioma do aplicativo";
+"actbindnituite" = "Sobre Actbind";
+
+"kojinnnojyouhou" = "Personal Information";
+"namae" = "Nome";
+"rennrakusakijyouhou" = "Informação de contato";
+"seibetu" = "Gênero";
+"tannjyoubiwohennkoudekinai" = "Não foi possível alterar o aniversário";
+"kakuninn" = "Confirmação";
+"atarasiijyouhouhozonn" = "Salvar novas informações";
+"gennzainonamae" = "Nome atual";
+"gennzainome-ruadoresu" = "Endereço de e-mail atual";
+"gennzainoseibetu" = "Gênero atual";
+"gennzainotannjyoubi" = "Aniversário atual";
+"atarasiinamae" = "Novo nome";
+"atarasiime-ruadoresu" = "Novo endereço de correio";
+"atarasiiseibetu" = "Novo Gênero";
+"atarasiitannjyoubi" = "Novo aniversario";
+"hozonnpasuwa-do" = "Por favor, digite a senha para salvar";
+"kyannseru" = "Cancelar";
+"akaunntokannri" = "Gestão de Contas";
+
+"era-" = "ocorreu um erro";
+
+"toukousakujyo" = "Você quer deletar a postagem?";
+
+"akaunntosakujyo" = "Exclusão de conta";
+"sakujyo" = "Excluir";
+"akaunntowosakujyotyuu" = "Excluindo conta ...";
+"akaunntogasakujyosaremasita" = "Conta foi excluída";
+"akaunntosakujyosetumei" = "Se você excluir sua conta, não poderá fazer login novamente.";
+"sakujyopasuwa-do" = "Por favor digite sua senha para deletar";
+"arigatou" = "Muito obrigado";
+"tanosimi" = "Estou ansioso para vê-lo novamente";
+
+"puraibasi-akusesujyoukyou" = "Acesso a informações de privacidade";
+
+"gennzainopasuwa-do" = "Senha atual";
+"atarasiipasuwa-do" = "Nova Senha";
+"atarasiipasuwa-domouitidonyuuryoku" = "Nova senha, novamente";
+"gennzainopasuwa-dogamatigatteimasu" = "Crie uma nova senha que você nunca usou antes.";
+"pasuwa-dogaittisimasenn" = "As senhas não coincidem.";
+
+"syasinnwohozonn" = "Salvar fotos";
+"syasinnwohozonnsetumei" = "Salve automaticamente as fotos tiradas no rolo da câmera.";
+
+"riyoukiyaku" = "Termos de serviço";
+"puraibasi-porisi-" = "Política de Privacidade";
+"komyunitexigaidorainn" = "Diretrizes da comunidade";
+"o-punnso-suraiburari" = "Bibliotecas de código aberto";
+
+"suubyoumae" = "Agora mesmo";
+"funnmae" = "%@ minuto atrás";
+"fukusuufunnmae" = "%@ minutos atrás";
+"jikannmae" = "%@ hora atrás";
+"fukusuujikannmae" = "%@ horas atrás";
+"nitimae" = "%@ dia atrás";
+"fukusuunitimae" = "%@ dias atrás";

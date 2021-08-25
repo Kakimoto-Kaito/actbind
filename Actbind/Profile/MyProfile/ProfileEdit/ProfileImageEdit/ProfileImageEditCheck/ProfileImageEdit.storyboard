@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NxB-3L-UtQ">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ProfileImageEditViewController-->
+        <scene sceneID="k2g-sa-TIi">
+            <objects>
+                <viewController title="ProfileImageEditViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="NxB-3L-UtQ" customClass="ProfileImageEditViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WDI-n3-ruM" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3c1-zD-oOb">
+                                <rect key="frame" x="20" y="247" width="350" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3c1-zD-oOb" secondAttribute="height" multiplier="1:1" id="brX-3v-YLN"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z1c-OT-5BR">
+                                <rect key="frame" x="50" y="370.66666666666669" width="290" height="103"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="lDd-op-h12">
+                                        <rect key="frame" x="126.66666666666666" y="20" width="37" height="37"/>
+                                        <color key="color" name="WhiteBlack"/>
+                                    </activityIndicatorView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o4h-be-CGb">
+                                        <rect key="frame" x="126.66666666666666" y="20" width="37" height="37"/>
+                                        <color key="tintColor" name="WhiteBlack"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="o4h-be-CGb" secondAttribute="height" multiplier="1:1" id="PBZ-la-eL2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="変更内容を設定中..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ew-58-ouS">
+                                        <rect key="frame" x="76.666666666666686" y="65" width="137" height="18"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" name="WhiteBlack"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="ActivityView"/>
+                                <constraints>
+                                    <constraint firstItem="o4h-be-CGb" firstAttribute="top" secondItem="Z1c-OT-5BR" secondAttribute="top" constant="20" symbolic="YES" id="8ax-ND-bs6"/>
+                                    <constraint firstItem="3ew-58-ouS" firstAttribute="centerX" secondItem="Z1c-OT-5BR" secondAttribute="centerX" id="D70-ux-b4J"/>
+                                    <constraint firstItem="lDd-op-h12" firstAttribute="top" secondItem="Z1c-OT-5BR" secondAttribute="top" constant="20" id="QKM-W7-7ZA"/>
+                                    <constraint firstItem="3ew-58-ouS" firstAttribute="top" secondItem="o4h-be-CGb" secondAttribute="bottom" constant="8" symbolic="YES" id="YJh-qM-ae4"/>
+                                    <constraint firstItem="o4h-be-CGb" firstAttribute="centerX" secondItem="Z1c-OT-5BR" secondAttribute="centerX" id="ePM-1x-AnH"/>
+                                    <constraint firstItem="3ew-58-ouS" firstAttribute="top" secondItem="lDd-op-h12" secondAttribute="bottom" constant="8" symbolic="YES" id="rW7-Cq-uxY"/>
+                                    <constraint firstItem="lDd-op-h12" firstAttribute="centerX" secondItem="Z1c-OT-5BR" secondAttribute="centerX" id="v1b-o2-0L6"/>
+                                    <constraint firstAttribute="bottom" secondItem="3ew-58-ouS" secondAttribute="bottom" constant="20" symbolic="YES" id="vQc-qQ-6Tg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WGC-dC-2Al"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="WGC-dC-2Al" firstAttribute="trailing" secondItem="3c1-zD-oOb" secondAttribute="trailing" constant="20" id="Bqs-xi-91l"/>
+                            <constraint firstItem="3c1-zD-oOb" firstAttribute="centerY" secondItem="WDI-n3-ruM" secondAttribute="centerY" id="Oep-ku-8wD"/>
+                            <constraint firstItem="Z1c-OT-5BR" firstAttribute="leading" secondItem="WGC-dC-2Al" secondAttribute="leading" constant="50" id="R4K-T4-PnD"/>
+                            <constraint firstItem="Z1c-OT-5BR" firstAttribute="centerY" secondItem="WDI-n3-ruM" secondAttribute="centerY" id="mHn-oD-9md"/>
+                            <constraint firstItem="WGC-dC-2Al" firstAttribute="trailing" secondItem="Z1c-OT-5BR" secondAttribute="trailing" constant="50" id="r6m-X7-WBu"/>
+                            <constraint firstItem="3c1-zD-oOb" firstAttribute="leading" secondItem="WGC-dC-2Al" secondAttribute="leading" constant="20" id="sTf-8v-oKB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fIA-Gt-fXc" userLabel="NavigationBar Title">
+                        <barButtonItem key="leftBarButtonItem" id="l45-RV-n7R">
+                            <imageReference key="image" image="back" symbolScale="large"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="NxB-3L-UtQ" id="Zut-BN-kst"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="保存" id="LOw-Hg-eqa">
+                            <connections>
+                                <action selector="saveButton:" destination="NxB-3L-UtQ" id="j5e-mt-2Cz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicator" destination="lDd-op-h12" id="b00-Xm-BHy"/>
+                        <outlet property="activityLabel" destination="3ew-58-ouS" id="WUa-LH-wPB"/>
+                        <outlet property="activityView" destination="Z1c-OT-5BR" id="85E-GN-w7X"/>
+                        <outlet property="backButton" destination="l45-RV-n7R" id="S2b-tb-wX8"/>
+                        <outlet property="checkmarkImage" destination="o4h-be-CGb" id="3uo-Q2-SSA"/>
+                        <outlet property="navigationBarTitle" destination="fIA-Gt-fXc" id="5Vi-As-Shs"/>
+                        <outlet property="profileImage" destination="3c1-zD-oOb" id="6yq-tN-kyf"/>
+                        <outlet property="saveButton" destination="LOw-Hg-eqa" id="Aha-Xl-gKI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TRe-7P-gnU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3286" y="2602"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <namedColor name="ActivityView">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

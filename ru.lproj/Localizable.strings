@@ -1,0 +1,247 @@
+//ロシア語
+
+"language" = "Russian";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "Пожалуйста, обновите до новой версии";
+"appude-to" = "Обновлять";
+
+"roguinn" = "Авторизоваться";
+"me-ruadoresugatadasikuarimasenn" = "Неверный адрес электронной почты";
+"akaunntogaarimasenn" = "Введенный вами адрес электронной почты не принадлежит учетной записи. Пожалуйста, проверьте свой адрес электронной почты и попробуйте еще раз.";
+"pasuwa-dogamatigatteimasu" = "Неверный пароль для %@";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "Вы ввели неверный пароль. Пожалуйста, попробуйте еще раз.";
+"mouitidojikkou" = "Попробуй снова";
+"atarasiiakaunntowosakusei" = "Создать новый аккаунт";
+
+"namaewonyuuryoku" = "Какое у тебя имя?";
+"namae1" = "Имя";
+"namae2" = "Фамилия";
+"namaesetumei" = "Использование вашего настоящего имени позволяет вашим друзьям узнать вас.";
+"tugihe" = "Следующий";
+"akaunntowoomotinokata" = "Уже есть аккаунт?";
+
+"me-ruadoresuwonyuuryoku" = "Какой у вас электронный адрес?";
+"me-ruadoresu" = "Адрес электронной почты";
+"me-ruadoresusetumei" = "Используйте этот адрес электронной почты при входе в систему.";
+"me-ruadoresuera-" = "Пожалуйста, введите действительный адрес электронной почты.";
+"siyoudekinaime-ruadoresu" = "Этот адрес электронной почты нельзя использовать";
+
+"ninnsyouko-dowonyuuryoku" = "Введите код подтверждения";
+"ninnsyouko-do" = "Код для подтверждения";
+"ninnsyouko-dosetumei" = "Введите код подтверждения, который мы отправили в %@";
+"ninnsyouko-dorikuesuto" = "Отправить код еще раз";
+"ninnsyouko-doera-" = "Этот код недействителен. Запросите новый код.";
+
+"pasuwa-dowonyuuryoku" = "Создать пароль";
+"pasuwa-do" = "пароль";
+"pasuwa-dosetumei" = "Введите комбинацию из 8 или более букв и цифр или символов (например,! И &).";
+"pasuwa-doera-" = "Пожалуйста, введите правильный пароль.";
+
+"seibetuwosenntaku" = "Какого вы пола?";
+"dannsei" = "мужчина";
+"jyosei" = "женский";
+"sonota" = "Другой";
+
+"tannjyoubiwosenntaku" = "Когда твой день рождения?";
+"tannjyoubi" = "День рождения";
+"tannjyoubisetumei" = "Указав дату своего рождения, вы убедитесь, что получаете доступ к Actbind, соответствующий вашему возрасту.";
+"sai" = " год";
+"jissainotannjyoubi" = "Пожалуйста, введите ваш настоящий день рождения";
+"akaunntowosakuseidekimasenndesita" = "Не удалось создать учетную запись";
+"OK" = "ОК";
+
+"yu-za-ne-muwonyuuryoku" = "Создать имя пользователя";
+"yu-za-ne-mu" = "Имя пользователя";
+"yu-za-ne-musetumei" = "Используйте комбинацию из 5–30 букв алфавита, цифр и знаков подчеркивания (_), чтобы создать оригинальное имя пользователя, которое ваши друзья смогут идентифицировать с вами.";
+"yu-za-ne-muera-" = "Пожалуйста, введите правильное имя пользователя.";
+"suujidakeera-" = "Вы не можете использовать имя пользователя только с числами.";
+"annda-ba-dakeera-" = "Вы не можете использовать имя пользователя только для подчеркивания.";
+"siyoudekinaiyu-za-ne-mu" = "Это имя пользователя нельзя использовать";
+
+"tourokukannryou" = "Завершить регистрацию";
+"doui" = "Нажимая «Зарегистрироваться», вы соглашаетесь с нашими Условиями использования и Политикой конфиденциальности.";
+"riyoukiyakupuraibasi-porisi-" = "Условия пользования Политика конфиденциальности";
+"touroku" = "Зарегистрироваться";
+
+"akaunntowosakiseisiteimasu" = "Создание учетной записи ...";
+"actbindheyoukoso" = "Добро пожаловать в Actbind!";
+"hajimeru" = "Начните";
+"akaunntowosakuseidekimasenndesita" = "Не удалось создать учетную запись";
+"modoru" = "Вернуть";
+
+
+
+
+
+"houkoku" = "Отчет";
+"monndaiwohoukoku" = "Сообщить о проблеме";
+"fi-dobakku" = "Общая обратная связь";
+"sousinn" = "послать";
+
+"youkoso" = "Добро пожаловать в Actbind";
+
+"kensaku" = "Поиск";
+"kara-tagukensaku" = "Поиск по цветным тегам";
+"akaunntokensaku" = "Поиск аккаунта";
+
+"houkokusetumei1" = "Если кому-то угрожает непосредственная опасность, позвоните в местную службу экстренной помощи - не ждите.";
+"houkokusetumei2" = "Кратко объясните, что произошло. Как воспроизвести проблему?";
+"houkokusetumei3" = "Пожалуйста, нажмите, чтобы оценить";
+"houkokusetumei4" = "Кратко объясните, что вам нравится, или что можно улучшить.";
+
+"akaunntohoukokutaitoru" = "Почему вы сообщаете об этом аккаунте?";
+"akaunntohoukokutaipu1" = "Притворяться кому-то";
+"akaunntohoukokutaipu2" = "Поддельный аккаунт";
+"akaunntohoukokutaipu3" = "Поддельное имя";
+"akaunntohoukokutaipu4" = "Размещение неприемлемого контента";
+"akaunntohoukokutaipu5" = "Издевательства или домогательства";
+"akaunntohoukokutaipu6" = "Я хочу помочь этому человеку";
+
+"toukouhoukokutaitoru" = "Почему вы жалуетесь на этот пост?";
+"toukouhoukokutaipu1" = "Это спам";
+"toukouhoukokutaipu2" = "Нагота или сексуальная активность";
+"toukouhoukokutaipu3" = "Разжигание ненависти или символы";
+"toukouhoukokutaipu4" = "Насилие или опасные организации";
+"toukouhoukokutaipu5" = "Продажа незаконных или регулируемых товаров";
+"toukouhoukokutaipu6" = "Издевательства или домогательства";
+"toukouhoukokutaipu7" = "Нарушение интеллектуальной собственности";
+"toukouhoukokutaipu8" = "Самоубийство или членовредительство";
+"toukouhoukokutaipu9" = "Мошенничество";
+"toukouhoukokutaipu10" = "Ложная информация";
+"toukouhoukokutaipu11" = "Терроризм";
+
+"houkokuara-totaitoru" = "Спасибо за ваш доклад";
+"houkokuara-tomesse-ji1" = "Мы будем использовать предоставленную вами информацию, чтобы сделать сообщество Actbind более безопасным.";
+"houkokuara-tomesse-ji2" = "Мы будем использовать ваши отзывы для улучшения сервиса Actbind.";
+"tojiru" = "Закрывать";
+
+"actbinddesyea" = "Поделиться на Actbind";
+"actbinddesyeasetumei" = "Разрешив доступ, вы сможете поделиться.";
+"cameraakusesu" = "Разрешить доступ к камере";
+"cameraro-ruakusesu" = "Разрешить доступ к фотопленке";
+
+"kyannseru" = "Отмена";
+"syasinn" = "Фото";
+"kara-taguwosenntaku" = "Выберите цветовую метку";
+"toukouwosakusei" = "Создать сообщение";
+"syeasiyou" = "Давайте поделимся";
+"kyapusyonnwonyuuryoku" = "Напишите подпись ...";
+"jikann" = "Время";
+"syea" = "доля";
+"toukoutyuu" = "Публикация ...";
+"toukousimasita" = "Опубликовано";
+
+"purofi-ru" = "Профиль";
+"toukougaarimasenn" = "Нет сообщений";
+"purofi-ruwohennsyuu" = "Редактировать профиль";
+"hennsyuu" = "редактировать";
+"hozonn" = "Сохранить";
+"purofi-rusyasinn" = "Аватар";
+"purofi-rusyasinnhennkou" = "Изменить фото профиля";
+"syasinnwotoru" = "Фотографировать";
+"gennzainosyasinnwosakujyo" = "Удалить текущую фотографию";
+"gennzainosyasinnwosakujyosimasuka" = "Вы хотите удалить текущую фотографию?";
+"hennkounaiyousetteityuu" = "Изменения настроек ...";
+"hennkounaiyouhozonn" = "Ваши изменения были сохранены";
+"jikosyoukai" = "Био";
+"jikosyoukaiwohennsyuu" = "Редактировать биографию";
+"jikosyoukaiwonyuuryoku" = "Введите биографию ...";
+"foro-" = "Следовать";
+"foro-tyuu" = "Следующий";
+"forowa-" = "Подписчики";
+"tomodati" = "Друг";
+
+"menyu-" = "Меню";
+"ohayou" = "Доброе утро";
+"konnnitiha" = "Добрый день";
+"konnbannha" = "Добрый вечер";
+"inotiwomamoru" = "Защити свою жизнь";
+"akuthibithi" = "Ваша активность";
+"riyoujikann" = "Время на Actbind";
+"itinitinoheikinn" = "Среднесуточное значение";
+"jikann" = "час";
+"funn" = "м";
+"kyou" = "сегодня";
+"dekore-syonn" = "Украсить";
+"orijinaru" = "Оригинал";
+"red" = "Красный";
+"orange" = "оранжевый";
+"yellow" = "Желтый";
+"green" = "Зеленый";
+"blue" = "Синий";
+"purple" = "Фиолетовый";
+"sapo-to" = "Служба поддержки";
+"supportcentercontent" = "Поддержка с большим количеством обращений будет обобщена в центре поддержки.";
+"supportcenter" = "Центр поддержки";
+"supportmethod" = "Метод поддержки";
+"kotirakara" = "Отсюда";
+"me-ru" = "Эл. адрес";
+"me-ruactbindsapo-to" = "Вы можете связаться со службой поддержки Actbind по электронной почте.";
+"roguauto" = "Выйти";
+"roguautosimasuka" = "Выйти из @%@?";
+"ba-jyonn" = "Версия";
+
+"settei" = "Настройки";
+"akaunnto" = "учетная запись";
+"puraibasi-" = "Конфиденциальность";
+"sekyuritexi" = "Безопасность";
+"apurinogenngo" = "Язык приложения";
+"actbindnituite" = "О Actbind";
+
+"kojinnnojyouhou" = "Персональная информация";
+"namae" = "имя";
+"rennrakusakijyouhou" = "Контактная информация";
+"seibetu" = "Пол";
+"tannjyoubiwohennkoudekinai" = "Не удалось изменить день рождения";
+"kakuninn" = "Подтверждение";
+"atarasiijyouhouhozonn" = "Сохранить новую информацию";
+"gennzainonamae" = "Нынешнее название";
+"gennzainome-ruadoresu" = "Текущий адрес электронной почты";
+"gennzainoseibetu" = "Текущий пол";
+"gennzainotannjyoubi" = "Текущий день рождения";
+"atarasiinamae" = "Новое имя";
+"atarasiime-ruadoresu" = "Новый почтовый адрес";
+"atarasiiseibetu" = "Новый пол";
+"atarasiitannjyoubi" = "Новый день рождения";
+"hozonnpasuwa-do" = "Пожалуйста, введите пароль для сохранения";
+"kyannseru" = "Отмена";
+"akaunntokannri" = "Управление аккаунтом";
+
+"era-" = "произошла ошибка";
+
+"toukousakujyo" = "Вы хотите удалить сообщение?";
+
+"akaunntosakujyo" = "Удаление аккаунта";
+"sakujyo" = "Удалить";
+"akaunntowosakujyotyuu" = "Удаление учетной записи ...";
+"akaunntogasakujyosaremasita" = "Аккаунт удален";
+"akaunntosakujyosetumei" = "Если вы удалите свою учетную запись, вы не сможете войти снова.";
+"sakujyopasuwa-do" = "Пожалуйста, введите свой пароль для удаления";
+"arigatou" = "Большое спасибо вам";
+"tanosimi" = "Я с нетерпением жду встречи с вами снова";
+
+"puraibasi-akusesujyoukyou" = "Доступ к информации о конфиденциальности";
+
+"gennzainopasuwa-do" = "Текущий пароль";
+"atarasiipasuwa-do" = "Новый пароль";
+"atarasiipasuwa-domouitidonyuuryoku" = "Новый пароль еще раз";
+"gennzainopasuwa-dogamatigatteimasu" = "Создайте новый пароль, который он раньше не использовал.";
+"pasuwa-dogaittisimasenn" = "Пароли не совпадают.";
+
+"syasinnwohozonn" = "Сохранить фото";
+"syasinnwohozonnsetumei" = "Автоматически сохраняйте сделанные фотографии в фотопленку.";
+
+"riyoukiyaku" = "Условия использования";
+"puraibasi-porisi-" = "Политика конфиденциальности";
+"komyunitexigaidorainn" = "Принципы сообщества";
+"o-punnso-suraiburari" = "Библиотеки с открытым исходным кодом";
+
+"suubyoumae" = "Прямо сейчас";
+"funnmae" = "%@ минуту назад";
+"fukusuufunnmae" = "%@ минуты назад";
+"jikannmae" = "%@ час назад";
+"fukusuujikannmae" = "%@ часа назад";
+"nitimae" = "%@ день назад";
+"fukusuunitimae" = "%@ дня назад";

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QKd-xH-nhg">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ReportPostViewController-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="ReportPostViewController" modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="ReportPostViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xCT-Mr-ycm">
+                                <rect key="frame" x="0.0" y="506" width="390" height="216"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="この投稿を報告する理由" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snN-Al-Yog">
+                                <rect key="frame" x="20" y="20" width="350" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="差し迫った危険に直面する人がいる場合は、今すぐ地域の警察または消防機関に緊急通報してください。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPw-js-R0H">
+                                <rect key="frame" x="20" y="61" width="350" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="理由" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAj-Oa-wd7">
+                                <rect key="frame" x="20" y="165" width="350" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="snN-Al-Yog" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="0rl-tC-Uhn"/>
+                            <constraint firstItem="GAj-Oa-wd7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="2JD-4Q-1Iv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="snN-Al-Yog" secondAttribute="trailing" constant="20" id="60f-Vp-2Qr"/>
+                            <constraint firstItem="GAj-Oa-wd7" firstAttribute="top" secondItem="LPw-js-R0H" secondAttribute="bottom" constant="50" id="7Vk-EY-Tsj"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="GAj-Oa-wd7" secondAttribute="trailing" constant="20" id="BYU-Er-PBZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="LPw-js-R0H" secondAttribute="trailing" constant="20" id="ER7-ra-RAG"/>
+                            <constraint firstItem="xCT-Mr-ycm" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Fk0-Uc-2pV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="xCT-Mr-ycm" secondAttribute="bottom" id="Vks-6L-Tqu"/>
+                            <constraint firstItem="LPw-js-R0H" firstAttribute="top" secondItem="snN-Al-Yog" secondAttribute="bottom" constant="20" id="aDF-Qs-m6F"/>
+                            <constraint firstItem="LPw-js-R0H" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="kxh-ED-fyR"/>
+                            <constraint firstAttribute="trailing" secondItem="xCT-Mr-ycm" secondAttribute="trailing" id="onh-Xn-gzY"/>
+                            <constraint firstItem="snN-Al-Yog" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="vga-sC-sVZ"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="tMl-J0-KWs" appends="YES" id="Dh0-44-CDF"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="報告" id="mgK-pv-egJ">
+                        <barButtonItem key="leftBarButtonItem" image="cancel" id="XwL-us-oeN" userLabel="Cancel Button">
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="Y6W-OH-hqX" id="Y63-qh-XtD"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="送信" id="HiL-lH-HsO" userLabel="Send Button">
+                            <color key="tintColor" name="Blue"/>
+                            <connections>
+                                <action selector="sendButtonAction:" destination="Y6W-OH-hqX" id="QQf-M2-9KS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelButton" destination="XwL-us-oeN" id="PLs-9E-isK"/>
+                        <outlet property="navigationBarTitle" destination="mgK-pv-egJ" id="wXo-IL-6Qa"/>
+                        <outlet property="reportPostExplanationLabel" destination="LPw-js-R0H" id="FEj-dz-yLh"/>
+                        <outlet property="reportPostTitleLabel" destination="snN-Al-Yog" id="chZ-ih-IcY"/>
+                        <outlet property="reportTypeLabel" destination="GAj-Oa-wd7" id="MG2-ok-Tee"/>
+                        <outlet property="reportTypePickerView" destination="xCT-Mr-ycm" id="fcJ-ac-FlC"/>
+                        <outlet property="sendButton" destination="HiL-lH-HsO" id="OON-KR-i0j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="tMl-J0-KWs">
+                    <rectEdge key="edges" left="YES"/>
+                </screenEdgePanGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1384.0579710144928" y="-25.446428571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ove-tr-mcp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="QKd-xH-nhg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="P3N-tu-xYu">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="Cell"/>
+                        <color key="barTintColor" name="Cell"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" name="BlackWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="6sb-Ec-Vwg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QdF-Fh-09W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="473.91304347826093" y="-25.446428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel" width="44" height="44"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99599999189376831" green="1" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

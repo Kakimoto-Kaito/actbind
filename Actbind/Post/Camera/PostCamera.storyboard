@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="asg-54-jfP">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PostCameraViewController-->
+        <scene sceneID="EHK-gY-xdW">
+            <objects>
+                <viewController title="PostCameraViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="bWZ-m8-Cxc" customClass="PostCameraViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RD7-hq-Kz4" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tO2-AS-ist">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="390"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6O4-PS-rN2">
+                                <rect key="frame" x="0.0" y="390" width="390" height="332"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9h-3V-yxy">
+                                        <rect key="frame" x="145" y="116" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="vDp-mb-onW"/>
+                                        </constraints>
+                                        <state key="normal" image="camera"/>
+                                        <connections>
+                                            <action selector="cameraButtonTouchDown:" destination="bWZ-m8-Cxc" eventType="touchDown" id="Iz7-Ed-Y3b"/>
+                                            <action selector="cameraButtonTouchDragOutside:" destination="bWZ-m8-Cxc" eventType="touchDragOutside" id="8bR-is-ERf"/>
+                                            <action selector="cameraButtonTouchUpInside:" destination="bWZ-m8-Cxc" eventType="touchUpInside" id="vvD-G7-PYj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxe-Tj-BRW">
+                                        <rect key="frame" x="295" y="142" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="DV6-0W-aGy"/>
+                                        </constraints>
+                                        <color key="tintColor" name="BlackWhite"/>
+                                        <state key="normal">
+                                            <imageReference key="image" image="arrow.triangle.2.circlepath" catalog="system" symbolScale="large"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeButtonTouchDown:" destination="bWZ-m8-Cxc" eventType="touchDown" id="AFT-RZ-ude"/>
+                                            <action selector="changeButtonTouchDragOutside:" destination="bWZ-m8-Cxc" eventType="touchDragOutside" id="R1B-wV-dZg"/>
+                                            <action selector="changeButtonTouchUpInside:" destination="bWZ-m8-Cxc" eventType="touchUpInside" id="hZv-88-SWd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g87-Rn-vuL">
+                                        <rect key="frame" x="47" y="142" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="bRd-Lh-MSU"/>
+                                        </constraints>
+                                        <color key="tintColor" name="BlackWhite"/>
+                                        <state key="normal">
+                                            <imageReference key="image" image="bolt.slash.fill" catalog="system" symbolScale="large"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="flashButtonTouchDown:" destination="bWZ-m8-Cxc" eventType="touchDown" id="XXv-m2-vWb"/>
+                                            <action selector="flashButtonTouchDragOutside:" destination="bWZ-m8-Cxc" eventType="touchDragOutside" id="Tuv-bk-gTb"/>
+                                            <action selector="flashButtonTouchUpInside:" destination="bWZ-m8-Cxc" eventType="touchUpInside" id="avE-IW-gFi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="E9h-3V-yxy" firstAttribute="centerX" secondItem="6O4-PS-rN2" secondAttribute="centerX" id="0bZ-xM-Op6"/>
+                                    <constraint firstItem="E9h-3V-yxy" firstAttribute="leading" secondItem="g87-Rn-vuL" secondAttribute="trailing" constant="50" id="9eU-zH-M8v"/>
+                                    <constraint firstItem="g87-Rn-vuL" firstAttribute="width" secondItem="g87-Rn-vuL" secondAttribute="height" multiplier="1:1" id="IVE-9A-VoJ"/>
+                                    <constraint firstItem="gxe-Tj-BRW" firstAttribute="centerY" secondItem="g87-Rn-vuL" secondAttribute="centerY" id="Kdr-VE-v9O"/>
+                                    <constraint firstItem="E9h-3V-yxy" firstAttribute="centerY" secondItem="g87-Rn-vuL" secondAttribute="centerY" id="KwW-bJ-Uv0"/>
+                                    <constraint firstItem="E9h-3V-yxy" firstAttribute="width" secondItem="E9h-3V-yxy" secondAttribute="height" multiplier="1:1" id="TYn-EU-nSd"/>
+                                    <constraint firstItem="E9h-3V-yxy" firstAttribute="centerY" secondItem="6O4-PS-rN2" secondAttribute="centerY" id="Txd-Mr-kLN"/>
+                                    <constraint firstItem="gxe-Tj-BRW" firstAttribute="width" secondItem="gxe-Tj-BRW" secondAttribute="height" multiplier="1:1" id="bgr-SD-QHb"/>
+                                    <constraint firstItem="gxe-Tj-BRW" firstAttribute="leading" secondItem="E9h-3V-yxy" secondAttribute="trailing" constant="50" id="ttn-tC-a0X"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6T5-Fe-KyX"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <constraints>
+                            <constraint firstItem="6O4-PS-rN2" firstAttribute="leading" secondItem="6T5-Fe-KyX" secondAttribute="leading" id="8tI-k0-ARg"/>
+                            <constraint firstItem="tO2-AS-ist" firstAttribute="width" secondItem="tO2-AS-ist" secondAttribute="height" multiplier="1:1" id="JWP-YW-DfB"/>
+                            <constraint firstItem="6O4-PS-rN2" firstAttribute="top" secondItem="tO2-AS-ist" secondAttribute="bottom" id="STO-uT-w24"/>
+                            <constraint firstItem="tO2-AS-ist" firstAttribute="trailing" secondItem="6T5-Fe-KyX" secondAttribute="trailing" id="XWt-du-7Y6"/>
+                            <constraint firstItem="tO2-AS-ist" firstAttribute="top" secondItem="6T5-Fe-KyX" secondAttribute="top" id="jtd-pr-xXJ"/>
+                            <constraint firstItem="tO2-AS-ist" firstAttribute="leading" secondItem="6T5-Fe-KyX" secondAttribute="leading" id="q3g-Np-Esj"/>
+                            <constraint firstItem="6T5-Fe-KyX" firstAttribute="trailing" secondItem="6O4-PS-rN2" secondAttribute="trailing" id="qzc-nN-niX"/>
+                            <constraint firstItem="6T5-Fe-KyX" firstAttribute="bottom" secondItem="6O4-PS-rN2" secondAttribute="bottom" id="sa2-YU-qrV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="写真" id="5Lt-1U-c7g" userLabel="NavigationBar Title">
+                        <barButtonItem key="leftBarButtonItem" image="cancel" id="MqJ-Gg-5k7">
+                            <connections>
+                                <action selector="cancelButton:" destination="bWZ-m8-Cxc" id="by2-mX-jD1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cameraButton" destination="E9h-3V-yxy" id="2ck-cB-H0I"/>
+                        <outlet property="cancelButton" destination="MqJ-Gg-5k7" id="NeO-hc-tKg"/>
+                        <outlet property="changeButton" destination="gxe-Tj-BRW" id="4bS-BW-maD"/>
+                        <outlet property="flashButton" destination="g87-Rn-vuL" id="YF5-Qe-6NH"/>
+                        <outlet property="navigationBarTitle" destination="5Lt-1U-c7g" id="quz-Ch-9sf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ayF-nl-GCK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="614.49275362318849" y="3549.7767857142858"/>
+        </scene>
+        <!--PostNavigationController-->
+        <scene sceneID="fLG-vg-vIa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="asg-54-jfP" userLabel="PostNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="post mono" selectedImage="post mono" id="rNj-BG-qlM" userLabel="TabBarItem"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="clM-N3-xFx">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="Cell"/>
+                        <color key="barTintColor" name="Cell"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" name="BlackWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bWZ-m8-Cxc" kind="relationship" relationship="rootViewController" id="rc1-Zl-GTt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gT3-bR-RUM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="3550"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.triangle.2.circlepath" catalog="system" width="128" height="101"/>
+        <image name="bolt.slash.fill" catalog="system" width="98" height="128"/>
+        <image name="camera" width="106.66666412353516" height="106.66666412353516"/>
+        <image name="cancel" width="44" height="44"/>
+        <image name="post mono" width="30" height="30"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99599999189376831" green="1" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

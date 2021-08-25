@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19115.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19107.5"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ChangeConfirmationCodeViewController-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="ChangeConfirmationCodeViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="Y6W-OH-hqX" customClass="ChangeConfirmationCodeViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="に送信された認証コードを入力してください。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPN-Yh-53A" userLabel="ConfirmationCodeExplanation Label">
+                                <rect key="frame" x="20" y="94" width="350" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8WL-5o-Zpt" userLabel="ConfirmationCodeRequest Button">
+                                <rect key="frame" x="141" y="120" width="108" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="コードを再送信">
+                                    <color key="titleColor" name="Blue"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="confirmationCodeRequestButtonTouchDown:" destination="Y6W-OH-hqX" eventType="touchDown" id="ke8-qS-OLz"/>
+                                    <action selector="confirmationCodeRequestButtonTouchDragOutside:" destination="Y6W-OH-hqX" eventType="touchDragOutside" id="3GN-Mp-qmD"/>
+                                    <action selector="confirmationCodeRequestButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="2qk-3I-7aj"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="認証コード" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="3fX-fa-zqy" userLabel="ConfirmationCode TextField">
+                                <rect key="frame" x="20" y="170" width="350" height="48"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <color key="tintColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="7Hc-8I-RD6"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="ConfirmationCodeTextFieldDidEndOnExit:" destination="Y6W-OH-hqX" eventType="editingDidEndOnExit" id="X6a-MA-7OH"/>
+                                    <action selector="ConfirmationCodeTextFieldEditingChanged:" destination="Y6W-OH-hqX" eventType="editingChanged" id="yJw-JW-iM4"/>
+                                    <action selector="ConfirmationCodeTextFieldEditingDidBegin:" destination="Y6W-OH-hqX" eventType="editingDidBegin" id="Gxm-kK-NEU"/>
+                                    <action selector="ConfirmationCodeTextFieldEditingDidEnd:" destination="Y6W-OH-hqX" eventType="editingDidEnd" id="q8V-HE-KfW"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fk-UU-qMj">
+                                <rect key="frame" x="20" y="268" width="350" height="48"/>
+                                <color key="backgroundColor" name="EnabledButton"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="E6k-hW-xZz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="次へ">
+                                    <color key="titleColor" name="EnabledButtonText"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextButtonTouchDown:" destination="Y6W-OH-hqX" eventType="touchDown" id="1wD-N3-M94"/>
+                                    <action selector="nextButtonTouchDragOutside:" destination="Y6W-OH-hqX" eventType="touchDragOutside" id="gnY-p1-u2p"/>
+                                    <action selector="nextButtonTouchUpInside:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ASx-j4-S1G"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TVS-LB-gFc" userLabel="Error View">
+                                <rect key="frame" x="20" y="730" width="350" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CJU-No-DB2" userLabel="Error Image">
+                                        <rect key="frame" x="15" y="15" width="30" height="30"/>
+                                        <color key="tintColor" name="White"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="zVF-eK-JJl"/>
+                                        </constraints>
+                                        <imageReference key="image" image="errorwhiteonly"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3vP-XP-RXR">
+                                        <rect key="frame" x="60" y="21" width="275" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="Pink"/>
+                                <constraints>
+                                    <constraint firstItem="CJU-No-DB2" firstAttribute="leading" secondItem="TVS-LB-gFc" secondAttribute="leading" constant="15" id="6CR-cF-Zxz"/>
+                                    <constraint firstItem="3vP-XP-RXR" firstAttribute="centerY" secondItem="CJU-No-DB2" secondAttribute="centerY" id="6hz-De-0Vl"/>
+                                    <constraint firstItem="CJU-No-DB2" firstAttribute="top" secondItem="TVS-LB-gFc" secondAttribute="top" constant="15" id="HPi-gt-dfQ"/>
+                                    <constraint firstItem="CJU-No-DB2" firstAttribute="width" secondItem="CJU-No-DB2" secondAttribute="height" multiplier="1:1" id="Jq6-nD-jg0"/>
+                                    <constraint firstAttribute="height" constant="60" id="LBL-wU-Rhs"/>
+                                    <constraint firstAttribute="trailing" secondItem="3vP-XP-RXR" secondAttribute="trailing" constant="15" id="PiX-a5-8HH"/>
+                                    <constraint firstItem="3vP-XP-RXR" firstAttribute="leading" secondItem="CJU-No-DB2" secondAttribute="trailing" constant="15" id="fgN-h4-gXc"/>
+                                    <constraint firstAttribute="bottom" secondItem="CJU-No-DB2" secondAttribute="bottom" constant="15" id="mLB-e4-hjW"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="1fk-UU-qMj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="2ZB-HO-NLh"/>
+                            <constraint firstItem="TVS-LB-gFc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="7tn-7d-0gK"/>
+                            <constraint firstItem="8WL-5o-Zpt" firstAttribute="top" secondItem="jPN-Yh-53A" secondAttribute="bottom" constant="8" id="9SK-gM-h9c"/>
+                            <constraint firstItem="jPN-Yh-53A" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="C9a-DR-PJE"/>
+                            <constraint firstItem="8WL-5o-Zpt" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Ft9-CQ-zDB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1fk-UU-qMj" secondAttribute="trailing" constant="20" id="H8h-8u-elc"/>
+                            <constraint firstItem="jPN-Yh-53A" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="OVe-r0-lcb"/>
+                            <constraint firstItem="3fX-fa-zqy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Z9f-e8-Ogq"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jPN-Yh-53A" secondAttribute="trailing" constant="20" id="c80-DN-wQw"/>
+                            <constraint firstItem="1fk-UU-qMj" firstAttribute="top" secondItem="3fX-fa-zqy" secondAttribute="bottom" constant="50" id="lsG-9L-Smp"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="TVS-LB-gFc" secondAttribute="trailing" constant="20" id="pSb-lm-VPM"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3fX-fa-zqy" secondAttribute="trailing" constant="20" id="sTp-Wd-DeZ"/>
+                            <constraint firstItem="3fX-fa-zqy" firstAttribute="top" secondItem="8WL-5o-Zpt" secondAttribute="bottom" constant="20" id="wlB-M6-ZpS"/>
+                            <constraint firstAttribute="bottom" secondItem="TVS-LB-gFc" secondAttribute="bottom" constant="54" id="xWG-lK-A7k"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="認証コードを入力" id="VVZ-Nj-tIG">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="tak-2t-cZv">
+                            <connections>
+                                <action selector="backBottonAction:" destination="Y6W-OH-hqX" id="xeV-Ci-jd3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="tak-2t-cZv" id="Pzk-p2-J4H"/>
+                        <outlet property="confirmationCodeExplanationLabel" destination="jPN-Yh-53A" id="02F-dc-iA2"/>
+                        <outlet property="confirmationCodeRequestButton" destination="8WL-5o-Zpt" id="eKo-GL-z6h"/>
+                        <outlet property="confirmationCodeTextField" destination="3fX-fa-zqy" id="nH5-d8-Dtm"/>
+                        <outlet property="errorLabel" destination="3vP-XP-RXR" id="lcl-v5-bOG"/>
+                        <outlet property="errorView" destination="TVS-LB-gFc" id="ssr-Kb-FCV"/>
+                        <outlet property="errorViewBottom" destination="xWG-lK-A7k" id="NKv-gG-wyQ"/>
+                        <outlet property="navigationBarTitle" destination="VVZ-Nj-tIG" id="ydm-ub-QE2"/>
+                        <outlet property="nextButton" destination="1fk-UU-qMj" id="l0Y-Zr-doP"/>
+                        <outlet property="nextButtonLeft" destination="2ZB-HO-NLh" id="QOs-bH-c7b"/>
+                        <outlet property="nextButtonRight" destination="H8h-8u-elc" id="PT9-I4-Kac"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-14" y="76"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <image name="errorwhiteonly" width="32.333332061767578" height="32.333332061767578"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EnabledButton">
+            <color red="0.77300000190734863" green="0.77300000190734863" blue="0.7839999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="EnabledButtonText">
+            <color red="0.89399999380111694" green="0.89399999380111694" blue="0.90200001001358032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink">
+            <color red="1" green="0.17599999904632568" blue="0.33300000429153442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextField">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

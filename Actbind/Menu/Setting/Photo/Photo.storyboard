@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="60m-Cg-nPd">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PhotoViewController-->
+        <scene sceneID="oCp-aE-oaP">
+            <objects>
+                <viewController title="PhotoViewController" id="60m-Cg-nPd" customClass="PhotoViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zy5-Md-h6H" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cnm-sm-ltu">
+                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
+                                <color key="backgroundColor" name="Background"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="fBa-XB-cQD">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="144"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M8j-Fv-l86">
+                                            <rect key="frame" x="20" y="20" width="350" height="60"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="写真を保存" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvm-WS-WYR" userLabel="SavePhoto Label">
+                                                    <rect key="frame" x="20" y="20" width="92" height="20"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" name="BlackWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBm-7o-iVQ" userLabel="SavePhoto Switch">
+                                                    <rect key="frame" x="281" y="14.666666666666664" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="savePhotoSwitchValueChanged:" destination="60m-Cg-nPd" eventType="valueChanged" id="kY4-2k-66R"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <color key="backgroundColor" name="Cell"/>
+                                            <constraints>
+                                                <constraint firstItem="dvm-WS-WYR" firstAttribute="top" secondItem="M8j-Fv-l86" secondAttribute="top" constant="20" id="P1P-BS-TJl"/>
+                                                <constraint firstItem="bBm-7o-iVQ" firstAttribute="centerY" secondItem="dvm-WS-WYR" secondAttribute="centerY" id="XBO-n8-x4S"/>
+                                                <constraint firstAttribute="height" constant="60" id="YdV-ec-gLE"/>
+                                                <constraint firstItem="dvm-WS-WYR" firstAttribute="leading" secondItem="M8j-Fv-l86" secondAttribute="leading" constant="20" id="d0u-sq-neT"/>
+                                                <constraint firstItem="dvm-WS-WYR" firstAttribute="centerY" secondItem="M8j-Fv-l86" secondAttribute="centerY" id="jTW-wo-wCT"/>
+                                                <constraint firstAttribute="bottom" secondItem="dvm-WS-WYR" secondAttribute="bottom" constant="20" id="snG-Ng-aCz"/>
+                                                <constraint firstAttribute="trailing" secondItem="bBm-7o-iVQ" secondAttribute="trailing" constant="20" id="zGr-N7-ymJ"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="撮影した写真を自動的に自分のカメラロールに保存します。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6d-4K-JKu" userLabel="SavePhotoExplanation Label">
+                                            <rect key="frame" x="20" y="88" width="350" height="36"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" name="SubText"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" name="Background"/>
+                                    <constraints>
+                                        <constraint firstItem="M8j-Fv-l86" firstAttribute="top" secondItem="fBa-XB-cQD" secondAttribute="top" constant="20" id="O8Q-rR-GVB"/>
+                                        <constraint firstItem="M8j-Fv-l86" firstAttribute="leading" secondItem="fBa-XB-cQD" secondAttribute="leading" constant="20" id="Ur8-Ii-D5I"/>
+                                        <constraint firstAttribute="trailing" secondItem="M8j-Fv-l86" secondAttribute="trailing" constant="20" id="WG3-eu-LN2"/>
+                                        <constraint firstItem="Z6d-4K-JKu" firstAttribute="top" secondItem="M8j-Fv-l86" secondAttribute="bottom" constant="8" id="d9E-uU-L9c"/>
+                                        <constraint firstAttribute="bottom" secondItem="Z6d-4K-JKu" secondAttribute="bottom" constant="20" symbolic="YES" id="eC9-Yl-dUD"/>
+                                        <constraint firstAttribute="trailing" secondItem="Z6d-4K-JKu" secondAttribute="trailing" constant="20" id="eg5-iY-kgm"/>
+                                        <constraint firstItem="Z6d-4K-JKu" firstAttribute="leading" secondItem="fBa-XB-cQD" secondAttribute="leading" constant="20" id="hhn-Px-MNL"/>
+                                    </constraints>
+                                </view>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Enx-x2-xDz"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="cnm-sm-ltu" firstAttribute="leading" secondItem="Enx-x2-xDz" secondAttribute="leading" id="4wZ-YD-ryY"/>
+                            <constraint firstItem="cnm-sm-ltu" firstAttribute="trailing" secondItem="Enx-x2-xDz" secondAttribute="trailing" id="KHt-t2-7QF"/>
+                            <constraint firstItem="cnm-sm-ltu" firstAttribute="top" secondItem="Enx-x2-xDz" secondAttribute="top" id="UzV-LS-SXV"/>
+                            <constraint firstItem="cnm-sm-ltu" firstAttribute="bottom" secondItem="Enx-x2-xDz" secondAttribute="bottom" id="dkX-nX-G2L"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="写真" id="pE6-Ua-hFa" userLabel="NavigationBar Title">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="ABm-u7-97t" userLabel="Back Button">
+                            <connections>
+                                <action selector="backBottonAction:" destination="60m-Cg-nPd" id="6sq-H1-mvb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="ABm-u7-97t" id="ZXb-R9-OmS"/>
+                        <outlet property="navigationBarTitle" destination="pE6-Ua-hFa" id="wJT-wv-YuX"/>
+                        <outlet property="savePhotoExplanationLabel" destination="Z6d-4K-JKu" id="c9L-uJ-DDt"/>
+                        <outlet property="savePhotoLabel" destination="dvm-WS-WYR" id="XPj-gq-qYS"/>
+                        <outlet property="savePhotoSwitch" destination="bBm-7o-iVQ" id="OnK-A8-alh"/>
+                        <outlet property="savePhotoView" destination="M8j-Fv-l86" id="7QF-4S-blV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ykg-2J-D5i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="43.478260869565219" y="26.785714285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <namedColor name="Background">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99599999189376831" green="1" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

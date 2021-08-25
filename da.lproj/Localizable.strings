@@ -1,0 +1,247 @@
+//デンマーク語
+
+"language" = "Danish";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "Opdater venligst til den nye version";
+"appude-to" = "Opdatering";
+
+"roguinn" = "Log på";
+"me-ruadoresugatadasikuarimasenn" = "Forkert e-mail-adresse";
+"akaunntogaarimasenn" = "Den e-mail-adresse, du har angivet, ser ikke ud til at tilhøre en konto. Kontroller din e-mail-adresse, og prøv igen.";
+"pasuwa-dogamatigatteimasu" = "Forkert adgangskode til %@";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "Den indtastede adgangskode er forkert. Prøv igen.";
+"mouitidojikkou" = "Prøv igen";
+"atarasiiakaunntowosakusei" = "Opret ny konto";
+
+"namaewonyuuryoku" = "Hvad hedder du?";
+"namae1" = "Fornavn";
+"namae2" = "Efternavn";
+"namaesetumei" = "Brug af dit rigtige navn gør det lettere for dine venner at genkende dig.";
+"tugihe" = "Næste";
+"akaunntowoomotinokata" = "har du allerede en bruger?";
+
+"me-ruadoresuwonyuuryoku" = "Hvad er din e-mail-adresse?";
+"me-ruadoresu" = "Email adresse";
+"me-ruadoresusetumei" = "Brug denne e-mail-adresse, når du logger ind.";
+"me-ruadoresuera-" = "Indtast venligst en gyldig e-mailadresse.";
+"siyoudekinaime-ruadoresu" = "Denne e-mail-adresse kan ikke bruges";
+
+"ninnsyouko-dowonyuuryoku" = "Indtast bekræftelseskode";
+"ninnsyouko-do" = "Bekræftelseskode";
+"ninnsyouko-dosetumei" = "Indtast venligst bekræftelseskoden sendt til %@";
+"ninnsyouko-dorikuesuto" = "Gensend kode";
+"ninnsyouko-doera-" = "Denne kode er ugyldig. Bed om en ny kode.";
+
+"pasuwa-dowonyuuryoku" = "Lav et kodeord";
+"pasuwa-do" = "Adgangskode";
+"pasuwa-dosetumei" = "Indtast en kombination af 8 eller flere bogstaver og tal eller symboler (som! Og &).";
+"pasuwa-doera-" = "Indtast venligst den korrekte adgangskode.";
+
+"seibetuwosenntaku" = "Hvad er dit køn?";
+"dannsei" = "Han";
+"jyosei" = "Kvinde";
+"sonota" = "Andet";
+
+"tannjyoubiwosenntaku" = "Hvornår er det din fødselsdag?";
+"tannjyoubi" = "Fødselsdag";
+"tannjyoubisetumei" = "At give din fødselsdag hjælper med at markere, at du får den rigtige Actbind-oplevelse til din alder.";
+"sai" = " år gammel";
+"jissainotannjyoubi" = "Angiv din faktiske fødselsdag";
+"akaunntowosakuseidekimasenndesita" = "Kunne ikke oprette en konto";
+"OK" = "Okay";
+
+"yu-za-ne-muwonyuuryoku" = "Opret et brugernavn";
+"yu-za-ne-mu" = "Brugernavn";
+"yu-za-ne-musetumei" = "Brug en kombination af 5 til 30 bogstaver i alfabetet, tal og understregninger (_) til at oprette et originalt brugernavn, som dine venner kan identificere med dig.";
+"yu-za-ne-muera-" = "Indtast det korrekte brugernavn.";
+"suujidakeera-" = "Du kan ikke bruge et brugernavn med kun tal.";
+"annda-ba-dakeera-" = "Du kan ikke kun bruge et brugernavn under bar.";
+"siyoudekinaiyu-za-ne-mu" = "Dette brugernavn kan ikke bruges";
+
+"tourokukannryou" = "Afslut tilmelding";
+"doui" = "Ved at trykke på Tilmeld dig accepterer du vores servicevilkår og fortrolighedspolitik.";
+"riyoukiyakupuraibasi-porisi-" = "Servicevilkår / Privatlivspolitik";
+"touroku" = "Tilmelde";
+
+"akaunntowosakiseisiteimasu" = "Opretter din konto ...";
+"actbindheyoukoso" = "Velkommen til Actbind!";
+"hajimeru" = "Start";
+"akaunntowosakuseidekimasenndesita" = "Kunne ikke oprette din konto";
+"modoru" = "Vend tilbage";
+
+
+
+
+
+"houkoku" = "Rapport";
+"monndaiwohoukoku" = "Rapporter et problem";
+"fi-dobakku" = "Generel feedback";
+"sousinn" = "Sende";
+
+"youkoso" = "Velkommen til Actbind";
+
+"kensaku" = "Søg";
+"kara-tagukensaku" = "Søg efter farvetag";
+"akaunntokensaku" = "Kontosøgning";
+
+"houkokusetumei1" = "Hvis nogen er i umiddelbar fare, skal du ringe til de lokale redningstjenester - vent ikke.";
+"houkokusetumei2" = "Forklar kort, hvad der skete. Hvordan gengiver du problemet?";
+"houkokusetumei3" = "Tryk for at bedømme";
+"houkokusetumei4" = "Forklar kort, hvad du elsker, eller hvad der kan forbedres.";
+
+"akaunntohoukokutaitoru" = "Hvorfor rapporterer du denne konto?";
+"akaunntohoukokutaipu1" = "Foregiver overfor nogen";
+"akaunntohoukokutaipu2" = "Falsk konto";
+"akaunntohoukokutaipu3" = "Falsk navn";
+"akaunntohoukokutaipu4" = "Udstationering af upassende indhold";
+"akaunntohoukokutaipu5" = "Mobning eller chikane";
+"akaunntohoukokutaipu6" = "Jeg vil hjælpe denne person";
+
+"toukouhoukokutaitoru" = "Hvorfor rapporterer du dette indlæg?";
+"toukouhoukokutaipu1" = "Det er spam";
+"toukouhoukokutaipu2" = "Nøgenhed eller seksuel aktivitet";
+"toukouhoukokutaipu3" = "Had tale eller symboler";
+"toukouhoukokutaipu4" = "Vold eller farlige organisationer";
+"toukouhoukokutaipu5" = "Salg af ulovlige eller regulerede varer";
+"toukouhoukokutaipu6" = "Mobning eller chikane";
+"toukouhoukokutaipu7" = "Krænkelse af intellektuel ejendomsret";
+"toukouhoukokutaipu8" = "Selvmord eller selvskade";
+"toukouhoukokutaipu9" = "Fup";
+"toukouhoukokutaipu10" = "Falske oplysninger";
+"toukouhoukokutaipu11" = "Terrorisme";
+
+"houkokuara-totaitoru" = "Tak for din rapport";
+"houkokuara-tomesse-ji1" = "Vi bruger de oplysninger, du giver, til at gøre Actbind til et mere sikkert samfund.";
+"houkokuara-tomesse-ji2" = "Vi bruger din feedback til at forbedre Actbind-tjenesten.";
+"tojiru" = "Tæt";
+
+"actbinddesyea" = "Del på Actbind";
+"actbinddesyeasetumei" = "Ved at give adgang kan du dele.";
+"cameraakusesu" = "Tillad adgang til kameraet";
+"cameraro-ruakusesu" = "Tillad adgang til kamerarulle";
+
+"kyannseru" = "Afbestille";
+"syasinn" = "Foto";
+"kara-taguwosenntaku" = "Vælg farvetag";
+"toukouwosakusei" = "Opret indlæg";
+"syeasiyou" = "Lad os dele";
+"kyapusyonnwonyuuryoku" = "Skriv en billedtekst ...";
+"jikann" = "Tid";
+"syea" = "Del";
+"toukoutyuu" = "Udstationering ...";
+"toukousimasita" = "Sendt";
+
+"purofi-ru" = "Profil";
+"toukougaarimasenn" = "Ingen indlæg";
+"purofi-ruwohennsyuu" = "Rediger profil";
+"hennsyuu" = "Redigere";
+"hozonn" = "Gemme";
+"purofi-rusyasinn" = "Profilbillede";
+"purofi-rusyasinnhennkou" = "Skift profilbillede";
+"syasinnwotoru" = "Tag et billede";
+"gennzainosyasinnwosakujyo" = "Fjern aktuelt billede";
+"gennzainosyasinnwosakujyosimasuka" = "Vil du fjerne det aktuelle foto?";
+"hennkounaiyousetteityuu" = "Indstilling af ændringer ...";
+"hennkounaiyouhozonn" = "Dine ændringer er blevet gemt";
+"jikosyoukai" = "Selvindføring";
+"jikosyoukaiwohennsyuu" = "Rediger selvintroduktion";
+"jikosyoukaiwonyuuryoku" = "Indtast din egen introduktion ...";
+"foro-" = "Følge efter";
+"foro-tyuu" = "Følge";
+"forowa-" = "Følgere";
+"tomodati" = "Ven";
+
+"menyu-" = "Menu";
+"ohayou" = "God morgen";
+"konnnitiha" = "Hej";
+"konnbannha" = "God aften";
+"inotiwomamoru" = "Beskyt dit liv";
+"akuthibithi" = "Din aktivitet";
+"riyoujikann" = "Tid på Actbind";
+"itinitinoheikinn" = "Dagligt gennemsnit";
+"jikann" = "t";
+"funn" = "m";
+"kyou" = "I dag";
+"dekore-syonn" = "Pynt";
+"orijinaru" = "Original";
+"red" = "Rød";
+"orange" = "Orange";
+"yellow" = "Gul";
+"green" = "Grøn";
+"blue" = "Blå";
+"purple" = "Lilla";
+"sapo-to" = "Support";
+"supportcentercontent" = "Support med et stort antal sager vil blive opsummeret i supportcentret.";
+"supportcenter" = "Supportcenter";
+"supportmethod" = "Understøttelsesmetode";
+"kotirakara" = "Herfra";
+"me-ru" = "E -mail";
+"me-ruactbindsapo-to" = "Du kan tale med Actbind -support via e -mail.";
+"roguauto" = "Log ud";
+"roguautosimasuka" = "Log ud af @%@?";
+"ba-jyonn" = "Version";
+
+"settei" = "Indstillinger";
+"akaunnto" = "Konto";
+"puraibasi-" = "Privatliv";
+"sekyuritexi" = "Sikkerhed";
+"apurinogenngo" = "App sprog";
+"actbindnituite" = "Om Actbind";
+
+"kojinnnojyouhou" = "Personlig information";
+"namae" = "Navn";
+"rennrakusakijyouhou" = "Kontaktoplysninger";
+"seibetu" = "Køn";
+"tannjyoubiwohennkoudekinai" = "Kunne ikke ændre fødselsdag";
+"kakuninn" = "Bekræftelse";
+"atarasiijyouhouhozonn" = "Gem nye oplysninger";
+"gennzainonamae" = "Nuværende navn";
+"gennzainome-ruadoresu" = "din nuværende email adresse";
+"gennzainoseibetu" = "Nuværende køn";
+"gennzainotannjyoubi" = "Nuværende fødselsdag";
+"atarasiinamae" = "Nyt navn";
+"atarasiime-ruadoresu" = "Ny postadresse";
+"atarasiiseibetu" = "Nyt køn";
+"atarasiitannjyoubi" = "Ny fødselsdag";
+"hozonnpasuwa-do" = "Indtast adgangskoden for at gemme";
+"kyannseru" = "Afbestille";
+"akaunntokannri" = "Kontostyring";
+
+"era-" = "Der opstod en fejl";
+
+"toukousakujyo" = "Vil du slette indlægget?";
+
+"akaunntosakujyo" = "Sletning af konto";
+"sakujyo" = "Slet";
+"akaunntowosakujyotyuu" = "Sletter konto ...";
+"akaunntogasakujyosaremasita" = "Kontoen er blevet slettet";
+"akaunntosakujyosetumei" = "Hvis du sletter din konto, kan du ikke logge ind igen.";
+"sakujyopasuwa-do" = "Indtast din adgangskode for at slette";
+"arigatou" = "Mange tak";
+"tanosimi" = "Jeg ser frem til at se dig igen";
+
+"puraibasi-akusesujyoukyou" = "Adgang til privatlivsoplysninger";
+
+"gennzainopasuwa-do" = "Nuværende kodeord";
+"atarasiipasuwa-do" = "Nyt kodeord";
+"atarasiipasuwa-domouitidonyuuryoku" = "Ny adgangskode igen";
+"gennzainopasuwa-dogamatigatteimasu" = "Opret en ny adgangskode, du ikke tidligere har brugt.";
+"pasuwa-dogaittisimasenn" = "Adgangskoderne stemmer ikke overens.";
+
+"syasinnwohozonn" = "Gem fotos";
+"syasinnwohozonnsetumei" = "Gem automatisk de fotos, du tager på din kamerarulle.";
+
+"riyoukiyaku" = "Servicevilkår";
+"puraibasi-porisi-" = "Fortrolighedspolitik";
+"komyunitexigaidorainn" = "Fællesskabets retningslinjer";
+"o-punnso-suraiburari" = "Open Source biblioteker";
+
+"suubyoumae" = "Lige nu";
+"funnmae" = "%@ minut siden";
+"fukusuufunnmae" = "%@ minutter siden";
+"jikannmae" = "%@ time siden";
+"fukusuujikannmae" = "%@ timer siden";
+"nitimae" = "%@ dag siden";
+"fukusuunitimae" = "%@ dage siden";

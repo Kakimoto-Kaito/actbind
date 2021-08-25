@@ -1,0 +1,247 @@
+//スウェーデン語
+
+"language" = "Swedish";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "Uppdatera till den nya versionen";
+"appude-to" = "Uppdatering";
+
+"roguinn" = "Logga in";
+"me-ruadoresugatadasikuarimasenn" = "Fel E-mail-adress";
+"akaunntogaarimasenn" = "E-postadressen du angav verkar inte tillhöra ett konto. Kontrollera din e-postadress och försök igen.";
+"pasuwa-dogamatigatteimasu" = "Felaktigt lösenord för %@";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "Lösenordet du angav är felaktigt. Var god försök igen.";
+"mouitidojikkou" = "Försök igen";
+"atarasiiakaunntowosakusei" = "Skapa nytt konto";
+
+"namaewonyuuryoku" = "Vad heter du?";
+"namae1" = "Förnamn";
+"namae2" = "Efternamn";
+"namaesetumei" = "Att använda ditt riktiga namn gör det lättare för dina vänner att känna igen dig.";
+"tugihe" = "Nästa";
+"akaunntowoomotinokata" = "Har du redan ett konto?";
+
+"me-ruadoresuwonyuuryoku" = "Vad är din epostadress?";
+"me-ruadoresu" = "E-postadress";
+"me-ruadoresusetumei" = "Använd den här e-postadressen när du loggar in.";
+"me-ruadoresuera-" = "Ange en giltig e-postadress.";
+"siyoudekinaime-ruadoresu" = "Den här e-postadressen kan inte användas";
+
+"ninnsyouko-dowonyuuryoku" = "Ange bekräftelsekod";
+"ninnsyouko-do" = "Bekräftelsekod";
+"ninnsyouko-dosetumei" = "Ange bekräftelsekoden som vi skickade till %@";
+"ninnsyouko-dorikuesuto" = "Återsänd koden";
+"ninnsyouko-doera-" = "Den här koden är ogiltig. Vänligen begär en ny kod.";
+
+"pasuwa-dowonyuuryoku" = "Skapa ett lösenord";
+"pasuwa-do" = "Lösenord";
+"pasuwa-dosetumei" = "Ange en kombination av åtta eller fler bokstäver och siffror eller symboler (som! Och &).";
+"pasuwa-doera-" = "Ange rätt lösenord.";
+
+"seibetuwosenntaku" = "Vad är ditt kön?";
+"dannsei" = "Manlig";
+"jyosei" = "Kvinna";
+"sonota" = "Övrig";
+
+"tannjyoubiwosenntaku" = "När fyller du år?";
+"tannjyoubi" = "Födelsedag";
+"tannjyoubisetumei" = "Att ge din födelsedag hjälper dig att se till att du får rätt Actbind-upplevelse för din ålder.";
+"sai" = " år gammal";
+"jissainotannjyoubi" = "Ange din faktiska födelsedag";
+"akaunntowosakuseidekimasenndesita" = "Det gick inte att skapa ett konto";
+"OK" = "OK";
+
+"yu-za-ne-muwonyuuryoku" = "Skapa ett användarnamn";
+"yu-za-ne-mu" = "Användarnamn";
+"yu-za-ne-musetumei" = "Använd en kombination av 5 till 30 bokstäver i alfabetet, siffror och understrykningar (_) för att skapa ett originalt användarnamn som dina vänner kan identifiera med dig.";
+"yu-za-ne-muera-" = "Ange rätt användarnamn.";
+"suujidakeera-" = "Du kan inte använda ett användarnamn med endast siffror.";
+"annda-ba-dakeera-" = "Du kan inte använda ett enda användarnamn under baren.";
+"siyoudekinaiyu-za-ne-mu" = "Det här användarnamnet kan inte användas";
+
+"tourokukannryou" = "Avsluta registreringen";
+"doui" = "Genom att trycka på Registrera dig godkänner du våra användarvillkor och sekretesspolicy.";
+"riyoukiyakupuraibasi-porisi-" = "Användarvillkor sekretesspolicy";
+"touroku" = "Bli Medlem";
+
+"akaunntowosakiseisiteimasu" = "Skapar ditt konto ...";
+"actbindheyoukoso" = "Välkommen till Actbind!";
+"hajimeru" = "Start";
+"akaunntowosakuseidekimasenndesita" = "Det gick inte att skapa ditt konto";
+"modoru" = "Lämna tillbaka";
+
+
+
+
+
+"houkoku" = "Rapportera";
+"monndaiwohoukoku" = "Rapportera ett problem";
+"fi-dobakku" = "Allmän feedback";
+"sousinn" = "Skicka";
+
+"youkoso" = "Välkommen till Actbind";
+
+"kensaku" = "Sök";
+"kara-tagukensaku" = "Färgtaggsökning";
+"akaunntokensaku" = "Kontosökning";
+
+"houkokusetumei1" = "Om någon är i omedelbar fara, ring den lokala räddningstjänsten - vänta inte.";
+"houkokusetumei2" = "Förklara kort vad som hände. Hur återskapar du problemet?";
+"houkokusetumei3" = "Klicka för att betygsätta";
+"houkokusetumei4" = "Förklara kort vad du älskar eller vad som kan förbättras.";
+
+"akaunntohoukokutaitoru" = "Varför rapporterar du detta konto?";
+"akaunntohoukokutaipu1" = "Låtsas för någon";
+"akaunntohoukokutaipu2" = "Falskt konto";
+"akaunntohoukokutaipu3" = "Falskt namn";
+"akaunntohoukokutaipu4" = "Publicerar olämpligt innehåll";
+"akaunntohoukokutaipu5" = "Mobbning eller trakasserier";
+"akaunntohoukokutaipu6" = "Jag vill hjälpa den här personen";
+
+"toukouhoukokutaitoru" = "Varför rapporterar du det här inlägget?";
+"toukouhoukokutaipu1" = "Det är spam";
+"toukouhoukokutaipu2" = "Nakenhet eller sexuell aktivitet";
+"toukouhoukokutaipu3" = "Hat tal eller symboler";
+"toukouhoukokutaipu4" = "Våld eller farliga organisationer";
+"toukouhoukokutaipu5" = "Försäljning av olagliga eller reglerade varor";
+"toukouhoukokutaipu6" = "Mobbning eller trakasserier";
+"toukouhoukokutaipu7" = "Immateriell äganderätt";
+"toukouhoukokutaipu8" = "Självmord eller självskada";
+"toukouhoukokutaipu9" = "Lurendrejeri";
+"toukouhoukokutaipu10" = "Falsk information";
+"toukouhoukokutaipu11" = "Terrorism";
+
+"houkokuara-totaitoru" = "Tack för din rapport";
+"houkokuara-tomesse-ji1" = "Vi kommer att använda informationen du tillhandahåller för att göra Actbind till en säkrare gemenskap.";
+"houkokuara-tomesse-ji2" = "Vi kommer att använda din feedback för att förbättra Actbind-tjänsten.";
+"tojiru" = "Stänga";
+
+"actbinddesyea" = "Aktie på Actbind";
+"actbinddesyeasetumei" = "Genom att tillåta åtkomst kommer du att kunna dela.";
+"cameraakusesu" = "Tillåt åtkomst till kameran";
+"cameraro-ruakusesu" = "Tillåt åtkomst till kamerarullen";
+
+"kyannseru" = "Annullera";
+"syasinn" = "Foto";
+"kara-taguwosenntaku" = "Välj färgmärke";
+"toukouwosakusei" = "Skapa inlägg";
+"syeasiyou" = "Låt oss dela";
+"kyapusyonnwonyuuryoku" = "Skriv en bildtext ...";
+"jikann" = "Tid";
+"syea" = "Dela med sig";
+"toukoutyuu" = "Publicerar ...";
+"toukousimasita" = "Postad";
+
+"purofi-ru" = "Profil";
+"toukougaarimasenn" = "Inga inlägg";
+"purofi-ruwohennsyuu" = "Redigera profil";
+"hennsyuu" = "Redigera";
+"hozonn" = "Spara";
+"purofi-rusyasinn" = "Profilbild";
+"purofi-rusyasinnhennkou" = "Ändra profilfoto";
+"syasinnwotoru" = "Ta ett foto";
+"gennzainosyasinnwosakujyo" = "Ta bort nuvarande Foto";
+"gennzainosyasinnwosakujyosimasuka" = "Vill du ta bort det aktuella fotot?";
+"hennkounaiyousetteityuu" = "Ställa in ändringar ...";
+"hennkounaiyouhozonn" = "Dina ändringar har sparats";
+"jikosyoukai" = "Bio";
+"jikosyoukaiwohennsyuu" = "Redigera Bio";
+"jikosyoukaiwonyuuryoku" = "Ange bio ...";
+"foro-" = "Följ";
+"foro-tyuu" = "Följande";
+"forowa-" = "Följare";
+"tomodati" = "Vän";
+
+"menyu-" = "Meny";
+"ohayou" = "God morgon";
+"konnnitiha" = "God eftermiddag";
+"konnbannha" = "God kväll";
+"inotiwomamoru" = "Skydda ditt liv";
+"akuthibithi" = "Din aktivitet";
+"riyoujikann" = "Tid på Actbind";
+"itinitinoheikinn" = "Dagligt genomsnitt";
+"jikann" = "h";
+"funn" = "m";
+"kyou" = "I dag";
+"dekore-syonn" = "Dekorera";
+"orijinaru" = "Original";
+"red" = "Röd";
+"orange" = "Orange";
+"yellow" = "Gul";
+"green" = "Grön";
+"blue" = "Blå";
+"purple" = "Lila";
+"sapo-to" = "Stöd";
+"supportcentercontent" = "Support med ett stort antal ärenden kommer att sammanfattas i supportcentret.";
+"supportcenter" = "Supportcenter";
+"supportmethod" = "Supportmetod";
+"kotirakara" = "Härifrån";
+"me-ru" = "E-post";
+"me-ruactbindsapo-to" = "Du kan prata med Actbind -support via e -post.";
+"roguauto" = "Logga ut";
+"roguautosimasuka" = "Logga ut från @%@?";
+"ba-jyonn" = "Version";
+
+"settei" = "inställningar";
+"akaunnto" = "konto";
+"puraibasi-" = "Integritet";
+"sekyuritexi" = "säkerhet";
+"apurinogenngo" = "Appens språk";
+"actbindnituite" = "Om Actbind";
+
+"kojinnnojyouhou" = "Personlig information";
+"namae" = "namn";
+"rennrakusakijyouhou" = "Kontaktinformation";
+"seibetu" = "Kön";
+"tannjyoubiwohennkoudekinai" = "Det gick inte att ändra födelsedag";
+"kakuninn" = "Bekräftelse";
+"atarasiijyouhouhozonn" = "Spara ny information";
+"gennzainonamae" = "Nuvarande namn";
+"gennzainome-ruadoresu" = "Nuvarande email adress";
+"gennzainoseibetu" = "Nuvarande kön";
+"gennzainotannjyoubi" = "Nuvarande födelsedag";
+"atarasiinamae" = "Nytt namn";
+"atarasiime-ruadoresu" = "Ny e-postadress";
+"atarasiiseibetu" = "Nytt kön";
+"atarasiitannjyoubi" = "Ny födelsedag";
+"hozonnpasuwa-do" = "Ange lösenordet för att spara";
+"kyannseru" = "Annullera";
+"akaunntokannri" = "Kontohantering";
+
+"era-" = "Ett fel har uppstått";
+
+"toukousakujyo" = "Vill du radera inlägget?";
+
+"akaunntosakujyo" = "Radering av konto";
+"sakujyo" = "Radera";
+"akaunntowosakujyotyuu" = "Tar bort konto ...";
+"akaunntogasakujyosaremasita" = "Kontot har tagits bort";
+"akaunntosakujyosetumei" = "Om du tar bort ditt konto kommer du inte att kunna logga in igen.";
+"sakujyopasuwa-do" = "Ange ditt lösenord för att radera";
+"arigatou" = "Tack så mycket";
+"tanosimi" = "jag ser fram emot att träffa dig igen";
+
+"puraibasi-akusesujyoukyou" = "Tillgång till sekretessinformation";
+
+"gennzainopasuwa-do" = "Nuvarande lösenord";
+"atarasiipasuwa-do" = "Nytt lösenord";
+"atarasiipasuwa-domouitidonyuuryoku" = "Nytt Lösenord Igen";
+"gennzainopasuwa-dogamatigatteimasu" = "Skapa ett nytt lösenord som du inte har använt tidigare.";
+"pasuwa-dogaittisimasenn" = "Lösenorden matchar inte.";
+
+"syasinnwohozonn" = "Spara foton";
+"syasinnwohozonnsetumei" = "Spara automatiskt de foton du tar till din kamerarulle.";
+
+"riyoukiyaku" = "Användarvillkor";
+"puraibasi-porisi-" = "Integritetspolicy";
+"komyunitexigaidorainn" = "Gemenskapsriktlinjer";
+"o-punnso-suraiburari" = "Open Source Libraries";
+
+"suubyoumae" = "Precis nu";
+"funnmae" = "%@ minut sedan";
+"fukusuufunnmae" = "%@ minuter sedan";
+"jikannmae" = "%@ timme sedan";
+"fukusuujikannmae" = "%@ timmar sedan";
+"nitimae" = "%@ dag sedan";
+"fukusuunitimae" = "%@ dagar sedan";

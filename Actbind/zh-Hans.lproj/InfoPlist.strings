@@ -1,0 +1,7 @@
+//中国語（簡体字）
+
+NSCameraUsageDescription = "这将允许您拍照。";
+NSLocationWhenInUseUsageDescription = "这将使您能够使用Actbind的某些功能，个性化您的内容，搜索位置等等。";
+NSMicrophoneUsageDescription = "这使您可以利用视频录制和语音搜索等功能。";
+NSPhotoLibraryUsageDescription = "这使您可以共享相机胶卷的内容，并利用与照片和视频相关的其他功能。";
+NSFaceIDUsageDescription = "允许Actbind使用Face ID解锁您的应用。";

@@ -1,0 +1,7 @@
+//日本語
+
+NSCameraUsageDescription = "これにより、写真を撮影できるようになります。";
+NSLocationWhenInUseUsageDescription = "これにより、Actbindの一部の機能の使用やコンテンツのパーソナライズ、場所などの検索ができるようになります。";
+NSMicrophoneUsageDescription = "これにより、動画の撮影や音声での検索などの機能を利用できるようになります。";
+NSPhotoLibraryUsageDescription = "これにより、カメラロールのコンテンツをシェアしたり、写真や動画に関する他の機能を利用できるようになります。";
+NSFaceIDUsageDescription = "Actbindがアプリのロック解除にFace IDを使用することを許可します。";

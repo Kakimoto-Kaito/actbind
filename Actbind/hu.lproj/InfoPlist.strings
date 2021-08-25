@@ -1,0 +1,7 @@
+//ハンガリー語
+
+NSCameraUsageDescription = "Ez lehetővé teszi, hogy képet készítsen.";
+NSLocationWhenInUseUsageDescription = "Ez lehetővé teszi, hogy kihasználja az olyan funkciók előnyeit, mint a videofelvétel és a hangalapú keresés.";
+NSMicrophoneUsageDescription = "Ez lehetővé teszi, hogy megossza a fényképezőgép tekercsének tartalmát, és kihasználja a fényképeivel és videóival kapcsolatos egyéb funkciókat.";
+NSPhotoLibraryUsageDescription = "Ez lehetővé teszi az Actbind egyes funkcióinak használatát, a tartalom személyre szabását, helyek keresését és egyebeket.";
+NSFaceIDUsageDescription = "Engedje meg, hogy az Actbind használhassa az Arcazonosítót az alkalmazás feloldásához.";

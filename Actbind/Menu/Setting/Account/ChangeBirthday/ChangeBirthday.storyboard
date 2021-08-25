@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VPz-ik-1Ib">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ChangeBirthdayViewController-->
+        <scene sceneID="fbt-vy-1QD">
+            <objects>
+                <viewController title="ChangeBirthdayViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="VPz-ik-1Ib" customClass="ChangeBirthdayViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="miu-6x-Fxy" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="誕生日" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a5R-Vr-SMe" userLabel="Birthday TextField">
+                                <rect key="frame" x="20" y="94" width="350" height="48"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <color key="tintColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="GLl-KC-eru"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8NS-VY-tXe">
+                                <rect key="frame" x="20" y="192" width="350" height="48"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Q5I-7a-3ek"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="確認">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="confirmationButtonTouchDown:" destination="VPz-ik-1Ib" eventType="touchDown" id="dk3-YY-w0o"/>
+                                    <action selector="confirmationButtonTouchDragOutside:" destination="VPz-ik-1Ib" eventType="touchDragOutside" id="Zfm-d7-RuK"/>
+                                    <action selector="confirmationButtonTouchUpInside:" destination="VPz-ik-1Ib" eventType="touchUpInside" id="OCR-2g-DGa"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="5ht-lL-d07">
+                                <rect key="frame" x="0.0" y="594" width="390" height="216"/>
+                                <connections>
+                                    <action selector="birthdayPickerValueChanged:" destination="VPz-ik-1Ib" eventType="valueChanged" id="sHs-Yb-lQI"/>
+                                </connections>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kDR-qe-1K3"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="5ht-lL-d07" firstAttribute="trailing" secondItem="kDR-qe-1K3" secondAttribute="trailing" id="5p9-Ko-Dqf"/>
+                            <constraint firstAttribute="trailing" secondItem="8NS-VY-tXe" secondAttribute="trailing" constant="20" id="DHv-1m-Qcd"/>
+                            <constraint firstItem="5ht-lL-d07" firstAttribute="leading" secondItem="kDR-qe-1K3" secondAttribute="leading" id="Oii-gC-j9V"/>
+                            <constraint firstAttribute="trailing" secondItem="a5R-Vr-SMe" secondAttribute="trailing" constant="20" id="auf-8X-9Ho"/>
+                            <constraint firstItem="a5R-Vr-SMe" firstAttribute="top" secondItem="kDR-qe-1K3" secondAttribute="top" constant="50" id="b2r-Vg-FNE"/>
+                            <constraint firstItem="a5R-Vr-SMe" firstAttribute="leading" secondItem="kDR-qe-1K3" secondAttribute="leading" constant="20" id="d1L-p7-u3c"/>
+                            <constraint firstItem="8NS-VY-tXe" firstAttribute="leading" secondItem="kDR-qe-1K3" secondAttribute="leading" constant="20" id="iJx-ox-meb"/>
+                            <constraint firstItem="5ht-lL-d07" firstAttribute="bottom" secondItem="kDR-qe-1K3" secondAttribute="bottom" id="ka8-aA-irv"/>
+                            <constraint firstItem="8NS-VY-tXe" firstAttribute="top" secondItem="a5R-Vr-SMe" secondAttribute="bottom" constant="50" id="rwr-C2-Cth"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="誕生日" id="Gpp-qQ-kVa" userLabel="NavigationBar Title">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Vg9-id-EQj"/>
+                        <barButtonItem key="leftBarButtonItem" id="GG8-du-z8e">
+                            <imageReference key="image" image="back" symbolScale="large"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backButton:" destination="VPz-ik-1Ib" id="Gcb-XX-YHR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="backButton" destination="GG8-du-z8e" id="Z7K-59-ugr"/>
+                        <outlet property="birthdayPicker" destination="5ht-lL-d07" id="i4i-jx-pEO"/>
+                        <outlet property="birthdayTextField" destination="a5R-Vr-SMe" id="jUL-0O-bnT"/>
+                        <outlet property="confirmationButton" destination="8NS-VY-tXe" id="n4d-Gy-WBL"/>
+                        <outlet property="confirmationButtonLeft" destination="iJx-ox-meb" id="b2n-4B-Bwl"/>
+                        <outlet property="confirmationButtonRight" destination="DHv-1m-Qcd" id="5Fn-A4-UKJ"/>
+                        <outlet property="navigationBarTitle" destination="Gpp-qQ-kVa" id="4Kl-sT-AMe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYD-nj-tv9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5680" y="5154"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextField">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

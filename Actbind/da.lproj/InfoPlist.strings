@@ -1,0 +1,7 @@
+//デンマーク語
+
+NSCameraUsageDescription = "Dette giver dig mulighed for at tage et billede.";
+NSLocationWhenInUseUsageDescription = "Dette giver dig mulighed for at drage fordel af funktioner såsom videooptagelse og stemmesøgning.";
+NSMicrophoneUsageDescription = "Dette giver dig mulighed for at dele indholdet af din kamerarulle og drage fordel af andre funktioner relateret til dine fotos og videoer.";
+NSPhotoLibraryUsageDescription = "Dette giver dig mulighed for at bruge nogle af Actbinds funktioner, personliggøre dit indhold, søge efter placeringer og mere.";
+NSFaceIDUsageDescription = "Tillad, at Actbind bruger Face ID til at låse din app op.";

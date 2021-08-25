@@ -1,0 +1,62 @@
+//
+//  UpdateViewController.swift
+//  Actbind
+//
+//  Created by 柿本　海斗 on 2020/12/17.
+//
+
+import UIKit
+
+final class UpdateViewController: UIViewController {
+    let userDefaults = UserDefaults(suiteName: "group.com.actbind")
+
+    @IBOutlet weak var updateLabel: UILabel!
+    @IBOutlet weak var updateButton: UIButton!
+    @IBOutlet weak var updateButtonRight: NSLayoutConstraint!
+    @IBOutlet weak var updateButtonLeft: NSLayoutConstraint!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        updateLabel.text = "atarasiiba-jyonnni".localized()
+
+        if let userDefaults = userDefaults {
+            let myColor = userDefaults.string(forKey: "mycolor")
+
+            if myColor == "Original" {
+                updateButton.backgroundColor = UIColor(named: "Blue")
+            } else {
+                updateButton.backgroundColor = UIColor(named: myColor!)
+            }
+        }
+
+        updateButton.setTitle("appude-to".localized(), for: .normal)
+    }
+
+    @IBAction func updateButtonTouchDown(_ sender: Any) {
+        UIButton().uiButtonTapOn(item: updateButton, itemRight: updateButtonRight, itemLeft: updateButtonLeft)
+    }
+
+    @IBAction func updateButtonTouchDragOutside(_ sender: Any) {
+        UIButton().uiButtonTapOff(item: updateButton, itemRight: updateButtonRight, itemLeft: updateButtonLeft)
+    }
+
+    @IBAction func updateButtonTouchUpInside(_ sender: Any) {
+        UISelectionFeedbackGenerator().selectionChanged()
+        
+        UIButton().uiButtonTapOff(item: updateButton, itemRight: updateButtonRight, itemLeft: updateButtonLeft)
+
+        // TestFlightアプリのURL
+        let url = URL(string: "https://itunes.apple.com/jp/app/apple-store/id899247664?mt=8")!
+
+        // URLを開けるかをチェックする
+        if UIApplication.shared.canOpenURL(url) {
+            // URLを開く
+            UIApplication.shared.open(url, options: [:]) { success in
+                if success {
+                    print("Launching \(url) was successful")
+                }
+            }
+        }
+    }
+}

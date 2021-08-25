@@ -1,0 +1,7 @@
+//ヘブライ語
+
+NSCameraUsageDescription = "זה יאפשר לך לצלם.";
+NSLocationWhenInUseUsageDescription = "זה יאפשר לך להשתמש בכמה מהתכונות של Actbind, להתאים אישית את התוכן שלך, לחפש מיקומים ועוד.";
+NSMicrophoneUsageDescription = "זה מאפשר לך לנצל תכונות כגון הקלטת וידאו וחיפוש קולי.";
+NSPhotoLibraryUsageDescription = "זה מאפשר לך לשתף את תוכן גליל המצלמה שלך ולנצל תכונות אחרות הקשורות לתמונות ולסרטונים שלך.";
+NSFaceIDUsageDescription = "אפשר ל- Actbind להשתמש ב- Face ID כדי לבטל את נעילת האפליקציה שלך.";

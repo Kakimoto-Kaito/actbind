@@ -1,0 +1,7 @@
+//インドネシア語
+
+NSCameraUsageDescription = "Ini akan memungkinkan Anda untuk mengambil gambar.";
+NSLocationWhenInUseUsageDescription = "Ini akan memungkinkan Anda untuk menggunakan beberapa fitur Actbind, mempersonalisasi konten Anda, mencari lokasi, dan banyak lagi.";
+NSMicrophoneUsageDescription = "Ini memungkinkan Anda untuk memanfaatkan fitur-fitur seperti perekaman video dan pencarian suara.";
+NSPhotoLibraryUsageDescription = "Ini memungkinkan Anda untuk berbagi konten rol kamera Anda dan memanfaatkan fitur lain yang terkait dengan foto dan video Anda.";
+NSFaceIDUsageDescription = "Izinkan Actbind menggunakan ID Wajah untuk membuka kunci aplikasi Anda.";

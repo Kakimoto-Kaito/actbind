@@ -1,0 +1,247 @@
+//中国語繁体
+
+"language" = "Chinese, Tra";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "請更新到新版本";
+"appude-to" = "更新";
+
+"roguinn" = "登錄";
+"me-ruadoresugatadasikuarimasenn" = "不正確的電子郵箱地址";
+"akaunntogaarimasenn" = "您輸入的電子郵件地址似乎不屬於某個帳戶。請檢查您的電子郵件地址，然後重試。";
+"pasuwa-dogamatigatteimasu" = "％@的密碼錯誤";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "您輸入密碼不正確。請再試一遍。";
+"mouitidojikkou" = "再試一次";
+"atarasiiakaunntowosakusei" = "建立新帳戶";
+
+"namaewonyuuryoku" = "你叫什麼名字？";
+"namae1" = "姓";
+"namae2" = "名字";
+"namaesetumei" = "使用真實姓名可以使您的朋友更容易識別您。";
+"tugihe" = "下一個";
+"akaunntowoomotinokata" = "已經有帳號了？";
+
+"me-ruadoresuwonyuuryoku" = "你的電子郵件地址是什麼？";
+"me-ruadoresu" = "電子郵件地址";
+"me-ruadoresusetumei" = "登錄時使用此電子郵件地址。";
+"me-ruadoresuera-" = "請輸入有效的電子郵件地址。";
+"siyoudekinaime-ruadoresu" = "無法使用此電子郵件地址";
+
+"ninnsyouko-dowonyuuryoku" = "輸入確認碼";
+"ninnsyouko-do" = "驗證碼";
+"ninnsyouko-dosetumei" = "輸入我們發送給%@的確認碼";
+"ninnsyouko-dorikuesuto" = "重新發送驗證碼";
+"ninnsyouko-doera-" = "該代碼無效。請索取新密碼.";
+
+"pasuwa-dowonyuuryoku" = "創建密碼";
+"pasuwa-do" = "密碼";
+"pasuwa-dosetumei" = "輸入8個或更多字母和數字或符號（如！和＆）的組合。";
+"pasuwa-doera-" = "請輸入正確的密碼。";
+
+"seibetuwosenntaku" = "什麼是你的性別？";
+"dannsei" = "男";
+"jyosei" = "女";
+"sonota" = "其他";
+
+"tannjyoubiwosenntaku" = "你的生日是什麼時候？";
+"tannjyoubi" = "生日";
+"tannjyoubisetumei" = "提供您的生日有助於確保您獲得適合您年齡的正確Actbind體驗。";
+"sai" = "歲";
+"jissainotannjyoubi" = "請輸入您的實際生日";
+"akaunntowosakuseidekimasenndesita" = "無法建立帳戶";
+"OK" = "行";
+
+"yu-za-ne-muwonyuuryoku" = "創建一個用戶名";
+"yu-za-ne-mu" = "用戶名";
+"yu-za-ne-musetumei" = "使用5到30個字母，數字和下劃線（_）的組合來創建您的朋友可以識別的原始用戶名。";
+"yu-za-ne-muera-" = "請輸入正確的用戶名。";
+"suujidakeera-" = "您不能僅使用數字使用用戶名。";
+"annda-ba-dakeera-" = "您不能僅使用下劃線用戶名。";
+"siyoudekinaiyu-za-ne-mu" = "此用戶名無法使用";
+
+"tourokukannryou" = "完成註冊";
+"doui" = "點擊註冊，即表示您同意我們的服務條款和隱私政策。";
+"riyoukiyakupuraibasi-porisi-" = "服務條款/隱私政策";
+"touroku" = "報名";
+
+"akaunntowosakiseisiteimasu" = "創建您的帳戶...";
+"actbindheyoukoso" = "歡迎使用Actbind！";
+"hajimeru" = "開始";
+"akaunntowosakuseidekimasenndesita" = "無法創建您的帳戶";
+"modoru" = "返回";
+
+
+
+
+
+"houkoku" = "報告";
+"monndaiwohoukoku" = "報告一個問題";
+"fi-dobakku" = "一般反饋";
+"sousinn" = "發送";
+
+"youkoso" = "歡迎來到 Actbind";
+
+"kensaku" = "搜索";
+"kara-tagukensaku" = "色標搜索";
+"akaunntokensaku" = "帳號搜索";
+
+"houkokusetumei1" = "如果有人處於緊急危險之中，請致電當地的緊急服務部門——不要等待。";
+"houkokusetumei2" = "簡要說明發生了什麼。你如何重現這個問題？";
+"houkokusetumei3" = "請點按評分";
+"houkokusetumei4" = "簡要說明你喜歡什麼，或者什麼可以改進。";
+
+"akaunntohoukokutaitoru" = "為什麼要舉報此帳號？";
+"akaunntohoukokutaipu1" = "冒充某人";
+"akaunntohoukokutaipu2" = "假賬號";
+"akaunntohoukokutaipu3" = "假名";
+"akaunntohoukokutaipu4" = "發布不當內容";
+"akaunntohoukokutaipu5" = "欺凌或騷擾";
+"akaunntohoukokutaipu6" = "我想幫助這個人";
+
+"toukouhoukokutaitoru" = "你為什麼要舉報該帖子？";
+"toukouhoukokutaipu1" = "這是垃圾郵件";
+"toukouhoukokutaipu2" = "裸體或性活動";
+"toukouhoukokutaipu3" = "仇恨言論或符號";
+"toukouhoukokutaipu4" = "暴力或危險組織";
+"toukouhoukokutaipu5" = "銷售非法或受管製商品";
+"toukouhoukokutaipu6" = "欺凌或騷擾";
+"toukouhoukokutaipu7" = "侵犯知識產權";
+"toukouhoukokutaipu8" = "自殺或自傷";
+"toukouhoukokutaipu9" = "騙局";
+"toukouhoukokutaipu10" = "虛假信息";
+"toukouhoukokutaipu11" = "恐怖主義";
+
+"houkokuara-totaitoru" = "感謝您的報告";
+"houkokuara-tomesse-ji1" = "我們將使用您提供的信息使 Actbind 成為一個更安全的社區。";
+"houkokuara-tomesse-ji2" = "我們將使用您的反饋來改進 Actbind 服務。";
+"tojiru" = "關閉";
+
+"actbinddesyea" = "在 Actbind 上分享";
+"actbinddesyeasetumei" = "通過允許訪問，您將能夠共享。";
+"cameraakusesu" = "允許訪問相機";
+"cameraro-ruakusesu" = "允許訪問相機膠卷";
+
+"kyannseru" = "取消";
+"syasinn" = "照片";
+"kara-taguwosenntaku" = "選擇顏色標籤";
+"toukouwosakusei" = "建立訊息";
+"syeasiyou" = "讓我們分享";
+"kyapusyonnwonyuuryoku" = "寫一個標題...";
+"jikann" = "時間";
+"syea" = "分享";
+"toukoutyuu" = "發布...";
+"toukousimasita" = "已發布";
+
+"purofi-ru" = "個人資料";
+"toukougaarimasenn" = "沒有帖子";
+"purofi-ruwohennsyuu" = "編輯個人資料";
+"hennsyuu" = "編輯";
+"hozonn" = "保存";
+"purofi-rusyasinn" = "頭像照片";
+"purofi-rusyasinnhennkou" = "更改個人資料照片";
+"syasinnwotoru" = "拍照";
+"gennzainosyasinnwosakujyo" = "刪除當前照片";
+"gennzainosyasinnwosakujyosimasuka" = "您要刪除當前照片嗎？";
+"hennkounaiyousetteityuu" = "設定變更...";
+"hennkounaiyouhozonn" = "你的修改已被保存";
+"jikosyoukai" = "生化";
+"jikosyoukaiwohennsyuu" = "編輯簡歷";
+"jikosyoukaiwonyuuryoku" = "輸入生物...";
+"foro-" = "跟隨";
+"foro-tyuu" = "以下";
+"forowa-" = "追隨者";
+"tomodati" = "朋友";
+
+"menyu-" = "菜單";
+"ohayou" = "早安";
+"konnnitiha" = "下午好";
+"konnbannha" = "晚上好";
+"inotiwomamoru" = "保護生命";
+"akuthibithi" = "您的活動";
+"riyoujikann" = "行動時間";
+"itinitinoheikinn" = "日均";
+"jikann" = "時間";
+"funn" = "分";
+"kyou" = "今天";
+"dekore-syonn" = "裝飾";
+"orijinaru" = "原版的";
+"red" = "紅";
+"orange" = "橙子";
+"yellow" = "黃色";
+"green" = "綠色";
+"blue" = "藍色";
+"purple" = "紫色";
+"sapo-to" = "支持";
+"supportcentercontent" = "支持中心會匯總大量案例的支持。";
+"supportcenter" = "支持中心";
+"supportmethod" = "支持方式";
+"kotirakara" = "從這裡";
+"me-ru" = "電子郵件";
+"me-ruactbindsapo-to" = "您可以通過電子郵件與 Actbind 支持人員聯繫。";
+"roguauto" = "登出";
+"roguautosimasuka" = "註銷@％@？";
+"ba-jyonn" = "版本";
+
+"settei" = "設定值";
+"akaunnto" = "帳戶";
+"puraibasi-" = "隱私";
+"sekyuritexi" = "安全";
+"apurinogenngo" = "應用程式語言";
+"actbindnituite" = "關於Actbind";
+
+"kojinnnojyouhou" = "個人信息";
+"namae" = "名稱";
+"rennrakusakijyouhou" = "聯絡資料";
+"seibetu" = "性別";
+"tannjyoubiwohennkoudekinai" = "無法更改生日";
+"kakuninn" = "確認書";
+"atarasiijyouhouhozonn" = "保存新信息";
+"gennzainonamae" = "現名";
+"gennzainome-ruadoresu" = "當前的電子郵件地址";
+"gennzainoseibetu" = "目前的性別";
+"gennzainotannjyoubi" = "當前生日";
+"atarasiinamae" = "新名字";
+"atarasiime-ruadoresu" = "新郵件地址";
+"atarasiiseibetu" = "新性別";
+"atarasiitannjyoubi" = "新生日";
+"hozonnpasuwa-do" = "請輸入密碼進行保存";
+"kyannseru" = "取消";
+"akaunntokannri" = "帳戶管理";
+
+"era-" = "發生了錯誤";
+
+"toukousakujyo" = "您要刪除帖子嗎？";
+
+"akaunntosakujyo" = "帳號刪除";
+"sakujyo" = "刪除";
+"akaunntowosakujyotyuu" = "刪除帳戶...";
+"akaunntogasakujyosaremasita" = "帳戶已被刪除";
+"akaunntosakujyosetumei" = "如果您刪除帳戶，將無法再次登錄。";
+"sakujyopasuwa-do" = "請輸入密碼刪除";
+"arigatou" = "非常感謝你";
+"tanosimi" = "我期待再次見到你";
+
+"puraibasi-akusesujyoukyou" = "訪問隱私信息";
+
+"gennzainopasuwa-do" = "當前密碼";
+"atarasiipasuwa-do" = "新密碼";
+"atarasiipasuwa-domouitidonyuuryoku" = "確認新密碼";
+"gennzainopasuwa-dogamatigatteimasu" = "創建一個以前從未使用過的新密碼。";
+"pasuwa-dogaittisimasenn" = "密碼不匹配。";
+
+"syasinnwohozonn" = "保存照片";
+"syasinnwohozonnsetumei" = "自動將您拍攝的照片保存到相機膠卷中。";
+
+"riyoukiyaku" = "服務條款";
+"puraibasi-porisi-" = "隱私政策";
+"komyunitexigaidorainn" = "社區準則";
+"o-punnso-suraiburari" = "開源庫";
+
+"suubyoumae" = "現在";
+"funnmae" = "%@分鐘前";
+"fukusuufunnmae" = "%@分鐘前";
+"jikannmae" = "%@小時前";
+"fukusuujikannmae" = "%@小時前";
+"nitimae" = "%@天前";
+"fukusuunitimae" = "%@天前";

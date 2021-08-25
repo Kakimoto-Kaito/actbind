@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rJ9-Hg-qOQ">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CameraAndCamerarollAuthorizationViewController-->
+        <scene sceneID="YFV-XC-ePr">
+            <objects>
+                <viewController title="CameraAndCamerarollAuthorizationViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="ChN-Se-vTa" customClass="CameraAndCamerarollAuthorizationViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X31-kQ-i5L" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HwT-zy-oKg" userLabel="AuthorizationBackground View">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ib-Sj-0zK">
+                                        <rect key="frame" x="0.0" y="272" width="390" height="212.33333333333337"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actbindでシェア" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeQ-5H-lvC" userLabel="CameraAuthorizationTitle Label">
+                                                <rect key="frame" x="20" y="0.0" width="350" height="24"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" name="BlackWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アクセスを許可することで、シェアできるようになります。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJG-t2-UMf" userLabel="CameraAuthorizationExplanation Label">
+                                                <rect key="frame" x="20" y="32" width="350" height="38.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" name="SubText"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCo-xJ-q6l" userLabel="CameraAuthorization Button">
+                                                <rect key="frame" x="20" y="120.33333333333331" width="350" height="42"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="20"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="10" maxX="-10" maxY="-10"/>
+                                                <state key="normal" title="カメラへのアクセスを許可">
+                                                    <color key="titleColor" name="Blue"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="cameraAuthorizationButtonTouchDown:" destination="ChN-Se-vTa" eventType="touchDown" id="K1g-Gd-GN7"/>
+                                                    <action selector="cameraAuthorizationButtonTouchDragOutside:" destination="ChN-Se-vTa" eventType="touchDragOutside" id="2mo-yp-yuw"/>
+                                                    <action selector="cameraAuthorizationButtonTouchUpInside:" destination="ChN-Se-vTa" eventType="touchUpInside" id="1ly-4j-bos"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ke3-EA-JZj" userLabel="CameraAuthorization Button">
+                                                <rect key="frame" x="20" y="170.33333333333337" width="350" height="42"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="20"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="10" maxX="-10" maxY="-10"/>
+                                                <state key="normal" title="カメラロールへのアクセスを許可">
+                                                    <color key="titleColor" name="Blue"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="camerarollAuthorizationButtonTouchDown:" destination="ChN-Se-vTa" eventType="touchDown" id="5Ye-eP-Apb"/>
+                                                    <action selector="camerarollAuthorizationButtonTouchDragOutside:" destination="ChN-Se-vTa" eventType="touchDragOutside" id="NWj-EB-OSe"/>
+                                                    <action selector="camerarollAuthorizationButtonTouchUpInside:" destination="ChN-Se-vTa" eventType="touchUpInside" id="LRp-en-g2a"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="xeQ-5H-lvC" firstAttribute="leading" secondItem="1Ib-Sj-0zK" secondAttribute="leading" constant="20" id="5UQ-gG-ydZ"/>
+                                            <constraint firstItem="ke3-EA-JZj" firstAttribute="leading" secondItem="1Ib-Sj-0zK" secondAttribute="leading" constant="20" id="GdG-ry-bMW"/>
+                                            <constraint firstItem="mCo-xJ-q6l" firstAttribute="leading" secondItem="1Ib-Sj-0zK" secondAttribute="leading" constant="20" id="GlX-zy-92b"/>
+                                            <constraint firstAttribute="trailing" secondItem="xeQ-5H-lvC" secondAttribute="trailing" constant="20" id="TR1-Oc-C1e"/>
+                                            <constraint firstItem="mCo-xJ-q6l" firstAttribute="top" secondItem="HJG-t2-UMf" secondAttribute="bottom" constant="50" id="Us7-A3-bUv"/>
+                                            <constraint firstItem="xeQ-5H-lvC" firstAttribute="top" secondItem="1Ib-Sj-0zK" secondAttribute="top" id="YnM-5p-nes"/>
+                                            <constraint firstAttribute="trailing" secondItem="ke3-EA-JZj" secondAttribute="trailing" constant="20" id="aT1-hv-d8e"/>
+                                            <constraint firstItem="ke3-EA-JZj" firstAttribute="top" secondItem="mCo-xJ-q6l" secondAttribute="bottom" constant="8" id="ak0-YU-gWe"/>
+                                            <constraint firstAttribute="bottom" secondItem="ke3-EA-JZj" secondAttribute="bottom" id="elg-x4-z1H"/>
+                                            <constraint firstItem="HJG-t2-UMf" firstAttribute="leading" secondItem="1Ib-Sj-0zK" secondAttribute="leading" constant="20" id="h7W-e1-l7w"/>
+                                            <constraint firstAttribute="trailing" secondItem="HJG-t2-UMf" secondAttribute="trailing" constant="20" id="tVN-cy-oyu"/>
+                                            <constraint firstAttribute="trailing" secondItem="mCo-xJ-q6l" secondAttribute="trailing" constant="20" id="ume-CX-8by"/>
+                                            <constraint firstItem="HJG-t2-UMf" firstAttribute="top" secondItem="xeQ-5H-lvC" secondAttribute="bottom" constant="8" id="zMJ-e4-VI1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="WhiteBlack"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1Ib-Sj-0zK" secondAttribute="trailing" id="jDv-hm-Gdi"/>
+                                    <constraint firstItem="1Ib-Sj-0zK" firstAttribute="leading" secondItem="HwT-zy-oKg" secondAttribute="leading" id="svY-ti-4Ni"/>
+                                    <constraint firstItem="1Ib-Sj-0zK" firstAttribute="centerY" secondItem="HwT-zy-oKg" secondAttribute="centerY" id="t4B-es-M7H"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="G6f-An-hfg"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="HwT-zy-oKg" secondAttribute="bottom" id="4Eg-A9-XLt"/>
+                            <constraint firstItem="HwT-zy-oKg" firstAttribute="leading" secondItem="G6f-An-hfg" secondAttribute="leading" id="QQq-Xf-yQ3"/>
+                            <constraint firstItem="HwT-zy-oKg" firstAttribute="top" secondItem="G6f-An-hfg" secondAttribute="top" id="Rlj-ie-4Ky"/>
+                            <constraint firstItem="HwT-zy-oKg" firstAttribute="trailing" secondItem="G6f-An-hfg" secondAttribute="trailing" id="WN5-M5-QkY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="写真" id="Kc6-we-pCe" userLabel="NavigationBar Title">
+                        <barButtonItem key="leftBarButtonItem" image="cancel" id="K9c-BK-GdS" userLabel="Cancel Button">
+                            <connections>
+                                <action selector="cancelButton:" destination="ChN-Se-vTa" id="UhH-2K-qOM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="authorizationExplanationLabel" destination="HJG-t2-UMf" id="uEG-a6-OeS"/>
+                        <outlet property="authorizationTitleLabel" destination="xeQ-5H-lvC" id="tSl-xy-ogn"/>
+                        <outlet property="cameraAuthorizationButton" destination="mCo-xJ-q6l" id="1uQ-O9-E8L"/>
+                        <outlet property="camerarollAuthorizationButton" destination="ke3-EA-JZj" id="OfW-Ag-gOz"/>
+                        <outlet property="cancelButton" destination="K9c-BK-GdS" id="rA0-dY-Bmu"/>
+                        <outlet property="navigationBarTitle" destination="Kc6-we-pCe" id="Bre-Zs-1RL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8K-4y-mv9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="639.13043478260875" y="13.392857142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="S1v-Pg-HUU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="rJ9-Hg-qOQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="UVv-S2-19Y">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="Cell"/>
+                        <color key="barTintColor" name="Cell"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" name="BlackWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ChN-Se-vTa" kind="relationship" relationship="rootViewController" id="Mmm-t5-zIN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZOP-vy-ImG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-271.01449275362319" y="13.392857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel" width="44" height="44"/>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99599999189376831" green="1" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ixg-qq-4jm">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SignUp0kViewController-->
+        <scene sceneID="Irx-ae-hTT">
+            <objects>
+                <viewController title="SignUp0kViewController" modalPresentationStyle="fullScreen" id="Ixg-qq-4jm" customClass="SignUpOkViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iqI-hD-PV4" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actbindへようこそ！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZ6-od-oio" userLabel="SignUpOk Label">
+                                <rect key="frame" x="20" y="373" width="350" height="24"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sN7-SY-jtU" userLabel="Space View">
+                                <rect key="frame" x="0.0" y="397" width="390" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KZR-sK-pf8"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioU-6X-15J">
+                                <rect key="frame" x="20" y="447" width="350" height="48"/>
+                                <color key="backgroundColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="7jc-L2-HyS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="始める">
+                                    <color key="titleColor" name="White"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startButtonTouchDown:" destination="Ixg-qq-4jm" eventType="touchDown" id="K9W-Rx-Za7"/>
+                                    <action selector="startButtonTouchDragOutside:" destination="Ixg-qq-4jm" eventType="touchDragOutside" id="TEy-Bb-1Ix"/>
+                                    <action selector="startButtonTouchUpInside:" destination="Ixg-qq-4jm" eventType="touchUpInside" id="E3b-9p-jOi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UPc-Cz-vPX"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <constraints>
+                            <constraint firstItem="ioU-6X-15J" firstAttribute="top" secondItem="sN7-SY-jtU" secondAttribute="bottom" id="0bi-UE-HDW"/>
+                            <constraint firstItem="ioU-6X-15J" firstAttribute="leading" secondItem="iqI-hD-PV4" secondAttribute="leading" constant="20" id="FmJ-8X-J8Y"/>
+                            <constraint firstItem="sN7-SY-jtU" firstAttribute="centerY" secondItem="iqI-hD-PV4" secondAttribute="centerY" id="Gnt-RB-XEF"/>
+                            <constraint firstAttribute="trailing" secondItem="ioU-6X-15J" secondAttribute="trailing" constant="20" id="NEs-2z-IWn"/>
+                            <constraint firstItem="sN7-SY-jtU" firstAttribute="top" secondItem="dZ6-od-oio" secondAttribute="bottom" id="TXW-8j-NWj"/>
+                            <constraint firstItem="dZ6-od-oio" firstAttribute="leading" secondItem="iqI-hD-PV4" secondAttribute="leading" constant="20" id="byE-e2-Tkw"/>
+                            <constraint firstItem="sN7-SY-jtU" firstAttribute="leading" secondItem="UPc-Cz-vPX" secondAttribute="leading" id="mOw-Vz-1UK"/>
+                            <constraint firstItem="UPc-Cz-vPX" firstAttribute="trailing" secondItem="sN7-SY-jtU" secondAttribute="trailing" id="oVy-5a-o7f"/>
+                            <constraint firstAttribute="trailing" secondItem="dZ6-od-oio" secondAttribute="trailing" constant="20" id="u3U-RD-vEn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="h1D-Eu-ftg"/>
+                    <connections>
+                        <outlet property="signUpOkTitleLabel" destination="dZ6-od-oio" id="mFx-cW-7Ec"/>
+                        <outlet property="startButton" destination="ioU-6X-15J" id="Ma4-FJ-enI"/>
+                        <outlet property="startButtonLeft" destination="FmJ-8X-J8Y" id="qB6-9Z-nx3"/>
+                        <outlet property="startButtonRight" destination="NEs-2z-IWn" id="dgf-IO-Xr3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJO-Tt-Tft" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-759.4202898550725" y="3294.6428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,7 @@
+//ドイツ語
+
+NSCameraUsageDescription = "Auf diese Weise können Sie ein Bild aufnehmen.";
+NSLocationWhenInUseUsageDescription = "Auf diese Weise können Sie Funktionen wie Videoaufzeichnung und Sprachsuche nutzen.";
+NSMicrophoneUsageDescription = "Auf diese Weise können Sie den Inhalt Ihrer Kamerarolle freigeben und andere Funktionen für Ihre Fotos und Videos nutzen.";
+NSPhotoLibraryUsageDescription = "Auf diese Weise können Sie einige Funktionen von Actbind nutzen, Ihre Inhalte personalisieren, nach Standorten suchen und vieles mehr.";
+NSFaceIDUsageDescription = "Erlauben Sie Actbind, Face ID zum Entsperren Ihrer App zu verwenden.";

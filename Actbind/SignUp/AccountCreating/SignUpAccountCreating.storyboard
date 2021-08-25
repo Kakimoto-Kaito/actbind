@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IQW-ds-sgi">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SignUpAccountCreatingViewController-->
+        <scene sceneID="Lxl-lg-an3">
+            <objects>
+                <viewController title="SignUpAccountCreatingViewController" modalPresentationStyle="fullScreen" id="IQW-ds-sgi" customClass="SignUpAccountCreatingViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SgF-xA-Oh4" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アカウントを作成しています..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xB-wc-hQk" userLabel="AccountCreating Label">
+                                <rect key="frame" x="20" y="388" width="350" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJJ-FX-AZa" userLabel="Space View">
+                                <rect key="frame" x="0.0" y="412" width="390" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="A9y-4i-kDz"/>
+                                </constraints>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="JIO-SE-CSy">
+                                <rect key="frame" x="170" y="432" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="MNf-1G-Yjx"/>
+                                    <constraint firstAttribute="width" secondItem="JIO-SE-CSy" secondAttribute="height" multiplier="1:1" id="N4Z-UD-dkj"/>
+                                    <constraint firstAttribute="height" constant="50" id="vN1-y7-bJX"/>
+                                </constraints>
+                                <color key="color" name="BlackWhite"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CCX-3c-QVn"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <constraints>
+                            <constraint firstItem="CCX-3c-QVn" firstAttribute="trailing" secondItem="iJJ-FX-AZa" secondAttribute="trailing" id="2Pp-Ij-cVZ"/>
+                            <constraint firstItem="iJJ-FX-AZa" firstAttribute="top" secondItem="7xB-wc-hQk" secondAttribute="bottom" id="8wR-pX-Vqd"/>
+                            <constraint firstItem="JIO-SE-CSy" firstAttribute="top" secondItem="iJJ-FX-AZa" secondAttribute="bottom" id="eYN-Up-wqk"/>
+                            <constraint firstItem="iJJ-FX-AZa" firstAttribute="leading" secondItem="CCX-3c-QVn" secondAttribute="leading" id="i15-pK-Mb6"/>
+                            <constraint firstItem="7xB-wc-hQk" firstAttribute="leading" secondItem="SgF-xA-Oh4" secondAttribute="leading" constant="20" id="pyo-kE-Zvk"/>
+                            <constraint firstItem="JIO-SE-CSy" firstAttribute="centerX" secondItem="SgF-xA-Oh4" secondAttribute="centerX" id="tiN-xN-hWt"/>
+                            <constraint firstAttribute="trailing" secondItem="7xB-wc-hQk" secondAttribute="trailing" constant="20" id="xTB-F6-UtK"/>
+                            <constraint firstItem="iJJ-FX-AZa" firstAttribute="centerY" secondItem="SgF-xA-Oh4" secondAttribute="centerY" id="yzH-fR-Kzu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KY1-tI-mFb"/>
+                    <connections>
+                        <outlet property="accountCreatingLabel" destination="7xB-wc-hQk" id="T3q-hb-tlX"/>
+                        <outlet property="activityIndicator" destination="JIO-SE-CSy" id="A6W-A1-p8s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tNt-Ol-GeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1514.4927536231885" y="3634.8214285714284"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

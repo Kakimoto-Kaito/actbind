@@ -1,0 +1,247 @@
+//インドネシア語
+
+"language" = "Indonesian";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "Harap perbarui ke versi baru";
+"appude-to" = "Memperbarui";
+
+"roguinn" = "Gabung";
+"me-ruadoresugatadasikuarimasenn" = "Alamat Email Salah";
+"akaunntogaarimasenn" = "Alamat email yang Anda masukkan tampaknya bukan milik sebuah akun. Silakan periksa alamat email Anda dan coba lagi.";
+"pasuwa-dogamatigatteimasu" = "Kata sandi salah untuk @%@";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "Kata sandi yang Anda masukkan salah. Silahkan coba lagi.";
+"mouitidojikkou" = "Coba lagi";
+"atarasiiakaunntowosakusei" = "Buat akun baru";
+
+"namaewonyuuryoku" = "Siapa namamu?";
+"namae1" = "Nama depan";
+"namae2" = "nama keluarga";
+"namaesetumei" = "Menggunakan nama asli Anda akan memudahkan teman Anda mengenali Anda.";
+"tugihe" = "Lanjut";
+"akaunntowoomotinokata" = "Sudah memiliki akun?";
+
+"me-ruadoresuwonyuuryoku" = "Apa alamat email Anda?";
+"me-ruadoresu" = "Alamat email";
+"me-ruadoresusetumei" = "Gunakan alamat email ini saat masuk.";
+"me-ruadoresuera-" = "Silakan isi alamat email.";
+"siyoudekinaime-ruadoresu" = "Alamat email ini tidak dapat digunakan";
+
+"ninnsyouko-dowonyuuryoku" = "Masukkan kode konfirmasi";
+"ninnsyouko-do" = "Kode konfirmasi";
+"ninnsyouko-dosetumei" = "Masukkan kode konfirmasi yang kami kirim ke %@";
+"ninnsyouko-dorikuesuto" = "Kirim ulang kode";
+"ninnsyouko-doera-" = "Kode ini tidak valid. Silakan minta kode baru.";
+
+"pasuwa-dowonyuuryoku" = "Buat sebuah kata sandi";
+"pasuwa-do" = "Kata sandi";
+"pasuwa-dosetumei" = "Masukkan kombinasi dari 8 atau lebih huruf dan angka, atau simbol (seperti! Dan &).";
+"pasuwa-doera-" = "Harap masukkan kata sandi yang benar.";
+
+"seibetuwosenntaku" = "Apa jenis kelamin anda?";
+"dannsei" = "Pria";
+"jyosei" = "Perempuan";
+"sonota" = "Lain";
+
+"tannjyoubiwosenntaku" = "Kapan Ulang Tahun Anda?";
+"tannjyoubi" = "Ulang tahun";
+"tannjyoubisetumei" = "Memberikan tanggal lahir Anda membantu menandai bahwa Anda mendapatkan pengalaman Actbind yang tepat untuk usia Anda.";
+"sai" = " tahun";
+"jissainotannjyoubi" = "Harap masukkan tanggal lahir Anda yang sebenarnya";
+"akaunntowosakuseidekimasenndesita" = "Tidak dapat membuat akun";
+"OK" = "baik";
+
+"yu-za-ne-muwonyuuryoku" = "Buat Nama Pengguna";
+"yu-za-ne-mu" = "Nama pengguna";
+"yu-za-ne-musetumei" = "Gunakan kombinasi 5 hingga 30 huruf alfabet, angka, dan garis bawah (_) untuk membuat nama pengguna asli yang dapat diidentifikasi teman Anda dengan Anda.";
+"yu-za-ne-muera-" = "Harap masukkan nama pengguna yang benar.";
+"suujidakeera-" = "Anda tidak dapat menggunakan nama pengguna dengan hanya angka.";
+"annda-ba-dakeera-" = "Anda tidak dapat menggunakan nama pengguna khusus underbar.";
+"siyoudekinaiyu-za-ne-mu" = "Nama pengguna ini tidak dapat digunakan";
+
+"tourokukannryou" = "Selesai Mendaftar";
+"doui" = "Dengan mengetuk Daftar, Anda menyetujui Persyaratan Layanan dan Kebijakan Privasi kami.";
+"riyoukiyakupuraibasi-porisi-" = "Ketentuan Layanan / Kebijakan Privasi";
+"touroku" = "Daftar";
+
+"akaunntowosakiseisiteimasu" = "Membuat akun Anda ...";
+"actbindheyoukoso" = "Selamat datang di Actbind!";
+"hajimeru" = "Mulailah";
+"akaunntowosakuseidekimasenndesita" = "Tidak dapat membuat akun Anda";
+"modoru" = "Kembali";
+
+
+
+
+
+"houkoku" = "Melaporkan";
+"monndaiwohoukoku" = "Laporkan Masalah";
+"fi-dobakku" = "Umpan Balik Umum";
+"sousinn" = "Kirim";
+
+"youkoso" = "Selamat datang di Actbind";
+
+"kensaku" = "Mencari";
+"kara-tagukensaku" = "Pencarian label warna";
+"akaunntokensaku" = "Pencarian akun";
+
+"houkokusetumei1" = "Jika seseorang dalam bahaya, hubungi layanan darurat setempat-jangan menunggu.";
+"houkokusetumei2" = "Jelaskan secara singkat apa yang terjadi. Bagaimana Anda mereproduksi masalah?";
+"houkokusetumei3" = "Silakan ketuk untuk menilai";
+"houkokusetumei4" = "Jelaskan secara singkat apa yang Anda sukai, atau apa yang dapat ditingkatkan.";
+
+"akaunntohoukokutaitoru" = "Mengapa Anda melaporkan akun ini?";
+"akaunntohoukokutaipu1" = "Berpura-pura kepada seseorang";
+"akaunntohoukokutaipu2" = "Akun palsu";
+"akaunntohoukokutaipu3" = "Nama palsu";
+"akaunntohoukokutaipu4" = "Memposting konten yang tidak pantas";
+"akaunntohoukokutaipu5" = "Penindasan atau pelecehan";
+"akaunntohoukokutaipu6" = "Saya ingin membantu orang ini";
+
+"toukouhoukokutaitoru" = "Mengapa Anda melaporkan posting ini?";
+"toukouhoukokutaipu1" = "itu spam";
+"toukouhoukokutaipu2" = "Ketelanjangan atau aktivitas seksual";
+"toukouhoukokutaipu3" = "Ujaran atau simbol kebencian";
+"toukouhoukokutaipu4" = "Organisasi kekerasan atau berbahaya";
+"toukouhoukokutaipu5" = "Penjualan barang ilegal atau diatur";
+"toukouhoukokutaipu6" = "Penindasan atau pelecehan";
+"toukouhoukokutaipu7" = "Pelanggaran kekayaan intelektual";
+"toukouhoukokutaipu8" = "Bunuh diri atau melukai diri sendiri";
+"toukouhoukokutaipu9" = "Penipuan";
+"toukouhoukokutaipu10" = "Informasi palsu";
+"toukouhoukokutaipu11" = "Terorisme";
+
+"houkokuara-totaitoru" = "Terima kasih atas laporannya";
+"houkokuara-tomesse-ji1" = "Kami akan menggunakan informasi yang Anda berikan untuk menjadikan Actbind komunitas yang lebih aman.";
+"houkokuara-tomesse-ji2" = "Kami akan menggunakan umpan balik Anda untuk meningkatkan layanan Actbind.";
+"tojiru" = "Menutup";
+
+"actbinddesyea" = "Bagikan di Actbind";
+"actbinddesyeasetumei" = "Dengan mengizinkan akses, Anda akan dapat berbagi.";
+"cameraakusesu" = "Izinkan akses ke kamera";
+"cameraro-ruakusesu" = "Izinkan akses ke rol kamera";
+
+"kyannseru" = "Membatalkan";
+"syasinn" = "Foto";
+"kara-taguwosenntaku" = "Pilih label warna";
+"toukouwosakusei" = "Buat Posting";
+"syeasiyou" = "Mari Berbagi";
+"kyapusyonnwonyuuryoku" = "Tulis caption...";
+"jikann" = "Waktu";
+"syea" = "Bagikan";
+"toukoutyuu" = "Memposting...";
+"toukousimasita" = "Diposting";
+
+"purofi-ru" = "Profil";
+"toukougaarimasenn" = "Tidak ada postingan";
+"purofi-ruwohennsyuu" = "Sunting profil";
+"hennsyuu" = "Edit";
+"hozonn" = "Menyimpan";
+"purofi-rusyasinn" = "Foto Profil";
+"purofi-rusyasinnhennkou" = "Ubah Foto Profil";
+"syasinnwotoru" = "Memotret";
+"gennzainosyasinnwosakujyo" = "Hapus Foto Saat Ini";
+"gennzainosyasinnwosakujyosimasuka" = "Apakah Anda ingin menghapus foto saat ini?";
+"hennkounaiyousetteityuu" = "Menyetel Perubahan ...";
+"hennkounaiyouhozonn" = "perubahan yang Anda buat sudah disimpan";
+"jikosyoukai" = "Pengenalan diri";
+"jikosyoukaiwohennsyuu" = "Edit perkenalan diri";
+"jikosyoukaiwonyuuryoku" = "Masukkan perkenalan diri Anda ...";
+"foro-" = "Mengikuti";
+"foro-tyuu" = "Berikut";
+"forowa-" = "Pengikut";
+"tomodati" = "Teman";
+
+"menyu-" = "Tidak bisa";
+"ohayou" = "Selamat pagi";
+"konnnitiha" = "Halo";
+"konnbannha" = "Selamat malam";
+"inotiwomamoru" = "Lindungi hidup Anda";
+"akuthibithi" = "Aktivitas Anda";
+"riyoujikann" = "Waktu di Actbind";
+"itinitinoheikinn" = "Rata-rata harian";
+"jikann" = "j";
+"funn" = "m";
+"kyou" = "Hari ini";
+"dekore-syonn" = "Menghias";
+"orijinaru" = "Asli";
+"red" = "Merah";
+"orange" = "jeruk";
+"yellow" = "Kuning";
+"green" = "hijau";
+"blue" = "Biru";
+"purple" = "Ungu";
+"sapo-to" = "Mendukung";
+"supportcentercontent" = "Dukungan dengan sejumlah besar kasus akan dirangkum di pusat dukungan.";
+"supportcenter" = "Pusat layanan";
+"supportmethod" = "Metode dukungan";
+"kotirakara" = "Dari sini";
+"me-ru" = "Surel";
+"me-ruactbindsapo-to" = "Anda dapat berbicara dengan dukungan Actbind melalui email.";
+"roguauto" = "Keluar";
+"roguautosimasuka" = "Keluar dari %@?";
+"ba-jyonn" = "Versi";
+
+"settei" = "Pengaturan";
+"akaunnto" = "Akun";
+"puraibasi-" = "Pribadi";
+"sekyuritexi" = "Keamanan";
+"apurinogenngo" = "Bahasa Aplikasi";
+"actbindnituite" = "Tentang Actbind";
+
+"kojinnnojyouhou" = "Informasi pribadi";
+"namae" = "Nama";
+"rennrakusakijyouhou" = "Info kontak";
+"seibetu" = "Jenis kelamin";
+"tannjyoubiwohennkoudekinai" = "Tidak dapat mengubah Tanggal Lahir";
+"kakuninn" = "Konfirmasi";
+"atarasiijyouhouhozonn" = "Simpan Informasi Baru";
+"gennzainonamae" = "Nama sekarang";
+"gennzainome-ruadoresu" = "Alamat email saat ini";
+"gennzainoseibetu" = "Jenis kelamin saat ini";
+"gennzainotannjyoubi" = "Ulang tahun saat ini";
+"atarasiinamae" = "Nama baru";
+"atarasiime-ruadoresu" = "Alamat Surat Baru";
+"atarasiiseibetu" = "Gender Baru";
+"atarasiitannjyoubi" = "Ulang Tahun Baru";
+"hozonnpasuwa-do" = "Silakan masukkan kata sandi untuk menyimpan";
+"kyannseru" = "Membatalkan";
+"akaunntokannri" = "Manajemen akun";
+
+"era-" = "Sebuah kesalahan telah terjadi";
+
+"toukousakujyo" = "Apakah Anda ingin menghapus postingan?";
+
+"akaunntosakujyo" = "Penghapusan akun";
+"sakujyo" = "Menghapus";
+"akaunntowosakujyotyuu" = "Menghapus akun ...";
+"akaunntogasakujyosaremasita" = "Akun telah dihapus";
+"akaunntosakujyosetumei" = "Jika Anda menghapus akun Anda, Anda tidak akan bisa masuk lagi.";
+"sakujyopasuwa-do" = "Silakan masukkan kata sandi Anda untuk menghapus";
+"arigatou" = "Terima kasih banyak";
+"tanosimi" = "Saya berharap dapat melihat Anda lagi";
+
+"puraibasi-akusesujyoukyou" = "Akses ke informasi privasi";
+
+"gennzainopasuwa-do" = "Kata sandi saat ini";
+"atarasiipasuwa-do" = "Kata sandi baru";
+"atarasiipasuwa-domouitidonyuuryoku" = "Password Baru Lagi";
+"gennzainopasuwa-dogamatigatteimasu" = "Buat sandi baru yang belum pernah Anda gunakan sebelumnya.";
+"pasuwa-dogaittisimasenn" = "Sandi tidak cocok.";
+
+"syasinnwohozonn" = "Simpan Foto";
+"syasinnwohozonnsetumei" = "Secara otomatis menyimpan foto yang Anda ambil ke camera roll Anda.";
+
+"riyoukiyaku" = "Persyaratan layanan";
+"puraibasi-porisi-" = "Rahasia pribadi";
+"komyunitexigaidorainn" = "Pedoman Komunitas";
+"o-punnso-suraiburari" = "Perpustakaan Sumber Terbuka";
+
+"suubyoumae" = "Baru saja";
+"funnmae" = "%@ menit yang lalu";
+"fukusuufunnmae" = "%@ menit yang lalu";
+"jikannmae" = "%@ jam yang lalu";
+"fukusuujikannmae" = "%@ jam lalu";
+"nitimae" = "%@ hari yang lalu";
+"fukusuunitimae" = "%@ hari yang lalu";

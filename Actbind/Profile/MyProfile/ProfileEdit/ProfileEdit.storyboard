@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oY7-LN-45U">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ProfileEditViewController-->
+        <scene sceneID="Fu5-QN-6Uk">
+            <objects>
+                <viewController title="ProfileEditViewController" modalPresentationStyle="fullScreen" id="oY7-LN-45U" userLabel="ProfileEditViewController" customClass="ProfileEditViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uUq-vL-MdW" userLabel="BackgroundView">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xmh-GV-hga">
+                                <rect key="frame" x="0.0" y="44" width="390" height="766"/>
+                                <color key="backgroundColor" name="WhiteBlack"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="dhh-C6-2zH" userLabel="CellBackground View">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="624"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="プロフィール写真" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFY-Jy-wfs" userLabel="UserProfileImageTitle Label">
+                                            <rect key="frame" x="20" y="20" width="163.66666666666666" height="24"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" name="BlackWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9o-KE-0dF" userLabel="UserProfileImageEdit Button">
+                                            <rect key="frame" x="313" y="11" width="57" height="42"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="20"/>
+                                            <inset key="titleEdgeInsets" minX="10" minY="10" maxX="-10" maxY="-10"/>
+                                            <state key="normal" title="編集">
+                                                <color key="titleColor" name="Blue"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="userProfileImageEditButtonTouchDown:" destination="oY7-LN-45U" eventType="touchDown" id="MUi-a7-WBn"/>
+                                                <action selector="userProfileImageEditButtonTouchDragOutside:" destination="oY7-LN-45U" eventType="touchDragOutside" id="xkS-vB-5ah"/>
+                                                <action selector="userProfileImageEditButtonTouchUpInside:" destination="oY7-LN-45U" eventType="touchUpInside" id="ha4-FL-QhK"/>
+                                            </connections>
+                                        </button>
+                                        <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="QsF-GU-7ov" userLabel="UserProfile Image">
+                                            <rect key="frame" x="135" y="52" width="120" height="120"/>
+                                            <color key="backgroundColor" name="Background"/>
+                                            <gestureRecognizers/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="120" id="38k-O5-0VS"/>
+                                                <constraint firstAttribute="height" constant="120" id="hxz-2J-p2I"/>
+                                                <constraint firstAttribute="width" secondItem="QsF-GU-7ov" secondAttribute="height" multiplier="1:1" id="v0D-ow-xMy"/>
+                                            </constraints>
+                                            <connections>
+                                                <outletCollection property="gestureRecognizers" destination="qbm-sL-dyx" appends="YES" id="lzs-t5-iMP"/>
+                                            </connections>
+                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CIO-NM-Qob" userLabel="Border View">
+                                            <rect key="frame" x="0.0" y="192" width="390" height="1"/>
+                                            <color key="backgroundColor" name="Border"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="1" id="wKu-HI-2gK"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自己紹介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpN-nK-gQ5" userLabel="BioTitle Label">
+                                            <rect key="frame" x="20" y="213" width="82" height="24"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" name="BlackWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AH9-IW-6UI" userLabel="BioEdit Button">
+                                            <rect key="frame" x="313" y="204" width="57" height="42"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="20"/>
+                                            <inset key="titleEdgeInsets" minX="10" minY="10" maxX="-10" maxY="-10"/>
+                                            <state key="normal" title="編集">
+                                                <color key="titleColor" name="Blue"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="bioEditButtonTouchDown:" destination="oY7-LN-45U" eventType="touchDown" id="8In-co-36t"/>
+                                                <action selector="bioEditButtonTouchDragOutside:" destination="oY7-LN-45U" eventType="touchDragOutside" id="LZz-QR-7ii"/>
+                                                <action selector="bioEditButtonTouchUpInside:" destination="oY7-LN-45U" eventType="touchUpInside" id="Kgh-Gu-OlG"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQ8-YJ-hqP">
+                                            <rect key="frame" x="20" y="250" width="350" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" name="BlackWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfg-MW-VuQ">
+                                            <rect key="frame" x="20" y="250" width="350" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <state key="normal" title="自己紹介">
+                                                <color key="titleColor" name="SubText"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="bioButtonTouchUpInside:" destination="oY7-LN-45U" eventType="touchUpInside" id="mfM-5e-sEY"/>
+                                            </connections>
+                                        </button>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Luh-AJ-Fc2" userLabel="Border View">
+                                            <rect key="frame" x="0.0" y="300" width="390" height="1"/>
+                                            <color key="backgroundColor" name="Border"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="1" id="hUd-iS-5J9"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tAk-jx-Stk">
+                                            <rect key="frame" x="50" y="260.66666666666669" width="290" height="103"/>
+                                            <subviews>
+                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="rFG-3K-wwI">
+                                                    <rect key="frame" x="126.66666666666666" y="20" width="37" height="37"/>
+                                                    <color key="color" name="WhiteBlack"/>
+                                                </activityIndicatorView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sXK-yD-pYE">
+                                                    <rect key="frame" x="126.66666666666666" y="20" width="37" height="37"/>
+                                                    <color key="tintColor" name="WhiteBlack"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="sXK-yD-pYE" secondAttribute="height" multiplier="1:1" id="0nO-u2-leP"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="変更内容を設定中..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JS6-gh-fd2">
+                                                    <rect key="frame" x="76.666666666666686" y="65" width="137" height="18"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <color key="textColor" name="WhiteBlack"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" name="ActivityView"/>
+                                            <constraints>
+                                                <constraint firstItem="rFG-3K-wwI" firstAttribute="top" secondItem="tAk-jx-Stk" secondAttribute="top" constant="20" id="2dk-kp-Diq"/>
+                                                <constraint firstItem="rFG-3K-wwI" firstAttribute="centerX" secondItem="tAk-jx-Stk" secondAttribute="centerX" id="AgL-dq-z3G"/>
+                                                <constraint firstItem="sXK-yD-pYE" firstAttribute="centerX" secondItem="tAk-jx-Stk" secondAttribute="centerX" id="Q3q-Bx-8xn"/>
+                                                <constraint firstItem="JS6-gh-fd2" firstAttribute="top" secondItem="sXK-yD-pYE" secondAttribute="bottom" constant="8" symbolic="YES" id="dj3-TA-1PX"/>
+                                                <constraint firstItem="sXK-yD-pYE" firstAttribute="top" secondItem="tAk-jx-Stk" secondAttribute="top" constant="20" symbolic="YES" id="emE-Jy-m6e"/>
+                                                <constraint firstItem="JS6-gh-fd2" firstAttribute="centerX" secondItem="tAk-jx-Stk" secondAttribute="centerX" id="haX-MH-na3"/>
+                                                <constraint firstItem="JS6-gh-fd2" firstAttribute="top" secondItem="rFG-3K-wwI" secondAttribute="bottom" constant="8" symbolic="YES" id="tDN-Iz-4p0"/>
+                                                <constraint firstAttribute="bottom" secondItem="JS6-gh-fd2" secondAttribute="bottom" constant="20" symbolic="YES" id="xfj-si-izo"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <color key="backgroundColor" name="WhiteBlack"/>
+                                    <constraints>
+                                        <constraint firstItem="tAk-jx-Stk" firstAttribute="centerY" secondItem="dhh-C6-2zH" secondAttribute="centerY" id="5k9-CL-tmu"/>
+                                        <constraint firstAttribute="trailing" secondItem="b9o-KE-0dF" secondAttribute="trailing" constant="20" symbolic="YES" id="7Fm-L6-zGr"/>
+                                        <constraint firstAttribute="trailing" secondItem="Gfg-MW-VuQ" secondAttribute="trailing" constant="20" id="8Ae-mx-x0u"/>
+                                        <constraint firstItem="Gfg-MW-VuQ" firstAttribute="top" secondItem="fpN-nK-gQ5" secondAttribute="bottom" constant="13" id="8el-nI-Kki"/>
+                                        <constraint firstItem="CIO-NM-Qob" firstAttribute="leading" secondItem="dhh-C6-2zH" secondAttribute="leading" id="Bhl-Cu-2T7"/>
+                                        <constraint firstAttribute="trailing" secondItem="Luh-AJ-Fc2" secondAttribute="trailing" id="DMw-Nk-Zgu"/>
+                                        <constraint firstItem="pQ8-YJ-hqP" firstAttribute="top" secondItem="fpN-nK-gQ5" secondAttribute="bottom" constant="13" id="Dcv-cb-Am0"/>
+                                        <constraint firstItem="CIO-NM-Qob" firstAttribute="top" secondItem="QsF-GU-7ov" secondAttribute="bottom" constant="20" id="Eoe-L4-Kqu"/>
+                                        <constraint firstAttribute="trailing" secondItem="CIO-NM-Qob" secondAttribute="trailing" id="Fij-EB-jdc"/>
+                                        <constraint firstItem="Gfg-MW-VuQ" firstAttribute="leading" secondItem="dhh-C6-2zH" secondAttribute="leading" constant="20" id="Mfc-CZ-4P1"/>
+                                        <constraint firstItem="Luh-AJ-Fc2" firstAttribute="leading" secondItem="dhh-C6-2zH" secondAttribute="leading" id="N2F-xA-0w6"/>
+                                        <constraint firstItem="BFY-Jy-wfs" firstAttribute="leading" secondItem="dhh-C6-2zH" secondAttribute="leading" constant="20" id="NiB-W8-xLi"/>
+                                        <constraint firstItem="pQ8-YJ-hqP" firstAttribute="leading" secondItem="dhh-C6-2zH" secondAttribute="leading" constant="20" id="SRT-eA-mCX"/>
+                                        <constraint firstItem="QsF-GU-7ov" firstAttribute="top" secondItem="BFY-Jy-wfs" secondAttribute="bottom" constant="8" symbolic="YES" id="SXk-w7-5GZ"/>
+                                        <constraint firstAttribute="trailing" secondItem="tAk-jx-Stk" secondAttribute="trailing" constant="50" id="Sct-yW-640"/>
+                                        <constraint firstItem="QsF-GU-7ov" firstAttribute="top" secondItem="BFY-Jy-wfs" secondAttribute="bottom" constant="8" symbolic="YES" id="V1R-DE-fVs"/>
+                                        <constraint firstItem="BFY-Jy-wfs" firstAttribute="top" secondItem="dhh-C6-2zH" secondAttribute="top" constant="20" id="gw7-G9-nvz"/>
+                                        <constraint firstItem="fpN-nK-gQ5" firstAttribute="leading" secondItem="dhh-C6-2zH" secondAttribute="leading" constant="20" id="jNj-oq-1NT"/>
+                                        <constraint firstItem="tAk-jx-Stk" firstAttribute="leading" secondItem="dhh-C6-2zH" secondAttribute="leading" constant="50" id="kFX-sH-kiX"/>
+                                        <constraint firstItem="AH9-IW-6UI" firstAttribute="centerY" secondItem="fpN-nK-gQ5" secondAttribute="centerY" id="kuL-dP-NRc"/>
+                                        <constraint firstItem="QsF-GU-7ov" firstAttribute="centerX" secondItem="dhh-C6-2zH" secondAttribute="centerX" id="mis-Lq-mQu"/>
+                                        <constraint firstItem="fpN-nK-gQ5" firstAttribute="top" secondItem="CIO-NM-Qob" secondAttribute="bottom" constant="20" id="pMo-gJ-gX4"/>
+                                        <constraint firstAttribute="trailing" secondItem="pQ8-YJ-hqP" secondAttribute="trailing" constant="20" id="pVJ-xK-mK1"/>
+                                        <constraint firstItem="Luh-AJ-Fc2" firstAttribute="top" secondItem="pQ8-YJ-hqP" secondAttribute="bottom" constant="20" id="t4b-nK-HUg"/>
+                                        <constraint firstItem="b9o-KE-0dF" firstAttribute="centerY" secondItem="BFY-Jy-wfs" secondAttribute="centerY" id="uEn-3m-RHx"/>
+                                        <constraint firstItem="Gfg-MW-VuQ" firstAttribute="height" secondItem="pQ8-YJ-hqP" secondAttribute="height" id="w6F-Qe-QyZ"/>
+                                        <constraint firstAttribute="trailing" secondItem="AH9-IW-6UI" secondAttribute="trailing" constant="20" symbolic="YES" id="wBJ-QH-OSb"/>
+                                    </constraints>
+                                </view>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0vB-Sx-CFf"/>
+                        <color key="backgroundColor" name="WhiteBlack"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Xmh-GV-hga" firstAttribute="leading" secondItem="0vB-Sx-CFf" secondAttribute="leading" id="ENo-Vx-Wc8"/>
+                            <constraint firstItem="0vB-Sx-CFf" firstAttribute="bottom" secondItem="Xmh-GV-hga" secondAttribute="bottom" id="Gd3-Sv-LE1"/>
+                            <constraint firstItem="0vB-Sx-CFf" firstAttribute="trailing" secondItem="Xmh-GV-hga" secondAttribute="trailing" id="RTz-lZ-5Xv"/>
+                            <constraint firstItem="Xmh-GV-hga" firstAttribute="top" secondItem="0vB-Sx-CFf" secondAttribute="top" id="gWA-jA-80g"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="プロフィールを編集" id="U43-1O-KjI" userLabel="NavigationBar Title">
+                        <barButtonItem key="backBarButtonItem" title=" " id="HY1-zo-KhG"/>
+                        <barButtonItem key="leftBarButtonItem" id="JTv-vQ-7Gp">
+                            <imageReference key="image" image="back" symbolScale="large"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="backBottonAction:" destination="oY7-LN-45U" id="hOr-I5-xCs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicator" destination="rFG-3K-wwI" id="F8B-Bi-sbG"/>
+                        <outlet property="activityLabel" destination="JS6-gh-fd2" id="Z8f-Hh-Ecr"/>
+                        <outlet property="activityView" destination="tAk-jx-Stk" id="mZZ-UC-hhP"/>
+                        <outlet property="backButton" destination="JTv-vQ-7Gp" id="IAb-0X-oK3"/>
+                        <outlet property="bioButton" destination="Gfg-MW-VuQ" id="gA5-QJ-Acq"/>
+                        <outlet property="bioEditButton" destination="AH9-IW-6UI" id="5FX-3q-Bhj"/>
+                        <outlet property="bioLabel" destination="pQ8-YJ-hqP" id="uYu-4W-OCX"/>
+                        <outlet property="bioTitleLabel" destination="fpN-nK-gQ5" id="aT6-Kt-e7g"/>
+                        <outlet property="checkmarkImage" destination="sXK-yD-pYE" id="OSi-DW-3Og"/>
+                        <outlet property="navigationBarTitle" destination="U43-1O-KjI" id="nTm-Ee-eGY"/>
+                        <outlet property="tapGesture" destination="qbm-sL-dyx" id="PEE-Se-2kl"/>
+                        <outlet property="userProfileImage" destination="QsF-GU-7ov" id="4s1-PP-ovi"/>
+                        <outlet property="userProfileImageEditButton" destination="b9o-KE-0dF" id="Ckt-Sk-SJa"/>
+                        <outlet property="userProfileImageTitleLabel" destination="BFY-Jy-wfs" id="LSC-1H-Ipg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bwW-Zq-XI2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="qbm-sL-dyx">
+                    <connections>
+                        <action selector="tapGesture:" destination="oY7-LN-45U" id="A0f-Dm-ih3"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1718.840579710145" y="2601.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <image name="defaultProfileImage" width="1000" height="1000"/>
+        <namedColor name="ActivityView">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Background">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Border">
+            <color red="0.86299997568130493" green="0.87099999189376831" blue="0.88200002908706665" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteBlack">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

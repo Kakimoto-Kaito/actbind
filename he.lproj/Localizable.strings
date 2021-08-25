@@ -1,0 +1,247 @@
+//ヘブライ語
+
+"language" = "Hebrew";
+
+"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
+
+"atarasiiba-jyonnni" = "אנא עדכן לגרסה החדשה";
+"appude-to" = "עדכון";
+
+"roguinn" = "התחברות";
+"me-ruadoresugatadasikuarimasenn" = "כתובת אימייל שגוייה";
+"akaunntogaarimasenn" = "נראה כי כתובת הדוא\"ל שהזנת אינה שייכת לחשבון. אנא בדוק את כתובת הדוא\"ל שלך ונסה שוב.";
+"pasuwa-dogamatigatteimasu" = "סיסמה שגויה ל- %@";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "הסיסמה שהזנת שגויה. בבקשה נסה שוב.";
+"mouitidojikkou" = "נסה שוב";
+"atarasiiakaunntowosakusei" = "ליצור חשבון חדש";
+
+"namaewonyuuryoku" = "מה שמך?";
+"namae1" = "שם משפחה";
+"namae2" = "שם פרטי";
+"namaesetumei" = "השימוש בשם האמיתי שלך מקל על החברים שלך לזהות אותך.";
+"tugihe" = "הַבָּא";
+"akaunntowoomotinokata" = "כבר יש לך חשבון?";
+
+"me-ruadoresuwonyuuryoku" = "מה כתובת הדוא\"ל שלך?";
+"me-ruadoresu" = "כתובת דואר";
+"me-ruadoresusetumei" = "השתמש בכתובת דוא\"ל זו בעת התחברות.";
+"me-ruadoresuera-" = "אנא הזן כתובת דוא\"ל תקנית.";
+"siyoudekinaime-ruadoresu" = "לא ניתן להשתמש בכתובת דוא\"ל זו";
+
+"ninnsyouko-dowonyuuryoku" = "הכנס קוד אישור";
+"ninnsyouko-do" = "קוד לאישור";
+"ninnsyouko-dosetumei" = "אנא הזן את קוד האימות שנשלח ל- %@";
+"ninnsyouko-dorikuesuto" = "שלח קוד שוב";
+"ninnsyouko-doera-" = "קוד זה אינו חוקי. אנא בקש קוד חדש.";
+
+"pasuwa-dowonyuuryoku" = "צור סיסמה";
+"pasuwa-do" = "סיסמה";
+"pasuwa-dosetumei" = "הזן שילוב של 8 אותיות ומספרים או יותר, או סמלים (כמו! ו- &).";
+"pasuwa-doera-" = "אנא הזן את הסיסמה הנכונה.";
+
+"seibetuwosenntaku" = "מה המגדר שלך?";
+"dannsei" = "זָכָר";
+"jyosei" = "נְקֵבָה";
+"sonota" = "אַחֵר";
+
+"tannjyoubiwosenntaku" = "מתי יום ההולדת שלך?";
+"tannjyoubi" = "יום הולדת";
+"tannjyoubisetumei" = "אספקת יום ההולדת שלך מסייעת לוודא שאתה מקבל את החוויה המתאימה ל- Actbind לגילך.";
+"sai" = "בן ";
+"jissainotannjyoubi" = "אנא הזן את יום ההולדת שלך בפועל";
+"akaunntowosakuseidekimasenndesita" = "לא ניתן היה ליצור חשבון";
+"OK" = "בסדר";
+
+"yu-za-ne-muwonyuuryoku" = "צור שם משתמש";
+"yu-za-ne-mu" = "שם משתמש";
+"yu-za-ne-musetumei" = "השתמש בשילוב של 5 עד 20 אותיות מאלף-בית,השתמש בשילוב של 5 עד 30 אותיות מאלף-בית, מספרים וקו תחתון (_) כדי ליצור שם משתמש מקורי שחבריך יוכלו להזדהות איתך.";
+"yu-za-ne-muera-" = "אנא הזן את שם המשתמש הנכון.";
+"suujidakeera-" = "אינך יכול להשתמש בשם משתמש עם מספרים בלבד.";
+"annda-ba-dakeera-" = "אינך יכול להשתמש בשם משתמש בסרגל תחתון בלבד.";
+"siyoudekinaiyu-za-ne-mu" = "לא ניתן להשתמש בשם משתמש זה";
+
+"tourokukannryou" = "סיים את ההרשמה";
+"doui" = "על ידי הקשה על הרשמה, אתה מסכים לתנאי השירות ולמדיניות הפרטיות שלנו.";
+"riyoukiyakupuraibasi-porisi-" = "מבחינת מדיניות פרטיות השירות";
+"touroku" = "הירשם";
+
+"akaunntowosakiseisiteimasu" = "יוצר את החשבון שלך ...";
+"actbindheyoukoso" = "ברוך הבא ל- Actbind!";
+"hajimeru" = "הַתחָלָה";
+"akaunntowosakuseidekimasenndesita" = "לא ניתן היה ליצור את חשבונך";
+"modoru" = "לַחֲזוֹר";
+
+
+
+
+
+"houkoku" = "להגיש תלונה";
+"monndaiwohoukoku" = "לדווח על בעיה";
+"fi-dobakku" = "משוב כללי";
+"sousinn" = "לִשְׁלוֹחַ";
+
+"youkoso" = "ברוך הבא ל- Actbind";
+
+"kensaku" = "לחפש";
+"kara-tagukensaku" = "חיפוש תגיות צבעוניות";
+"akaunntokensaku" = "חיפוש חשבון";
+
+"houkokusetumei1" = "אם מישהו נמצא בסכנה מיידית, התקשר לשירותי החירום המקומיים - אל תחכה.";
+"houkokusetumei2" = "הסביר בקצרה מה קרה. איך משחזרים את הנושא?";
+"houkokusetumei3" = "אנא הקש כדי לדרג";
+"houkokusetumei4" = "הסביר בקצרה מה אתה אוהב, או מה יכול להשתפר.";
+
+"akaunntohoukokutaitoru" = "מדוע אתה מדווח על חשבון זה?";
+"akaunntohoukokutaipu1" = "מעמיד פנים בפני מישהו";
+"akaunntohoukokutaipu2" = "חשבון מזוייף";
+"akaunntohoukokutaipu3" = "שם מזויף";
+"akaunntohoukokutaipu4" = "פרסום תוכן לא הולם";
+"akaunntohoukokutaipu5" = "בריונות או הטרדות";
+"akaunntohoukokutaipu6" = "אני רוצה לעזור לאדם הזה";
+
+"toukouhoukokutaitoru" = "מדוע אתה מדווח על פוסט זה?";
+"toukouhoukokutaipu1" = "זה ספאם";
+"toukouhoukokutaipu2" = "עירום או פעילות מינית";
+"toukouhoukokutaipu3" = "דיבור שנאה או סמלים";
+"toukouhoukokutaipu4" = "אלימות או ארגונים מסוכנים";
+"toukouhoukokutaipu5" = "מכירת טובין בלתי חוקיים או מוסדרים";
+"toukouhoukokutaipu6" = "בריונות או הטרדות";
+"toukouhoukokutaipu7" = "הפרת קניין רוחני";
+"toukouhoukokutaipu8" = "התאבדות או פגיעה עצמית";
+"toukouhoukokutaipu9" = "הונאה";
+"toukouhoukokutaipu10" = "מידע שגוי";
+"toukouhoukokutaipu11" = "טֵרוֹר";
+
+"houkokuara-totaitoru" = "תודה על הדיווח שלך";
+"houkokuara-tomesse-ji1" = "אנו נשתמש במידע שתספק כדי להפוך את Actbind לקהילה בטוחה יותר.";
+"houkokuara-tomesse-ji2" = "אנו נשתמש במשוב שלך כדי לשפר את שירות Actbind.";
+"tojiru" = "סגור";
+
+"actbinddesyea" = "שתף ב- Actbind";
+"actbinddesyeasetumei" = "על ידי מתן גישה תוכל לשתף.";
+"cameraakusesu" = "אפשר גישה למצלמה";
+"cameraro-ruakusesu" = "אפשר גישה לגליל המצלמה";
+
+"kyannseru" = "לְבַטֵל";
+"syasinn" = "תמונה";
+"kara-taguwosenntaku" = "בחר תג צבע";
+"toukouwosakusei" = "צור פוסט";
+"syeasiyou" = "בוא נשתף";
+"kyapusyonnwonyuuryoku" = "כתוב כיתוב ...";
+"jikann" = "זְמַן";
+"syea" = "לַחֲלוֹק";
+"toukoutyuu" = "מפרסם ...";
+"toukousimasita" = "פורסם";
+
+"purofi-ru" = "פּרוֹפִיל";
+"toukougaarimasenn" = "אין הודעות";
+"purofi-ruwohennsyuu" = "ערוך פרופיל";
+"hennsyuu" = "לַעֲרוֹך";
+"hozonn" = "להציל";
+"purofi-rusyasinn" = "תמונת פרופיל";
+"purofi-rusyasinnhennkou" = "שנה תמונת פרופיל";
+"syasinnwotoru" = "לצלם";
+"gennzainosyasinnwosakujyo" = "להסיר תמונה נוכחית";
+"gennzainosyasinnwosakujyosimasuka" = "האם אתה רוצה להסיר את התמונה הנוכחית?";
+"hennkounaiyousetteityuu" = "מגדיר שינויים ...";
+"hennkounaiyouhozonn" = "השינויים שלך נשמרו";
+"jikosyoukai" = "הצגה עצמית";
+"jikosyoukaiwohennsyuu" = "ערוך הקדמה עצמית";
+"jikosyoukaiwonyuuryoku" = "הזן את ההקדמה העצמית שלך ...";
+"foro-" = "לעקוב אחר";
+"foro-tyuu" = "הבא";
+"forowa-" = "עוקבים";
+"tomodati" = "חבר";
+
+"menyu-" = "תַפרִיט";
+"ohayou" = "בוקר טוב";
+"konnnitiha" = "שלום";
+"konnbannha" = "ערב טוב";
+"inotiwomamoru" = "הגן על חייך";
+"akuthibithi" = "הפעילות שלך";
+"riyoujikann" = "הזמן ב- Actbind";
+"itinitinoheikinn" = "ממוצע יומי";
+"jikann" = "שעות";
+"funn" = "דקות";
+"kyou" = "היום";
+"dekore-syonn" = "לְקַשֵׁט";
+"orijinaru" = "מְקוֹרִי";
+"red" = "אָדוֹם";
+"orange" = "תפוז";
+"yellow" = "צהוב";
+"green" = "ירוק";
+"blue" = "כָּחוֹל";
+"purple" = "סָגוֹל";
+"sapo-to" = "תמיכה";
+"supportcentercontent" = "תמיכה במספר רב של מקרים תסוכם במרכז התמיכה.";
+"supportcenter" = "מרכז תמיכה";
+"supportmethod" = "שיטת תמיכה";
+"kotirakara" = "מכאן";
+"me-ru" = "אימייל";
+"me-ruactbindsapo-to" = "תוכל לדבר עם התמיכה של Actbind בדוא\"ל.";
+"roguauto" = "להתנתק";
+"roguautosimasuka" = "להתנתק מ- @%@?";
+"ba-jyonn" = "גִרְסָה";
+
+"settei" = "הגדרות";
+"akaunnto" = "חֶשְׁבּוֹן";
+"puraibasi-" = "פְּרָטִיוּת";
+"sekyuritexi" = "בִּטָחוֹן";
+"apurinogenngo" = "שפת האפליקציה";
+"actbindnituite" = "אודות Actbind";
+
+"kojinnnojyouhou" = "מידע אישי";
+"namae" = "שֵׁם";
+"rennrakusakijyouhou" = "פרטים ליצירת קשר";
+"seibetu" = "מִין";
+"tannjyoubiwohennkoudekinai" = "לא ניתן היה לשנות את יום ההולדת";
+"kakuninn" = "אִשׁוּר";
+"atarasiijyouhouhozonn" = "שמור מידע חדש";
+"gennzainonamae" = "שם נוכחי";
+"gennzainome-ruadoresu" = "כתובת הדואר האלקטרוני הנוכחית";
+"gennzainoseibetu" = "מין נוכחי";
+"gennzainotannjyoubi" = "יום הולדת נוכחי";
+"atarasiinamae" = "שם חדש";
+"atarasiime-ruadoresu" = "כתובת דואר חדשה";
+"atarasiiseibetu" = "מין חדש";
+"atarasiitannjyoubi" = "יום הולדת חדש";
+"hozonnpasuwa-do" = "אנא הכנס את הסיסמה לשמירה";
+"kyannseru" = "לְבַטֵל";
+"akaunntokannri" = "ניהול חשבון";
+
+"era-" = "אירעה שגיאה";
+
+"toukousakujyo" = "האם אתה רוצה למחוק את הפוסט?";
+
+"akaunntosakujyo" = "מחיקת חשבון";
+"sakujyo" = "לִמְחוֹק";
+"akaunntowosakujyotyuu" = "מוחק חשבון ...";
+"akaunntogasakujyosaremasita" = "החשבון נמחק";
+"akaunntosakujyosetumei" = "אם תמחק את חשבונך, לא תוכל להתחבר שוב.";
+"sakujyopasuwa-do" = "אנא הכנס את הסיסמה שלך למחיקה";
+"arigatou" = "תודה רבה לך";
+"tanosimi" = "אני מצפה לראות אותך שוב";
+
+"puraibasi-akusesujyoukyou" = "גישה למידע פרטיות";
+
+"gennzainopasuwa-do" = "סיסמה נוכחית";
+"atarasiipasuwa-do" = "סיסמה חדשה";
+"atarasiipasuwa-domouitidonyuuryoku" = "סיסמא חדשה, שוב";
+"gennzainopasuwa-dogamatigatteimasu" = "צור סיסמה חדשה שלא השתמשת בה בעבר.";
+"pasuwa-dogaittisimasenn" = "סיסמאות לא תואמות.";
+
+"syasinnwohozonn" = "שמור תמונות";
+"syasinnwohozonnsetumei" = "שמור אוטומטית את התמונות שאתה מצלם בגליל המצלמה שלך.";
+
+"riyoukiyaku" = "תנאי השירות";
+"puraibasi-porisi-" = "מדיניות הפרטיות";
+"komyunitexigaidorainn" = "הנחיות הקהילה";
+"o-punnso-suraiburari" = "ספריות קוד פתוח";
+
+"suubyoumae" = "זֶה עַתָה";
+"funnmae" = "לפני %@ דקה";
+"fukusuufunnmae" = "לפני %@ דקות";
+"jikannmae" = "לפני %@ שעות";
+"fukusuujikannmae" = "לפני %@ שעות";
+"nitimae" = "לפני %@ יום";
+"fukusuunitimae" = "לפני %@ יום";

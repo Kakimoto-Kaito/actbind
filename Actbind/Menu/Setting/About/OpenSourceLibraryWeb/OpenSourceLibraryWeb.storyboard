@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vxg-Et-VEm">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--OpenSourceLibraryWebViewController-->
+        <scene sceneID="JJh-u7-zje">
+            <objects>
+                <viewController title="OpenSourceLibraryWebViewController" modalPresentationStyle="fullScreen" hidesBottomBarWhenPushed="YES" id="LaH-JV-shH" customClass="OpenSourceLibraryWebViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NAr-yN-MI8" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DfJ-q6-15s">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <color key="backgroundColor" name="Background"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <dataDetectorTypes key="dataDetectorTypes" none="YES"/>
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iof-z9-CXA"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="DfJ-q6-15s" secondAttribute="bottom" id="0qW-5v-byw"/>
+                            <constraint firstItem="DfJ-q6-15s" firstAttribute="top" secondItem="iof-z9-CXA" secondAttribute="top" id="W4A-Dk-78f"/>
+                            <constraint firstItem="DfJ-q6-15s" firstAttribute="leading" secondItem="iof-z9-CXA" secondAttribute="leading" id="ZDL-f9-7sS"/>
+                            <constraint firstItem="DfJ-q6-15s" firstAttribute="trailing" secondItem="iof-z9-CXA" secondAttribute="trailing" id="fiI-b1-5qQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="OpenSourceLibrary" id="XaU-hP-9lj">
+                        <barButtonItem key="leftBarButtonItem" id="VDp-4E-6r2">
+                            <imageReference key="image" image="cancel"/>
+                            <color key="tintColor" name="BlackWhite"/>
+                            <connections>
+                                <action selector="cancelButtonAction:" destination="LaH-JV-shH" id="YOB-oo-0Ky"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cancelButton" destination="VDp-4E-6r2" id="W4j-7I-Bly"/>
+                        <outlet property="navigationBarTitle" destination="XaU-hP-9lj" id="RcZ-rY-9Rc"/>
+                        <outlet property="webView" destination="DfJ-q6-15s" id="uBO-FS-B0T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RYs-nx-qk5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="883.07692307692309" y="73.222748815165872"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Hr8-R3-Pke">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="vxg-Et-VEm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="xCP-vY-TLA">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="Cell"/>
+                        <color key="barTintColor" name="Cell"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" name="BlackWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LaH-JV-shH" kind="relationship" relationship="rootViewController" id="zjZ-de-lSH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="asI-Da-IVQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="73.660714285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel" width="44" height="44"/>
+        <namedColor name="Background">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99599999189376831" green="1" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QDp-q2-4q9">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ActivityViewController-->
+        <scene sceneID="1fG-gn-nAd">
+            <objects>
+                <viewController title="ActivityViewController" id="QDp-q2-4q9" customClass="ActivityViewController" customModule="Actbind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PSc-ob-Tp8" userLabel="Background View">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actbindの利用時間" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDk-4C-L15" userLabel="ActivityTitle Label">
+                                <rect key="frame" x="20" y="64" width="350" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1日の平均" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhY-Ew-nsV" userLabel="ActivityAvg Label">
+                                <rect key="frame" x="20" y="108" width="350" height="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1時間 15分" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wd-Zq-2xI" userLabel="AvgTime Label">
+                                <rect key="frame" x="20" y="138" width="350" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" name="Blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11月24日~11月31日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7O-tn-yPj" userLabel="ActivityWeek Label">
+                                <rect key="frame" x="20" y="186" width="350" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5i1-Ot-ppI" userLabel="Cell View">
+                                <rect key="frame" x="20" y="222.99999999999997" width="350" height="346.33333333333326"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1時間 15分" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwr-J0-f82" userLabel="SelectActivityTime Label">
+                                        <rect key="frame" x="15" y="15" width="320" height="48"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                        <color key="textColor" name="BlackWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11月24日~11月31日" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lna-m0-E94" userLabel="SelectActivityDay Label">
+                                        <rect key="frame" x="15" y="63" width="320" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" name="SubText"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vbg-bx-NdW">
+                                        <rect key="frame" x="15" y="95.000000000000014" width="320" height="213.33333333333337"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HkZ-st-gTy" userLabel="SixDayChart View">
+                                                <rect key="frame" x="0.0" y="113.33333333333331" width="39" height="100"/>
+                                                <color key="backgroundColor" name="BlueHalf"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="CdH-mz-Mz6" userLabel="SixDayChart View Height"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIP-BZ-pDn" userLabel="SixDayChart Button">
+                                                <rect key="frame" x="0.0" y="0.0" width="39" height="213.33333333333334"/>
+                                                <connections>
+                                                    <action selector="sixDayChartButton:" destination="QDp-q2-4q9" eventType="touchUpInside" id="tj7-sw-UPI"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wf0-q2-hwT" userLabel="FiveDayChart View">
+                                                <rect key="frame" x="47" y="113.33333333333331" width="38.666666666666657" height="100"/>
+                                                <color key="backgroundColor" name="BlueHalf"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="wsv-fX-HV6" userLabel="FiveDayChart View Height"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocd-9Q-vgk" userLabel="FiveDayChart Button">
+                                                <rect key="frame" x="47" y="0.0" width="38.666666666666657" height="213.33333333333334"/>
+                                                <connections>
+                                                    <action selector="fiveDayChartButton:" destination="QDp-q2-4q9" eventType="touchUpInside" id="Gdo-ac-cDW"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sr3-w7-Pfc" userLabel="FourDayChart View">
+                                                <rect key="frame" x="93.666666666666657" y="113.33333333333331" width="39" height="100"/>
+                                                <color key="backgroundColor" name="BlueHalf"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="wiY-gO-KkJ" userLabel="FourDayChart View Height"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dh-Iq-6ZR" userLabel="FourDayChart Button">
+                                                <rect key="frame" x="93.666666666666657" y="0.0" width="39" height="213.33333333333334"/>
+                                                <connections>
+                                                    <action selector="fourDayChartButton:" destination="QDp-q2-4q9" eventType="touchUpInside" id="ARg-TO-7sx"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cps-AZ-Rmx" userLabel="ThreeDayChart View">
+                                                <rect key="frame" x="140.66666666666666" y="113.33333333333331" width="38.666666666666657" height="100"/>
+                                                <color key="backgroundColor" name="BlueHalf"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="lgo-Hn-NO8" userLabel="ThreeDayChart View Height"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7e-Sg-Y0u" userLabel="ThreeDayChart Button">
+                                                <rect key="frame" x="140.66666666666666" y="0.0" width="38.666666666666657" height="213.33333333333334"/>
+                                                <connections>
+                                                    <action selector="threeDayChartButton:" destination="QDp-q2-4q9" eventType="touchUpInside" id="kSD-09-goi"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1C-l1-QbN" userLabel="TwoDayChart View">
+                                                <rect key="frame" x="187.33333333333334" y="113.33333333333331" width="39" height="100"/>
+                                                <color key="backgroundColor" name="BlueHalf"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="LQ9-x0-mp6" userLabel="TwoDayChart View Height"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yw3-R9-Wiw" userLabel="TwoDayChart Button">
+                                                <rect key="frame" x="187.33333333333334" y="0.0" width="39" height="213.33333333333334"/>
+                                                <connections>
+                                                    <action selector="twoDayChartButton:" destination="QDp-q2-4q9" eventType="touchUpInside" id="nOF-uC-aDd"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egZ-fU-YHJ" userLabel="OneDayChart View">
+                                                <rect key="frame" x="234.33333333333331" y="113.33333333333331" width="38.666666666666686" height="100"/>
+                                                <color key="backgroundColor" name="BlueHalf"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="Yus-FM-php" userLabel="OneDayChart View Height"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoA-OM-SiK" userLabel="OneDayChart Button">
+                                                <rect key="frame" x="234.33333333333331" y="0.0" width="38.666666666666686" height="213.33333333333334"/>
+                                                <connections>
+                                                    <action selector="oneDayChartButton:" destination="QDp-q2-4q9" eventType="touchUpInside" id="ktf-na-wUd"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efs-Qj-qVF" userLabel="ToDayChart View">
+                                                <rect key="frame" x="281" y="113.33333333333331" width="39" height="100"/>
+                                                <color key="backgroundColor" name="BlueHalf"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="hjD-Uq-u4D" userLabel="ToDayChart View Height"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hs-02-kPr" userLabel="ToDayChart Button">
+                                                <rect key="frame" x="281" y="0.0" width="39" height="213.33333333333334"/>
+                                                <connections>
+                                                    <action selector="toDayChartButtonTouchUpInside:" destination="QDp-q2-4q9" eventType="touchUpInside" id="e5c-cW-XAe"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPg-Jk-dOq" userLabel="AvgLine View">
+                                                <rect key="frame" x="0.0" y="109.33333333333331" width="320" height="4"/>
+                                                <color key="backgroundColor" name="Blue"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="4" id="qTB-GF-yIv"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="8dh-Iq-6ZR" firstAttribute="width" secondItem="BIP-BZ-pDn" secondAttribute="width" id="04W-3O-HIF"/>
+                                            <constraint firstAttribute="bottom" secondItem="Sr3-w7-Pfc" secondAttribute="bottom" id="0DO-SE-LGW"/>
+                                            <constraint firstItem="efs-Qj-qVF" firstAttribute="leading" secondItem="egZ-fU-YHJ" secondAttribute="trailing" constant="8" id="0gb-qd-hA0"/>
+                                            <constraint firstAttribute="bottom" secondItem="PoA-OM-SiK" secondAttribute="bottom" id="0ll-I7-j3N"/>
+                                            <constraint firstItem="8dh-Iq-6ZR" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="top" id="0t7-Rd-v3N"/>
+                                            <constraint firstAttribute="bottom" secondItem="HkZ-st-gTy" secondAttribute="bottom" id="3ZI-LH-cw1"/>
+                                            <constraint firstItem="Sr3-w7-Pfc" firstAttribute="leading" secondItem="wf0-q2-hwT" secondAttribute="trailing" constant="8" id="77N-n4-mN8"/>
+                                            <constraint firstItem="yw3-R9-Wiw" firstAttribute="leading" secondItem="i7e-Sg-Y0u" secondAttribute="trailing" constant="8" id="BUn-WV-RsX"/>
+                                            <constraint firstAttribute="trailing" secondItem="8hs-02-kPr" secondAttribute="trailing" id="DLN-YT-xON"/>
+                                            <constraint firstAttribute="bottom" secondItem="i7e-Sg-Y0u" secondAttribute="bottom" id="DxN-ih-XFv"/>
+                                            <constraint firstItem="cps-AZ-Rmx" firstAttribute="width" secondItem="HkZ-st-gTy" secondAttribute="width" id="FG9-3N-lvk"/>
+                                            <constraint firstItem="yw3-R9-Wiw" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="top" id="FuT-YZ-WhB"/>
+                                            <constraint firstItem="i7e-Sg-Y0u" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="top" id="GeG-Ns-rz3"/>
+                                            <constraint firstAttribute="bottom" secondItem="BIP-BZ-pDn" secondAttribute="bottom" id="Gne-lb-pcK"/>
+                                            <constraint firstAttribute="bottom" secondItem="wf0-q2-hwT" secondAttribute="bottom" id="LbV-8Z-fiP"/>
+                                            <constraint firstAttribute="trailing" secondItem="zPg-Jk-dOq" secondAttribute="trailing" id="MHt-in-Sha"/>
+                                            <constraint firstItem="I1C-l1-QbN" firstAttribute="leading" secondItem="cps-AZ-Rmx" secondAttribute="trailing" constant="8" id="MSl-cl-dMn"/>
+                                            <constraint firstItem="ocd-9Q-vgk" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="top" id="MhC-Cp-Q1i"/>
+                                            <constraint firstAttribute="bottom" secondItem="yw3-R9-Wiw" secondAttribute="bottom" id="Nmy-Il-1iP"/>
+                                            <constraint firstItem="ocd-9Q-vgk" firstAttribute="leading" secondItem="BIP-BZ-pDn" secondAttribute="trailing" constant="8" id="NtE-7H-ohY"/>
+                                            <constraint firstItem="PoA-OM-SiK" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="top" id="OfQ-yj-UT4"/>
+                                            <constraint firstItem="yw3-R9-Wiw" firstAttribute="width" secondItem="BIP-BZ-pDn" secondAttribute="width" id="PCt-Bv-Pt4"/>
+                                            <constraint firstAttribute="trailing" secondItem="efs-Qj-qVF" secondAttribute="trailing" id="Paz-Dg-bHw"/>
+                                            <constraint firstItem="egZ-fU-YHJ" firstAttribute="width" secondItem="HkZ-st-gTy" secondAttribute="width" id="Q5H-Yz-l4L"/>
+                                            <constraint firstItem="Sr3-w7-Pfc" firstAttribute="width" secondItem="HkZ-st-gTy" secondAttribute="width" id="Qwf-uK-7Gw"/>
+                                            <constraint firstItem="BIP-BZ-pDn" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="top" id="SWN-6a-NK2"/>
+                                            <constraint firstItem="ocd-9Q-vgk" firstAttribute="width" secondItem="BIP-BZ-pDn" secondAttribute="width" id="TJN-Xr-sbN"/>
+                                            <constraint firstItem="wf0-q2-hwT" firstAttribute="width" secondItem="HkZ-st-gTy" secondAttribute="width" id="Yn7-lj-FEQ"/>
+                                            <constraint firstItem="i7e-Sg-Y0u" firstAttribute="width" secondItem="BIP-BZ-pDn" secondAttribute="width" id="bEA-LE-dWd"/>
+                                            <constraint firstAttribute="width" secondItem="Vbg-bx-NdW" secondAttribute="height" multiplier="3:2" id="bVo-Fe-FKK"/>
+                                            <constraint firstItem="i7e-Sg-Y0u" firstAttribute="leading" secondItem="8dh-Iq-6ZR" secondAttribute="trailing" constant="8" id="bz7-Bg-FJN"/>
+                                            <constraint firstItem="PoA-OM-SiK" firstAttribute="width" secondItem="BIP-BZ-pDn" secondAttribute="width" id="dGY-Xp-V3L"/>
+                                            <constraint firstItem="8hs-02-kPr" firstAttribute="width" secondItem="BIP-BZ-pDn" secondAttribute="width" id="hZ0-Fn-fcH"/>
+                                            <constraint firstItem="efs-Qj-qVF" firstAttribute="width" secondItem="HkZ-st-gTy" secondAttribute="width" id="jjO-Ud-4LB"/>
+                                            <constraint firstItem="8dh-Iq-6ZR" firstAttribute="leading" secondItem="ocd-9Q-vgk" secondAttribute="trailing" constant="8" id="k7c-mI-w5M"/>
+                                            <constraint firstItem="8hs-02-kPr" firstAttribute="leading" secondItem="PoA-OM-SiK" secondAttribute="trailing" constant="8" id="kfG-Mz-y5c"/>
+                                            <constraint firstItem="wf0-q2-hwT" firstAttribute="leading" secondItem="HkZ-st-gTy" secondAttribute="trailing" constant="8" id="lPD-NQ-9S2"/>
+                                            <constraint firstAttribute="bottom" secondItem="ocd-9Q-vgk" secondAttribute="bottom" id="mBY-mY-xRr"/>
+                                            <constraint firstItem="I1C-l1-QbN" firstAttribute="width" secondItem="HkZ-st-gTy" secondAttribute="width" id="mRs-Ch-iwr"/>
+                                            <constraint firstItem="8hs-02-kPr" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="top" id="oKW-5K-bhv"/>
+                                            <constraint firstAttribute="bottom" secondItem="I1C-l1-QbN" secondAttribute="bottom" id="pR3-c8-3Sc"/>
+                                            <constraint firstItem="PoA-OM-SiK" firstAttribute="leading" secondItem="yw3-R9-Wiw" secondAttribute="trailing" constant="8" id="qeT-Wg-upf"/>
+                                            <constraint firstItem="cps-AZ-Rmx" firstAttribute="leading" secondItem="Sr3-w7-Pfc" secondAttribute="trailing" constant="8" id="rfM-td-s5J"/>
+                                            <constraint firstAttribute="bottom" secondItem="egZ-fU-YHJ" secondAttribute="bottom" id="sBy-Te-7Iu"/>
+                                            <constraint firstItem="HkZ-st-gTy" firstAttribute="leading" secondItem="Vbg-bx-NdW" secondAttribute="leading" id="smL-ap-0cf"/>
+                                            <constraint firstAttribute="bottom" secondItem="8hs-02-kPr" secondAttribute="bottom" id="uAM-a7-qtY"/>
+                                            <constraint firstItem="zPg-Jk-dOq" firstAttribute="leading" secondItem="Vbg-bx-NdW" secondAttribute="leading" id="uGb-ew-TN8"/>
+                                            <constraint firstAttribute="bottom" secondItem="efs-Qj-qVF" secondAttribute="bottom" id="uOO-ob-d3T"/>
+                                            <constraint firstItem="egZ-fU-YHJ" firstAttribute="leading" secondItem="I1C-l1-QbN" secondAttribute="trailing" constant="8" id="xGP-9S-r2d"/>
+                                            <constraint firstAttribute="bottom" secondItem="zPg-Jk-dOq" secondAttribute="bottom" constant="100" id="yKp-wy-kfh"/>
+                                            <constraint firstAttribute="bottom" secondItem="cps-AZ-Rmx" secondAttribute="bottom" id="yp1-b8-bR5"/>
+                                            <constraint firstItem="BIP-BZ-pDn" firstAttribute="leading" secondItem="Vbg-bx-NdW" secondAttribute="leading" id="zIy-9t-UrO"/>
+                                            <constraint firstAttribute="bottom" secondItem="8dh-Iq-6ZR" secondAttribute="bottom" id="zbB-hq-gF7"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJt-ug-xjx" userLabel="SixDay Label">
+                                        <rect key="frame" x="19" y="316.33333333333337" width="31" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BlackWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRU-RV-nq8" userLabel="FiveDay Label">
+                                        <rect key="frame" x="65.666666666666671" y="316.33333333333337" width="31" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BlackWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hH8-rt-Hyt" userLabel="FourDay Label">
+                                        <rect key="frame" x="112.66666666666666" y="316.33333333333337" width="31" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BlackWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ph-9m-Onp" userLabel="ThreeDay Label">
+                                        <rect key="frame" x="159.66666666666666" y="316.33333333333337" width="31" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BlackWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnZ-QE-2TC" userLabel="TwoDay Label">
+                                        <rect key="frame" x="206.33333333333334" y="316.33333333333337" width="31" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BlackWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOM-hC-oGe" userLabel="OneDay Label">
+                                        <rect key="frame" x="253.33333333333331" y="316.33333333333337" width="31" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BlackWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pA1-ub-02e" userLabel="ToDay Label">
+                                        <rect key="frame" x="300" y="316.33333333333337" width="31" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" name="BlackWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="Cell"/>
+                                <constraints>
+                                    <constraint firstItem="4ph-9m-Onp" firstAttribute="centerX" secondItem="i7e-Sg-Y0u" secondAttribute="centerX" id="2dQ-DG-Thd"/>
+                                    <constraint firstItem="pwr-J0-f82" firstAttribute="top" secondItem="5i1-Ot-ppI" secondAttribute="top" constant="15" id="2yf-cl-mnH"/>
+                                    <constraint firstItem="lna-m0-E94" firstAttribute="top" secondItem="pwr-J0-f82" secondAttribute="bottom" id="69m-NU-0Jy"/>
+                                    <constraint firstItem="hH8-rt-Hyt" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="bottom" constant="8" id="Aqv-TH-FpO"/>
+                                    <constraint firstItem="IOM-hC-oGe" firstAttribute="centerX" secondItem="PoA-OM-SiK" secondAttribute="centerX" id="AtZ-VM-6os"/>
+                                    <constraint firstAttribute="bottom" secondItem="MJt-ug-xjx" secondAttribute="bottom" constant="15" id="BSV-XA-OYE"/>
+                                    <constraint firstItem="Vbg-bx-NdW" firstAttribute="top" secondItem="lna-m0-E94" secondAttribute="bottom" constant="15" id="Dj6-h4-nl5"/>
+                                    <constraint firstItem="lna-m0-E94" firstAttribute="leading" secondItem="5i1-Ot-ppI" secondAttribute="leading" constant="15" id="Doo-aG-OhM"/>
+                                    <constraint firstItem="hH8-rt-Hyt" firstAttribute="centerX" secondItem="8dh-Iq-6ZR" secondAttribute="centerX" id="Ds7-AK-RjV"/>
+                                    <constraint firstAttribute="bottom" secondItem="4ph-9m-Onp" secondAttribute="bottom" constant="15" id="HXJ-9F-i3s"/>
+                                    <constraint firstItem="4ph-9m-Onp" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="bottom" constant="8" id="Ig2-Gs-h5A"/>
+                                    <constraint firstItem="pA1-ub-02e" firstAttribute="centerX" secondItem="8hs-02-kPr" secondAttribute="centerX" id="KAM-wy-C48"/>
+                                    <constraint firstItem="PRU-RV-nq8" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="bottom" constant="8" id="LaC-q3-lmb"/>
+                                    <constraint firstItem="MJt-ug-xjx" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="bottom" constant="8" id="MDP-8e-8PX"/>
+                                    <constraint firstAttribute="bottom" secondItem="IOM-hC-oGe" secondAttribute="bottom" constant="15" id="OAP-Qv-On9"/>
+                                    <constraint firstItem="pwr-J0-f82" firstAttribute="leading" secondItem="5i1-Ot-ppI" secondAttribute="leading" constant="15" id="OGG-TX-nRE"/>
+                                    <constraint firstAttribute="bottom" secondItem="pA1-ub-02e" secondAttribute="bottom" constant="15" id="Qfd-75-4eg"/>
+                                    <constraint firstItem="Vbg-bx-NdW" firstAttribute="leading" secondItem="5i1-Ot-ppI" secondAttribute="leading" constant="15" id="SfR-T3-MDl"/>
+                                    <constraint firstItem="IOM-hC-oGe" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="bottom" constant="8" id="VvB-Db-TL2"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vbg-bx-NdW" secondAttribute="trailing" constant="15" id="bZ5-4A-Rcw"/>
+                                    <constraint firstAttribute="bottom" secondItem="PRU-RV-nq8" secondAttribute="bottom" constant="15" id="eDf-WH-xdO"/>
+                                    <constraint firstAttribute="trailing" secondItem="pwr-J0-f82" secondAttribute="trailing" constant="15" id="gFQ-mc-D5d"/>
+                                    <constraint firstItem="dnZ-QE-2TC" firstAttribute="centerX" secondItem="yw3-R9-Wiw" secondAttribute="centerX" id="m0j-77-S3h"/>
+                                    <constraint firstItem="dnZ-QE-2TC" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="bottom" constant="8" id="mEe-vr-3bh"/>
+                                    <constraint firstAttribute="trailing" secondItem="lna-m0-E94" secondAttribute="trailing" constant="15" id="mgd-E3-azc"/>
+                                    <constraint firstItem="pA1-ub-02e" firstAttribute="top" secondItem="Vbg-bx-NdW" secondAttribute="bottom" constant="8" id="qU5-Dm-Zsh"/>
+                                    <constraint firstItem="PRU-RV-nq8" firstAttribute="centerX" secondItem="ocd-9Q-vgk" secondAttribute="centerX" id="rLs-th-dEG"/>
+                                    <constraint firstAttribute="bottom" secondItem="dnZ-QE-2TC" secondAttribute="bottom" constant="15" id="vAH-MH-TgN"/>
+                                    <constraint firstItem="MJt-ug-xjx" firstAttribute="centerX" secondItem="BIP-BZ-pDn" secondAttribute="centerX" id="wRy-gh-C9d"/>
+                                    <constraint firstAttribute="bottom" secondItem="hH8-rt-Hyt" secondAttribute="bottom" constant="15" id="z4l-5k-xNp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A8r-Tf-kMr"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="A8r-Tf-kMr" firstAttribute="trailing" secondItem="3wd-Zq-2xI" secondAttribute="trailing" constant="20" id="4ye-32-Opi"/>
+                            <constraint firstItem="A8r-Tf-kMr" firstAttribute="trailing" secondItem="5i1-Ot-ppI" secondAttribute="trailing" constant="20" id="7X8-KG-zdX"/>
+                            <constraint firstItem="fDk-4C-L15" firstAttribute="leading" secondItem="A8r-Tf-kMr" secondAttribute="leading" constant="20" id="AZO-r7-JMQ"/>
+                            <constraint firstItem="A8r-Tf-kMr" firstAttribute="trailing" secondItem="fDk-4C-L15" secondAttribute="trailing" constant="20" id="AzN-A5-YF3"/>
+                            <constraint firstItem="GhY-Ew-nsV" firstAttribute="leading" secondItem="PSc-ob-Tp8" secondAttribute="leading" constant="20" id="DJj-SR-0Xx"/>
+                            <constraint firstItem="A8r-Tf-kMr" firstAttribute="trailing" secondItem="GhY-Ew-nsV" secondAttribute="trailing" constant="20" id="HOw-EM-Zqt"/>
+                            <constraint firstItem="3wd-Zq-2xI" firstAttribute="leading" secondItem="A8r-Tf-kMr" secondAttribute="leading" constant="20" id="L68-fi-VbE"/>
+                            <constraint firstItem="c7O-tn-yPj" firstAttribute="leading" secondItem="A8r-Tf-kMr" secondAttribute="leading" constant="20" id="Qno-eQ-weM"/>
+                            <constraint firstItem="A8r-Tf-kMr" firstAttribute="trailing" secondItem="c7O-tn-yPj" secondAttribute="trailing" constant="20" id="TvG-wA-U6T"/>
+                            <constraint firstItem="5i1-Ot-ppI" firstAttribute="leading" secondItem="A8r-Tf-kMr" secondAttribute="leading" constant="20" id="UUa-9c-HTN"/>
+                            <constraint firstItem="GhY-Ew-nsV" firstAttribute="top" secondItem="fDk-4C-L15" secondAttribute="bottom" constant="20" id="Y0m-Gy-IfM"/>
+                            <constraint firstItem="5i1-Ot-ppI" firstAttribute="top" secondItem="c7O-tn-yPj" secondAttribute="bottom" constant="20" id="gtf-sr-zk8"/>
+                            <constraint firstItem="3wd-Zq-2xI" firstAttribute="top" secondItem="GhY-Ew-nsV" secondAttribute="bottom" constant="8" id="lvB-Uj-yzW"/>
+                            <constraint firstItem="fDk-4C-L15" firstAttribute="top" secondItem="A8r-Tf-kMr" secondAttribute="top" constant="20" id="wcR-Bq-37r"/>
+                            <constraint firstItem="c7O-tn-yPj" firstAttribute="top" secondItem="3wd-Zq-2xI" secondAttribute="bottom" id="zpp-Du-jBb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="アクティビティ" id="wwf-40-Gm5">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="IoX-us-f0c">
+                            <connections>
+                                <action selector="backBottonAction:" destination="QDp-q2-4q9" id="A2I-1L-xEy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityAvgLabel" destination="GhY-Ew-nsV" id="x07-Cy-uCo"/>
+                        <outlet property="activityTitleLabel" destination="fDk-4C-L15" id="AFx-G7-vCo"/>
+                        <outlet property="activityWeekLabel" destination="c7O-tn-yPj" id="ofB-WY-egi"/>
+                        <outlet property="avgLineView" destination="zPg-Jk-dOq" id="Ylc-BZ-jWS"/>
+                        <outlet property="avgLineViewBottom" destination="yKp-wy-kfh" id="0fg-aF-hiQ"/>
+                        <outlet property="avgTimeLabel" destination="3wd-Zq-2xI" id="ZBZ-Iw-974"/>
+                        <outlet property="backButton" destination="IoX-us-f0c" id="V7h-O8-Ps1"/>
+                        <outlet property="chartView" destination="Vbg-bx-NdW" id="aPw-Fg-oRS"/>
+                        <outlet property="fiveDayChartButton" destination="ocd-9Q-vgk" id="IuZ-dA-fNt"/>
+                        <outlet property="fiveDayChartView" destination="wf0-q2-hwT" id="5JE-Mb-dfc"/>
+                        <outlet property="fiveDayChartViewHeight" destination="wsv-fX-HV6" id="IhL-ER-QOd"/>
+                        <outlet property="fiveDayLabel" destination="PRU-RV-nq8" id="vR6-Y0-t1j"/>
+                        <outlet property="fourDayChartButton" destination="8dh-Iq-6ZR" id="Z0V-wx-2xV"/>
+                        <outlet property="fourDayChartView" destination="Sr3-w7-Pfc" id="JRT-Eq-7xW"/>
+                        <outlet property="fourDayChartViewHeight" destination="wiY-gO-KkJ" id="tWp-kv-QzQ"/>
+                        <outlet property="fourDayLabel" destination="hH8-rt-Hyt" id="BS9-sP-v9A"/>
+                        <outlet property="navigationBarTitle" destination="wwf-40-Gm5" id="Sas-r8-TxR"/>
+                        <outlet property="oneDayChartButton" destination="PoA-OM-SiK" id="HoL-b7-fi4"/>
+                        <outlet property="oneDayChartView" destination="egZ-fU-YHJ" id="9HD-Y7-m4P"/>
+                        <outlet property="oneDayChartViewHeight" destination="Yus-FM-php" id="l5c-c3-s6e"/>
+                        <outlet property="oneDayLabel" destination="IOM-hC-oGe" id="zsb-ud-Nox"/>
+                        <outlet property="selectActivityDayLabel" destination="lna-m0-E94" id="Hpu-vW-XpQ"/>
+                        <outlet property="selectActivityTimeLabel" destination="pwr-J0-f82" id="yjf-Ih-TEK"/>
+                        <outlet property="sixDayChartButton" destination="BIP-BZ-pDn" id="Dyp-TH-9o1"/>
+                        <outlet property="sixDayChartView" destination="HkZ-st-gTy" id="D31-Ee-CmO"/>
+                        <outlet property="sixDayChartViewHeight" destination="CdH-mz-Mz6" id="JaC-7E-gwR"/>
+                        <outlet property="sixDayLabel" destination="MJt-ug-xjx" id="nZT-rx-nfk"/>
+                        <outlet property="threeDayChartButton" destination="i7e-Sg-Y0u" id="YMn-cH-gr4"/>
+                        <outlet property="threeDayChartView" destination="cps-AZ-Rmx" id="Kvd-uS-ge6"/>
+                        <outlet property="threeDayChartViewHeight" destination="lgo-Hn-NO8" id="iVm-od-n8Q"/>
+                        <outlet property="threeDayLabel" destination="4ph-9m-Onp" id="xLf-sv-JbG"/>
+                        <outlet property="toDayChartButton" destination="8hs-02-kPr" id="4uk-3A-ZqU"/>
+                        <outlet property="toDayChartView" destination="efs-Qj-qVF" id="A4i-C0-BaW"/>
+                        <outlet property="toDayChartViewHeight" destination="hjD-Uq-u4D" id="s2Q-JT-Xmh"/>
+                        <outlet property="toDayLabel" destination="pA1-ub-02e" id="YXo-Yv-0g7"/>
+                        <outlet property="twoDayChartButton" destination="yw3-R9-Wiw" id="9gr-eq-LlI"/>
+                        <outlet property="twoDayChartView" destination="I1C-l1-QbN" id="LIo-rE-xaq"/>
+                        <outlet property="twoDayChartViewHeight" destination="LQ9-x0-mp6" id="qnC-jj-okf"/>
+                        <outlet property="twoDayLabel" destination="dnZ-QE-2TC" id="xYu-TP-JiE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fR9-pd-37E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="148.5781990521327"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back" width="44" height="44"/>
+        <namedColor name="Background">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlackWhite">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Blue">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BlueHalf">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Cell">
+            <color red="0.99599999189376831" green="1" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SubText">
+            <color red="0.6940000057220459" green="0.6940000057220459" blue="0.6940000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
