@@ -150,6 +150,7 @@
 		0D7F65FC260B0DCD00418F48 /* UserDefaults+Remove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F65FB260B0DCD00418F48 /* UserDefaults+Remove.swift */; };
 		0D7F6601260B0DFB00418F48 /* String+CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F6600260B0DFB00418F48 /* String+CharacterSet.swift */; };
 		0D7F6606260B0E3C00418F48 /* Date+PostDateNotationChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F6605260B0E3C00418F48 /* Date+PostDateNotationChange.swift */; };
+		0D80560526D5FF9100361EB2 /* AppVersionCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D80560426D5FF9100361EB2 /* AppVersionCompare.swift */; };
 		0D89E804268F8AE100687E83 /* OtherProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D89E803268F8AE100687E83 /* OtherProfileTableViewCell.swift */; };
 		0D89E80B268F8AF600687E83 /* OtherProfilePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D89E80A268F8AF600687E83 /* OtherProfilePostTableViewCell.swift */; };
 		0D97D848267079E100CA0E2C /* UIButton+TapAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97D847267079E100CA0E2C /* UIButton+TapAction.swift */; };
@@ -376,6 +377,7 @@
 		0D7F65FB260B0DCD00418F48 /* UserDefaults+Remove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Remove.swift"; sourceTree = "<group>"; };
 		0D7F6600260B0DFB00418F48 /* String+CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CharacterSet.swift"; sourceTree = "<group>"; };
 		0D7F6605260B0E3C00418F48 /* Date+PostDateNotationChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+PostDateNotationChange.swift"; sourceTree = "<group>"; };
+		0D80560426D5FF9100361EB2 /* AppVersionCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersionCompare.swift; sourceTree = "<group>"; };
 		0D89E803268F8AE100687E83 /* OtherProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherProfileTableViewCell.swift; sourceTree = "<group>"; };
 		0D89E80A268F8AF600687E83 /* OtherProfilePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherProfilePostTableViewCell.swift; sourceTree = "<group>"; };
 		0D97D847267079E100CA0E2C /* UIButton+TapAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TapAction.swift"; sourceTree = "<group>"; };
@@ -579,6 +581,7 @@
 				0D9B373125F721F3002EB629 /* Actbind.entitlements */,
 				0D23792725F71C2500E43552 /* AppDelegate.swift */,
 				0D23792925F71C2500E43552 /* SceneDelegate.swift */,
+				0D80560426D5FF9100361EB2 /* AppVersionCompare.swift */,
 				0D7F65C7260B02A000418F48 /* Extension */,
 				0D9B373425F72217002EB629 /* InputTextCheck */,
 				0D9B373D25F72243002EB629 /* Update */,
@@ -1620,6 +1623,7 @@
 				0D22ED5225F7328F009190F9 /* SignUpGenderPageViewController.swift in Sources */,
 				0D0DB34525F737A50027BCB8 /* MainViewController.swift in Sources */,
 				0D22ED3925F73257009190F9 /* SignUpNameViewController.swift in Sources */,
+				0D80560526D5FF9100361EB2 /* AppVersionCompare.swift in Sources */,
 				0D7F65EA260B0D0400418F48 /* UIImage+CroppingToCenterSquare.swift in Sources */,
 				0DD4B4352696018F0046416F /* Welcome.swift in Sources */,
 				0D23792825F71C2500E43552 /* AppDelegate.swift in Sources */,
