@@ -43,9 +43,11 @@ final class BioEditViewController: UIViewController, UITextViewDelegate, UIGestu
             if myColor == "Original" {
                 backButton.tintColor = UIColor(named: "BlackWhite")
                 bioTextView.tintColor = UIColor(named: "Blue")
+                saveButton.backgroundColor = UIColor(named: "Blue")
             } else {
                 backButton.tintColor = UIColor(named: myColor!)
                 bioTextView.tintColor = UIColor(named: myColor!)
+                saveButton.backgroundColor = UIColor(named: myColor!)
             }
 
             if bio == "" {
@@ -168,17 +170,23 @@ final class BioEditViewController: UIViewController, UITextViewDelegate, UIGestu
         
         UIButton().uiButtonTapOff(item: saveButton, itemRight: saveButtonRight, itemLeft: saveButtonLeft)
         
-        saveButton.isEnabled = false
-        navigationController?.interactivePopGestureRecognizer?.isEnabled = false
-        backButton.isEnabled = false
-        bioTextView.isEditable = false
-        activityView.isHidden = false
-        activityIndicator.startAnimating()
-        
-        // データ登録・更新
         if let userDefaults = userDefaults {
-            let userId = userDefaults.integer(forKey: "userid")
-            apiBio(userId: userId, value: bioTextView.text)
+            let bio = userDefaults.string(forKey: "bio")
+            
+            if bioTextView.text == bio {
+                navigationController?.popViewController(animated: true)
+            } else {
+                saveButton.isEnabled = false
+                navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+                backButton.isEnabled = false
+                bioTextView.isEditable = false
+                activityView.isHidden = false
+                activityIndicator.startAnimating()
+                
+                // データ登録・更新
+                let userId = userDefaults.integer(forKey: "userid")
+                apiBio(userId: userId, value: bioTextView.text)
+            }
         }
     }
 
