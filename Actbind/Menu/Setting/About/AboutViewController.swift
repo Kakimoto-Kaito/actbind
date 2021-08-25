@@ -93,7 +93,20 @@ final class AboutViewController: UIViewController, UIGestureRecognizerDelegate {
         communityGuidelinesLabel.text = "komyunitexigaidorainn".localized()
         openSourceLibraryLabel.text = "o-punnso-suraiburari".localized()
         
-        versionText.text = "ba-jyonn".localized() + " " + version
+        AppTypeCompare.toAppStoreVersion { type in
+            switch type {
+            case .release:
+                DispatchQueue.main.async {
+                    self.versionText.text = "ba-jyonn".localized() + " " + self.version
+                }
+            case .beta:
+                DispatchQueue.main.async {
+                    self.versionText.text = "ba-jyonn".localized() + " " + self.version + " (Beta)"
+                }
+            case .error:
+                print("エラー")
+            }
+        }
     }
     
     // 画面に表示される直前に呼ばれます。
