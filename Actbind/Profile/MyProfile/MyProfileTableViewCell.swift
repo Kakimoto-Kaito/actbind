@@ -15,6 +15,9 @@ final class MyProfileTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var bioLabel: UILabel!
     @IBOutlet weak var bioLabelTop: NSLayoutConstraint!
+    @IBOutlet weak var websiteButton: UIButton!
+    @IBOutlet weak var websiteButtonTop: NSLayoutConstraint!
+    @IBOutlet weak var websiteButtonHeight: NSLayoutConstraint!
     @IBOutlet weak var profileEditButton: UIButton!
     @IBOutlet weak var profileEditButtonRight: NSLayoutConstraint!
     @IBOutlet weak var profileEditButtonLeft: NSLayoutConstraint!
@@ -34,14 +37,17 @@ final class MyProfileTableViewCell: UITableViewCell {
             let userName = userDefaults.string(forKey: "username")!
             let myColor = userDefaults.string(forKey: "mycolor")
             if myColor == "Original" {
+                websiteButton.setTitleColor(UIColor(named: "Blue"), for: .normal)
                 profileEditButton.backgroundColor = UIColor(named: "Blue")
             } else {
+                websiteButton.setTitleColor(UIColor(named: myColor!), for: .normal)
                 profileEditButton.backgroundColor = UIColor(named: myColor!)
             }
             
             let name1 = userDefaults.string(forKey: "name1")
             let name2 = userDefaults.string(forKey: "name2")
             let bio = userDefaults.string(forKey: "bio")
+            let website = userDefaults.string(forKey: "website")
             
             let profileimage = userDefaults.string(forKey: "profileimage")
             if profileimage == "Default" {
@@ -55,6 +61,7 @@ final class MyProfileTableViewCell: UITableViewCell {
             userProfileImage.cornerAll(value: 0, fulcrum: "width")
             nameLabel.text = name1! + " " + name2!
             bioLabel.text = bio
+            websiteButton.setTitle(website, for: .normal)
         }
         
         profileEditButton.setTitle("purofi-ruwohennsyuu".localized(), for: .normal)
@@ -63,6 +70,14 @@ final class MyProfileTableViewCell: UITableViewCell {
             bioLabelTop.constant = 0
         } else {
             bioLabelTop.constant = 8
+        }
+        
+        if websiteButton.currentTitle == "" {
+            websiteButtonHeight.constant = 0
+            websiteButtonTop.constant = 0
+        } else {
+            websiteButtonHeight.constant = 15
+            websiteButtonTop.constant = 8
         }
     }
     

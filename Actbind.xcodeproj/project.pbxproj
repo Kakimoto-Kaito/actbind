@@ -17,6 +17,9 @@
 		0D0DB32B25F736A20027BCB8 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0DB32A25F736A20027BCB8 /* Setting.storyboard */; };
 		0D0DB32E25F736A80027BCB8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0DB32D25F736A80027BCB8 /* SettingViewController.swift */; };
 		0D0DB34525F737A50027BCB8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0DB34425F737A40027BCB8 /* MainViewController.swift */; };
+		0D11C2DA26D669BA00A7CD75 /* UrlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11C2D926D669BA00A7CD75 /* UrlViewController.swift */; };
+		0D11C2E226D6BFBC00A7CD75 /* WebsiteEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D11C2E126D6BFBC00A7CD75 /* WebsiteEdit.storyboard */; };
+		0D11C2E426D6BFE800A7CD75 /* WebsiteEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11C2E326D6BFE800A7CD75 /* WebsiteEditViewController.swift */; };
 		0D12525126A7173C00573701 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12525026A7173C00573701 /* SearchViewController.swift */; };
 		0D12525326A7174500573701 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D12525226A7174500573701 /* Search.storyboard */; };
 		0D12525A26A7A59D00573701 /* ColorTagSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12525926A7A59D00573701 /* ColorTagSearchViewController.swift */; };
@@ -244,6 +247,9 @@
 		0D0DB32A25F736A20027BCB8 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		0D0DB32D25F736A80027BCB8 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		0D0DB34425F737A40027BCB8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0D11C2D926D669BA00A7CD75 /* UrlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlViewController.swift; sourceTree = "<group>"; };
+		0D11C2E126D6BFBC00A7CD75 /* WebsiteEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebsiteEdit.storyboard; sourceTree = "<group>"; };
+		0D11C2E326D6BFE800A7CD75 /* WebsiteEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteEditViewController.swift; sourceTree = "<group>"; };
 		0D12525026A7173C00573701 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0D12525226A7174500573701 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		0D12525926A7A59D00573701 /* ColorTagSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTagSearchViewController.swift; sourceTree = "<group>"; };
@@ -510,6 +516,15 @@
 			path = CornerRadius;
 			sourceTree = "<group>";
 		};
+		0D11C2DE26D6BF7C00A7CD75 /* WebsiteEdit */ = {
+			isa = PBXGroup;
+			children = (
+				0D11C2E126D6BFBC00A7CD75 /* WebsiteEdit.storyboard */,
+				0D11C2E326D6BFE800A7CD75 /* WebsiteEditViewController.swift */,
+			);
+			path = WebsiteEdit;
+			sourceTree = "<group>";
+		};
 		0D12524A26A7171C00573701 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -739,6 +754,7 @@
 				0D22ED1925F731F6009190F9 /* MailAddressViewController.swift */,
 				0D22ED1C25F731FE009190F9 /* PasswordViewController.swift */,
 				0D22ED1F25F731FF009190F9 /* UserNameViewController.swift */,
+				0D11C2D926D669BA00A7CD75 /* UrlViewController.swift */,
 				0D22ED1D25F731FF009190F9 /* OnlyNumberViewController.swift */,
 				0D22ED1E25F731FF009190F9 /* OnlyUnderbarViewController.swift */,
 			);
@@ -1036,6 +1052,7 @@
 				0D22EDC125F73441009190F9 /* ProfileEditViewController.swift */,
 				0D9B375725F72459002EB629 /* ProfileImageEdit */,
 				0D9B375625F72455002EB629 /* BioEdit */,
+				0D11C2DE26D6BF7C00A7CD75 /* WebsiteEdit */,
 			);
 			path = ProfileEdit;
 			sourceTree = "<group>";
@@ -1453,6 +1470,7 @@
 				0D22ED9D25F733BA009190F9 /* PostColor.storyboard in Resources */,
 				0DA9BF532677BC6100ED8EF0 /* .swift-version in Resources */,
 				0D22ED8825F73373009190F9 /* Home.storyboard in Resources */,
+				0D11C2E226D6BFBC00A7CD75 /* WebsiteEdit.storyboard in Resources */,
 				0D22ED6725F732B1009190F9 /* SignUpCheck.storyboard in Resources */,
 				0D0DB32B25F736A20027BCB8 /* Setting.storyboard in Resources */,
 				0D79BE5226D24F1C00C5ACFA /* OpenSourceLibrary.html in Resources */,
@@ -1604,6 +1622,7 @@
 				0D63724126A922D500C2ADEE /* AccountSearchViewController.swift in Sources */,
 				0D22EDB825F7341A009190F9 /* MyProfileViewController.swift in Sources */,
 				0DFBC1FE2690195400800190 /* MyProfilePostTableViewCell.swift in Sources */,
+				0D11C2E426D6BFE800A7CD75 /* WebsiteEditViewController.swift in Sources */,
 				0DFBC1FC269018BA00800190 /* MyProfile.swift in Sources */,
 				0D5D285E260B53FE00AAB0F6 /* Date->String.swift in Sources */,
 				0D7F65DC260B0C2A00418F48 /* String+Replacement.swift in Sources */,
@@ -1622,6 +1641,7 @@
 				0D80560726D6064E00361EB2 /* AppTypeCompare.swift in Sources */,
 				0D22EDBD25F73438009190F9 /* BioEditViewController.swift in Sources */,
 				0D7F6601260B0DFB00418F48 /* String+CharacterSet.swift in Sources */,
+				0D11C2DA26D669BA00A7CD75 /* UrlViewController.swift in Sources */,
 				0D97D848267079E100CA0E2C /* UIButton+TapAction.swift in Sources */,
 				0D22ED4B25F73286009190F9 /* SignUpPasswordPageViewController.swift in Sources */,
 				0D22ED5225F7328F009190F9 /* SignUpGenderPageViewController.swift in Sources */,

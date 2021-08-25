@@ -148,6 +148,9 @@
 "jikosyoukai" = "Bio";
 "jikosyoukaiwohennsyuu" = "Edit Bio";
 "jikosyoukaiwonyuuryoku" = "Enter the bio ...";
+"webusaito" = "Website";
+"webusaitowohennsyuu" = "Edit Website";
+"webusaitowonyuuryoku" = "Enter the website ...";
 "foro-" = "Follow";
 "foro-tyuu" = "Following";
 "forowa-" = "Followers";

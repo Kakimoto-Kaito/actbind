@@ -20,15 +20,7 @@ final class UpdateViewController: UIViewController {
 
         updateLabel.text = "atarasiiba-jyonnni".localized()
 
-        if let userDefaults = userDefaults {
-            let myColor = userDefaults.string(forKey: "mycolor")
-
-            if myColor == "Original" {
-                updateButton.backgroundColor = UIColor(named: "Blue")
-            } else {
-                updateButton.backgroundColor = UIColor(named: myColor!)
-            }
-        }
+        updateButton.backgroundColor = UIColor(named: "Blue")
 
         updateButton.setTitle("appude-to".localized(), for: .normal)
     }

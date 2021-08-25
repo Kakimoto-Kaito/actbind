@@ -17,6 +17,9 @@ final class OtherProfileTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var bioLabel: UILabel!
     @IBOutlet weak var bioLabelTop: NSLayoutConstraint!
+    @IBOutlet weak var websiteButton: UIButton!
+    @IBOutlet weak var websiteButtonTop: NSLayoutConstraint!
+    @IBOutlet weak var websiteButtonHeight: NSLayoutConstraint!
     @IBOutlet weak var followButton: UIButton!
     @IBOutlet weak var followButtonRight: NSLayoutConstraint!
     @IBOutlet weak var followButtonLeft: NSLayoutConstraint!
@@ -35,8 +38,10 @@ final class OtherProfileTableViewCell: UITableViewCell {
         if let userDefaults = userDefaults {
             let myColor = userDefaults.string(forKey: "mycolor")
             if myColor == "Original" {
+                websiteButton.setTitleColor(UIColor(named: "Blue"), for: .normal)
                 // followButton.backgroundColor = UIColor(named: "Blue")
             } else {
+                websiteButton.setTitleColor(UIColor(named: myColor!), for: .normal)
                 // followButton.backgroundColor = UIColor(named: myColor!)
             }
     
@@ -55,6 +60,8 @@ final class OtherProfileTableViewCell: UITableViewCell {
             
             nameLabel.text = name
             bioLabel.text = user!.bio
+            
+            websiteButton.setTitle(user!.website, for: .normal)
         }
         
         // followButton.setTitle("foro-".localized(), for: .normal)
@@ -63,6 +70,14 @@ final class OtherProfileTableViewCell: UITableViewCell {
             bioLabelTop.constant = 0
         } else {
             bioLabelTop.constant = 8
+        }
+        
+        if websiteButton.currentTitle == "" {
+            websiteButtonHeight.constant = 0
+            websiteButtonTop.constant = 0
+        } else {
+            websiteButtonHeight.constant = 15
+            websiteButtonTop.constant = 8
         }
     }
     

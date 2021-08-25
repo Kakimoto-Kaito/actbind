@@ -148,6 +148,9 @@
 "jikosyoukai" = "Bio";
 "jikosyoukaiwohennsyuu" = "Redigera Bio";
 "jikosyoukaiwonyuuryoku" = "Ange bio ...";
+"webusaito" = "Hemsida";
+"webusaitowohennsyuu" = "Redigera webbplats";
+"webusaitowonyuuryoku" = "Gå in på webbplatsen ...";
 "foro-" = "Följ";
 "foro-tyuu" = "Följande";
 "forowa-" = "Följare";
