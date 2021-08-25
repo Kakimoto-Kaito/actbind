@@ -81,6 +81,40 @@ final class OtherProfileTableViewCell: UITableViewCell {
         }
     }
     
+    @IBAction func websiteButtonTouchDown(_ sender: Any) {
+        if let userDefaults = userDefaults {
+            let myColor = userDefaults.string(forKey: "mycolor")
+
+            if myColor == "Original" {
+                websiteButton.backgroundColor = UIColor(named: "BlueHalf")
+            } else if myColor == "Red" {
+                websiteButton.backgroundColor = UIColor(named: "RedHalf")
+            } else if myColor == "Orange" {
+                websiteButton.backgroundColor = UIColor(named: "OrangeHalf")
+            } else if myColor == "Yellow" {
+                websiteButton.backgroundColor = UIColor(named: "YellowHalf")
+            } else if myColor == "Green" {
+                websiteButton.backgroundColor = UIColor(named: "GreenHalf")
+            } else if myColor == "Blue" {
+                websiteButton.backgroundColor = UIColor(named: "BlueHalf")
+            } else {
+                websiteButton.backgroundColor = UIColor(named: "PurpleHalf")
+            }
+        }
+    }
+    
+    @IBAction func websiteButtonTouchDragOutside(_ sender: Any) {
+        websiteButton.backgroundColor = UIColor.clear
+    }
+    
+    @IBAction func websiteButtonTouchUpInside(_ sender: Any) {
+        UISelectionFeedbackGenerator().selectionChanged()
+        
+        websiteButton.backgroundColor = UIColor.clear
+        
+        delegate?.goWeb(website: websiteButton.currentTitle!)
+    }
+    
     @IBAction func followButtonTouchDown(_ sender: Any) {
         UIButton().uiButtonTapOn(item: followButton, itemRight: followButtonRight, itemLeft: followButtonLeft)
     }

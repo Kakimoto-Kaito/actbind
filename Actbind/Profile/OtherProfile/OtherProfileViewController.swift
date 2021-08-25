@@ -352,6 +352,18 @@ extension OtherProfileViewController: UITableViewDataSource {
         }
     }
     
+    func goWeb(website: String) {
+        let storyBoard = UIStoryboard(name: "Web", bundle: nil)
+        let nextVC = storyBoard.instantiateInitialViewController()
+        let nav = (nextVC as? UINavigationController)
+        let vc = (nav?.topViewController as! WebViewController)
+        
+        // 値の設定
+        vc.weburl = website
+        
+        present(nextVC!, animated: true) {}
+    }
+    
     func apiLikePost(userId: Int, postId: Int) {
         let url = URL(string: api! + "like")!
         var request = URLRequest(url: url)

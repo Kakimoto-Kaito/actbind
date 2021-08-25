@@ -58,7 +58,7 @@
                                                             <imageReference key="image" image="defaultProfileImage"/>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XQ-4f-ZVd">
-                                                            <rect key="frame" x="15" y="208" width="320" height="15"/>
+                                                            <rect key="frame" x="129" y="208" width="92" height="15"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="15" id="2AN-ST-4tJ"/>
                                                             </constraints>
@@ -66,19 +66,30 @@
                                                             <state key="normal" title="ウェブサイト">
                                                                 <color key="titleColor" name="Blue"/>
                                                             </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="4"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <action selector="websiteButtonTouchDown:" destination="Rea-i4-9ZK" eventType="touchDown" id="XsF-NE-KZf"/>
+                                                                <action selector="websiteButtonTouchDragOutside:" destination="Rea-i4-9ZK" eventType="touchDragOutside" id="K1i-6Z-cph"/>
+                                                                <action selector="websiteButtonTouchUpInside:" destination="Rea-i4-9ZK" eventType="touchUpInside" id="gzG-CA-WmI"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" name="Cell"/>
                                                     <constraints>
-                                                        <constraint firstItem="2XQ-4f-ZVd" firstAttribute="leading" secondItem="Jgc-R7-1Kl" secondAttribute="leading" constant="15" id="2tz-LK-76V"/>
+                                                        <constraint firstItem="2XQ-4f-ZVd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Jgc-R7-1Kl" secondAttribute="leading" constant="15" id="2tz-LK-76V"/>
                                                         <constraint firstItem="PDD-vY-sbq" firstAttribute="top" secondItem="eGd-01-Spx" secondAttribute="bottom" constant="8" id="3xc-43-KPJ"/>
                                                         <constraint firstItem="PDD-vY-sbq" firstAttribute="leading" secondItem="Jgc-R7-1Kl" secondAttribute="leading" constant="15" id="6Kn-CA-6wr"/>
-                                                        <constraint firstAttribute="trailing" secondItem="2XQ-4f-ZVd" secondAttribute="trailing" constant="15" id="Czt-3Z-CVi"/>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2XQ-4f-ZVd" secondAttribute="trailing" constant="15" id="Czt-3Z-CVi"/>
                                                         <constraint firstAttribute="bottom" secondItem="2XQ-4f-ZVd" secondAttribute="bottom" constant="15" id="Jt8-kd-Ter"/>
                                                         <constraint firstAttribute="trailing" secondItem="eGd-01-Spx" secondAttribute="trailing" constant="15" id="L9e-6b-XZt"/>
                                                         <constraint firstItem="eGd-01-Spx" firstAttribute="top" secondItem="C2y-s8-Aaf" secondAttribute="bottom" constant="15" id="VBb-YX-iUV"/>
                                                         <constraint firstItem="eGd-01-Spx" firstAttribute="leading" secondItem="Jgc-R7-1Kl" secondAttribute="leading" constant="15" id="a2f-oy-cUA"/>
                                                         <constraint firstAttribute="trailing" secondItem="PDD-vY-sbq" secondAttribute="trailing" constant="15" id="bcs-kU-D9W"/>
+                                                        <constraint firstItem="2XQ-4f-ZVd" firstAttribute="centerX" secondItem="Jgc-R7-1Kl" secondAttribute="centerX" id="fE5-Qk-ioE"/>
                                                         <constraint firstItem="C2y-s8-Aaf" firstAttribute="centerX" secondItem="Jgc-R7-1Kl" secondAttribute="centerX" id="jqr-Hl-nmM"/>
                                                         <constraint firstItem="C2y-s8-Aaf" firstAttribute="top" secondItem="Jgc-R7-1Kl" secondAttribute="top" constant="15" id="kRs-a7-6FK"/>
                                                         <constraint firstItem="2XQ-4f-ZVd" firstAttribute="top" secondItem="PDD-vY-sbq" secondAttribute="bottom" constant="8" id="nwd-MO-g4r"/>

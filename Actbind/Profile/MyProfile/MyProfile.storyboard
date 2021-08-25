@@ -80,7 +80,7 @@
                                                             <imageReference key="image" image="defaultProfileImage"/>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntz-aL-3LZ">
-                                                            <rect key="frame" x="15" y="208" width="320" height="15"/>
+                                                            <rect key="frame" x="129" y="208" width="92" height="15"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="15" id="lXu-tI-Emt"/>
                                                             </constraints>
@@ -88,6 +88,16 @@
                                                             <state key="normal" title="ウェブサイト">
                                                                 <color key="titleColor" name="Blue"/>
                                                             </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="4"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                            <connections>
+                                                                <action selector="websiteButtonTouchDown:" destination="w2o-vQ-qJR" eventType="touchDown" id="LnO-Le-Sqi"/>
+                                                                <action selector="websiteButtonTouchDragOutside:" destination="w2o-vQ-qJR" eventType="touchDragOutside" id="SCU-N6-0KQ"/>
+                                                                <action selector="websiteButtonTouchUpInside:" destination="w2o-vQ-qJR" eventType="touchUpInside" id="ZWQ-OL-tr8"/>
+                                                            </connections>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" name="Cell"/>
@@ -95,10 +105,11 @@
                                                         <constraint firstItem="RyZ-db-IRg" firstAttribute="top" secondItem="HOx-11-lkp" secondAttribute="top" constant="15" id="3Ee-In-gsg"/>
                                                         <constraint firstItem="met-qG-McR" firstAttribute="leading" secondItem="HOx-11-lkp" secondAttribute="leading" constant="15" id="3Si-LR-cq9"/>
                                                         <constraint firstAttribute="bottom" secondItem="0h9-wS-1F1" secondAttribute="bottom" constant="15" id="6nB-Ne-LQQ"/>
+                                                        <constraint firstItem="ntz-aL-3LZ" firstAttribute="centerX" secondItem="HOx-11-lkp" secondAttribute="centerX" id="BM1-ti-ikk"/>
                                                         <constraint firstItem="Dfk-86-8ij" firstAttribute="leading" secondItem="HOx-11-lkp" secondAttribute="leading" constant="15" id="E34-iR-uY5"/>
                                                         <constraint firstItem="0h9-wS-1F1" firstAttribute="top" secondItem="ntz-aL-3LZ" secondAttribute="bottom" constant="15" id="FYp-bZ-GaQ"/>
-                                                        <constraint firstItem="ntz-aL-3LZ" firstAttribute="leading" secondItem="HOx-11-lkp" secondAttribute="leading" constant="15" id="GVd-cL-AGF"/>
-                                                        <constraint firstAttribute="trailing" secondItem="ntz-aL-3LZ" secondAttribute="trailing" constant="15" id="HRU-sy-Ctm"/>
+                                                        <constraint firstItem="ntz-aL-3LZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HOx-11-lkp" secondAttribute="leading" constant="15" id="GVd-cL-AGF"/>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ntz-aL-3LZ" secondAttribute="trailing" constant="15" id="HRU-sy-Ctm"/>
                                                         <constraint firstAttribute="trailing" secondItem="0h9-wS-1F1" secondAttribute="trailing" constant="15" id="Spz-re-xWh"/>
                                                         <constraint firstItem="0h9-wS-1F1" firstAttribute="leading" secondItem="HOx-11-lkp" secondAttribute="leading" constant="15" id="WyM-rf-qEi"/>
                                                         <constraint firstItem="ntz-aL-3LZ" firstAttribute="top" secondItem="Dfk-86-8ij" secondAttribute="bottom" constant="8" id="ggr-aH-kNS"/>
@@ -117,8 +128,8 @@
                                             </subviews>
                                             <color key="backgroundColor" name="Background"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="HOx-11-lkp" secondAttribute="bottom" constant="20" id="Fw2-pQ-F5f"/>
                                                 <constraint firstItem="HOx-11-lkp" firstAttribute="top" secondItem="dpf-Tc-NwJ" secondAttribute="top" constant="20" id="Pjo-P3-1P1"/>
+                                                <constraint firstAttribute="bottom" secondItem="HOx-11-lkp" secondAttribute="bottom" constant="20" id="e2D-Gm-yjc"/>
                                                 <constraint firstAttribute="trailing" secondItem="HOx-11-lkp" secondAttribute="trailing" constant="20" id="hNX-5W-WYZ"/>
                                                 <constraint firstItem="HOx-11-lkp" firstAttribute="leading" secondItem="dpf-Tc-NwJ" secondAttribute="leading" constant="20" id="v6b-0b-vPV"/>
                                             </constraints>
