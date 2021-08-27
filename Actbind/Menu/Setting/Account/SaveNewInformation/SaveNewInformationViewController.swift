@@ -224,7 +224,6 @@ final class SaveNewInformationViewController: UIViewController, UIGestureRecogni
                 cancelButton.isEnabled = false
 
                 activityView.isHidden = false
-                checkmarkImage.isHidden = true
                 activityIndicator.startAnimating()
                 
                 if let userDefaults = self.userDefaults {
