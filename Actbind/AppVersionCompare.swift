@@ -15,7 +15,7 @@ enum AppVersionCompareType {
 
 enum AppVersionCompare {
     static func toAppStoreVersion(completion: @escaping (AppVersionCompareType) -> Void) {
-        guard let url = URL(string: "https://itunes.apple.com/lookup?id=1579280491") else {
+        guard let url = URL(string: "https://itunes.apple.com/us/lookup?id=1579280491") else {
             completion(.error)
 
             return
