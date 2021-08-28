@@ -1,7 +1,7 @@
 //アラビア語
 
-NSCameraUsageDescription = "سيسمح لك ذلك بالتقاط صورة.";
+NSCameraUsageDescription = "سيسمح لك ذلك بمشاركة الصور ومقاطع الفيديو الخاصة بك.";
 NSLocationWhenInUseUsageDescription = "سيسمح لك ذلك باستخدام بعض ميزات Actbind ، وتخصيص المحتوى الخاص بك ، والبحث عن المواقع ، والمزيد.";
-NSMicrophoneUsageDescription = "يتيح لك ذلك الاستفادة من ميزات مثل تسجيل الفيديو والبحث الصوتي.";
+NSMicrophoneUsageDescription = "سيسمح لك ذلك بمشاركة الفيديو الخاص بك مع الصوت.";
 NSPhotoLibraryUsageDescription = "يتيح لك ذلك مشاركة محتوى ألبوم الكاميرا والاستفادة من الميزات الأخرى المتعلقة بالصور ومقاطع الفيديو الخاصة بك.";
 NSFaceIDUsageDescription = "اسمح لـ Actbind باستخدام Face ID لإلغاء قفل تطبيقك.";
