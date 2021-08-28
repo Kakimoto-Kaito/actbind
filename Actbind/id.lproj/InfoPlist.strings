@@ -3,5 +3,5 @@
 NSCameraUsageDescription = "Ini akan memungkinkan Anda untuk membagikan foto dan video Anda.";
 NSLocationWhenInUseUsageDescription = "Ini akan memungkinkan Anda untuk menggunakan beberapa fitur Actbind, mempersonalisasi konten Anda, mencari lokasi, dan banyak lagi.";
 NSMicrophoneUsageDescription = "Ini akan memungkinkan Anda untuk membagikan video Anda dengan audio.";
-NSPhotoLibraryUsageDescription = "Ini memungkinkan Anda untuk berbagi konten rol kamera Anda dan memanfaatkan fitur lain yang terkait dengan foto dan video Anda.";
+NSPhotoLibraryUsageDescription = "Ini akan memungkinkan Anda untuk berbagi dan menyimpan foto dan video rol kamera Anda.";
 NSFaceIDUsageDescription = "Izinkan Actbind menggunakan ID Wajah untuk membuka kunci aplikasi Anda.";

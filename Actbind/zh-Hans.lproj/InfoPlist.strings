@@ -3,5 +3,5 @@
 NSCameraUsageDescription = "这将允许您分享您的照片和视频。";
 NSLocationWhenInUseUsageDescription = "这将使您能够使用Actbind的某些功能，个性化您的内容，搜索位置等等。";
 NSMicrophoneUsageDescription = "这将允许您与音频共享您的视频。";
-NSPhotoLibraryUsageDescription = "这使您可以共享相机胶卷的内容，并利用与照片和视频相关的其他功能。";
+NSPhotoLibraryUsageDescription = "这将允许您共享和保存您的相机胶卷照片和视频。";
 NSFaceIDUsageDescription = "允许Actbind使用Face ID解锁您的应用。";

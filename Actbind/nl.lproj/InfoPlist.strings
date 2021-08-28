@@ -3,5 +3,5 @@
 NSCameraUsageDescription = "Hiermee kunt u uw foto's en video's delen.";
 NSLocationWhenInUseUsageDescription = "Hierdoor kunt u profiteren van functies zoals video-opname en gesproken zoekopdrachten.";
 NSMicrophoneUsageDescription = "Hiermee kunt u uw video delen met audio.";
-NSPhotoLibraryUsageDescription = "Hiermee kunt u enkele van de functies van Actbind gebruiken, uw inhoud personaliseren, naar locaties zoeken en meer.";
+NSPhotoLibraryUsageDescription = "Hiermee kunt u uw foto's en video's op de camerarol delen en opslaan.";
 NSFaceIDUsageDescription = "Sta Actbind toe Face ID te gebruiken om uw app te ontgrendelen.";

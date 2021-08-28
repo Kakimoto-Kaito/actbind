@@ -3,5 +3,5 @@
 NSCameraUsageDescription = "วิธีนี้จะช่วยให้คุณแชร์รูปภาพและวิดีโอได้";
 NSLocationWhenInUseUsageDescription = "ซึ่งช่วยให้คุณสามารถใช้ประโยชน์จากคุณสมบัติต่างๆเช่นการบันทึกวิดีโอและการค้นหาด้วยเสียง";
 NSMicrophoneUsageDescription = "ซึ่งจะทำให้คุณสามารถแบ่งปันวิดีโอของคุณด้วยเสียง";
-NSPhotoLibraryUsageDescription = "วิธีนี้จะช่วยให้คุณสามารถใช้คุณสมบัติบางอย่างของ Actbind ปรับแต่งเนื้อหาของคุณค้นหาสถานที่และอื่น ๆ";
+NSPhotoLibraryUsageDescription = "ซึ่งจะช่วยให้คุณสามารถแชร์และบันทึกรูปภาพและวิดีโอจากม้วนฟิล์มได้";
 NSFaceIDUsageDescription = "อนุญาตให้ Actbind ใช้ Face ID เพื่อปลดล็อกแอปของคุณ";

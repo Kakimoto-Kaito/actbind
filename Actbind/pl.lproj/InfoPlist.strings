@@ -3,5 +3,5 @@
 NSCameraUsageDescription = "Umożliwi to udostępnianie zdjęć i filmów.";
 NSLocationWhenInUseUsageDescription = "Pozwala to na korzystanie z takich funkcji, jak nagrywanie wideo i wyszukiwanie głosowe.";
 NSMicrophoneUsageDescription = "Umożliwi to udostępnianie wideo z dźwiękiem.";
-NSPhotoLibraryUsageDescription = "Umożliwi to korzystanie z niektórych funkcji Actbind, personalizowanie treści, wyszukiwanie lokalizacji i nie tylko.";
+NSPhotoLibraryUsageDescription = "Umożliwi to udostępnianie i zapisywanie zdjęć i filmów z rolki aparatu.";
 NSFaceIDUsageDescription = "Zezwól Actbind na używanie Face ID do odblokowywania aplikacji.";

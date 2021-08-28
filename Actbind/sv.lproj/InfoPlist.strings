@@ -3,5 +3,5 @@
 NSCameraUsageDescription = "Detta gör att du kan dela dina foton och videor.";
 NSLocationWhenInUseUsageDescription = "Detta gör att du kan använda några av Actbinds funktioner, anpassa ditt innehåll, söka efter platser och mer.";
 NSMicrophoneUsageDescription = "Detta gör att du kan dela din video med ljud.";
-NSPhotoLibraryUsageDescription = "Detta låter dig dela innehållet på din kamerarulle och dra nytta av andra funktioner relaterade till dina foton och videor.";
+NSPhotoLibraryUsageDescription = "Detta gör att du kan dela och spara dina kamerarulle foton och videor.";
 NSFaceIDUsageDescription = "Tillåt att Actbind använder Face ID för att låsa upp din app.";
