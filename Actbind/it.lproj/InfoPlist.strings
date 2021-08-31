@@ -1,7 +1,7 @@
 //イタリア語
 
-NSCameraUsageDescription = "Questo ti permetterà di scattare una foto.";
+NSCameraUsageDescription = "Questo ti permetterà di condividere le tue foto e i tuoi video.";
 NSLocationWhenInUseUsageDescription = "Ciò ti consentirà di utilizzare alcune delle funzionalità di Actbind, personalizzare i tuoi contenuti, cercare posizioni e altro ancora.";
-NSMicrophoneUsageDescription = "Ciò consente di sfruttare funzionalità come la registrazione di video e la ricerca vocale.";
-NSPhotoLibraryUsageDescription = "Ciò consente di condividere il contenuto del rullino fotografico e di sfruttare altre funzionalità relative alle foto e ai video.";
+NSMicrophoneUsageDescription = "Questo ti permetterà di condividere il tuo video con l'audio.";
+NSPhotoLibraryUsageDescription = "Ciò ti consentirà di condividere e salvare le foto e i video del rullino fotografico.";
 NSFaceIDUsageDescription = "Consenti ad Actbind di utilizzare Face ID per sbloccare la tua app.";

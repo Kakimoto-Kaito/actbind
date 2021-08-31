@@ -11,8 +11,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     // アプリを起動したとき
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // LaunchScreenを一秒間表示
+        sleep(1)
+        
         // Override point for customization after application launch.
-        true
+        return true
     }
 
     // MARK: UISceneSession Lifecycle
