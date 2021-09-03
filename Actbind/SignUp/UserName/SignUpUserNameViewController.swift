@@ -13,6 +13,7 @@ final class SignUpUserNameViewController: UIViewController, UIGestureRecognizerD
     
     var name1 = ""
     var name2 = ""
+    var displayName = ""
     var mailaddress = ""
     var password = ""
     var gender = 0
@@ -206,6 +207,7 @@ final class SignUpUserNameViewController: UIViewController, UIGestureRecognizerD
                         // 値の設定
                         vc!.name1 = self.name1
                         vc!.name2 = self.name2
+                        vc!.displayName = self.displayName
                         vc!.mailaddress = self.mailaddress
                         vc!.password = self.password
                         vc!.gender = self.gender

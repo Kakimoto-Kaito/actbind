@@ -52,10 +52,8 @@ final class OtherProfilePostTableViewCell: UITableViewCell {
             let userProfileImageURL = URL(string: profileImageUrlString)!
             Nuke.loadImage(with: userProfileImageURL, into: userProfileImage)
         }
-                
-        let name1 = userData().name1
-        let name2 = userData().name2
-        let name = name1 + " " + name2
+        
+        let name = userData().displayName
                 
         nameLabel.text = name
         

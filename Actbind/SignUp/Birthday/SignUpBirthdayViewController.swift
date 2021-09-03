@@ -11,6 +11,7 @@ import UIKit
 final class SignUpBirthdayViewController: UIViewController, UIGestureRecognizerDelegate {
     var name1 = ""
     var name2 = ""
+    var displayName = ""
     var mailaddress = ""
     var password = ""
     var gender = 0
@@ -118,6 +119,7 @@ final class SignUpBirthdayViewController: UIViewController, UIGestureRecognizerD
             // 値の設定
             vc!.name1 = name1
             vc!.name2 = name2
+            vc!.displayName = displayName
             vc!.mailaddress = mailaddress
             vc!.password = password
             vc!.gender = gender

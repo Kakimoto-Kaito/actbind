@@ -46,8 +46,7 @@ final class MyProfileTableViewCell: UITableViewCell {
                 profileEditButton.backgroundColor = UIColor(named: myColor!)
             }
             
-            let name1 = userDefaults.string(forKey: "name1")
-            let name2 = userDefaults.string(forKey: "name2")
+            let displayName = userDefaults.string(forKey: "displayname")
             let bio = userDefaults.string(forKey: "bio")
             let website = userDefaults.string(forKey: "website")
             let displayWebsite = String(website!.dropFirst(8))
@@ -62,7 +61,7 @@ final class MyProfileTableViewCell: UITableViewCell {
             }
             
             userProfileImage.cornerAll(value: 0, fulcrum: "width")
-            nameLabel.text = name1! + " " + name2!
+            nameLabel.text = displayName
             bioLabel.text = bio
             websiteButton.setTitle(displayWebsite, for: .normal)
         }

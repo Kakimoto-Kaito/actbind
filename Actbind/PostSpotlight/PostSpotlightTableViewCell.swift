@@ -49,8 +49,7 @@ final class PostSpotlightTableViewCell: UITableViewCell {
             let userId = userDefaults.integer(forKey: "userid")
             let userName = userDefaults.string(forKey: "username")!
             let profileimage = userDefaults.string(forKey: "profileimage")
-            let name1 = userDefaults.string(forKey: "name1")
-            let name2 = userDefaults.string(forKey: "name2")
+            let displayName = userDefaults.string(forKey: "displayname")
             
             if userId == post!.userId {
                 if profileimage == "Default" {
@@ -61,8 +60,7 @@ final class PostSpotlightTableViewCell: UITableViewCell {
                     Nuke.loadImage(with: userProfileImageURL, into: userProfileImage)
                 }
                 
-                let name = name1! + " " + name2!
-                nameLabel.text = name
+                nameLabel.text = displayName
                 
             } else {
                 if userData().profileimageUrl == "Default" {
@@ -73,11 +71,7 @@ final class PostSpotlightTableViewCell: UITableViewCell {
                     Nuke.loadImage(with: userProfileImageURL, into: userProfileImage)
                 }
                 
-                let name1 = userData().name1
-                let name2 = userData().name2
-                let name = name1 + " " + name2
-                
-                nameLabel.text = name
+                nameLabel.text = userData().displayName
             }
         }
         userProfileImage.cornerAll(value: 0, fulcrum: "width")

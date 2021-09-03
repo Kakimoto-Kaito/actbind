@@ -37,6 +37,7 @@ final class HomeViewController: UIViewController, CLLocationManagerDelegate {
         let myColor: String
         let name1: String
         let name2: String
+        let displayName: String
         let password: String
         let profileimageUrl: String
         let website: String
