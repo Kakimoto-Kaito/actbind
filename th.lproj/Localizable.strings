@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "สร้างบัญชีใหม่";
 
 "namaewonyuuryoku" = "คุณชื่ออะไร?";
+"kannrisyamei" = "ชื่อแอดมิน";
+"kannrisyameisetumei" = "ไม่ปรากฏในโปรไฟล์ของคุณ";
 "namae1" = "ชื่อจริง";
 "namae2" = "นามสกุล";
-"namaesetumei" = "การใช้ชื่อจริงช่วยให้เพื่อน ๆ จำคุณได้ง่ายขึ้น";
+"hyoujimei" = "ชื่อที่แสดง";
+"hyoujimeisetumei" = "การใช้ชื่อจริงของคุณทำให้เพื่อนๆ หาคุณเจอได้ง่ายขึ้น";
 "tugihe" = "ต่อไป";
 "akaunntowoomotinokata" = "มีบัญชีอยู่แล้ว?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "คุณต้องการลบรูปภาพปัจจุบันหรือไม่";
 "hennkounaiyousetteityuu" = "การตั้งค่าการเปลี่ยนแปลง ...";
 "hennkounaiyouhozonn" = "การเปลี่ยนแปลงของคุณได้รับการบันทึก";
+"hyoujimeiwohennsyuu" = "แก้ไขชื่อที่แสดง";
+"hyoujimeiwonyuuryoku" = "ใส่ชื่อที่แสดง ...";
 "jikosyoukai" = "ชีวภาพ";
 "jikosyoukaiwohennsyuu" = "แก้ไขชีวภาพ";
 "jikosyoukaiwonyuuryoku" = "เข้าสู่ชีว ...";

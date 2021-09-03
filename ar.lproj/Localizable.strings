@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "انشاء حساب جديد";
 
 "namaewonyuuryoku" = "ما هو اسمك؟";
+"kannrisyamei" = "اسم المسؤول";
+"kannrisyameisetumei" = "لا يظهر في ملف التعريف الخاص بك.";
 "namae1" = "اسم العائلة";
 "namae2" = "الاسم الاول";
-"namaesetumei" = "استخدام اسمك الحقيقي يجعل من السهل على أصدقائك التعرف عليك.";
+"hyoujimei" = "اسم العرض";
+"hyoujimeisetumei" = "إن استخدام اسمك الحقيقي يسهل على أصدقائك العثور عليك.";
 "tugihe" = "التالي";
 "akaunntowoomotinokata" = "هل لديك حساب؟";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "هل تريد إزالة الصورة الحالية؟";
 "hennkounaiyousetteityuu" = "تعيين التغييرات ...";
 "hennkounaiyouhozonn" = "تم حفظ التغييرات";
+"hyoujimeiwohennsyuu" = "تعديل اسم العرض";
+"hyoujimeiwonyuuryoku" = "أدخل اسم العرض ...";
 "jikosyoukai" = "عرف نفسك قدم نفسك";
 "jikosyoukaiwohennsyuu" = "تحرير المقدمة الذاتية";
 "jikosyoukaiwonyuuryoku" = "أدخل المقدمة الذاتية الخاصة بك ...";

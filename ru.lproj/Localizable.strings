@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "Создать новый аккаунт";
 
 "namaewonyuuryoku" = "Какое у тебя имя?";
+"kannrisyamei" = "Имя администратора";
+"kannrisyameisetumei" = "Он не отображается в вашем профиле.";
 "namae1" = "Имя";
 "namae2" = "Фамилия";
-"namaesetumei" = "Использование вашего настоящего имени позволяет вашим друзьям узнать вас.";
+"hyoujimei" = "Отображаемое имя";
+"hyoujimeisetumei" = "Используя ваше настоящее имя, вашим друзьям будет проще вас найти.";
 "tugihe" = "Следующий";
 "akaunntowoomotinokata" = "Уже есть аккаунт?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "Вы хотите удалить текущую фотографию?";
 "hennkounaiyousetteityuu" = "Изменения настроек ...";
 "hennkounaiyouhozonn" = "Ваши изменения были сохранены";
+"hyoujimeiwohennsyuu" = "Изменить отображаемое имя";
+"hyoujimeiwonyuuryoku" = "Введите отображаемое имя ...";
 "jikosyoukai" = "Био";
 "jikosyoukaiwohennsyuu" = "Редактировать биографию";
 "jikosyoukaiwonyuuryoku" = "Введите биографию ...";

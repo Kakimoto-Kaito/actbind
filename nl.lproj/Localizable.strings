@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "Creëer een nieuw account";
 
 "namaewonyuuryoku" = "Wat is je naam?";
+"kannrisyamei" = "Beheerdersnaam";
+"kannrisyameisetumei" = "Het verschijnt niet in je profiel.";
 "namae1" = "Voornaam";
 "namae2" = "Achternaam";
-"namaesetumei" = "Als u uw echte naam gebruikt, kunnen uw vrienden u gemakkelijker herkennen.";
+"hyoujimei" = "Weergavenaam";
+"hyoujimeisetumei" = "Als u uw echte naam gebruikt, kunnen uw vrienden u gemakkelijker vinden.";
 "tugihe" = "De volgende";
 "akaunntowoomotinokata" = "Heb je al een account?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "Wilt u de huidige foto verwijderen?";
 "hennkounaiyousetteityuu" = "Wijzigingen instellen ...";
 "hennkounaiyouhozonn" = "Je veranderingen zijn bewaard";
+"hyoujimeiwohennsyuu" = "Weergavenaam bewerken";
+"hyoujimeiwonyuuryoku" = "Voer de weergavenaam in...";
 "jikosyoukai" = "Zelfintroductie";
 "jikosyoukaiwohennsyuu" = "Zelfintroductie bewerken";
 "jikosyoukaiwonyuuryoku" = "Voer je zelfintroductie in ...";

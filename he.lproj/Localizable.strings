@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "ליצור חשבון חדש";
 
 "namaewonyuuryoku" = "מה שמך?";
+"kannrisyamei" = "שם מנהל";
+"kannrisyameisetumei" = "זה לא מופיע בפרופיל שלך.";
 "namae1" = "שם משפחה";
 "namae2" = "שם פרטי";
-"namaesetumei" = "השימוש בשם האמיתי שלך מקל על החברים שלך לזהות אותך.";
+"hyoujimei" = "הצג שם";
+"hyoujimeisetumei" = "השימוש בשם האמיתי שלך מקל על החברים שלך למצוא אותך.";
 "tugihe" = "הַבָּא";
 "akaunntowoomotinokata" = "כבר יש לך חשבון?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "האם אתה רוצה להסיר את התמונה הנוכחית?";
 "hennkounaiyousetteityuu" = "מגדיר שינויים ...";
 "hennkounaiyouhozonn" = "השינויים שלך נשמרו";
+"hyoujimeiwohennsyuu" = "ערוך את שם התצוגה";
+"hyoujimeiwonyuuryoku" = "הזן את שם התצוגה ...";
 "jikosyoukai" = "הצגה עצמית";
 "jikosyoukaiwohennsyuu" = "ערוך הקדמה עצמית";
 "jikosyoukaiwonyuuryoku" = "הזן את ההקדמה העצמית שלך ...";

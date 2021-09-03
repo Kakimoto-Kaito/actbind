@@ -26,10 +26,10 @@ final class SignUpNameViewController: UIViewController {
 
         signUpNameTitleLabel.text = "namaewonyuuryoku".localized()
         
-        adminNameTitleLabel.text = "管理者名".localized()
-        adminNameExplanationLabel.text = "管理者説明".localized()
-        displayNameTitleLabel.text = "表示名".localized()
-        displayNameExplanationLabel.text = "namaesetumei".localized()
+        adminNameTitleLabel.text = "kannrisyamei".localized()
+        adminNameExplanationLabel.text = "kannrisyameisetumei".localized()
+        displayNameTitleLabel.text = "hyoujimei".localized()
+        displayNameExplanationLabel.text = "hyoujimeisetumei".localized()
         
         if "language".localized() == "Arabic" || "language".localized() == "Chinese, Sim" || "language".localized() == "Chinese, Tra" || "language".localized() == "Hebrew" || "language".localized() == "Hungarian" || "language".localized() == "Japanese" || "language".localized() == "Korean" {
             name1TextField.textContentType = .familyName

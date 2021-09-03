@@ -51,7 +51,7 @@ final class ChangeNameViewController: UIViewController, UIGestureRecognizerDeleg
         
         backButton.image = UIImage(named: "back")
 
-        nameExplanationLabel.text = "namaesetumei".localized()
+        nameExplanationLabel.text = "kannrisyameisetumei".localized()
         
         if "language".localized() == "Arabic" || "language".localized() == "Chinese, Sim" || "language".localized() == "Chinese, Tra" || "language".localized() == "Hebrew" || "language".localized() == "Hungarian" || "language".localized() == "Japanese" || "language".localized() == "Korean" {
             name1TextField.textContentType = .familyName
