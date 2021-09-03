@@ -39,10 +39,7 @@ enum AppTypeCompare {
                         completion(.error)
                         return
                     }
-                    print("$$$$$$$$$$$")
-                    print(storeVersion)
-                    print(appVersion)
-                    print("$$$$$$$$$$$")
+                    
                     switch storeVersion.compare(appVersion, options: .numeric) {
                     case .orderedAscending:
                         // appVersion > storeVersion
