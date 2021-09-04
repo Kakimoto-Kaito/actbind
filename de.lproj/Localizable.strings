@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "Neuen Account erstellen";
 
 "namaewonyuuryoku" = "Wie heißen Sie?";
+"kannrisyamei" = "Administratorname";
+"kannrisyameisetumei" = "Es erscheint nicht in Ihrem Profil.";
 "namae1" = "Vorname";
 "namae2" = "Nachname";
-"namaesetumei" = "Wenn Sie Ihren richtigen Namen verwenden, können Ihre Freunde Sie leichter erkennen.";
+"hyoujimei" = "Anzeigename";
+"hyoujimeisetumei" = "Die Verwendung Ihres richtigen Namens erleichtert es Ihren Freunden, Sie zu finden.";
 "tugihe" = "Nächster";
 "akaunntowoomotinokata" = "Sie haben bereits ein Konto?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "Möchten Sie das aktuelle Foto entfernen?";
 "hennkounaiyousetteityuu" = "Änderungen vornehmen ...";
 "hennkounaiyouhozonn" = "Ihre Änderungen wurden gespeichert";
+"hyoujimeiwohennsyuu" = "Anzeigename bearbeiten";
+"hyoujimeiwonyuuryoku" = "Geben Sie den Anzeigenamen ein ...";
 "jikosyoukai" = "Vorstellen";
 "jikosyoukaiwohennsyuu" = "Selbsteinführung bearbeiten";
 "jikosyoukaiwonyuuryoku" = "Geben Sie Ihre Selbsteinführung ein ...";

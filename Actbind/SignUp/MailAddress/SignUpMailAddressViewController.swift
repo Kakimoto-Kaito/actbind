@@ -13,6 +13,7 @@ final class SignUpMailAddressViewController: UIViewController, UIGestureRecogniz
     
     var name1 = ""
     var name2 = ""
+    var displayName = ""
 
     @IBOutlet weak var signUpMailAddressTitleLabel: UILabel!
     @IBOutlet weak var mailAddressExplanationLabel: UILabel!
@@ -184,6 +185,7 @@ final class SignUpMailAddressViewController: UIViewController, UIGestureRecogniz
                         // 値の設定
                         vc!.name1 = self.name1
                         vc!.name2 = self.name2
+                        vc!.displayName = self.displayName
                         vc!.mailaddress = mailAddressMiniNotwhitespaces
                         vc!.confirmationCode = confirmationCode
                         

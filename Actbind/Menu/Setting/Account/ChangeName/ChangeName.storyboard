@@ -18,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="実名を使用することで、友達があなたを見つけやすくなります。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psy-zc-qsd" userLabel="NameExplanation Label">
-                                <rect key="frame" x="20" y="94" width="350" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="プロフィールには表示されません。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psy-zc-qsd" userLabel="NameExplanation Label">
+                                <rect key="frame" x="20" y="94" width="350" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" name="SubText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="姓" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="oGG-hI-MNo" userLabel="Name1 TextField">
-                                <rect key="frame" x="20" y="138" width="165" height="48"/>
+                                <rect key="frame" x="20" y="120" width="165" height="48"/>
                                 <color key="backgroundColor" name="TextField"/>
                                 <color key="tintColor" name="Blue"/>
                                 <constraints>
@@ -42,7 +42,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="名" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="M20-y1-3Fb" userLabel="Name2 TextField">
-                                <rect key="frame" x="205" y="138" width="165" height="48"/>
+                                <rect key="frame" x="205" y="120" width="165" height="48"/>
                                 <color key="backgroundColor" name="TextField"/>
                                 <color key="tintColor" name="Blue"/>
                                 <constraints>
@@ -59,7 +59,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiM-d1-XyO">
-                                <rect key="frame" x="20" y="236" width="350" height="48"/>
+                                <rect key="frame" x="20" y="218" width="350" height="48"/>
                                 <color key="backgroundColor" name="Blue"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="740-WW-NYq"/>

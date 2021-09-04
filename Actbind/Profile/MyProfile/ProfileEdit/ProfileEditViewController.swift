@@ -20,6 +20,10 @@ class ProfileEditViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBOutlet weak var userProfileImageEditButton: UIButton!
     @IBOutlet var tapGesture: UITapGestureRecognizer!
     @IBOutlet weak var userProfileImage: UIImageView!
+    @IBOutlet weak var displayNameTitleLabel: UILabel!
+    @IBOutlet weak var displayNameEditButton: UIButton!
+    @IBOutlet weak var displayNameLabel: UILabel!
+    @IBOutlet weak var displayNameButton: UIButton!
     @IBOutlet weak var bioTitleLabel: UILabel!
     @IBOutlet weak var bioEditButton: UIButton!
     @IBOutlet weak var bioLabel: UILabel!
@@ -47,11 +51,13 @@ class ProfileEditViewController: UIViewController, UIGestureRecognizerDelegate {
             if myColor == "Original" {
                 backButton.tintColor = UIColor(named: "BlackWhite")
                 userProfileImageEditButton.setTitleColor(UIColor(named: "Blue"), for: .normal)
+                displayNameEditButton.setTitleColor(UIColor(named: "Blue"), for: .normal)
                 bioEditButton.setTitleColor(UIColor(named: "Blue"), for: .normal)
                 websiteEditButton.setTitleColor(UIColor(named: "Blue"), for: .normal)
             } else {
                 backButton.tintColor = UIColor(named: myColor!)
                 userProfileImageEditButton.setTitleColor(UIColor(named: myColor!), for: .normal)
+                displayNameEditButton.setTitleColor(UIColor(named: myColor!), for: .normal)
                 bioEditButton.setTitleColor(UIColor(named: myColor!), for: .normal)
                 websiteEditButton.setTitleColor(UIColor(named: myColor!), for: .normal)
             }
@@ -62,6 +68,9 @@ class ProfileEditViewController: UIViewController, UIGestureRecognizerDelegate {
         userProfileImageTitleLabel.text = "purofi-rusyasinn".localized()
         userProfileImageEditButton.setTitle("hennsyuu".localized(), for: .normal)
         userProfileImage.cornerAll(value: 0, fulcrum: "")
+        
+        displayNameTitleLabel.text = "hyoujimei".localized()
+        displayNameEditButton.setTitle("hennsyuu".localized(), for: .normal)
         
         bioTitleLabel.text = "jikosyoukai".localized()
         bioEditButton.setTitle("hennsyuu".localized(), for: .normal)
@@ -89,6 +98,7 @@ class ProfileEditViewController: UIViewController, UIGestureRecognizerDelegate {
         if let userDefaults = userDefaults {
             let userName = userDefaults.string(forKey: "username")!
             let profileimage = userDefaults.string(forKey: "profileimage")
+            let displayName = userDefaults.string(forKey: "displayname")
             let bio = userDefaults.string(forKey: "bio")
             let website = userDefaults.string(forKey: "website")
             
@@ -98,6 +108,14 @@ class ProfileEditViewController: UIViewController, UIGestureRecognizerDelegate {
                 let profileImageUrlString = "https://www.actbind.com/" + userName + "/profile-image/" + profileimage!
                 let userProfileImageURL = URL(string: profileImageUrlString)!
                 Nuke.loadImage(with: userProfileImageURL, into: userProfileImage)
+            }
+            
+            if displayName == "" {
+                displayNameLabel.text = ""
+                displayNameButton.setTitle("hyoujimei".localized(), for: .normal)
+            } else {
+                displayNameLabel.text = displayName
+                displayNameButton.setTitle("", for: .normal)
             }
 
             if bio == "" {
@@ -116,6 +134,8 @@ class ProfileEditViewController: UIViewController, UIGestureRecognizerDelegate {
                 websiteButton.setTitle("", for: .normal)
             }
         }
+        
+        displayNameButton.setTitleColor(UIColor(named: "TextFieldText"), for: .normal)
         
         bioButton.setTitleColor(UIColor(named: "TextFieldText"), for: .normal)
         
@@ -346,6 +366,52 @@ class ProfileEditViewController: UIViewController, UIGestureRecognizerDelegate {
         alertController.popoverPresentationController?.sourceRect = CGRect(x: screenSize.size.width / 2, y: screenSize.size.height, width: 0, height: 0)
 
         present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func displayNameEditButtonTouchDown(_ sender: Any) {
+        if let userDefaults = userDefaults {
+            let myColor = userDefaults.string(forKey: "mycolor")
+
+            if myColor == "Original" {
+                displayNameEditButton.backgroundColor = UIColor(named: "BlueHalf")
+            } else if myColor == "Red" {
+                displayNameEditButton.backgroundColor = UIColor(named: "RedHalf")
+            } else if myColor == "Orange" {
+                displayNameEditButton.backgroundColor = UIColor(named: "OrangeHalf")
+            } else if myColor == "Yellow" {
+                displayNameEditButton.backgroundColor = UIColor(named: "YellowHalf")
+            } else if myColor == "Green" {
+                displayNameEditButton.backgroundColor = UIColor(named: "GreenHalf")
+            } else if myColor == "Blue" {
+                displayNameEditButton.backgroundColor = UIColor(named: "BlueHalf")
+            } else {
+                displayNameEditButton.backgroundColor = UIColor(named: "PurpleHalf")
+            }
+        }
+    }
+    
+    @IBAction func displayNameEditButtonTouchDragOutside(_ sender: Any) {
+        displayNameEditButton.backgroundColor = UIColor.clear
+    }
+    
+    @IBAction func displayNameEditButtonTouchUpInside(_ sender: Any) {
+        UISelectionFeedbackGenerator().selectionChanged()
+        
+        displayNameEditButton.backgroundColor = UIColor.clear
+        
+        let storyBoard = UIStoryboard(name: "DisplayNameEdit", bundle: nil)
+        let nextVC = storyBoard.instantiateInitialViewController()
+        
+        navigationController?.pushViewController(nextVC!, animated: true)
+    }
+    
+    @IBAction func displayNameButtonTouchUpInside(_ sender: Any) {
+        UISelectionFeedbackGenerator().selectionChanged()
+        
+        let storyBoard = UIStoryboard(name: "DisplayNameEdit", bundle: nil)
+        let nextVC = storyBoard.instantiateInitialViewController()
+        
+        navigationController?.pushViewController(nextVC!, animated: true)
     }
     
     @IBAction func bioEditButtonTouchDown(_ sender: Any) {

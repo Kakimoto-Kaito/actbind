@@ -66,8 +66,7 @@ final class MenuViewController: UIViewController {
             let userName = userDefaults.string(forKey: "username")!
             let profileimage = userDefaults.string(forKey: "profileimage")
             let username = userDefaults.string(forKey: "username")
-            let name1 = userDefaults.string(forKey: "name1")
-            let name2 = userDefaults.string(forKey: "name2")
+            let displayName = userDefaults.string(forKey: "displayname")
             
             if profileimage == "Default" {
                 userProfileImage.image = UIImage(named: "defaultProfileImage")
@@ -78,7 +77,7 @@ final class MenuViewController: UIViewController {
             }
             
             userNameLabel.text = "@" + username!
-            nameLabel.text = name1! + " " + name2!
+            nameLabel.text = displayName
         }
     }
 

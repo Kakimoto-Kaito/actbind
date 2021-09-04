@@ -13,6 +13,7 @@ final class SignUpAccountCreatingViewController: UIViewController {
     
     var name1 = ""
     var name2 = ""
+    var displayName = ""
     var mailaddress = ""
     var password = ""
     var gender = 0
@@ -39,6 +40,7 @@ final class SignUpAccountCreatingViewController: UIViewController {
             let OperationType: String
             let name1: String
             let name2: String
+            let displayName: String
             let mailaddress: String
             let password: String
             let gender: Int
@@ -52,7 +54,7 @@ final class SignUpAccountCreatingViewController: UIViewController {
         let now = Date()
         let createDate = now.dateToString(format: "yyyy-MM-dd HH:mm:ss")
         
-        let body = User(OperationType: "PUT", name1: name1, name2: name2, mailaddress: mailaddress, password: password, gender: gender, birthday: birthday, username: username, createDate: createDate)
+        let body = User(OperationType: "PUT", name1: name1, name2: name2, displayName: displayName, mailaddress: mailaddress, password: password, gender: gender, birthday: birthday, username: username, createDate: createDate)
         
         do {
             // EncodeしてhttpBodyに設定
@@ -94,6 +96,7 @@ final class SignUpAccountCreatingViewController: UIViewController {
                     let myColor: String
                     let name1: String
                     let name2: String
+                    let displayName: String
                     let password: String
                     let profileimageUrl: String
                     let website: String
@@ -112,6 +115,7 @@ final class SignUpAccountCreatingViewController: UIViewController {
                         userDefaults.setValue(user.userId, forKeyPath: "userid")
                         userDefaults.setValue(user.name1, forKeyPath: "name1")
                         userDefaults.setValue(user.name2, forKeyPath: "name2")
+                        userDefaults.setValue(user.displayName, forKey: "displayname")
                         userDefaults.setValue(user.mailaddress, forKeyPath: "mailaddress")
                         userDefaults.setValue(user.password, forKeyPath: "password")
                         userDefaults.setValue(user.gender, forKeyPath: "gender")

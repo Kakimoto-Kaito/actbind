@@ -9,9 +9,13 @@ import UIKit
 
 final class SignUpNameViewController: UIViewController {
     @IBOutlet weak var signUpNameTitleLabel: UILabel!
-    @IBOutlet weak var nameExplanationLabel: UILabel!
+    @IBOutlet weak var adminNameTitleLabel: UILabel!
+    @IBOutlet weak var adminNameExplanationLabel: UILabel!
     @IBOutlet weak var name1TextField: UITextField!
     @IBOutlet weak var name2TextField: UITextField!
+    @IBOutlet weak var displayNameTitleLabel: UILabel!
+    @IBOutlet weak var displayNameExplanationLabel: UILabel!
+    @IBOutlet weak var displayNameTextField: UITextField!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var nextButtonRight: NSLayoutConstraint!
     @IBOutlet weak var nextButtonLeft: NSLayoutConstraint!
@@ -21,9 +25,12 @@ final class SignUpNameViewController: UIViewController {
         super.viewDidLoad()
 
         signUpNameTitleLabel.text = "namaewonyuuryoku".localized()
-
-        nameExplanationLabel.text = "namaesetumei".localized()
-
+        
+        adminNameTitleLabel.text = "kannrisyamei".localized()
+        adminNameExplanationLabel.text = "kannrisyameisetumei".localized()
+        displayNameTitleLabel.text = "hyoujimei".localized()
+        displayNameExplanationLabel.text = "hyoujimeisetumei".localized()
+        
         if "language".localized() == "Arabic" || "language".localized() == "Chinese, Sim" || "language".localized() == "Chinese, Tra" || "language".localized() == "Hebrew" || "language".localized() == "Hungarian" || "language".localized() == "Japanese" || "language".localized() == "Korean" {
             name1TextField.textContentType = .familyName
             name2TextField.textContentType = .givenName
@@ -35,6 +42,8 @@ final class SignUpNameViewController: UIViewController {
         name1TextField.uiTextFieldSetting(placeholder: "namae1".localized())
 
         name2TextField.uiTextFieldSetting(placeholder: "namae2".localized())
+        
+        displayNameTextField.uiTextFieldSetting(placeholder: "表示名".localized())
 
         nextButton.setTitle("tugihe".localized(), for: .normal)
 
@@ -111,6 +120,19 @@ final class SignUpNameViewController: UIViewController {
     @IBAction func name2TextFieldEditingDidEnd(_ sender: Any) {
         name2TextField.layer.borderColor = UIColor.lightGray.cgColor
     }
+    
+    // 完了キーをタップでキーボードが閉じる
+    @IBAction func displayNameTextFieldDidEndOnExit(_ sender: Any) {}
+
+    @IBAction func displayNameTextFieldEditingChanged(_ sender: Any) {}
+
+    @IBAction func displayNameTextFieldEditingDidBegin(_ sender: Any) {
+        displayNameTextField.layer.borderColor = UIColor.systemBlue.cgColor
+    }
+
+    @IBAction func displayNameTextFieldEditingDidEnd(_ sender: Any) {
+        displayNameTextField.layer.borderColor = UIColor.lightGray.cgColor
+    }
 
     @IBAction func nextButtonTouchDown(_ sender: Any) {
         UIButton().uiButtonTapOn(item: nextButton, itemRight: nextButtonRight, itemLeft: nextButtonLeft)
@@ -133,9 +155,13 @@ final class SignUpNameViewController: UIViewController {
         
         let name1TextFieldNotwhitespaces = name1TextField.text!.stringCharacterSetRemove(characterSet: .whitespaces)
         let name2TextFieldNotwhitespaces = name2TextField.text!.stringCharacterSetRemove(characterSet: .whitespaces)
+        
+        let displayName = displayNameTextField.text!
+        displayNameTextField.text = displayName.trimmingCharacters(in: .whitespaces)
         // 値の設定
         vc!.name1 = name1TextFieldNotwhitespaces
         vc!.name2 = name2TextFieldNotwhitespaces
+        vc!.displayName = displayNameTextField.text!
         
         navigationController?.pushViewController(nextVC!, animated: true)
     }

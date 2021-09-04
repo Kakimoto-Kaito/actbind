@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "नया खाता बनाएँ";
 
 "namaewonyuuryoku" = "तुम्हारा नाम क्या है?";
+"kannrisyamei" = "व्यवस्थापक का नाम";
+"kannrisyameisetumei" = "यह आपकी प्रोफ़ाइल में प्रकट नहीं होता है।";
 "namae1" = "नाम";
 "namae2" = "उपनाम";
-"namaesetumei" = "आपके वास्तविक नाम का उपयोग करने से आपके दोस्तों को आपको पहचानना आसान हो जाता है।";
+"hyoujimei" = "प्रदर्शित होने वाला नाम";
+"hyoujimeisetumei" = "अपने वास्तविक नाम का उपयोग करने से आपके मित्रों के लिए आपको ढूंढना आसान हो जाता है।";
 "tugihe" = "आगे बढ़ें";
 "akaunntowoomotinokata" = "पहले से ही एक खाता है?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "क्या आप वर्तमान फ़ोटो को निकालना चाहते हैं?";
 "hennkounaiyousetteityuu" = "परिवर्तन सेट कर रहा है ...";
 "hennkounaiyouhozonn" = "आपके परिवर्तनों को सहेजा गया है";
+"hyoujimeiwohennsyuu" = "प्रदर्शन नाम संपादित करें";
+"hyoujimeiwonyuuryoku" = "प्रदर्शन नाम दर्ज करें...";
 "jikosyoukai" = "आतम परिचय";
 "jikosyoukaiwohennsyuu" = "आत्म-परिचय संपादित करें";
 "jikosyoukaiwonyuuryoku" = "अपना आत्म-परिचय दर्ज करें ...";

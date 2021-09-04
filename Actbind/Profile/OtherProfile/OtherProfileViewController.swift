@@ -34,6 +34,7 @@ final class OtherProfileViewController: UIViewController, UIGestureRecognizerDel
         let myColor: String
         let name1: String
         let name2: String
+        let displayName: String
         let password: String
         let profileimageUrl: String
         let website: String
@@ -323,7 +324,7 @@ extension OtherProfileViewController: UITableViewDataSource {
             // ここからの内容がセルに反映される
             // 順番にcellの方のpostに送っていく
             if OtherProfileViewController.allOtherUsers.count == 0 {
-                profileCell.user = OtherUsers(userId: 0, userName: "", bio: "", birthday: "", createDate: "", deleteDate: "", gender: 0, mailaddress: "", myColor: "", name1: "", name2: "", password: "", profileimageUrl: "", website: "", accountType: "", accountCategory: "", verification: "")
+                profileCell.user = OtherUsers(userId: 0, userName: "", bio: "", birthday: "", createDate: "", deleteDate: "", gender: 0, mailaddress: "", myColor: "", name1: "", name2: "", displayName: "", password: "", profileimageUrl: "", website: "", accountType: "", accountCategory: "", verification: "")
             } else {
                 profileCell.user = OtherProfileViewController.allOtherUsers[indexPath.row]
             }

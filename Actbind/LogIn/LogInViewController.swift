@@ -314,6 +314,7 @@ final class LogInViewController: UIViewController {
                     let gender: Int
                     let mailaddress: String
                     let myColor: String
+                    let displayName: String
                     let name1: String
                     let name2: String
                     let password: String
@@ -336,6 +337,7 @@ final class LogInViewController: UIViewController {
                         
                         if let userDefaults = self.userDefaults {
                             userDefaults.setValue(user.userId, forKeyPath: "userid")
+                            userDefaults.setValue(user.displayName, forKeyPath: "displayname")
                             userDefaults.setValue(user.name1, forKeyPath: "name1")
                             userDefaults.setValue(user.name2, forKeyPath: "name2")
                             userDefaults.setValue(user.mailaddress, forKeyPath: "mailaddress")

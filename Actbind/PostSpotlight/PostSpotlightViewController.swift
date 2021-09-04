@@ -33,6 +33,7 @@ final class PostSpotlightViewController: UIViewController, UIGestureRecognizerDe
         let myColor: String
         let name1: String
         let name2: String
+        let displayName: String
         let password: String
         let profileimageUrl: String
         let website: String

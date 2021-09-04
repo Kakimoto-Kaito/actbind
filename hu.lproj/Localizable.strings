@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "Új fiók létrehozása";
 
 "namaewonyuuryoku" = "Mi a neved?";
+"kannrisyamei" = "Admin neve";
+"kannrisyameisetumei" = "Nem jelenik meg a profilodban.";
 "namae1" = "Vezetéknév";
 "namae2" = "Keresztnév";
-"namaesetumei" = "A valódi neved használata megkönnyíti a barátaid számára a felismerést.";
+"hyoujimei" = "Megjelenítendő név";
+"hyoujimeisetumei" = "Ha a valódi nevét használja, a barátai könnyebben megtalálják Önt.";
 "tugihe" = "Következő";
 "akaunntowoomotinokata" = "Már van fiókja?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "El akarja távolítani az aktuális fotót?";
 "hennkounaiyousetteityuu" = "Változások beállítása ...";
 "hennkounaiyouhozonn" = "A váloztatásaid el lettek mentve";
+"hyoujimeiwohennsyuu" = "A megjelenített név szerkesztése";
+"hyoujimeiwonyuuryoku" = "Adja meg a megjelenített nevet ...";
 "jikosyoukai" = "Bemutatkozás";
 "jikosyoukaiwohennsyuu" = "Saját bevezető szerkesztése";
 "jikosyoukaiwonyuuryoku" = "Adja meg önbevezetését ...";

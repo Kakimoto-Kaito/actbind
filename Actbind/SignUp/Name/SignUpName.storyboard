@@ -32,14 +32,20 @@
                                 <color key="textColor" name="BlackWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="実名を使用することで、友達があなたを見つけやすくなります。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJu-Me-oiD" userLabel="NameExplanation Label">
-                                <rect key="frame" x="20" y="203" width="350" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="管理者名" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNb-cH-gvn" userLabel="AdminNameTitle Label">
+                                <rect key="frame" x="20" y="341" width="350" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="プロフィールには表示されません。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJu-Me-oiD" userLabel="AdminNameExplanation Label">
+                                <rect key="frame" x="20" y="367" width="350" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" name="SubText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="姓" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ZlJ-FM-k9F" userLabel="Name1 TextField">
-                                <rect key="frame" x="20" y="247" width="165" height="48"/>
+                                <rect key="frame" x="20" y="393" width="165" height="48"/>
                                 <color key="backgroundColor" name="TextField"/>
                                 <color key="tintColor" name="Blue"/>
                                 <constraints>
@@ -56,7 +62,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="名" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="4yZ-S3-C6k" userLabel="Name2 TextField">
-                                <rect key="frame" x="205" y="247" width="165" height="48"/>
+                                <rect key="frame" x="205" y="393" width="165" height="48"/>
                                 <color key="backgroundColor" name="TextField"/>
                                 <color key="tintColor" name="Blue"/>
                                 <constraints>
@@ -73,7 +79,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKJ-6Z-34u">
-                                <rect key="frame" x="20" y="345" width="350" height="48"/>
+                                <rect key="frame" x="20" y="491" width="350" height="48"/>
                                 <color key="backgroundColor" name="EnabledButton"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="zAg-fN-Rlg"/>
@@ -108,39 +114,84 @@
                                 <color key="tintColor" name="Blue"/>
                                 <color key="barTintColor" name="WhiteBlack"/>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="表示名" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hlv-qM-4BJ" userLabel="DisplayNameTitle Label">
+                                <rect key="frame" x="20" y="203" width="350" height="18"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" name="BlackWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="実名を使用することで、友達があなたを見つけやすくなります。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhx-jm-VM2" userLabel="DisplayNameNameExplanation Label">
+                                <rect key="frame" x="20" y="229" width="350" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="SubText"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="表示名" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="RVy-1r-Zpy" userLabel="DisplayName TextField">
+                                <rect key="frame" x="20" y="273" width="350" height="48"/>
+                                <color key="backgroundColor" name="TextField"/>
+                                <color key="tintColor" name="Blue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="BAj-e7-REz"/>
+                                </constraints>
+                                <color key="textColor" name="BlackWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="name"/>
+                                <connections>
+                                    <action selector="displayNameTextFieldDidEndOnExit:" destination="fhl-aL-tDg" eventType="editingDidEndOnExit" id="1uN-bV-ONN"/>
+                                    <action selector="displayNameTextFieldEditingChanged:" destination="fhl-aL-tDg" eventType="editingChanged" id="n3q-Qu-3DF"/>
+                                    <action selector="displayNameTextFieldEditingDidBegin:" destination="fhl-aL-tDg" eventType="editingDidBegin" id="MtR-pi-2Yv"/>
+                                    <action selector="displayNameTextFieldEditingDidEnd:" destination="fhl-aL-tDg" eventType="editingDidEnd" id="ItP-uH-fDC"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="To9-re-xnU"/>
                         <color key="backgroundColor" name="WhiteBlack"/>
                         <constraints>
                             <constraint firstItem="Cde-BI-hXI" firstAttribute="bottom" secondItem="To9-re-xnU" secondAttribute="bottom" id="0Jn-Uy-7hS"/>
                             <constraint firstItem="To9-re-xnU" firstAttribute="trailing" secondItem="gHg-sL-3uR" secondAttribute="trailing" id="4VX-t8-v4e"/>
+                            <constraint firstItem="To9-re-xnU" firstAttribute="trailing" secondItem="Hlv-qM-4BJ" secondAttribute="trailing" constant="20" id="5Eg-7z-MFI"/>
                             <constraint firstItem="ZlJ-FM-k9F" firstAttribute="leading" secondItem="To9-re-xnU" secondAttribute="leading" constant="20" id="6Xo-2J-4ZH"/>
-                            <constraint firstItem="4yZ-S3-C6k" firstAttribute="top" secondItem="bJu-Me-oiD" secondAttribute="bottom" constant="8" id="6at-yc-ij9"/>
-                            <constraint firstItem="WKJ-6Z-34u" firstAttribute="top" secondItem="ZlJ-FM-k9F" secondAttribute="bottom" constant="50" id="BaH-1H-lKR"/>
+                            <constraint firstItem="Hlv-qM-4BJ" firstAttribute="top" secondItem="fqr-bw-tgd" secondAttribute="bottom" constant="20" id="6rE-qD-6rM"/>
+                            <constraint firstItem="4yZ-S3-C6k" firstAttribute="top" secondItem="bJu-Me-oiD" secondAttribute="bottom" constant="8" id="ABk-gz-h0K"/>
+                            <constraint firstItem="WKJ-6Z-34u" firstAttribute="top" secondItem="4yZ-S3-C6k" secondAttribute="bottom" constant="50" id="AgB-f0-WIH"/>
+                            <constraint firstItem="To9-re-xnU" firstAttribute="trailing" secondItem="qNb-cH-gvn" secondAttribute="trailing" constant="20" id="CHV-6N-AjF"/>
                             <constraint firstItem="4yZ-S3-C6k" firstAttribute="leading" secondItem="ZlJ-FM-k9F" secondAttribute="trailing" constant="20" id="Cop-03-IoG"/>
-                            <constraint firstItem="bJu-Me-oiD" firstAttribute="top" secondItem="fqr-bw-tgd" secondAttribute="bottom" constant="20" id="HRG-bc-i1U"/>
+                            <constraint firstItem="ZlJ-FM-k9F" firstAttribute="top" secondItem="bJu-Me-oiD" secondAttribute="bottom" constant="8" id="EvR-Pe-ly2"/>
                             <constraint firstItem="4yZ-S3-C6k" firstAttribute="width" secondItem="ZlJ-FM-k9F" secondAttribute="width" id="Hoo-X4-AvW"/>
                             <constraint firstItem="fqr-bw-tgd" firstAttribute="centerX" secondItem="w9L-Kz-A4d" secondAttribute="centerX" id="JEA-C7-ltr"/>
+                            <constraint firstItem="RVy-1r-Zpy" firstAttribute="top" secondItem="dhx-jm-VM2" secondAttribute="bottom" constant="8" id="Lou-RG-KzW"/>
+                            <constraint firstItem="To9-re-xnU" firstAttribute="trailing" secondItem="dhx-jm-VM2" secondAttribute="trailing" constant="20" id="PYA-cm-YEe"/>
+                            <constraint firstItem="To9-re-xnU" firstAttribute="trailing" secondItem="RVy-1r-Zpy" secondAttribute="trailing" constant="20" id="RzE-hn-ssd"/>
+                            <constraint firstItem="bJu-Me-oiD" firstAttribute="top" secondItem="qNb-cH-gvn" secondAttribute="bottom" constant="8" id="UeN-e2-6VP"/>
                             <constraint firstItem="gHg-sL-3uR" firstAttribute="top" secondItem="To9-re-xnU" secondAttribute="top" constant="50" id="Vmj-Qg-49Q"/>
                             <constraint firstItem="To9-re-xnU" firstAttribute="trailing" secondItem="4yZ-S3-C6k" secondAttribute="trailing" constant="20" id="YXx-NP-5kB"/>
+                            <constraint firstItem="Hlv-qM-4BJ" firstAttribute="leading" secondItem="To9-re-xnU" secondAttribute="leading" constant="20" id="Yoh-YL-ZaX"/>
                             <constraint firstItem="bJu-Me-oiD" firstAttribute="leading" secondItem="w9L-Kz-A4d" secondAttribute="leading" constant="20" id="aCh-le-Gyw"/>
                             <constraint firstItem="gHg-sL-3uR" firstAttribute="leading" secondItem="To9-re-xnU" secondAttribute="leading" id="aHc-UJ-ADl"/>
+                            <constraint firstItem="RVy-1r-Zpy" firstAttribute="leading" secondItem="To9-re-xnU" secondAttribute="leading" constant="20" id="atX-Pb-BWk"/>
+                            <constraint firstItem="dhx-jm-VM2" firstAttribute="top" secondItem="Hlv-qM-4BJ" secondAttribute="bottom" constant="8" id="eBD-rT-Pig"/>
+                            <constraint firstItem="qNb-cH-gvn" firstAttribute="top" secondItem="RVy-1r-Zpy" secondAttribute="bottom" constant="20" id="icd-eE-q2p"/>
                             <constraint firstItem="Cde-BI-hXI" firstAttribute="leading" secondItem="To9-re-xnU" secondAttribute="leading" id="o2M-S3-tov"/>
                             <constraint firstItem="fqr-bw-tgd" firstAttribute="top" secondItem="gHg-sL-3uR" secondAttribute="bottom" constant="50" id="qHU-Ns-RtX"/>
+                            <constraint firstItem="qNb-cH-gvn" firstAttribute="leading" secondItem="To9-re-xnU" secondAttribute="leading" constant="20" id="qU5-vW-R6U"/>
                             <constraint firstItem="To9-re-xnU" firstAttribute="trailing" secondItem="WKJ-6Z-34u" secondAttribute="trailing" constant="20" id="qaw-O4-l5P"/>
                             <constraint firstItem="WKJ-6Z-34u" firstAttribute="leading" secondItem="To9-re-xnU" secondAttribute="leading" constant="20" id="saS-k8-GCw"/>
+                            <constraint firstItem="dhx-jm-VM2" firstAttribute="leading" secondItem="w9L-Kz-A4d" secondAttribute="leading" constant="20" id="suf-U5-Nwo"/>
                             <constraint firstItem="Cde-BI-hXI" firstAttribute="trailing" secondItem="To9-re-xnU" secondAttribute="trailing" id="wCv-HL-dtX"/>
                             <constraint firstItem="To9-re-xnU" firstAttribute="trailing" secondItem="bJu-Me-oiD" secondAttribute="trailing" constant="20" id="xZW-CU-JsO"/>
-                            <constraint firstItem="WKJ-6Z-34u" firstAttribute="top" secondItem="4yZ-S3-C6k" secondAttribute="bottom" constant="50" id="xxR-OC-N04"/>
-                            <constraint firstItem="ZlJ-FM-k9F" firstAttribute="top" secondItem="bJu-Me-oiD" secondAttribute="bottom" constant="8" id="zTb-5b-wSH"/>
+                            <constraint firstItem="WKJ-6Z-34u" firstAttribute="top" secondItem="ZlJ-FM-k9F" secondAttribute="bottom" constant="50" id="xgY-8e-Si6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="FFU-mE-89f"/>
                     <connections>
+                        <outlet property="adminNameExplanationLabel" destination="bJu-Me-oiD" id="Uwi-9Z-Jun"/>
+                        <outlet property="adminNameTitleLabel" destination="qNb-cH-gvn" id="DHn-Pm-zTZ"/>
+                        <outlet property="displayNameExplanationLabel" destination="dhx-jm-VM2" id="nK3-yM-LoK"/>
+                        <outlet property="displayNameTextField" destination="RVy-1r-Zpy" id="n7N-93-46K"/>
+                        <outlet property="displayNameTitleLabel" destination="Hlv-qM-4BJ" id="kuB-Qb-LEX"/>
                         <outlet property="haveAccountButton" destination="v9M-oP-cOv" id="MHH-if-Gdo"/>
                         <outlet property="name1TextField" destination="ZlJ-FM-k9F" id="mDl-5M-zJS"/>
                         <outlet property="name2TextField" destination="4yZ-S3-C6k" id="bh2-1N-7PG"/>
-                        <outlet property="nameExplanationLabel" destination="bJu-Me-oiD" id="Uwi-9Z-Jun"/>
                         <outlet property="nextButton" destination="WKJ-6Z-34u" id="6d6-4V-enq"/>
                         <outlet property="nextButtonLeft" destination="saS-k8-GCw" id="ruy-Xp-DlF"/>
                         <outlet property="nextButtonRight" destination="qaw-O4-l5P" id="xv8-GA-JxR"/>
@@ -149,7 +200,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lDE-dg-84z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="744.92753623188412" y="-4.0178571428571423"/>
+            <point key="canvasLocation" x="744.61538461538464" y="-4.2654028436018958"/>
         </scene>
         <!--NavigationController-->
         <scene sceneID="SJY-dL-rkp">

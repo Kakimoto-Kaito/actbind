@@ -40,9 +40,7 @@ final class AccountSearchTableViewCell: UITableViewCell {
         
         userProfileImage.cornerAll(value: 0, fulcrum: "width")
         
-        let name1 = user!.name1
-        let name2 = user!.name2
-        let name = name1 + " " + name2
+        let name = user!.displayName
         nameLabel.text = name
     }
     
