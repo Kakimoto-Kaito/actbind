@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "建立新帐户";
 
 "namaewonyuuryoku" = "你叫什么名字？";
+"kannrisyamei" = "管理员名称";
+"kannrisyameisetumei" = "它不会出现在您的个人资料中。";
 "namae1" = "姓";
 "namae2" = "名字";
-"namaesetumei" = "使用真实姓名可以使您的朋友更容易识别您。";
+"hyoujimei" = "显示名称";
+"hyoujimeisetumei" = "使用您的真实姓名可以让您的朋友更容易找到您。";
 "tugihe" = "下一个";
 "akaunntowoomotinokata" = "已经有帐号了？";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "您要删除当前照片吗？";
 "hennkounaiyousetteityuu" = "设定变更...";
 "hennkounaiyouhozonn" = "你的修改已被保存";
+"hyoujimeiwohennsyuu" = "编辑显示名称";
+"hyoujimeiwonyuuryoku" = "输入显示名称...";
 "jikosyoukai" = "生化";
 "jikosyoukaiwohennsyuu" = "编辑简历";
 "jikosyoukaiwonyuuryoku" = "输入生物...";

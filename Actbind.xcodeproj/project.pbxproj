@@ -174,6 +174,8 @@
 		0DD37C0826CDA9C6007F5F15 /* ColorTagSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD37C0726CDA9C6007F5F15 /* ColorTagSearchCollectionViewCell.swift */; };
 		0DD4B42E269601810046416F /* WelcomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4B42D269601810046416F /* WelcomeTableViewCell.swift */; };
 		0DD4B4352696018F0046416F /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4B4342696018F0046416F /* Welcome.swift */; };
+		0DE8E09D26E2223400252E3D /* DisplayNameEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE8E09C26E2223400252E3D /* DisplayNameEdit.storyboard */; };
+		0DE8E09F26E2223F00252E3D /* DisplayNameEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8E09E26E2223F00252E3D /* DisplayNameEditViewController.swift */; };
 		0DECEAC9267279C900DD7116 /* SignUpConfirmationCodePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DECEAC8267279C900DD7116 /* SignUpConfirmationCodePageViewController.swift */; };
 		0DED1BE92603D92700D2A1E4 /* PostCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DED1BE82603D92700D2A1E4 /* PostCameraViewController.swift */; };
 		0DED1BED2603D96E00D2A1E4 /* PostCamera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DED1BEC2603D96E00D2A1E4 /* PostCamera.storyboard */; };
@@ -447,6 +449,8 @@
 		0DD4B4342696018F0046416F /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		0DDC93E82601AA6400103659 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		0DDC93F02601AA7B00103659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		0DE8E09C26E2223400252E3D /* DisplayNameEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DisplayNameEdit.storyboard; sourceTree = "<group>"; };
+		0DE8E09E26E2223F00252E3D /* DisplayNameEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNameEditViewController.swift; sourceTree = "<group>"; };
 		0DECEAC8267279C900DD7116 /* SignUpConfirmationCodePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpConfirmationCodePageViewController.swift; sourceTree = "<group>"; };
 		0DED1BE82603D92700D2A1E4 /* PostCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCameraViewController.swift; sourceTree = "<group>"; };
 		0DED1BEC2603D96E00D2A1E4 /* PostCamera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostCamera.storyboard; sourceTree = "<group>"; };
@@ -1039,6 +1043,7 @@
 				0D22EDC025F73441009190F9 /* ProfileEdit.storyboard */,
 				0D22EDC125F73441009190F9 /* ProfileEditViewController.swift */,
 				0D9B375725F72459002EB629 /* ProfileImageEdit */,
+				0DE8E09B26E2221900252E3D /* displayNameEdit */,
 				0D9B375625F72455002EB629 /* BioEdit */,
 				0D11C2DE26D6BF7C00A7CD75 /* WebsiteEdit */,
 			);
@@ -1246,6 +1251,15 @@
 				0D6E170F266F3DF00021D0F4 /* UITextView_Placeholder.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0DE8E09B26E2221900252E3D /* displayNameEdit */ = {
+			isa = PBXGroup;
+			children = (
+				0DE8E09C26E2223400252E3D /* DisplayNameEdit.storyboard */,
+				0DE8E09E26E2223F00252E3D /* DisplayNameEditViewController.swift */,
+			);
+			path = displayNameEdit;
 			sourceTree = "<group>";
 		};
 		0DED1BF72603DD3000D2A1E4 /* ProfileImageCamera */ = {
@@ -1474,6 +1488,7 @@
 				0D22EE0925F73501009190F9 /* PersonalInformation.storyboard in Resources */,
 				0D22EE3D25F73578009190F9 /* Security.storyboard in Resources */,
 				0DED1C042603DFA400D2A1E4 /* ProfileImageCamera.storyboard in Resources */,
+				0DE8E09D26E2223400252E3D /* DisplayNameEdit.storyboard in Resources */,
 				0D22ED7225F732C4009190F9 /* SignUpOk.storyboard in Resources */,
 				0DC2C038269A359500B3295F /* Keys.plist in Resources */,
 				0DA9BF7126782DC200ED8EF0 /* README.md in Resources */,
@@ -1666,6 +1681,7 @@
 				0D22EDC325F73441009190F9 /* ProfileEditViewController.swift in Sources */,
 				0D79BE4626D1522600C5ACFA /* SupportViewController.swift in Sources */,
 				0D13FE912606FC780014B96F /* CameraAndCamerarollAuthorizationViewController.swift in Sources */,
+				0DE8E09F26E2223F00252E3D /* DisplayNameEditViewController.swift in Sources */,
 				0D22ED4525F73278009190F9 /* SignUpConfirmationCodeViewController.swift in Sources */,
 				0D22ED7B25F73356009190F9 /* ImageSpotlightViewController.swift in Sources */,
 				0DD37C0826CDA9C6007F5F15 /* ColorTagSearchCollectionViewCell.swift in Sources */,
@@ -1933,7 +1949,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.actbind.Actbind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1956,7 +1972,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.1;
+				MARKETING_VERSION = 1.3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.actbind.Actbind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

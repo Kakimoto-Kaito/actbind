@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "Create New Account";
 
 "namaewonyuuryoku" = "What's Your Name?";
+"kannrisyamei" = "Admin name";
+"kannrisyameisetumei" = "It does not appear in your profile.";
 "namae1" = "First name";
 "namae2" = "Last name";
-"namaesetumei" = "Using your real name makes it easier for your friends to recognize you.";
+"hyoujimei" = "Display name";
+"hyoujimeisetumei" = "Using your real name makes it easier for your friends to find you.";
 "tugihe" = "Next";
 "akaunntowoomotinokata" = "Already have an account?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "Do you want to remove the current photo?";
 "hennkounaiyousetteityuu" = "Setting Changes ...";
 "hennkounaiyouhozonn" = "Your changes have been saved";
+"hyoujimeiwohennsyuu" = "Edit display name";
+"hyoujimeiwonyuuryoku" = "Enter the display name ...";
 "jikosyoukai" = "Bio";
 "jikosyoukaiwohennsyuu" = "Edit Bio";
 "jikosyoukaiwonyuuryoku" = "Enter the bio ...";

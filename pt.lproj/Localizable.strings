@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "Criar nova conta";
 
 "namaewonyuuryoku" = "Qual o seu nome?";
+"kannrisyamei" = "Nome do administrador";
+"kannrisyameisetumei" = "Não aparece no seu perfil.";
 "namae1" = "Primeiro nome";
 "namae2" = "Último nome";
-"namaesetumei" = "Usar seu nome real facilita para seus amigos reconhecê-lo.";
+"hyoujimei" = "Nome em Exibição";
+"hyoujimeisetumei" = "Usar seu nome real torna mais fácil para seus amigos encontrarem você.";
 "tugihe" = "Próximo";
 "akaunntowoomotinokata" = "já tem uma conta?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "Quer remover a foto atual?";
 "hennkounaiyousetteityuu" = "Definindo alterações ...";
 "hennkounaiyouhozonn" = "suas alterações foram salvas";
+"hyoujimeiwohennsyuu" = "Editar nome de exibição";
+"hyoujimeiwonyuuryoku" = "Insira o nome de exibição ...";
 "jikosyoukai" = "Bio";
 "jikosyoukaiwohennsyuu" = "Editar biografia";
 "jikosyoukaiwonyuuryoku" = "Entre na biografia ...";

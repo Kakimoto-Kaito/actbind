@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "新しいアカウントを作成";
 
 "namaewonyuuryoku" = "名前を入力";
+"kannrisyamei" = "管理者名";
+"kannrisyameisetumei" = "プロフィールには表示されません。";
 "namae1" = "姓";
 "namae2" = "名";
-"namaesetumei" = "実名を使用することで、友達があなたを見つけやすくなります。";
+"hyoujimei" = "表示名";
+"hyoujimeisetumei" = "実名を使用することで、友達があなたを見つけやすくなります。";
 "tugihe" = "次へ";
 "akaunntowoomotinokata" = "すでにアカウントをお持ちの方はこちらへ";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "現在の写真を削除しますか？";
 "hennkounaiyousetteityuu" = "変更内容を設定中...";
 "hennkounaiyouhozonn" = "変更内容が保存されました";
+"hyoujimeiwohennsyuu" = "表示名を編集";
+"hyoujimeiwonyuuryoku" = "表示名を入力...";
 "jikosyoukai" = "自己紹介";
 "jikosyoukaiwohennsyuu" = "自己紹介を編集";
 "jikosyoukaiwonyuuryoku" = "自己紹介を入力...";

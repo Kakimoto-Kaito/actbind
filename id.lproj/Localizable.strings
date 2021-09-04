@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "Buat akun baru";
 
 "namaewonyuuryoku" = "Siapa namamu?";
+"kannrisyamei" = "Nama admin";
+"kannrisyameisetumei" = "Itu tidak muncul di profil Anda.";
 "namae1" = "Nama depan";
 "namae2" = "nama keluarga";
-"namaesetumei" = "Menggunakan nama asli Anda akan memudahkan teman Anda mengenali Anda.";
+"hyoujimei" = "Nama tampilan";
+"hyoujimeisetumei" = "Menggunakan nama asli Anda memudahkan teman Anda menemukan Anda.";
 "tugihe" = "Lanjut";
 "akaunntowoomotinokata" = "Sudah memiliki akun?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "Apakah Anda ingin menghapus foto saat ini?";
 "hennkounaiyousetteityuu" = "Menyetel Perubahan ...";
 "hennkounaiyouhozonn" = "perubahan yang Anda buat sudah disimpan";
+"hyoujimeiwohennsyuu" = "Edit nama tampilan";
+"hyoujimeiwonyuuryoku" = "Masukkan nama tampilan ...";
 "jikosyoukai" = "Pengenalan diri";
 "jikosyoukaiwohennsyuu" = "Edit perkenalan diri";
 "jikosyoukaiwonyuuryoku" = "Masukkan perkenalan diri Anda ...";

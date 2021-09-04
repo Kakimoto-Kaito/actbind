@@ -42,8 +42,7 @@ final class MyProfilePostTableViewCell: UITableViewCell {
         if let userDefaults = userDefaults {
             let userName = userDefaults.string(forKey: "username")!
             let profileimage = userDefaults.string(forKey: "profileimage")
-            let name1 = userDefaults.string(forKey: "name1")
-            let name2 = userDefaults.string(forKey: "name2")
+            let displayName = userDefaults.string(forKey: "displayname")
             
             if profileimage == "Default" {
                 userProfileImage.image = UIImage(named: "defaultProfileImage")
@@ -52,9 +51,8 @@ final class MyProfilePostTableViewCell: UITableViewCell {
                 let userProfileImageURL = URL(string: profileImageUrlString)!
                 Nuke.loadImage(with: userProfileImageURL, into: userProfileImage)
             }
-                
-            let name = name1! + " " + name2!
-            nameLabel.text = name
+            
+            nameLabel.text = displayName
         }
         userProfileImage.cornerAll(value: 0, fulcrum: "width")
         

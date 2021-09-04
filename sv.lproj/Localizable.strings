@@ -16,9 +16,12 @@
 "atarasiiakaunntowosakusei" = "Skapa nytt konto";
 
 "namaewonyuuryoku" = "Vad heter du?";
+"kannrisyamei" = "Admin namn";
+"kannrisyameisetumei" = "Det visas inte i din profil.";
 "namae1" = "Förnamn";
 "namae2" = "Efternamn";
-"namaesetumei" = "Att använda ditt riktiga namn gör det lättare för dina vänner att känna igen dig.";
+"hyoujimei" = "Visningsnamn";
+"hyoujimeisetumei" = "Att använda ditt riktiga namn gör det lättare för dina vänner att hitta dig.";
 "tugihe" = "Nästa";
 "akaunntowoomotinokata" = "Har du redan ett konto?";
 
@@ -145,6 +148,8 @@
 "gennzainosyasinnwosakujyosimasuka" = "Vill du ta bort det aktuella fotot?";
 "hennkounaiyousetteityuu" = "Ställa in ändringar ...";
 "hennkounaiyouhozonn" = "Dina ändringar har sparats";
+"hyoujimeiwohennsyuu" = "Redigera visningsnamn";
+"hyoujimeiwonyuuryoku" = "Ange visningsnamnet ...";
 "jikosyoukai" = "Bio";
 "jikosyoukaiwohennsyuu" = "Redigera Bio";
 "jikosyoukaiwonyuuryoku" = "Ange bio ...";

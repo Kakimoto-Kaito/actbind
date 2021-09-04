@@ -45,8 +45,7 @@ final class PostViewController: UIViewController, UIGestureRecognizerDelegate {
         if let userDefaults = userDefaults {
             let userName = userDefaults.string(forKey: "username")!
             let myColor = userDefaults.string(forKey: "mycolor")
-            let name1 = userDefaults.string(forKey: "name1")
-            let name2 = userDefaults.string(forKey: "name2")
+            let displayName = userDefaults.string(forKey: "displayname")
             let profileimage = userDefaults.string(forKey: "profileimage")
 
             if myColor == "Original" {
@@ -68,7 +67,7 @@ final class PostViewController: UIViewController, UIGestureRecognizerDelegate {
             }
             userProfileImage.cornerAll(value: 0, fulcrum: "width")
 
-            nameLabel.text = name1! + " " + name2!
+            nameLabel.text = displayName
         }
         
         backButton.image = UIImage(named: "back")
