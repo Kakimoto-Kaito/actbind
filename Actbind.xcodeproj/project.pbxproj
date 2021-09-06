@@ -199,9 +199,31 @@
 		0DFBC1FE2690195400800190 /* MyProfilePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFBC1FD2690195400800190 /* MyProfilePostTableViewCell.swift */; };
 		0DFBC20026901A7800800190 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFBC1FF26901A7800800190 /* MyProfile.storyboard */; };
 		0DFC925D2601B6BA00364104 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DDC93F12601AA7B00103659 /* Info.plist */; };
+		5F7699284685DCD2BD599BBA /* Pods_Actbind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E16464DEC364F67750F5966 /* Pods_Actbind.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0D04802726E62ECF0074379E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B43874C6CBB50E7134FBEC24BABFE14F;
+			remoteInfo = GoogleUtilities;
+		};
+		0D04802926E62ECF0074379E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06FC5C9CF96D60C50FCD47D339C91951;
+			remoteInfo = nanopb;
+		};
+		0D04802B26E62ECF0074379E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3347A1AB6546F0A3977529B8F199DC41;
+			remoteInfo = PromisesObjC;
+		};
 		0D071299260D9D9C00286C6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
@@ -483,6 +505,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7699284685DCD2BD599BBA /* Pods_Actbind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1246,8 +1269,11 @@
 			isa = PBXGroup;
 			children = (
 				0D9EE494266F2C2F00151FE4 /* Alamofire.framework */,
+				0D04802826E62ECF0074379E /* GoogleUtilities.framework */,
+				0D04802A26E62ECF0074379E /* nanopb.framework */,
 				0D07129A260D9D9C00286C6E /* Nuke.framework */,
 				0DDC93EF2601AA6400103659 /* Pods_Actbind.framework */,
+				0D04802C26E62ECF0074379E /* FBLPromises.framework */,
 				0D6E170F266F3DF00021D0F4 /* UITextView_Placeholder.framework */,
 			);
 			name = Products;
@@ -1431,6 +1457,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		0D04802826E62ECF0074379E /* GoogleUtilities.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleUtilities.framework;
+			remoteRef = 0D04802726E62ECF0074379E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D04802A26E62ECF0074379E /* nanopb.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = nanopb.framework;
+			remoteRef = 0D04802926E62ECF0074379E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D04802C26E62ECF0074379E /* FBLPromises.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBLPromises.framework;
+			remoteRef = 0D04802B26E62ECF0074379E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		0D07129A260D9D9C00286C6E /* Nuke.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
