@@ -78,9 +78,7 @@
 		0D22ED9F25F733BA009190F9 /* PostColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22ED9C25F733BA009190F9 /* PostColorViewController.swift */; };
 		0D22EDA425F733CC009190F9 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22EDA225F733CC009190F9 /* PostViewController.swift */; };
 		0D22EDA525F733CC009190F9 /* Post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D22EDA325F733CC009190F9 /* Post.storyboard */; };
-		0D22EDAA25F733FC009190F9 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22EDA725F733FC009190F9 /* MenuTableViewCell.swift */; };
 		0D22EDAB25F733FC009190F9 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D22EDA825F733FC009190F9 /* Menu.storyboard */; };
-		0D22EDAC25F733FC009190F9 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22EDA925F733FC009190F9 /* Menu.swift */; };
 		0D22EDAF25F73404009190F9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22EDAE25F73404009190F9 /* MenuViewController.swift */; };
 		0D22EDB825F7341A009190F9 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22EDB625F7341A009190F9 /* MyProfileViewController.swift */; };
 		0D22EDB925F7341A009190F9 /* MyProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D22EDB725F7341A009190F9 /* MyProfileTableViewCell.swift */; };
@@ -326,9 +324,7 @@
 		0D22ED9C25F733BA009190F9 /* PostColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostColorViewController.swift; sourceTree = "<group>"; };
 		0D22EDA225F733CC009190F9 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		0D22EDA325F733CC009190F9 /* Post.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Post.storyboard; sourceTree = "<group>"; };
-		0D22EDA725F733FC009190F9 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		0D22EDA825F733FC009190F9 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
-		0D22EDA925F733FC009190F9 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		0D22EDAE25F73404009190F9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		0D22EDB625F7341A009190F9 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		0D22EDB725F7341A009190F9 /* MyProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileTableViewCell.swift; sourceTree = "<group>"; };
@@ -781,8 +777,6 @@
 			children = (
 				0D22EDA825F733FC009190F9 /* Menu.storyboard */,
 				0D22EDAE25F73404009190F9 /* MenuViewController.swift */,
-				0D22EDA725F733FC009190F9 /* MenuTableViewCell.swift */,
-				0D22EDA925F733FC009190F9 /* Menu.swift */,
 				0D9B375325F723EC002EB629 /* RebootToLogIn */,
 				0D9B375125F723E8002EB629 /* Activity */,
 				0D9B375025F723E6002EB629 /* Decoration */,
@@ -1703,7 +1697,6 @@
 				0D23792825F71C2500E43552 /* AppDelegate.swift in Sources */,
 				0D22EE2325F73537009190F9 /* SaveNewInformationViewController.swift in Sources */,
 				0D79BE4A26D1677B00C5ACFA /* supportMethod.swift in Sources */,
-				0D22EDAC25F733FC009190F9 /* Menu.swift in Sources */,
 				0D89E80B268F8AF600687E83 /* OtherProfilePostTableViewCell.swift in Sources */,
 				0D22EE4E25F73592009190F9 /* AboutViewController.swift in Sources */,
 				0D22EDF625F734C0009190F9 /* DecorationViewController.swift in Sources */,
@@ -1749,7 +1742,6 @@
 				0D22EE4825F73586009190F9 /* PhotoViewController.swift in Sources */,
 				0D22EE2F25F7355D009190F9 /* DeleteAccountCheckViewController.swift in Sources */,
 				0D22EDDD25F73492009190F9 /* RebootToLoginViewController.swift in Sources */,
-				0D22EDAA25F733FC009190F9 /* MenuTableViewCell.swift in Sources */,
 				0DC2C03A269A362100B3295F /* KeyManager.swift in Sources */,
 				0DED1BE92603D92700D2A1E4 /* PostCameraViewController.swift in Sources */,
 				0DD4B42E269601810046416F /* WelcomeTableViewCell.swift in Sources */,

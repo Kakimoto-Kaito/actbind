@@ -5,6 +5,8 @@
 //  Created by 柿本海斗 on 2021/03/09.
 //
 
+import AdSupport
+import AppTrackingTransparency
 import GoogleMobileAds
 import UIKit
 
@@ -13,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // アプリを起動したとき
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Mobile Ads SDK を初期化
-        GADMobileAds.sharedInstance().start(completionHandler: nil)
+        if #available(iOS 14, *) {
+            ATTrackingManager.requestTrackingAuthorization(completionHandler: { _ in GADMobileAds.sharedInstance().start(completionHandler: nil) })
+        } else {
+            // Fallback on earlier versions
+            GADMobileAds.sharedInstance().start(completionHandler: nil)
+        }
         
         // LaunchScreenを一秒間表示
         sleep(1)

@@ -17,7 +17,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>20210906202432</string>
+	<string>20210907021433</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-1654242573513407~3432886193</string>
 	<key>GADIsAdManagerApp</key>
@@ -32,6 +32,8 @@
 	<string>This allows you to take advantage of features such as video recording and voice search.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This allows you to share the content of your camera roll and take advantage of other features related to your photos and videos.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This lets ​you to serve personalized advertising.</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

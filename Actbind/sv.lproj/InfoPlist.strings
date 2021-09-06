@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "Detta gör att du kan använda några av 
 NSMicrophoneUsageDescription = "Detta gör att du kan dela din video med ljud.";
 NSPhotoLibraryUsageDescription = "Detta gör att du kan dela och spara dina kamerarulle foton och videor.";
 NSFaceIDUsageDescription = "Tillåt att Actbind använder Face ID för att låsa upp din app.";
+NSUserTrackingUsageDescription = "Detta låter dig visa personlig annonsering.";
