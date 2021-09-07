@@ -39,7 +39,7 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
-  - Nuke (10.3.2)
+  - Nuke (10.4.1)
   - PromisesObjC (2.0.0)
   - SwiftFormat/CLI (0.48.11)
   - "UITextView+Placeholder (1.4.0)"
@@ -71,7 +71,7 @@ SPEC CHECKSUMS:
   GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
   GoogleUtilities: 8de2a97a17e15b6b98e38e8770e2d129a57c0040
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
-  Nuke: c8be8025c78fedebe3dc9bc9a4a00f16e33921a7
+  Nuke: fa2d83b3ee99bb88eccc62ab6c7590e207b50096
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   SwiftFormat: 938e5865a118c49d63c7a290ddad86335f9e585f
   "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
