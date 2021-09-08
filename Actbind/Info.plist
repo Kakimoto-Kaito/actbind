@@ -17,7 +17,11 @@
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>20210904010156</string>
+	<string>20210907134123</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-1654242573513407~3432886193</string>
+	<key>GADIsAdManagerApp</key>
+	<true/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
@@ -28,6 +32,15 @@
 	<string>This allows you to take advantage of features such as video recording and voice search.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This allows you to share the content of your camera roll and take advantage of other features related to your photos and videos.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This identifier will be used to deliver personalized ads to you.</string>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

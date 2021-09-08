@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "Auf diese Weise können Sie Funktionen wi
 NSMicrophoneUsageDescription = "Auf diese Weise können Sie Ihr Video mit Audio teilen.";
 NSPhotoLibraryUsageDescription = "Auf diese Weise können Sie Ihre Kamerarollenfotos und -videos teilen und speichern.";
 NSFaceIDUsageDescription = "Erlauben Sie Actbind, Face ID zum Entsperren Ihrer App zu verwenden.";
+NSUserTrackingUsageDescription = "Auf diese Weise können Sie personalisierte Werbung schalten.";

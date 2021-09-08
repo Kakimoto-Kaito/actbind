@@ -5,12 +5,16 @@
 //  Created by 柿本海斗 on 2021/03/09.
 //
 
+import GoogleMobileAds
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     // アプリを起動したとき
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Mobile Ads SDK を初期化
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+        
         // LaunchScreenを一秒間表示
         sleep(1)
         

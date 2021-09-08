@@ -5,8 +5,11 @@
 //  Created by 柿本　海斗 on 2020/11/28.
 //
 
+import AdSupport
+import AppTrackingTransparency
 import AudioToolbox
 import CoreLocation
+import GoogleMobileAds
 import UIKit
 
 var scrollSwitch = "off"
@@ -81,6 +84,29 @@ final class HomeViewController: UIViewController, CLLocationManagerDelegate {
         tableView.refreshControl = refreshControl
         refreshControl.addTarget(self, action: #selector(HomeViewController.refresh(sender:)), for: .valueChanged)
         
+        if #available(iOS 14, *) {
+            switch ATTrackingManager.trackingAuthorizationStatus {
+            case .authorized:
+                print("許可")
+            case .denied:
+                print("拒否")
+            case .restricted:
+                print("制限")
+            case .notDetermined:
+                showRequestTrackingAuthorizationAlert()
+            @unknown default:
+                print("エラー")
+            }
+        } else {
+            if ASIdentifierManager.shared().isAdvertisingTrackingEnabled {
+                print("許可")
+                // Mobile Ads SDK を初期化
+                GADMobileAds.sharedInstance().start(completionHandler: nil)
+            } else {
+                print("制限")
+            }
+        }
+        
         if let userDefaults = userDefaults {
             let myColor = userDefaults.string(forKey: "mycolor")
 
@@ -139,7 +165,22 @@ final class HomeViewController: UIViewController, CLLocationManagerDelegate {
         }
         isLoaded = true
     }
-
+    
+    func showRequestTrackingAuthorizationAlert() {
+        if #available(iOS 14, *) {
+            ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
+                switch status {
+                case .authorized:
+                    print("許可")
+                case .denied, .restricted, .notDetermined:
+                    print("許可されなかった")
+                @unknown default:
+                    print("エラー")
+                }
+            })
+        }
+    }
+    
     @IBAction func logoButtonTouchUpInside(_ sender: Any) {
         UISelectionFeedbackGenerator().selectionChanged()
         

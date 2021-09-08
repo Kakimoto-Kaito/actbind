@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "זה יאפשר לך להשתמש בכמ�
 NSMicrophoneUsageDescription = "זה יאפשר לך לשתף את הסרטון שלך עם אודיו.";
 NSPhotoLibraryUsageDescription = "זה יאפשר לך לשתף ולשמור תמונות וסרטוני וידאו שלך.";
 NSFaceIDUsageDescription = "אפשר ל- Actbind להשתמש ב- Face ID כדי לבטל את נעילת האפליקציה שלך.";
+NSUserTrackingUsageDescription = "זה מאפשר לך להציג פרסום מותאם אישית.";

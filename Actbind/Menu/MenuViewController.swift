@@ -5,25 +5,51 @@
 //  Created by 柿本　海斗 on 2020/11/28.
 //
 
+import GoogleMobileAds
 import Nuke
 import UIKit
 
 final class MenuViewController: UIViewController {
     let userDefaults = UserDefaults(suiteName: "group.com.actbind")
 
-    var menu = Menu.allMenu
-
     @IBOutlet weak var navigationBarTitle: UINavigationItem!
     @IBOutlet weak var userProfileImage: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var menuTableView: UITableView!
-
+    
+    @IBOutlet weak var decorationTextLabel: UILabel!
+    @IBOutlet weak var decorationImage: UIImageView!
+    @IBOutlet weak var inotiwomamoruText: UILabel!
+    @IBOutlet weak var inotiwomamoruImage: UIImageView!
+    @IBOutlet weak var activityText: UILabel!
+    @IBOutlet weak var activityImage: UIImageView!
+    @IBOutlet weak var houkokuText: UILabel!
+    @IBOutlet weak var houkokuImage: UIImageView!
+    @IBOutlet weak var supportText: UILabel!
+    @IBOutlet weak var supportImage: UIImageView!
+    @IBOutlet weak var setteiText: UILabel!
+    @IBOutlet weak var setteiImage: UIImageView!
+    @IBOutlet weak var roguautoText: UILabel!
+    @IBOutlet weak var roguautoImage: UIImageView!
+    
+    @IBOutlet weak var bannerView1: GADBannerView!
+    @IBOutlet weak var bannerView2: GADBannerView!
+    
     var dayHour = ""
     private var isLoaded: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        bannerView1.adUnitID = "ca-app-pub-1654242573513407/5125736656"
+        bannerView1.rootViewController = self
+        // 広告読み込み
+        bannerView1.load(GADRequest())
+        
+        bannerView2.adUnitID = "ca-app-pub-1654242573513407/5079109979"
+        bannerView2.rootViewController = self
+        // 広告読み込み
+        bannerView2.load(GADRequest())
         
         // 今の時間
         dayHour = Date().dateToString(format: "HH")
@@ -48,6 +74,31 @@ final class MenuViewController: UIViewController {
         }
         
         userProfileImage.cornerAll(value: 0, fulcrum: "width")
+        
+        decorationTextLabel.text = "dekore-syonn".localized()
+        decorationImage.image = UIImage(named: "decoration")
+        inotiwomamoruText.text = "inotiwomamoru".localized()
+        inotiwomamoruImage.image = UIImage(named: "life-shield")
+        activityText.text = "akuthibithi".localized()
+        if let userDefaults = userDefaults {
+            let myColor = userDefaults.string(forKey: "mycolor")
+            
+            if myColor == "Original" {
+                activityImage.image = UIImage(named: "activity" + "Blue")
+            } else {
+                activityImage.image = UIImage(named: "activity" + myColor!)
+            }
+        }
+        houkokuText.text = "monndaiwohoukoku".localized()
+        houkokuImage.image = UIImage(named: "houkoku")
+        supportText.text = "sapo-to".localized()
+        supportImage.image = UIImage(named: "support")
+        setteiText.text = "settei".localized()
+        setteiImage.image = UIImage(named: "setting")
+        setteiImage.tintColor = UIColor.lightGray
+        roguautoText.text = "roguauto".localized()
+        roguautoImage.image = UIImage(named: "logout")
+        roguautoImage.tintColor = UIColor.darkGray
     }
     
     // 画面に表示される直前に呼ばれます。
@@ -214,29 +265,5 @@ extension MenuViewController: MainViewControllerProtocol {
         if isLoaded {
             menuTableView.setContentOffset(CGPoint.zero, animated: true)
         }
-    }
-}
-
-// extensionは何かを追加していく ViewControllerというクラスの中にUITableViewDataSource機能を追加していく
-extension MenuViewController: UITableViewDataSource {
-    // tableviewの中に何個のセクションを追加するか
-    func numberOfSections(in tableView: UITableView) -> Int {
-        1
-    }
-    
-    // 一つのtableviewの中に何個のセルが必要か
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        menu.count
-    }
-    
-    // tavleviewの中で使われているセルの特定
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "menuCell", for: indexPath) as! MenuTableViewCell
-        
-        // ここからの内容がセルに反映される
-        // 順番にcellの方のpostに送っていく
-        cell.menu = menu[indexPath.row]
-        // ここまで
-        return cell
     }
 }
