@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "これにより、Actbindの一部の機�
 NSMicrophoneUsageDescription = "これにより、動画を音声付きでシェアできるようになります。";
 NSPhotoLibraryUsageDescription = "これにより、カメラロールの写真や動画をシェアしたり、保存できるようになります。";
 NSFaceIDUsageDescription = "Actbindがアプリのロック解除にFace IDを使用することを許可します。";
+NSUserTrackingUsageDescription = "これにより、パーソナライズされた広告が提供されるようになります。";

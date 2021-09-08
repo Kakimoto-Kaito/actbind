@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "Это позволит вам испол
 NSMicrophoneUsageDescription = "Это позволит вам поделиться своим видео со звуком.";
 NSPhotoLibraryUsageDescription = "Это позволит вам делиться фотографиями и видео из фотопленки и сохранять их.";
 NSFaceIDUsageDescription = "Разрешите Actbind использовать Face ID для разблокировки вашего приложения.";
+NSUserTrackingUsageDescription = "Это позволяет вам размещать персонализированную рекламу.";

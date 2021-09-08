@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "Ez lehetővé teszi, hogy kihasználja az
 NSMicrophoneUsageDescription = "Ez lehetővé teszi a videó hanggal történő megosztását.";
 NSPhotoLibraryUsageDescription = "Így megoszthatja és elmentheti a fényképezőgépen tárolt fényképeket és videókat.";
 NSFaceIDUsageDescription = "Engedje meg, hogy az Actbind használhassa az Arcazonosítót az alkalmazás feloldásához.";
+NSUserTrackingUsageDescription = "Ez lehetővé teszi személyre szabott hirdetések megjelenítését.";

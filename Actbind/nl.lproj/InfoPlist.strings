@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "Hierdoor kunt u profiteren van functies z
 NSMicrophoneUsageDescription = "Hiermee kunt u uw video delen met audio.";
 NSPhotoLibraryUsageDescription = "Hiermee kunt u uw foto's en video's op de camerarol delen en opslaan.";
 NSFaceIDUsageDescription = "Sta Actbind toe Face ID te gebruiken om uw app te ontgrendelen.";
+NSUserTrackingUsageDescription = "Hiermee kunt u gepersonaliseerde advertenties aanbieden.";

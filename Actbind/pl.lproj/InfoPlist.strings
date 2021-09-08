@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "Pozwala to na korzystanie z takich funkcj
 NSMicrophoneUsageDescription = "Umożliwi to udostępnianie wideo z dźwiękiem.";
 NSPhotoLibraryUsageDescription = "Umożliwi to udostępnianie i zapisywanie zdjęć i filmów z rolki aparatu.";
 NSFaceIDUsageDescription = "Zezwól Actbind na używanie Face ID do odblokowywania aplikacji.";
+NSUserTrackingUsageDescription = "Dzięki temu możesz wyświetlać spersonalizowane reklamy.";

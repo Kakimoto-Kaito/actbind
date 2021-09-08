@@ -5,6 +5,18 @@
 import Foundation
 import Combine
 
+#if os(iOS) || os(tvOS) || os(watchOS)
+import UIKit
+#endif
+
+#if os(watchOS)
+import WatchKit
+#endif
+
+#if os(macOS)
+import Cocoa
+#endif
+
 // MARK: - ImageRequest
 
 /// Represents an image request.
@@ -106,6 +118,14 @@ public struct ImageRequest: CustomStringConvertible {
         /// The image scale to be used. By default, the scale matches the scale
         /// of the current display.
         public static let scaleKey: ImageRequest.UserInfoKey = "github.com/kean/nuke/scale"
+        
+        /// Specifies whether the pipeline should retreive or generate a thumbnail
+        /// instead of a full image. The thumbnail creation is generally significantly
+        /// more efficient, especially in terms of memory usage, than image resizing
+        /// (`ImageProcessors.Resize`).
+        ///
+        /// - note: You must be using the default image decoder to make it work.
+        public static let thumbnailKey: ImageRequest.UserInfoKey = "github.com/kean/nuke/thumbmnailKey"
     }
 
     // MARK: Initializers
@@ -248,6 +268,60 @@ public struct ImageRequest: CustomStringConvertible {
         /// Use existing cache data and fail if no cached data is available.
         public static let returnCacheDataDontLoad = Options(rawValue: 1 << 4)
     }
+    
+    /// Thumbnail options.
+    ///
+    /// For more info, see https://developer.apple.com/documentation/imageio/cgimagesource/image_source_option_dictionary_keys
+    public struct ThumbnailOptions: Hashable {
+        /// The maximum width and height in pixels of a thumbnail. If this key
+        /// is not specified, the width and height of a thumbnail is not limited
+        /// and thumbnails may be as big as the image itself.
+        public var maxPixelSize: CGFloat
+                
+        /// Whether a thumbnail should be automatically created for an image if
+        /// a thumbnail isn't present in the image source file. The thumbnail is
+        /// created from the full image, subject to the limit specified by
+        /// `maxPixelSize`.
+        ///
+        /// By default, `true`.
+        public var createThumbnailFromImageIfAbsent = true
+        
+        /// Whether a thumbnail should be created from the full image even if a
+        /// thumbnail is present in the image source file. The thumbnail is created
+        /// from the full image, subject to the limit specified by
+        /// `maxPixelSize`.
+        ///
+        /// By default, `true`.
+        public var createThumbnailFromImageAlways = true
+        
+        /// Whether the thumbnail should be rotated and scaled according to the
+        /// orientation and pixel aspect ratio of the full image.
+        ///
+        /// By default, `true`.
+        public var createThumbnailWithTransform = true
+    
+        /// Specifies whether image decoding and caching should happen at image
+        /// creation time.
+        ///
+        /// By default, `true`.
+        public var shouldCacheImmediately = true
+        
+        public init(maxPixelSize: CGFloat,
+                    createThumbnailFromImageIfAbsent: Bool = true,
+                    createThumbnailFromImageAlways: Bool = true,
+                    createThumbnailWithTransform: Bool = true,
+                    shouldCacheImmediately: Bool = true) {
+            self.maxPixelSize = maxPixelSize
+            self.createThumbnailFromImageIfAbsent = createThumbnailFromImageIfAbsent
+            self.createThumbnailFromImageAlways = createThumbnailFromImageAlways
+            self.createThumbnailWithTransform = createThumbnailWithTransform
+            self.shouldCacheImmediately = shouldCacheImmediately
+        }
+        
+        var identifier: String {
+            "com.github/kean/nuke/thumbnail?mxs=\(maxPixelSize),options=\(createThumbnailFromImageIfAbsent)\(createThumbnailFromImageAlways)\(createThumbnailWithTransform)\(shouldCacheImmediately)"
+        }
+    }
 
     // MARK: Internal
 
@@ -338,6 +412,17 @@ public struct ImageRequest: CustomStringConvertible {
             return imageId
         }
         return imageId ?? ""
+    }
+    
+    var thubmnail: ThumbnailOptions? {
+        ref.userInfo?[.thumbnailKey] as? ThumbnailOptions
+    }
+    
+    var scale: CGFloat? {
+        guard let scale = ref.userInfo?[.scaleKey] as? NSNumber else {
+            return nil
+        }
+        return CGFloat(scale.floatValue)
     }
 
     var publisher: DataPublisher? {

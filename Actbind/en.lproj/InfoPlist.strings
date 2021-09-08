@@ -5,3 +5,4 @@ NSLocationWhenInUseUsageDescription = "This will allow you to use some of Actbin
 NSMicrophoneUsageDescription = "This lets you record videos with sound.";
 NSPhotoLibraryUsageDescription = "This lets you share photos and videos from your camera roll and save.";
 NSFaceIDUsageDescription = "Allow Actbind to use Face ID to unlock your app.";
+NSUserTrackingUsageDescription = "This lets ​you to serve personalized advertising.";
