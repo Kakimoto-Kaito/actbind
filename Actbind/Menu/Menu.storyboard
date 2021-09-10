@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="722"/>
                                 <color key="backgroundColor" name="Background"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="kuV-It-AWK">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="1029"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="1089"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BOw-oZ-Ncx">
@@ -245,10 +245,10 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mjr-D1-iNx">
-                                            <rect key="frame" x="20" y="499" width="350" height="80"/>
+                                            <rect key="frame" x="20" y="499" width="350" height="110"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jij-BT-NlH" customClass="GADBannerView">
-                                                    <rect key="frame" x="15" y="15" width="320" height="50"/>
+                                                    <rect key="frame" x="15" y="45" width="320" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="2rc-3Z-8TS"/>
@@ -260,13 +260,23 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="広告" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGB-Ak-NHY">
+                                                    <rect key="frame" x="15" y="15" width="37" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="vnE-Xp-bHD"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" name="BlackWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" name="Cell"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="80" id="0cr-Ys-ugE"/>
+                                                <constraint firstItem="PGB-Ak-NHY" firstAttribute="leading" secondItem="Mjr-D1-iNx" secondAttribute="leading" constant="15" id="3Is-u1-wnK"/>
+                                                <constraint firstItem="PGB-Ak-NHY" firstAttribute="top" secondItem="Mjr-D1-iNx" secondAttribute="top" constant="15" id="58B-cw-yzO"/>
                                                 <constraint firstItem="jij-BT-NlH" firstAttribute="centerX" secondItem="Mjr-D1-iNx" secondAttribute="centerX" id="7NH-4d-BXB"/>
                                                 <constraint firstAttribute="bottom" secondItem="jij-BT-NlH" secondAttribute="bottom" constant="15" id="D1J-E6-UbN"/>
-                                                <constraint firstItem="jij-BT-NlH" firstAttribute="top" secondItem="Mjr-D1-iNx" secondAttribute="top" constant="15" id="syN-ZS-2Wb"/>
+                                                <constraint firstItem="jij-BT-NlH" firstAttribute="top" secondItem="PGB-Ak-NHY" secondAttribute="bottom" constant="8" id="JSj-6a-nFj"/>
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -275,7 +285,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g2f-EA-5cc">
-                                            <rect key="frame" x="20" y="599" width="350" height="90"/>
+                                            <rect key="frame" x="20" y="629" width="350" height="90"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="support" translatesAutoresizingMaskIntoConstraints="NO" id="1nl-Sp-gwX">
                                                     <rect key="frame" x="15" y="15" width="60" height="60"/>
@@ -315,7 +325,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QU4-gx-hGh">
-                                            <rect key="frame" x="20" y="709" width="350" height="90"/>
+                                            <rect key="frame" x="20" y="739" width="350" height="90"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setting" translatesAutoresizingMaskIntoConstraints="NO" id="t8Z-pW-TaB">
                                                     <rect key="frame" x="15" y="15" width="60" height="60"/>
@@ -354,10 +364,10 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gsw-ez-UbE">
-                                            <rect key="frame" x="20" y="819" width="350" height="80"/>
+                                            <rect key="frame" x="20" y="849" width="350" height="110"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="REB-1q-LRj" customClass="GADBannerView">
-                                                    <rect key="frame" x="15" y="15" width="320" height="50"/>
+                                                    <rect key="frame" x="15" y="45" width="320" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="320" id="Gqd-ba-XlB"/>
@@ -369,13 +379,23 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="広告" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVN-CE-QRh">
+                                                    <rect key="frame" x="15" y="15" width="37" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="59m-0E-SwI"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                    <color key="textColor" name="BlackWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" name="Cell"/>
                                             <constraints>
+                                                <constraint firstItem="fVN-CE-QRh" firstAttribute="top" secondItem="Gsw-ez-UbE" secondAttribute="top" constant="15" id="8Oy-SA-aLd"/>
                                                 <constraint firstAttribute="bottom" secondItem="REB-1q-LRj" secondAttribute="bottom" constant="15" id="9g5-bS-L9O"/>
-                                                <constraint firstItem="REB-1q-LRj" firstAttribute="top" secondItem="Gsw-ez-UbE" secondAttribute="top" constant="15" id="N99-Fm-deR"/>
-                                                <constraint firstAttribute="height" constant="80" id="oFU-bq-9vu"/>
+                                                <constraint firstItem="fVN-CE-QRh" firstAttribute="leading" secondItem="Gsw-ez-UbE" secondAttribute="leading" constant="15" id="YXg-3h-jtu"/>
                                                 <constraint firstItem="REB-1q-LRj" firstAttribute="centerX" secondItem="Gsw-ez-UbE" secondAttribute="centerX" id="rjy-ju-UEq"/>
+                                                <constraint firstItem="REB-1q-LRj" firstAttribute="top" secondItem="fVN-CE-QRh" secondAttribute="bottom" constant="8" id="twd-J4-0mN"/>
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -384,7 +404,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O1q-rG-Zr1">
-                                            <rect key="frame" x="20" y="919" width="350" height="90"/>
+                                            <rect key="frame" x="20" y="979" width="350" height="90"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logout" translatesAutoresizingMaskIntoConstraints="NO" id="fxQ-5m-KNr">
                                                     <rect key="frame" x="15" y="15" width="60" height="60"/>
@@ -453,10 +473,10 @@
                                         <constraint firstItem="O1q-rG-Zr1" firstAttribute="height" secondItem="g2f-EA-5cc" secondAttribute="height" id="hc9-F2-eJT"/>
                                         <constraint firstAttribute="trailing" secondItem="Gsw-ez-UbE" secondAttribute="trailing" constant="20" id="hwx-iJ-Iax"/>
                                         <constraint firstItem="O1q-rG-Zr1" firstAttribute="leading" secondItem="kuV-It-AWK" secondAttribute="leading" constant="20" id="iWe-Oo-f62"/>
-                                        <constraint firstAttribute="bottom" secondItem="O1q-rG-Zr1" secondAttribute="bottom" constant="20" id="idx-bx-cu8"/>
                                         <constraint firstItem="Z3H-Hi-Bl4" firstAttribute="height" secondItem="lmT-H1-NQF" secondAttribute="height" id="k7j-kr-G1Z"/>
                                         <constraint firstItem="g2f-EA-5cc" firstAttribute="top" secondItem="Mjr-D1-iNx" secondAttribute="bottom" constant="20" id="mKw-cA-0L3"/>
                                         <constraint firstItem="3DO-eH-ewf" firstAttribute="top" secondItem="Z3H-Hi-Bl4" secondAttribute="bottom" constant="20" id="ouL-5e-Ftg"/>
+                                        <constraint firstAttribute="bottom" secondItem="O1q-rG-Zr1" secondAttribute="bottom" constant="20" id="sXN-5O-CbQ"/>
                                         <constraint firstAttribute="trailing" secondItem="Mjr-D1-iNx" secondAttribute="trailing" constant="20" id="tZP-en-8Ii"/>
                                         <constraint firstItem="S8f-y9-Vre" firstAttribute="width" secondItem="lmT-H1-NQF" secondAttribute="width" id="uc6-qG-SGK"/>
                                         <constraint firstItem="QU4-gx-hGh" firstAttribute="height" secondItem="g2f-EA-5cc" secondAttribute="height" id="xg0-6C-WyV"/>
@@ -481,6 +501,8 @@
                     <connections>
                         <outlet property="activityImage" destination="AoA-bA-mel" id="y4u-4p-QPI"/>
                         <outlet property="activityText" destination="KnQ-tL-MV9" id="lyx-LV-O1x"/>
+                        <outlet property="adsLabel1" destination="PGB-Ak-NHY" id="5b2-xx-35Z"/>
+                        <outlet property="adsLabel2" destination="fVN-CE-QRh" id="wHL-cQ-z5F"/>
                         <outlet property="bannerView1" destination="jij-BT-NlH" id="pMa-D5-aDH"/>
                         <outlet property="bannerView2" destination="REB-1q-LRj" id="m9d-AD-Pjh"/>
                         <outlet property="decorationImage" destination="3e7-fQ-Cf2" id="wYj-1b-KmA"/>

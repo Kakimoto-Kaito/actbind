@@ -5,6 +5,7 @@
 //  Created by 柿本海斗 on 2021/07/03.
 //
 
+import GoogleMobileAds
 import Nuke
 import UIKit
 
@@ -23,6 +24,9 @@ final class OtherProfileTableViewCell: UITableViewCell {
     @IBOutlet weak var followButton: UIButton!
     @IBOutlet weak var followButtonRight: NSLayoutConstraint!
     @IBOutlet weak var followButtonLeft: NSLayoutConstraint!
+    
+    @IBOutlet weak var adsLabel: UILabel!
+    @IBOutlet weak var bannerView: GADBannerView!
     
     // ダミーのAPI
     var user: OtherProfileViewController.OtherUsers? {
@@ -63,6 +67,13 @@ final class OtherProfileTableViewCell: UITableViewCell {
             bioLabel.text = user!.bio
             
             websiteButton.setTitle(displayWebsite, for: .normal)
+            
+            bannerView.adUnitID = "ca-app-pub-1654242573513407/4881004705"
+            bannerView.rootViewController = delegate
+            // 広告読み込み
+            bannerView.load(GADRequest())
+            
+            adsLabel.text = "koukoku".localized()
         }
         
         // followButton.setTitle("foro-".localized(), for: .normal)
