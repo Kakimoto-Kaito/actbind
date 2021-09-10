@@ -5,6 +5,7 @@
 //  Created by 柿本海斗 on 2021/03/02.
 //
 
+import GoogleMobileAds
 import Nuke
 import UIKit
 
@@ -23,6 +24,9 @@ final class MyProfileTableViewCell: UITableViewCell {
     @IBOutlet weak var profileEditButton: UIButton!
     @IBOutlet weak var profileEditButtonRight: NSLayoutConstraint!
     @IBOutlet weak var profileEditButtonLeft: NSLayoutConstraint!
+    
+    @IBOutlet weak var adsLabel: UILabel!
+    @IBOutlet weak var bannerView: GADBannerView!
     
     // ダミーのAPI
     var profile: Profile! {
@@ -81,6 +85,13 @@ final class MyProfileTableViewCell: UITableViewCell {
             websiteButtonHeight.constant = 15
             websiteButtonTop.constant = 8
         }
+        
+        bannerView.adUnitID = "ca-app-pub-1654242573513407/4881004705"
+        bannerView.rootViewController = delegate
+        // 広告読み込み
+        bannerView.load(GADRequest())
+        
+        adsLabel.text = "koukoku".localized()
     }
     
     @IBAction func websiteButtonTouchDown(_ sender: Any) {

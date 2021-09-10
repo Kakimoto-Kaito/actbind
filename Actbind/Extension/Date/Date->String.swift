@@ -14,7 +14,6 @@ extension Date {
         formatter.locale = Locale.current
         formatter.timeZone = TimeZone.current
         formatter.dateFormat = format
-        formatter.locale = NSLocale.system
         
         return formatter.string(from: self)
     }
@@ -25,7 +24,6 @@ extension Date {
         formatter.locale = Locale.current
         formatter.timeZone = TimeZone.current
         formatter.dateFormat = DateFormatter.dateFormat(fromTemplate: format, options: 0, locale: .current)
-        formatter.locale = NSLocale.system
         
         return formatter.string(from: self)
     }

@@ -107,7 +107,7 @@ final class ReportPostViewController: UIViewController, UIPickerViewDelegate, UI
         
         let encoder = JSONEncoder()
         
-        let body = Post(postId: 0, reportType: reportTypePickerView.selectedRow(inComponent: 0) + 1)
+        let body = Post(postId: postId, reportType: reportTypePickerView.selectedRow(inComponent: 0) + 1)
         
         do {
             // EncodeしてhttpBodyに設定

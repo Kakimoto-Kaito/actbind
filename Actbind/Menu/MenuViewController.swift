@@ -32,6 +32,8 @@ final class MenuViewController: UIViewController {
     @IBOutlet weak var setteiImage: UIImageView!
     @IBOutlet weak var roguautoText: UILabel!
     @IBOutlet weak var roguautoImage: UIImageView!
+    @IBOutlet weak var adsLabel1: UILabel!
+    @IBOutlet weak var adsLabel2: UILabel!
     
     @IBOutlet weak var bannerView1: GADBannerView!
     @IBOutlet weak var bannerView2: GADBannerView!
@@ -99,6 +101,9 @@ final class MenuViewController: UIViewController {
         roguautoText.text = "roguauto".localized()
         roguautoImage.image = UIImage(named: "logout")
         roguautoImage.tintColor = UIColor.darkGray
+        
+        adsLabel1.text = "koukoku".localized()
+        adsLabel2.text = "koukoku".localized()
     }
     
     // 画面に表示される直前に呼ばれます。
