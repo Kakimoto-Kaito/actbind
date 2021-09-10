@@ -22,11 +22,11 @@
                                 <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                                 <color key="backgroundColor" name="Background"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="profileCell" rowHeight="415" id="Rea-i4-9ZK" customClass="OtherProfileTableViewCell" customModule="Actbind" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.333333969116211" width="390" height="415"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="profileCell" rowHeight="408" id="Rea-i4-9ZK" customClass="OtherProfileTableViewCell" customModule="Actbind" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="390" height="408"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rea-i4-9ZK" id="G6q-L3-Jwm">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="415"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="408"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jgc-R7-1Kl" userLabel="Cell View">
@@ -101,7 +101,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1k-s1-2jR">
-                                                    <rect key="frame" x="20" y="278" width="350" height="117"/>
+                                                    <rect key="frame" x="20" y="278" width="350" height="110"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="広告" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwx-mA-v5i">
                                                             <rect key="frame" x="15" y="15" width="37" height="22"/>
@@ -113,7 +113,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELE-wt-5DZ" customClass="GADBannerView">
-                                                            <rect key="frame" x="15" y="52" width="320" height="50"/>
+                                                            <rect key="frame" x="15" y="45" width="320" height="50"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="320" id="7yk-tk-GaV"/>
@@ -129,7 +129,7 @@
                                                     <color key="backgroundColor" name="Cell"/>
                                                     <constraints>
                                                         <constraint firstItem="Uwx-mA-v5i" firstAttribute="leading" secondItem="n1k-s1-2jR" secondAttribute="leading" constant="15" id="9vu-8d-UWj"/>
-                                                        <constraint firstItem="ELE-wt-5DZ" firstAttribute="top" secondItem="Uwx-mA-v5i" secondAttribute="bottom" constant="15" id="Tgj-23-Tyh"/>
+                                                        <constraint firstItem="ELE-wt-5DZ" firstAttribute="top" secondItem="Uwx-mA-v5i" secondAttribute="bottom" constant="8" id="Tgj-23-Tyh"/>
                                                         <constraint firstAttribute="bottom" secondItem="ELE-wt-5DZ" secondAttribute="bottom" constant="15" id="b9c-RK-VW8"/>
                                                         <constraint firstItem="Uwx-mA-v5i" firstAttribute="top" secondItem="n1k-s1-2jR" secondAttribute="top" constant="15" id="dpH-76-Ag3"/>
                                                         <constraint firstAttribute="trailing" secondItem="ELE-wt-5DZ" secondAttribute="trailing" constant="15" id="v3m-cQ-kWY"/>
@@ -146,12 +146,12 @@
                                             <color key="backgroundColor" name="Background"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="n1k-s1-2jR" secondAttribute="trailing" constant="20" id="4EA-yz-hY4"/>
+                                                <constraint firstAttribute="bottom" secondItem="n1k-s1-2jR" secondAttribute="bottom" constant="20" id="4is-iR-NNd"/>
                                                 <constraint firstItem="Jgc-R7-1Kl" firstAttribute="leading" secondItem="G6q-L3-Jwm" secondAttribute="leading" constant="20" id="4ke-0E-ART"/>
                                                 <constraint firstAttribute="trailing" secondItem="Jgc-R7-1Kl" secondAttribute="trailing" constant="20" id="R8O-b7-glV"/>
                                                 <constraint firstItem="n1k-s1-2jR" firstAttribute="top" secondItem="Jgc-R7-1Kl" secondAttribute="bottom" constant="20" id="Us6-2S-3Ij"/>
                                                 <constraint firstItem="Jgc-R7-1Kl" firstAttribute="top" secondItem="G6q-L3-Jwm" secondAttribute="top" constant="20" id="a8B-ia-VHJ"/>
                                                 <constraint firstItem="n1k-s1-2jR" firstAttribute="leading" secondItem="G6q-L3-Jwm" secondAttribute="leading" constant="20" id="i11-WB-rV9"/>
-                                                <constraint firstAttribute="bottom" secondItem="n1k-s1-2jR" secondAttribute="bottom" constant="20" id="mlp-3E-kVO"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" name="Background"/>
@@ -168,7 +168,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noPostCell" rowHeight="174" id="ZV0-8g-IjD" customClass="OtherProfileNoPostTableViewCell" customModule="Actbind" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="439.33333396911621" width="390" height="174"/>
+                                        <rect key="frame" x="0.0" y="432.33333396911621" width="390" height="174"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZV0-8g-IjD" id="MrR-vg-erG">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="174"/>
@@ -218,7 +218,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="profilePostCell" rowHeight="543" id="b2T-oq-TWR" customClass="OtherProfilePostTableViewCell" customModule="Actbind" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="613.33333396911621" width="390" height="543"/>
+                                        <rect key="frame" x="0.0" y="606.33333396911621" width="390" height="543"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b2T-oq-TWR" id="cJ1-oB-It1">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="543"/>
