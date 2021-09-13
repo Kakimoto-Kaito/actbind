@@ -2,8 +2,6 @@
 
 "language" = "Korean";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "새 버전으로 업데이트하십시오";
 "appude-to" = "최신 정보";
 

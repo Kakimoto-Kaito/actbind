@@ -2,8 +2,6 @@
 
 "language" = "Hebrew";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "אנא עדכן לגרסה החדשה";
 "appude-to" = "עדכון";
 

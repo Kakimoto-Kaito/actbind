@@ -2,8 +2,6 @@
 
 "language" = "Hungarian";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Kérjük, frissítsen az új verzióra";
 "appude-to" = "Frissítés";
 

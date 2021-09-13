@@ -2,8 +2,6 @@
 
 "language" = "Russian";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Пожалуйста, обновите до новой версии";
 "appude-to" = "Обновлять";
 

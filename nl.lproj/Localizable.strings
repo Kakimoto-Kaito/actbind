@@ -2,8 +2,6 @@
 
 "language" = "Dutch";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Update naar de nieuwe versie";
 "appude-to" = "Bijwerken";
 

@@ -2,8 +2,6 @@
 
 "language" = "Arabic";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "يرجى التحديث إلى الإصدار الجديد";
 "appude-to" = "تحديث";
 

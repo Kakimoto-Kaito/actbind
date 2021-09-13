@@ -2,8 +2,6 @@
 
 "language" = "Danish";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Opdater venligst til den nye version";
 "appude-to" = "Opdatering";
 

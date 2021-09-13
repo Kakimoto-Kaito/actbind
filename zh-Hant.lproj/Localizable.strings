@@ -2,8 +2,6 @@
 
 "language" = "Chinese, Tra";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "請更新到新版本";
 "appude-to" = "更新";
 

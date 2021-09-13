@@ -2,8 +2,6 @@
 
 "language" = "Hindi";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "कृपया नए संस्करण में अपडेट करें";
 "appude-to" = "अपडेट करें";
 

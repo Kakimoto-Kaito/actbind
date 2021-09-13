@@ -2,8 +2,6 @@
 
 "language" = "Indonesian";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Harap perbarui ke versi baru";
 "appude-to" = "Memperbarui";
 

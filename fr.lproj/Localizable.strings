@@ -2,8 +2,6 @@
 
 "language" = "French";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Veuillez mettre à jour vers la nouvelle version";
 "appude-to" = "Mettre à jour";
 

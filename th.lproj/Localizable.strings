@@ -2,8 +2,6 @@
 
 "language" = "Thai";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "โปรดอัปเดตเป็นเวอร์ชันใหม่";
 "appude-to" = "อัปเดต";
 

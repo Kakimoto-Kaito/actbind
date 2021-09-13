@@ -2,8 +2,6 @@
 
 "language" = "Chinese, Sim";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "请更新到新版本";
 "appude-to" = "更新";
 
