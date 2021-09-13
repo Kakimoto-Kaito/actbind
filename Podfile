@@ -7,7 +7,6 @@ target 'Actbind' do
 
   # Pods for Actbind
   pod 'Alamofire'
-  pod 'GoogleMobileAdsMediationFacebook'
   pod 'Google-Mobile-Ads-SDK'
   pod 'Nuke'
   pod 'SwiftFormat/CLI'

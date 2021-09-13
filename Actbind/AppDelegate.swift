@@ -5,7 +5,6 @@
 //  Created by 柿本海斗 on 2021/03/09.
 //
 
-import FBAudienceNetwork
 import GoogleMobileAds
 import UIKit
 
@@ -13,23 +12,9 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     // アプリを起動したとき
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        FBAdSettings.setAdvertiserTrackingEnabled(true)
         // Mobile Ads SDK を初期化
-        // GADMobileAds.sharedInstance().start(completionHandler: nil)
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
         
-        let ads = GADMobileAds.sharedInstance()
-        ads.start { status in
-            // Optional: Log each adapter's initialization latency.
-            let adapterStatuses = status.adapterStatusesByClassName
-            for adapter in adapterStatuses {
-                let adapterStatus = adapter.value
-                NSLog("Adapter Name: %@, Description: %@, Latency: %f", adapter.key,
-                      adapterStatus.description, adapterStatus.latency)
-            }
-
-            // Start loading ads here...
-        }
-
         // LaunchScreenを一秒間表示
         sleep(1)
         

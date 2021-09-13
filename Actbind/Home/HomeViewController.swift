@@ -9,7 +9,6 @@ import AdSupport
 import AppTrackingTransparency
 import AudioToolbox
 import CoreLocation
-import FBAudienceNetwork
 import GoogleMobileAds
 import UIKit
 
@@ -101,7 +100,7 @@ final class HomeViewController: UIViewController, CLLocationManagerDelegate {
         } else {
             if ASIdentifierManager.shared().isAdvertisingTrackingEnabled {
                 print("許可")
-                FBAdSettings.setAdvertiserTrackingEnabled(true)
+                
                 // Mobile Ads SDK を初期化
                 GADMobileAds.sharedInstance().start(completionHandler: nil)
             } else {
