@@ -1,0 +1,257 @@
+//ベトナム語
+
+"language" = "Vietnamese";
+
+"atarasiiba-jyonnni" = "Vui lòng cập nhật phiên bản mới";
+"appude-to" = "Cập nhật";
+
+"roguinn" = "Đăng nhập";
+"me-ruadoresugatadasikuarimasenn" = "Địa chỉ e-mail không đúng";
+"akaunntogaarimasenn" = "Địa chỉ email bạn đã nhập dường như không thuộc về tài khoản. Vui lòng kiểm tra địa chỉ email của bạn và thử lại.";
+"pasuwa-dogamatigatteimasu" = "Mật khẩu không chính xác cho %@";
+"nyuuryokusaretapasuwa-dohatadasikuarimasenn" = "Mật khẩu bạn đã nhập không chính xác. Vui lòng thử lại.";
+"mouitidojikkou" = "Thử lại";
+"atarasiiakaunntowosakusei" = "Tạo tài khoản mới";
+
+"namaewonyuuryoku" = "Bạn tên là gì?";
+"kannrisyamei" = "Tên quản trị viên";
+"kannrisyameisetumei" = "Nó không xuất hiện trong hồ sơ của bạn.";
+"namae1" = "Họ";
+"namae2" = "Tên đầu tiên";
+"hyoujimei" = "Tên hiển thị";
+"hyoujimeisetumei" = "Sử dụng tên thật của bạn sẽ giúp bạn bè tìm thấy bạn dễ dàng hơn.";
+"tugihe" = "Kế tiếp";
+"akaunntowoomotinokata" = "Bạn co săn san để tạo một tai khoản?";
+
+"me-ruadoresuwonyuuryoku" = "Địa chỉ email của bạn là gì?";
+"me-ruadoresu" = "Địa chỉ email";
+"me-ruadoresusetumei" = "Sử dụng địa chỉ email này khi đăng nhập.";
+"me-ruadoresuera-" = "Vui lòng nhập một địa chỉ email hợp lệ.";
+"siyoudekinaime-ruadoresu" = "Địa chỉ email này không thể được sử dụng";
+
+"ninnsyouko-dowonyuuryoku" = "Nhập mã xác nhận";
+"ninnsyouko-do" = "Mã xác nhận";
+"ninnsyouko-dosetumei" = "Nhập mã xác nhận mà chúng tôi đã gửi cho %@";
+"ninnsyouko-dorikuesuto" = "Mã gửi lại";
+"ninnsyouko-doera-" = "Mã này không hợp lệ. Vui lòng yêu cầu một mã mới.";
+
+"pasuwa-dowonyuuryoku" = "Tạo một mật khẩu";
+"pasuwa-do" = "Mật khẩu";
+"pasuwa-dosetumei" = "Nhập kết hợp 8 chữ cái và số trở lên hoặc ký hiệu (như! Và &).";
+"pasuwa-doera-" = "Vui lòng nhập đúng mật khẩu.";
+
+"seibetuwosenntaku" = "Giơi tinh của bạn la gi?";
+"dannsei" = "Nam giới";
+"jyosei" = "Giống cái";
+"sonota" = "Khác";
+
+"tannjyoubiwosenntaku" = "Khi nào là sinh nhật của bạn?";
+"tannjyoubi" = "Ngày sinh nhật";
+"tannjyoubisetumei" = "Cung cấp ngày sinh của bạn giúp đánh dấu chắc chắn rằng bạn có được trải nghiệm Actbind phù hợp với lứa tuổi của mình.";
+"sai" = " tuổi";
+"jissainotannjyoubi" = "Vui lòng nhập ngày sinh thực của bạn";
+"akaunntowosakuseidekimasenndesita" = "Không thể tạo tài khoản";
+"OK" = "VÂNG";
+
+"yu-za-ne-muwonyuuryoku" = "Tạo tên người dùng";
+"yu-za-ne-mu" = "Tên tài khoản";
+"yu-za-ne-musetumei" = "Sử dụng kết hợp từ 5 đến 30 chữ cái trong bảng chữ cái, số và dấu gạch dưới (_) để tạo tên người dùng ban đầu mà bạn bè của bạn có thể nhận dạng bạn.";
+"yu-za-ne-muera-" = "Vui lòng nhập tên người dùng chính xác.";
+"suujidakeera-" = "Bạn không thể sử dụng tên người dùng chỉ có số.";
+"annda-ba-dakeera-" = "Bạn không thể sử dụng tên người dùng chỉ có thanh dưới.";
+"siyoudekinaiyu-za-ne-mu" = "Tên người dùng này không thể được sử dụng";
+
+"tourokukannryou" = "Hoàn tất Đăng ký";
+"doui" = "Bằng cách nhấn vào Đăng ký, bạn đồng ý với Điều khoản dịch vụ và Chính sách quyền riêng tư của chúng tôi.";
+"riyoukiyakupuraibasi-porisi-" = "Về chính sách bảo mật dịch vụ";
+"touroku" = "Đăng ký";
+
+"akaunntowosakiseisiteimasu" = "Đang tạo tài khoản của bạn ...";
+"actbindheyoukoso" = "Chào mừng đến với Actbind!";
+"hajimeru" = "Bắt đầu";
+"akaunntowosakuseidekimasenndesita" = "Không thể tạo tài khoản của bạn";
+"modoru" = "Trở lại";
+
+
+
+
+
+"houkoku" = "Bản báo cáo";
+"monndaiwohoukoku" = "Báo cáo sự cố";
+"fi-dobakku" = "Thông tin phản hồi chung";
+"sousinn" = "Gửi";
+
+"youkoso" = "Chào mừng đến với Actbind";
+
+"kensaku" = "Tìm kiếm";
+"kara-tagukensaku" = "Tìm kiếm thẻ màu";
+"akaunntokensaku" = "Tìm kiếm tài khoản";
+
+"houkokusetumei1" = "Nếu ai đó đang gặp nguy hiểm ngay lập tức, hãy gọi cho dịch vụ khẩn cấp địa phương - đừng chờ đợi.";
+"houkokusetumei2" = "Giải thích ngắn gọn những gì đã xảy ra. Làm thế nào để bạn tái tạo vấn đề?";
+"houkokusetumei3" = "Vui lòng nhấn để xếp hạng";
+"houkokusetumei4" = "Giải thích ngắn gọn những gì bạn yêu thích hoặc những gì có thể cải thiện.";
+
+"akaunntohoukokutaitoru" = "Tại sao bạn báo cáo tài khoản này?";
+"akaunntohoukokutaipu1" = "Giả vờ với ai đó";
+"akaunntohoukokutaipu2" = "Tài khoản giả";
+"akaunntohoukokutaipu3" = "Tên giả";
+"akaunntohoukokutaipu4" = "Đăng nội dung không phù hợp";
+"akaunntohoukokutaipu5" = "Bắt nạt hoặc quấy rối";
+"akaunntohoukokutaipu6" = "Tôi muốn giúp người này";
+
+"toukouhoukokutaitoru" = "Tại sao bạn lại báo cáo bài viết này?";
+"toukouhoukokutaipu1" = "Đó là thư rác";
+"toukouhoukokutaipu2" = "Ảnh khỏa thân hoặc hoạt động tình dục";
+"toukouhoukokutaipu3" = "Lời nói hoặc biểu tượng căm thù";
+"toukouhoukokutaipu4" = "Tổ chức bạo lực hoặc nguy hiểm";
+"toukouhoukokutaipu5" = "Bán hàng hóa bất hợp pháp hoặc được quản lý";
+"toukouhoukokutaipu6" = "Bắt nạt hoặc quấy rối";
+"toukouhoukokutaipu7" = "Vi phạm sở hữu trí tuệ";
+"toukouhoukokutaipu8" = "Tự tử hoặc tự gây thương tích";
+"toukouhoukokutaipu9" = "Lừa đảo";
+"toukouhoukokutaipu10" = "Thông tin sai";
+"toukouhoukokutaipu11" = "Khủng bố";
+
+"houkokuara-totaitoru" = "Cảm ơn báo cáo của bạn";
+"houkokuara-tomesse-ji1" = "Chúng tôi sẽ sử dụng thông tin bạn cung cấp để làm cho Actbind trở thành một cộng đồng an toàn hơn.";
+"houkokuara-tomesse-ji2" = "Chúng tôi sẽ sử dụng phản hồi của bạn để cải thiện dịch vụ Actbind.";
+"tojiru" = "Gần";
+
+"koukoku" = "Quảng cáo";
+
+"actbinddesyea" = "Chia sẻ trên Actbind";
+"actbinddesyeasetumei" = "Bằng cách cho phép truy cập, bạn sẽ có thể chia sẻ.";
+"cameraakusesu" = "Cho phép truy cập vào máy ảnh";
+"cameraro-ruakusesu" = "Cho phép truy cập vào thư viện ảnh";
+
+"kyannseru" = "Hủy bỏ";
+"syasinn" = "ảnh";
+"kara-taguwosenntaku" = "Chọn thẻ màu";
+"toukouwosakusei" = "Tạo bài đăng";
+"syeasiyou" = "Hãy chia sẻ";
+"kyapusyonnwonyuuryoku" = "Viết chú thích ...";
+"jikann" = "Thời gian";
+"syea" = "Đăng lại";
+"toukoutyuu" = "Đang đăng ...";
+"toukousimasita" = "Đã đăng";
+
+"purofi-ru" = "Hồ sơ";
+"toukougaarimasenn" = "Không có bài đăng nào";
+"purofi-ruwohennsyuu" = "Chỉnh sửa hồ sơ";
+"hennsyuu" = "Chỉnh sửa";
+"hozonn" = "Cứu";
+"purofi-rusyasinn" = "Ảnh hồ sơ";
+"purofi-rusyasinnhennkou" = "Thay đổi ảnh hồ sơ";
+"syasinnwotoru" = "Chụp hình";
+"gennzainosyasinnwosakujyo" = "Loại bỏ hình ảnh hiện tại";
+"gennzainosyasinnwosakujyosimasuka" = "Bạn có muốn xóa ảnh hiện tại không?";
+"hennkounaiyousetteityuu" = "Cài đặt Thay đổi ...";
+"hennkounaiyouhozonn" = "Các thay đổi của bạn đã được lưu lại";
+"hyoujimeiwohennsyuu" = "Chỉnh sửa tên hiển thị";
+"hyoujimeiwonyuuryoku" = "Nhập tên hiển thị ...";
+"jikosyoukai" = "Tiểu sử";
+"jikosyoukaiwohennsyuu" = "Chỉnh sửa tiểu sử";
+"jikosyoukaiwonyuuryoku" = "Nhập tiểu sử ...";
+"webusaito" = "Trang mạng";
+"webusaitowohennsyuu" = "Chỉnh sửa trang web";
+"webusaitowonyuuryoku" = "Vào trang web ...";
+"webusaitoera-" = "Vui lòng nhập trang web chính xác.";
+"foro-" = "Theo dõi";
+"foro-tyuu" = "Tiếp theo";
+"forowa-" = "Người theo dõi";
+"tomodati" = "Bạn bè";
+
+"menyu-" = "Thực đơn";
+"ohayou" = "Buổi sáng tốt lành";
+"konnnitiha" = "Chao buổi chiêu";
+"konnbannha" = "Chào buổi tối";
+"inotiwomamoru" = "Bảo vệ cuộc sống của bạn";
+"akuthibithi" = "Hoạt động của bạn";
+"riyoujikann" = "Thời gian trên Actbind";
+"itinitinoheikinn" = "Trung bình hàng ngày, trung bình mỗi ngày";
+"jikann" = "NS";
+"funn" = "NS";
+"kyou" = "Hôm nay";
+"dekore-syonn" = "Trang hoàng";
+"orijinaru" = "Nguyên bản";
+"red" = "màu đỏ";
+"orange" = "quả cam";
+"yellow" = "Màu vàng";
+"green" = "Màu xanh lá";
+"blue" = "Màu xanh dương";
+"purple" = "Màu tía";
+"hyouka" = "Đánh giá Actbind";
+"sapo-to" = "Ủng hộ";
+"supportcentercontent" = "Hỗ trợ với một số lượng lớn các trường hợp sẽ được tổng hợp trong trung tâm hỗ trợ.";
+"supportcenter" = "Trung tâm hỗ trợ";
+"supportmethod" = "Phương thức hỗ trợ";
+"kotirakara" = "Từ đây";
+"me-ru" = "E-mail";
+"me-ruactbindsapo-to" = "Bạn có thể nói chuyện với bộ phận hỗ trợ của Actbind qua email.";
+"roguauto" = "Đăng xuất";
+"roguautosimasuka" = "Đăng xuất khỏi @%@?";
+"ba-jyonn" = "Phiên bản";
+
+"settei" = "Cài đặt";
+"akaunnto" = "Tài khoản";
+"puraibasi-" = "Sự riêng tư";
+"sekyuritexi" = "Bảo vệ";
+"apurinogenngo" = "Ngôn ngữ ứng dụng";
+"actbindnituite" = "Giới thiệu về Actbind";
+
+"kojinnnojyouhou" = "Thông tin cá nhân";
+"namae" = "Tên";
+"rennrakusakijyouhou" = "Thông tin liên lạc";
+"seibetu" = "Giới tính";
+"tannjyoubiwohennkoudekinai" = "Không thể thay đổi ngày sinh";
+"kakuninn" = "Xác nhận";
+"atarasiijyouhouhozonn" = "Lưu thông tin mới";
+"gennzainonamae" = "Tên thật";
+"gennzainome-ruadoresu" = "Địa chỉ thư điện tử hiện tại";
+"gennzainoseibetu" = "Giới tính hiện tại";
+"gennzainotannjyoubi" = "Sinh nhật hiện tại";
+"atarasiinamae" = "Tên mới";
+"atarasiime-ruadoresu" = "Địa chỉ thư mới";
+"atarasiiseibetu" = "Giới tính mới";
+"atarasiitannjyoubi" = "Sinh nhật mới";
+"hozonnpasuwa-do" = "Vui lòng nhập mật khẩu để lưu";
+"kyannseru" = "Hủy bỏ";
+"akaunntokannri" = "Quản lý tài khoản";
+
+"era-" = "một lỗi đã xảy ra";
+
+"toukousakujyo" = "Bạn có muốn xóa bài viết không?";
+
+"akaunntosakujyo" = "Xóa tài khoản";
+"sakujyo" = "Xóa bỏ";
+"akaunntowosakujyotyuu" = "Đang xóa tài khoản ...";
+"akaunntogasakujyosaremasita" = "Tài khoản đã bị xóa";
+"akaunntosakujyosetumei" = "Nếu bạn xóa tài khoản của mình, bạn sẽ không thể đăng nhập lại.";
+"sakujyopasuwa-do" = "Vui lòng nhập mật khẩu của bạn để xóa";
+"arigatou" = "Cám ơn rất nhiều";
+"tanosimi" = "Tôi mong muốn được gặp lại em";
+
+"puraibasi-akusesujyoukyou" = "Quyền truy cập thông tin bảo mật";
+
+"gennzainopasuwa-do" = "Mật khẩu hiện tại";
+"atarasiipasuwa-do" = "Mật khẩu mới";
+"atarasiipasuwa-domouitidonyuuryoku" = "Mật khẩu mới, một lần nữa";
+"gennzainopasuwa-dogamatigatteimasu" = "Tạo một mật khẩu mới mà bạn chưa sử dụng trước đây.";
+"pasuwa-dogaittisimasenn" = "Mật khẩu không phù hợp.";
+
+"syasinnwohozonn" = "Lưu những hình ảnh";
+"syasinnwohozonnsetumei" = "Tự động lưu ảnh bạn chụp vào thư viện ảnh.";
+
+"riyoukiyaku" = "Điều khoản dịch vụ";
+"puraibasi-porisi-" = "Chính sách bảo mật";
+"komyunitexigaidorainn" = "Hướng dẫn cộng đồng";
+"o-punnso-suraiburari" = "Thư viện nguồn mở";
+
+"suubyoumae" = "Vừa rồi";
+"funnmae" = "%@ một phút trước đây";
+"fukusuufunnmae" = "%@ Vài phút trước";
+"jikannmae" = "%@ giờ trước";
+"fukusuujikannmae" = "%@ nhiều giờ trước";
+"nitimae" = "%@ ngày trước đó";
+"fukusuunitimae" = "%@ ngày trước";
