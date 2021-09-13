@@ -546,7 +546,7 @@
                         <outlet property="activityText" destination="KnQ-tL-MV9" id="lyx-LV-O1x"/>
                         <outlet property="adsLabel1" destination="PGB-Ak-NHY" id="5b2-xx-35Z"/>
                         <outlet property="adsLabel2" destination="fVN-CE-QRh" id="wHL-cQ-z5F"/>
-                        <outlet property="bannerView1" destination="jij-BT-NlH" id="pMa-D5-aDH"/>
+                        <outlet property="bannerView1" destination="jij-BT-NlH" id="fru-A7-t5U"/>
                         <outlet property="bannerView2" destination="REB-1q-LRj" id="m9d-AD-Pjh"/>
                         <outlet property="decorationImage" destination="3e7-fQ-Cf2" id="wYj-1b-KmA"/>
                         <outlet property="decorationTextLabel" destination="Xvq-sL-ZDv" id="vKE-M1-gZ3"/>

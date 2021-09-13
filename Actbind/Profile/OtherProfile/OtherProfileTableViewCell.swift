@@ -67,13 +67,6 @@ final class OtherProfileTableViewCell: UITableViewCell {
             bioLabel.text = user!.bio
             
             websiteButton.setTitle(displayWebsite, for: .normal)
-            
-            bannerView.adUnitID = "ca-app-pub-1654242573513407/4881004705"
-            bannerView.rootViewController = delegate
-            // 広告読み込み
-            bannerView.load(GADRequest())
-            
-            adsLabel.text = "koukoku".localized()
         }
         
         // followButton.setTitle("foro-".localized(), for: .normal)
@@ -91,6 +84,13 @@ final class OtherProfileTableViewCell: UITableViewCell {
             websiteButtonHeight.constant = 15
             websiteButtonTop.constant = 8
         }
+        
+        bannerView.adUnitID = "ca-app-pub-1654242573513407/4881004705"
+        bannerView.rootViewController = delegate
+        // 広告読み込み
+        bannerView.load(GADRequest())
+        
+        adsLabel.text = "koukoku".localized()
     }
     
     @IBAction func websiteButtonTouchDown(_ sender: Any) {
