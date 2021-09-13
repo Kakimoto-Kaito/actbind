@@ -2,8 +2,6 @@
 
 "language" = "Russian";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Пожалуйста, обновите до новой версии";
 "appude-to" = "Обновлять";
 
@@ -183,6 +181,7 @@
 "green" = "Зеленый";
 "blue" = "Синий";
 "purple" = "Фиолетовый";
+"hyouka" = "Оценить Actbind";
 "sapo-to" = "Служба поддержки";
 "supportcentercontent" = "Поддержка с большим количеством обращений будет обобщена в центре поддержки.";
 "supportcenter" = "Центр поддержки";

@@ -60,6 +60,15 @@ final class MainViewController: UITabBarController {
         // TabBarバーアイコン非選択時の色を変更
         UITabBar.appearance().unselectedItemTintColor = UIColor.gray
         
+        // TabBarの背景の透過
+        UITabBar.appearance().backgroundImage = UIImage()
+        // TabBarの境界線の透過
+        UITabBar.appearance().shadowImage = UIImage()
+        // NavigationBarの境界線の透過
+        UINavigationBar.appearance().shadowImage = UIImage()
+        // Toolbarの境界線の透過
+        UIToolbar.appearance().setShadowImage(UIImage(), forToolbarPosition: UIBarPosition.any)
+        
         guard let viewControllers = self.viewControllers else {
             return
         }

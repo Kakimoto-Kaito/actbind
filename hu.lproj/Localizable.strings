@@ -2,8 +2,6 @@
 
 "language" = "Hungarian";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Kérjük, frissítsen az új verzióra";
 "appude-to" = "Frissítés";
 
@@ -183,6 +181,7 @@
 "green" = "Zöld";
 "blue" = "Kék";
 "purple" = "Lila";
+"hyouka" = "Értékeljen Actbind";
 "sapo-to" = "Támogatás";
 "supportcentercontent" = "Az esetek nagyszámú támogatását a támogatási központ foglalja össze.";
 "supportcenter" = "Támogatóközpont";

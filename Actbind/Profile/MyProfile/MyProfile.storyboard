@@ -22,11 +22,11 @@
                                 <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                                 <color key="backgroundColor" name="Background"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="profileCell" rowHeight="478" id="w2o-vQ-qJR" customClass="MyProfileTableViewCell" customModule="Actbind" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24.333333969116211" width="390" height="478"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="profileCell" rowHeight="471" id="w2o-vQ-qJR" customClass="MyProfileTableViewCell" customModule="Actbind" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="390" height="471"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w2o-vQ-qJR" id="dpf-Tc-NwJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="478"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="471"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HOx-11-lkp" userLabel="Cell View">
@@ -126,7 +126,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K6w-DD-GbU">
-                                                    <rect key="frame" x="20" y="341" width="350" height="117"/>
+                                                    <rect key="frame" x="20" y="341" width="350" height="110"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="広告" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7a-ga-1KZ">
                                                             <rect key="frame" x="15" y="15" width="37" height="22"/>
@@ -138,7 +138,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G2a-6j-YS8" customClass="GADBannerView">
-                                                            <rect key="frame" x="15" y="52" width="320" height="50"/>
+                                                            <rect key="frame" x="15" y="45" width="320" height="50"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="50" id="PSx-rM-XR1"/>
@@ -157,7 +157,7 @@
                                                         <constraint firstAttribute="bottom" secondItem="G2a-6j-YS8" secondAttribute="bottom" constant="15" id="M8i-AV-5BX"/>
                                                         <constraint firstAttribute="trailing" secondItem="G2a-6j-YS8" secondAttribute="trailing" constant="15" id="ZB3-dy-JgY"/>
                                                         <constraint firstItem="Q7a-ga-1KZ" firstAttribute="leading" secondItem="K6w-DD-GbU" secondAttribute="leading" constant="15" id="Zx1-wg-67k"/>
-                                                        <constraint firstItem="G2a-6j-YS8" firstAttribute="top" secondItem="Q7a-ga-1KZ" secondAttribute="bottom" constant="15" id="bpu-Pq-3xh"/>
+                                                        <constraint firstItem="G2a-6j-YS8" firstAttribute="top" secondItem="Q7a-ga-1KZ" secondAttribute="bottom" constant="8" id="bpu-Pq-3xh"/>
                                                         <constraint firstItem="G2a-6j-YS8" firstAttribute="centerX" secondItem="K6w-DD-GbU" secondAttribute="centerX" id="eRN-lA-mm0"/>
                                                         <constraint firstItem="Q7a-ga-1KZ" firstAttribute="top" secondItem="K6w-DD-GbU" secondAttribute="top" constant="15" id="zvR-aV-Mb5"/>
                                                     </constraints>
@@ -174,7 +174,7 @@
                                                 <constraint firstItem="HOx-11-lkp" firstAttribute="top" secondItem="dpf-Tc-NwJ" secondAttribute="top" constant="20" id="Pjo-P3-1P1"/>
                                                 <constraint firstAttribute="trailing" secondItem="HOx-11-lkp" secondAttribute="trailing" constant="20" id="hNX-5W-WYZ"/>
                                                 <constraint firstItem="K6w-DD-GbU" firstAttribute="top" secondItem="HOx-11-lkp" secondAttribute="bottom" constant="20" id="iMT-Sb-XQv"/>
-                                                <constraint firstAttribute="bottom" secondItem="K6w-DD-GbU" secondAttribute="bottom" constant="20" id="rVF-yb-vGc"/>
+                                                <constraint firstAttribute="bottom" secondItem="K6w-DD-GbU" secondAttribute="bottom" constant="20" id="pBV-ub-AYp"/>
                                                 <constraint firstItem="HOx-11-lkp" firstAttribute="leading" secondItem="dpf-Tc-NwJ" secondAttribute="leading" constant="20" id="v6b-0b-vPV"/>
                                                 <constraint firstItem="K6w-DD-GbU" firstAttribute="leading" secondItem="dpf-Tc-NwJ" secondAttribute="leading" constant="20" id="xZH-v5-jVN"/>
                                             </constraints>
@@ -196,7 +196,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noPostCell" rowHeight="174" id="nc1-sz-J7w" customClass="MyProfileNoPostTableViewCell" customModule="Actbind" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="502.33333396911621" width="390" height="174"/>
+                                        <rect key="frame" x="0.0" y="495.33333396911621" width="390" height="174"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nc1-sz-J7w" id="qwL-GI-sv5">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="174"/>
@@ -246,7 +246,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="profilePostCell" rowHeight="543" id="5Av-sd-u3v" customClass="MyProfilePostTableViewCell" customModule="Actbind" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="676.33333396911621" width="390" height="543"/>
+                                        <rect key="frame" x="0.0" y="669.33333396911621" width="390" height="543"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Av-sd-u3v" id="naQ-TK-J4E">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="543"/>

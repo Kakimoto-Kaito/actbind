@@ -1,0 +1,8 @@
+//ベトナム語
+
+NSCameraUsageDescription = "Điều này cho phép bạn chia sẻ ảnh và video bạn chụp.";
+NSLocationWhenInUseUsageDescription = "Điều này sẽ cho phép bạn sử dụng một số tính năng của Actbind, cá nhân hóa nội dung của bạn, tìm kiếm vị trí và hơn thế nữa.";
+NSMicrophoneUsageDescription = "Điều này cho phép bạn quay video với âm thanh.";
+NSPhotoLibraryUsageDescription = "Điều này cho phép bạn chia sẻ ảnh và video từ thư viện ảnh của mình và lưu lại.";
+NSFaceIDUsageDescription = "Cho phép Actbind sử dụng Face ID để mở khóa ứng dụng của bạn.";
+NSUserTrackingUsageDescription = "Điều này cho phép bạn phân phát quảng cáo được cá nhân hóa.";

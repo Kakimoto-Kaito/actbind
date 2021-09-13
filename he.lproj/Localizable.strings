@@ -2,8 +2,6 @@
 
 "language" = "Hebrew";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "אנא עדכן לגרסה החדשה";
 "appude-to" = "עדכון";
 
@@ -183,6 +181,7 @@
 "green" = "ירוק";
 "blue" = "כָּחוֹל";
 "purple" = "סָגוֹל";
+"hyouka" = "דרג Actbind";
 "sapo-to" = "תמיכה";
 "supportcentercontent" = "תמיכה במספר רב של מקרים תסוכם במרכז התמיכה.";
 "supportcenter" = "מרכז תמיכה";

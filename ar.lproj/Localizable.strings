@@ -2,8 +2,6 @@
 
 "language" = "Arabic";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "يرجى التحديث إلى الإصدار الجديد";
 "appude-to" = "تحديث";
 
@@ -183,6 +181,7 @@
 "green" = "أخضر";
 "blue" = "أزرق";
 "purple" = "أرجواني";
+"hyouka" = "معدل Actbind";
 "sapo-to" = "الدعم";
 "supportcentercontent" = "سيتم تلخيص الدعم بعدد كبير من الحالات في مركز الدعم.";
 "supportcenter" = "مركز الدعم";

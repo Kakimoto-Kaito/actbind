@@ -236,6 +236,13 @@
 			remoteGlobalIDString = F0C7FE88342E3772A8A133204A1E1910;
 			remoteInfo = "UITextView+Placeholder";
 		};
+		0D7BECB526EEDEF800EBEB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2B028859CCD1084F75DE35E17848423D;
+			remoteInfo = FBSDKCoreKit_Basics;
+		};
 		0D9EE493266F2C2F00151FE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
@@ -390,6 +397,8 @@
 		0D79BE4B26D24CCD00C5ACFA /* OpenSourceLibraryWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSourceLibraryWebViewController.swift; sourceTree = "<group>"; };
 		0D79BE4F26D24ED300C5ACFA /* OpenSourceLibraryWeb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OpenSourceLibraryWeb.storyboard; sourceTree = "<group>"; };
 		0D79BE5126D24F1C00C5ACFA /* OpenSourceLibrary.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = OpenSourceLibrary.html; sourceTree = "<group>"; };
+		0D7BECB726EEDEF800EBEB73 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0D7BECB826EEDEF900EBEB73 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D7F65DB260B0C2A00418F48 /* String+Replacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Replacement.swift"; sourceTree = "<group>"; };
 		0D7F65E9260B0D0400418F48 /* UIImage+CroppingToCenterSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CroppingToCenterSquare.swift"; sourceTree = "<group>"; };
 		0D7F65EE260B0D4100418F48 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
@@ -1263,6 +1272,7 @@
 			isa = PBXGroup;
 			children = (
 				0D9EE494266F2C2F00151FE4 /* Alamofire.framework */,
+				0D7BECB626EEDEF800EBEB73 /* FBSDKCoreKit_Basics.framework */,
 				0D04802826E62ECF0074379E /* GoogleUtilities.framework */,
 				0D04802A26E62ECF0074379E /* nanopb.framework */,
 				0D07129A260D9D9C00286C6E /* Nuke.framework */,
@@ -1433,6 +1443,7 @@
 				id,
 				pt,
 				hu,
+				vi,
 			);
 			mainGroup = 0D23791B25F71C2500E43552;
 			productRefGroup = 0D23792525F71C2500E43552 /* Products */;
@@ -1484,6 +1495,13 @@
 			fileType = wrapper.framework;
 			path = UITextView_Placeholder.framework;
 			remoteRef = 0D6E170E266F3DF00021D0F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D7BECB626EEDEF800EBEB73 /* FBSDKCoreKit_Basics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FBSDKCoreKit_Basics.framework;
+			remoteRef = 0D7BECB526EEDEF800EBEB73 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		0D9EE494266F2C2F00151FE4 /* Alamofire.framework */ = {
@@ -1812,6 +1830,7 @@
 				0D9B371225F72093002EB629 /* es */,
 				0D9B371325F72094002EB629 /* sv */,
 				0D9B371425F72095002EB629 /* th */,
+				0D7BECB726EEDEF800EBEB73 /* vi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1840,6 +1859,7 @@
 				0DC059CA2601CCEC00ED32F0 /* es */,
 				0DC059CB2601CCEC00ED32F0 /* sv */,
 				0DC059CC2601CCEE00ED32F0 /* th */,
+				0D7BECB826EEDEF900EBEB73 /* vi */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1988,7 +2008,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.actbind.Actbind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -2011,7 +2031,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.1;
+				MARKETING_VERSION = 1.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.actbind.Actbind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

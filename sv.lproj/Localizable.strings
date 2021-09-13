@@ -2,8 +2,6 @@
 
 "language" = "Swedish";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Uppdatera till den nya versionen";
 "appude-to" = "Uppdatering";
 
@@ -183,6 +181,7 @@
 "green" = "Grön";
 "blue" = "Blå";
 "purple" = "Lila";
+"hyouka" = "Betygsätt Actbind";
 "sapo-to" = "Stöd";
 "supportcentercontent" = "Support med ett stort antal ärenden kommer att sammanfattas i supportcentret.";
 "supportcenter" = "Supportcenter";

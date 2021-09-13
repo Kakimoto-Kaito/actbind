@@ -2,8 +2,6 @@
 
 "language" = "Japanese";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "新しいバージョンにアップデートしてください";
 "appude-to" = "アップデート";
 
@@ -183,6 +181,7 @@
 "green" = "グリーン";
 "blue" = "ブルー";
 "purple" = "パープル";
+"hyouka" = "Actbindを評価";
 "sapo-to" = "サポート";
 "supportcentercontent" = "多数のケースでのサポートは、サポートセンターにまとめられます。";
 "supportcenter" = "サポートセンター";

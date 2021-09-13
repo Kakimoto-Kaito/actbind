@@ -2,8 +2,6 @@
 
 "language" = "French";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Veuillez mettre à jour vers la nouvelle version";
 "appude-to" = "Mettre à jour";
 
@@ -183,6 +181,7 @@
 "green" = "Vert";
 "blue" = "Bleu";
 "purple" = "Violet";
+"hyouka" = "Taux Actbind";
 "sapo-to" = "Soutien";
 "supportcentercontent" = "Le support avec un grand nombre de cas sera résumé dans le centre de support.";
 "supportcenter" = "Centre de soutien";

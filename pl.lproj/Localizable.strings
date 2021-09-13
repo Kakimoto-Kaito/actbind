@@ -2,8 +2,6 @@
 
 "language" = "Polish";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Zaktualizuj do nowej wersji";
 "appude-to" = "Aktualizacja";
 
@@ -183,6 +181,7 @@
 "green" = "Zielony";
 "blue" = "niebieski";
 "purple" = "Fioletowy";
+"hyouka" = "Oceń Actbind";
 "sapo-to" = "Wsparcie";
 "supportcentercontent" = "Wsparcie z dużą liczbą spraw zostanie podsumowane w centrum wsparcia.";
 "supportcenter" = "Centrum Wsparcia";

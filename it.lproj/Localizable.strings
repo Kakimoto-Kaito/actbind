@@ -2,8 +2,6 @@
 
 "language" = "Italian";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Aggiorna alla nuova versione";
 "appude-to" = "Aggiornare";
 
@@ -183,6 +181,7 @@
 "green" = "Verde";
 "blue" = "Blu";
 "purple" = "Viola";
+"hyouka" = "Valuta Actbind";
 "sapo-to" = "Supporto";
 "supportcentercontent" = "Il supporto con un gran numero di casi sarà riassunto nel centro di supporto.";
 "supportcenter" = "Centro di supporto";

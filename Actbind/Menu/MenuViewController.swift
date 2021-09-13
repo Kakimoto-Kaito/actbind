@@ -7,6 +7,7 @@
 
 import GoogleMobileAds
 import Nuke
+import StoreKit
 import UIKit
 
 final class MenuViewController: UIViewController {
@@ -26,6 +27,8 @@ final class MenuViewController: UIViewController {
     @IBOutlet weak var activityImage: UIImageView!
     @IBOutlet weak var houkokuText: UILabel!
     @IBOutlet weak var houkokuImage: UIImageView!
+    @IBOutlet weak var reviewText: UILabel!
+    @IBOutlet weak var reviewImage: UIImageView!
     @IBOutlet weak var supportText: UILabel!
     @IBOutlet weak var supportImage: UIImageView!
     @IBOutlet weak var setteiText: UILabel!
@@ -93,6 +96,8 @@ final class MenuViewController: UIViewController {
         }
         houkokuText.text = "monndaiwohoukoku".localized()
         houkokuImage.image = UIImage(named: "houkoku")
+        reviewText.text = "hyouka".localized()
+        reviewImage.image = UIImage(named: "wakaba")
         supportText.text = "sapo-to".localized()
         supportImage.image = UIImage(named: "support")
         setteiText.text = "settei".localized()
@@ -141,6 +146,15 @@ final class MenuViewController: UIViewController {
         UISelectionFeedbackGenerator().selectionChanged()
         
         let storyBoard = UIStoryboard(name: "MyProfile", bundle: nil)
+        let nextVC = storyBoard.instantiateInitialViewController()
+        
+        navigationController?.pushViewController(nextVC!, animated: true)
+    }
+    
+    @IBAction func decorationButtonTouchUpInside(_ sender: Any) {
+        UISelectionFeedbackGenerator().selectionChanged()
+        
+        let storyBoard = UIStoryboard(name: "Decoration", bundle: nil)
         let nextVC = storyBoard.instantiateInitialViewController()
         
         navigationController?.pushViewController(nextVC!, animated: true)
@@ -205,14 +219,17 @@ final class MenuViewController: UIViewController {
 
         present(alertController, animated: true, completion: nil)
     }
-
-    @IBAction func decorationButtonTouchUpInside(_ sender: Any) {
+    
+    @IBAction func reviewButtonTouchUpInside(_ sender: Any) {
         UISelectionFeedbackGenerator().selectionChanged()
         
-        let storyBoard = UIStoryboard(name: "Decoration", bundle: nil)
-        let nextVC = storyBoard.instantiateInitialViewController()
-        
-        navigationController?.pushViewController(nextVC!, animated: true)
+        if #available(iOS 14.0, *) {
+            if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+                SKStoreReviewController.requestReview(in: scene)
+            }
+        } else {
+            SKStoreReviewController.requestReview()
+        }
     }
     
     @IBAction func supportButtonTouchUpInside(_ sender: Any) {

@@ -2,8 +2,6 @@
 
 "language" = "Dutch";
 
-"appurl" = "https://itunes.apple.com/jp/lookup?id=\(appId)";
-
 "atarasiiba-jyonnni" = "Update naar de nieuwe versie";
 "appude-to" = "Bijwerken";
 
@@ -183,6 +181,7 @@
 "green" = "Groen";
 "blue" = "Blauw";
 "purple" = "Purper";
+"hyouka" = "Beoordeel Actbind";
 "sapo-to" = "Steun";
 "supportcentercontent" = "Ondersteuning bij een groot aantal zaken wordt samengevat in het ondersteuningscentrum.";
 "supportcenter" = "Ondersteuning's centrum";

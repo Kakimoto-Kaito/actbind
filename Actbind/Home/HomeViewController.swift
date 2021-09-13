@@ -100,6 +100,7 @@ final class HomeViewController: UIViewController, CLLocationManagerDelegate {
         } else {
             if ASIdentifierManager.shared().isAdvertisingTrackingEnabled {
                 print("許可")
+                
                 // Mobile Ads SDK を初期化
                 GADMobileAds.sharedInstance().start(completionHandler: nil)
             } else {
