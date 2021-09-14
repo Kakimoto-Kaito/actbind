@@ -236,13 +236,6 @@
 			remoteGlobalIDString = F0C7FE88342E3772A8A133204A1E1910;
 			remoteInfo = "UITextView+Placeholder";
 		};
-		0D7BECB526EEDEF800EBEB73 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2B028859CCD1084F75DE35E17848423D;
-			remoteInfo = FBSDKCoreKit_Basics;
-		};
 		0D9EE493266F2C2F00151FE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
@@ -1272,7 +1265,6 @@
 			isa = PBXGroup;
 			children = (
 				0D9EE494266F2C2F00151FE4 /* Alamofire.framework */,
-				0D7BECB626EEDEF800EBEB73 /* FBSDKCoreKit_Basics.framework */,
 				0D04802826E62ECF0074379E /* GoogleUtilities.framework */,
 				0D04802A26E62ECF0074379E /* nanopb.framework */,
 				0D07129A260D9D9C00286C6E /* Nuke.framework */,
@@ -1495,13 +1487,6 @@
 			fileType = wrapper.framework;
 			path = UITextView_Placeholder.framework;
 			remoteRef = 0D6E170E266F3DF00021D0F4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D7BECB626EEDEF800EBEB73 /* FBSDKCoreKit_Basics.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FBSDKCoreKit_Basics.framework;
-			remoteRef = 0D7BECB526EEDEF800EBEB73 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		0D9EE494266F2C2F00151FE4 /* Alamofire.framework */ = {
@@ -2008,7 +1993,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5.0;
+				MARKETING_VERSION = 1.5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.actbind.Actbind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -2031,7 +2016,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5.0;
+				MARKETING_VERSION = 1.5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.actbind.Actbind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
