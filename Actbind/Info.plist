@@ -17,7 +17,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
-	<string>20210917112301</string>
+	<string>20210917145152</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-1654242573513407~3432886193</string>
 	<key>GADIsAdManagerApp</key>
