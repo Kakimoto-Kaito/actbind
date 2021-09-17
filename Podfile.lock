@@ -1,5 +1,4 @@
 PODS:
-  - Alamofire (5.4.3)
   - Firebase/Analytics (8.7.0):
     - Firebase/Core
   - Firebase/Core (8.7.0):
@@ -90,7 +89,6 @@ PODS:
   - "UITextView+Placeholder (1.4.0)"
 
 DEPENDENCIES:
-  - Alamofire
   - Firebase/Analytics
   - Google-Mobile-Ads-SDK
   - Nuke
@@ -99,7 +97,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Alamofire
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -117,7 +114,6 @@ SPEC REPOS:
     - "UITextView+Placeholder"
 
 SPEC CHECKSUMS:
-  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   Firebase: bc9325d5ee2041524bac78a5213d0e530c651309
   FirebaseAnalytics: 52768800c2add1d84b751420cb4caaf8195f2c41
   FirebaseCore: f4804c1d3f4bbbefc88904d15653038f2c99ddf7
@@ -134,6 +130,6 @@ SPEC CHECKSUMS:
   SwiftFormat: 938e5865a118c49d63c7a290ddad86335f9e585f
   "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
 
-PODFILE CHECKSUM: 709d9f52948b9b5a56540326b1401626de27c081
+PODFILE CHECKSUM: ab6341e021cdda457cff0d672e3d307aa0736ed3
 
 COCOAPODS: 1.10.1

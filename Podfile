@@ -6,7 +6,6 @@ target 'Actbind' do
   use_frameworks!
 
   # Pods for Actbind
-  pod 'Alamofire'
   pod 'Firebase/Analytics'
   pod 'Google-Mobile-Ads-SDK'
   pod 'Nuke'
