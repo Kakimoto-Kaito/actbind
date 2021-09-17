@@ -7,6 +7,7 @@ target 'Actbind' do
 
   # Pods for Actbind
   pod 'Alamofire'
+  pod 'Firebase/Analytics'
   pod 'Google-Mobile-Ads-SDK'
   pod 'Nuke'
   pod 'SwiftFormat/CLI'
