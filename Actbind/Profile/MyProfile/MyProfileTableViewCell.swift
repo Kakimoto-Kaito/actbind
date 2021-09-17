@@ -86,7 +86,7 @@ final class MyProfileTableViewCell: UITableViewCell {
             websiteButtonTop.constant = 8
         }
         
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-4823199751269081/1176491580"
         bannerView.rootViewController = delegate
         // 広告読み込み
         bannerView.load(GADRequest())
