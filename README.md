@@ -33,6 +33,8 @@ iOS 13.0+
 
 ## 使用しているAPI,SDK,ライブラリなど
 - Alamofire
+- Firebase/Analytics
+- Google-Mobile-Ads-SDK
 - Nuke
 - SwiftFormat
 - UITextView+Placeholder
