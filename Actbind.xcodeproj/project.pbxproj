@@ -237,13 +237,6 @@
 			remoteGlobalIDString = F0C7FE88342E3772A8A133204A1E1910;
 			remoteInfo = "UITextView+Placeholder";
 		};
-		0D9EE493266F2C2F00151FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
-			remoteInfo = Alamofire;
-		};
 		0DA4A34426F4B19700B98ADF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
@@ -1295,7 +1288,6 @@
 		0DDC93E92601AA6400103659 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D9EE494266F2C2F00151FE4 /* Alamofire.framework */,
 				0DA4A34526F4B19700B98ADF /* FirebaseCore.framework */,
 				0DA4A34726F4B19700B98ADF /* FirebaseCoreDiagnostics.framework */,
 				0DA4A34926F4B19700B98ADF /* FirebaseInstallations.framework */,
@@ -1522,13 +1514,6 @@
 			fileType = wrapper.framework;
 			path = UITextView_Placeholder.framework;
 			remoteRef = 0D6E170E266F3DF00021D0F4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D9EE494266F2C2F00151FE4 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 0D9EE493266F2C2F00151FE4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		0DA4A34526F4B19700B98ADF /* FirebaseCore.framework */ = {
