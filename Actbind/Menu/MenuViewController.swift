@@ -46,12 +46,12 @@ final class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        bannerView1.adUnitID = "ca-app-pub-1654242573513407/5125736656"
+        bannerView1.adUnitID = "ca-app-pub-4823199751269081/5159419882"
         bannerView1.rootViewController = self
         // 広告読み込み
         bannerView1.load(GADRequest())
         
-        bannerView2.adUnitID = "ca-app-pub-1654242573513407/5079109979"
+        bannerView2.adUnitID = "ca-app-pub-4823199751269081/3846338216"
         bannerView2.rootViewController = self
         // 広告読み込み
         bannerView2.load(GADRequest())

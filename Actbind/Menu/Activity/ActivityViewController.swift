@@ -309,6 +309,14 @@ final class ActivityViewController: UIViewController, UIGestureRecognizerDelegat
         fiveDayLabel.text = fiveDayString
         sixDayLabel.text = sixDayString
         
+        toDayChartView.cornerPart(value: 4, fulcrum: "", Location: [.layerMinXMinYCorner, .layerMaxXMinYCorner])
+        oneDayChartView.cornerPart(value: 4, fulcrum: "", Location: [.layerMinXMinYCorner, .layerMaxXMinYCorner])
+        twoDayChartView.cornerPart(value: 4, fulcrum: "", Location: [.layerMinXMinYCorner, .layerMaxXMinYCorner])
+        threeDayChartView.cornerPart(value: 4, fulcrum: "", Location: [.layerMinXMinYCorner, .layerMaxXMinYCorner])
+        fourDayChartView.cornerPart(value: 4, fulcrum: "", Location: [.layerMinXMinYCorner, .layerMaxXMinYCorner])
+        fiveDayChartView.cornerPart(value: 4, fulcrum: "", Location: [.layerMinXMinYCorner, .layerMaxXMinYCorner])
+        sixDayChartView.cornerPart(value: 4, fulcrum: "", Location: [.layerMinXMinYCorner, .layerMaxXMinYCorner])
+        
         backButton.image = UIImage(named: "back")
     }
     

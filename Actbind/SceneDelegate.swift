@@ -19,6 +19,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
         
+        AppVersionCompare.toAppStoreVersion { type in
+            switch type {
+            case .latest: break
+            case .old:
+                DispatchQueue.main.async {
+                    let window = UIWindow(windowScene: scene as! UIWindowScene)
+                    self.window = window
+                    window.makeKeyAndVisible()
+        
+                    let storyboard = UIStoryboard(name: "Update", bundle: nil)
+                    let viewController = storyboard.instantiateViewController(identifier: "Update")
+                    window.rootViewController = viewController
+                }
+            case .error: break
+            }
+        }
+        
         if let userDefaults = self.userDefaults {
             let loginrecord = userDefaults.bool(forKey: "loginrecord")
 
@@ -26,7 +43,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 let window = UIWindow(windowScene: scene as! UIWindowScene)
                 self.window = window
                 window.makeKeyAndVisible()
-        
+            
                 let storyboard = UIStoryboard(name: "LogIn", bundle: nil)
                 let viewController = storyboard.instantiateViewController(identifier: "LogIn")
                 window.rootViewController = viewController
@@ -34,7 +51,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 let window = UIWindow(windowScene: scene as! UIWindowScene)
                 self.window = window
                 window.makeKeyAndVisible()
-        
+            
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 let viewController = storyboard.instantiateViewController(identifier: "Main")
                 window.rootViewController = viewController

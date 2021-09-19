@@ -38,7 +38,7 @@
                                     <action selector="updateButtonTouchUpInside:" destination="lid-HO-hpv" eventType="touchUpInside" id="fZz-e9-xYC"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ejm-4p-3YI" userLabel="Logo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo rainbow" translatesAutoresizingMaskIntoConstraints="NO" id="Ejm-4p-3YI" userLabel="Logo">
                                 <rect key="frame" x="146.33333333333334" y="144" width="97.333333333333343" height="97.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ejm-4p-3YI" secondAttribute="height" multiplier="1:1" id="QaF-EK-KKC"/>
@@ -88,7 +88,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="1000" height="1000"/>
+        <image name="logo rainbow" width="500" height="500"/>
         <namedColor name="BlackWhite">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

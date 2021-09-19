@@ -93,6 +93,8 @@ final class AboutViewController: UIViewController, UIGestureRecognizerDelegate {
         communityGuidelinesLabel.text = "komyunitexigaidorainn".localized()
         openSourceLibraryLabel.text = "o-punnso-suraiburari".localized()
         
+        versionText.text = "ba-jyonn".localized() + " " + version
+        
         AppTypeCompare.toAppStoreVersion { type in
             switch type {
             case .release:

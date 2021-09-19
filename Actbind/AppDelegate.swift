@@ -5,6 +5,7 @@
 //  Created by 柿本海斗 on 2021/03/09.
 //
 
+import Firebase
 import GoogleMobileAds
 import UIKit
 
@@ -12,7 +13,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     // アプリを起動したとき
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Mobile Ads SDK を初期化
+        // Use Firebase library to configure APIs.
+        FirebaseApp.configure()
+        
+        // Initialize the Google Mobile Ads SDK.
         GADMobileAds.sharedInstance().start(completionHandler: nil)
         
         // LaunchScreenを一秒間表示

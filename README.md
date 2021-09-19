@@ -32,7 +32,8 @@ iOS 13.0+
 ![システム構成図](https://user-images.githubusercontent.com/65607153/125005280-53c3f700-e096-11eb-9eaa-7bc96c1181a2.jpeg)
 
 ## 使用しているAPI,SDK,ライブラリなど
-- Alamofire
+- Firebase/Analytics
+- Google-Mobile-Ads-SDK
 - Nuke
 - SwiftFormat
 - UITextView+Placeholder
