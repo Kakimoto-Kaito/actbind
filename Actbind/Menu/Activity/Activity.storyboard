@@ -65,11 +65,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="CdH-mz-Mz6" userLabel="SixDayChart View Height"/>
                                                 </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIP-BZ-pDn" userLabel="SixDayChart Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="39" height="213.33333333333334"/>
@@ -83,11 +78,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="wsv-fX-HV6" userLabel="FiveDayChart View Height"/>
                                                 </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocd-9Q-vgk" userLabel="FiveDayChart Button">
                                                 <rect key="frame" x="47" y="0.0" width="38.666666666666657" height="213.33333333333334"/>
@@ -101,11 +91,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="wiY-gO-KkJ" userLabel="FourDayChart View Height"/>
                                                 </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dh-Iq-6ZR" userLabel="FourDayChart Button">
                                                 <rect key="frame" x="93.666666666666657" y="0.0" width="39" height="213.33333333333334"/>
@@ -119,11 +104,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="lgo-Hn-NO8" userLabel="ThreeDayChart View Height"/>
                                                 </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7e-Sg-Y0u" userLabel="ThreeDayChart Button">
                                                 <rect key="frame" x="140.66666666666666" y="0.0" width="38.666666666666657" height="213.33333333333334"/>
@@ -137,11 +117,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="LQ9-x0-mp6" userLabel="TwoDayChart View Height"/>
                                                 </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yw3-R9-Wiw" userLabel="TwoDayChart Button">
                                                 <rect key="frame" x="187.33333333333334" y="0.0" width="39" height="213.33333333333334"/>
@@ -155,11 +130,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="Yus-FM-php" userLabel="OneDayChart View Height"/>
                                                 </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoA-OM-SiK" userLabel="OneDayChart Button">
                                                 <rect key="frame" x="234.33333333333331" y="0.0" width="38.666666666666686" height="213.33333333333334"/>
@@ -173,11 +143,6 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="hjD-Uq-u4D" userLabel="ToDayChart View Height"/>
                                                 </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="4"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hs-02-kPr" userLabel="ToDayChart Button">
                                                 <rect key="frame" x="281" y="0.0" width="39" height="213.33333333333334"/>
