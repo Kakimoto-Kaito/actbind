@@ -28,20 +28,6 @@ final class LogInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        AppVersionCompare.toAppStoreVersion { type in
-            switch type {
-            case .latest: break
-            case .old:
-                DispatchQueue.main.async {
-                    let storyBoard = UIStoryboard(name: "Update", bundle: nil)
-                    let nextVC = storyBoard.instantiateInitialViewController()
-                    self.present(nextVC!, animated: false) {}
-                }
-            case .error:
-                print("エラー")
-            }
-        }
-        
         mailAddressTextField.uiTextFieldSetting(placeholder: "me-ruadoresu".localized())
 
         passwordTextField.uiTextFieldSetting(placeholder: "pasuwa-do".localized())

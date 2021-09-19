@@ -198,7 +198,7 @@
 		0DFBC1FE2690195400800190 /* MyProfilePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFBC1FD2690195400800190 /* MyProfilePostTableViewCell.swift */; };
 		0DFBC20026901A7800800190 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DFBC1FF26901A7800800190 /* MyProfile.storyboard */; };
 		0DFC925D2601B6BA00364104 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DDC93F12601AA7B00103659 /* Info.plist */; };
-		E3CFCAE82CDC07A903AE435A /* Pods_Actbind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE25E4F36CB7AD4BD88E740 /* Pods_Actbind.framework */; };
+		66C54FC1005C812251314396 /* Pods_Actbind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D26A29180CA79A720B1351B /* Pods_Actbind.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -236,13 +236,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = F0C7FE88342E3772A8A133204A1E1910;
 			remoteInfo = "UITextView+Placeholder";
-		};
-		0D9EE493266F2C2F00151FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0DDC93E82601AA6400103659 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
-			remoteInfo = Alamofire;
 		};
 		0DA4A34426F4B19700B98ADF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -523,9 +516,9 @@
 		0DFBC1FB269018BA00800190 /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
 		0DFBC1FD2690195400800190 /* MyProfilePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfilePostTableViewCell.swift; sourceTree = "<group>"; };
 		0DFBC1FF26901A7800800190 /* MyProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
-		3CA17B939676E22DAEDC79A1 /* Pods-Actbind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actbind.release.xcconfig"; path = "Target Support Files/Pods-Actbind/Pods-Actbind.release.xcconfig"; sourceTree = "<group>"; };
-		ECE25E4F36CB7AD4BD88E740 /* Pods_Actbind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Actbind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F078F3113B1E20F1EF576F22 /* Pods-Actbind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actbind.debug.xcconfig"; path = "Target Support Files/Pods-Actbind/Pods-Actbind.debug.xcconfig"; sourceTree = "<group>"; };
+		3D26A29180CA79A720B1351B /* Pods_Actbind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Actbind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D84B26F11F87A2E34A3DDEF /* Pods-Actbind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actbind.debug.xcconfig"; path = "Target Support Files/Pods-Actbind/Pods-Actbind.debug.xcconfig"; sourceTree = "<group>"; };
+		E4226C12DB59DFF2B79D0F87 /* Pods-Actbind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Actbind.release.xcconfig"; path = "Target Support Files/Pods-Actbind/Pods-Actbind.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -533,7 +526,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CFCAE82CDC07A903AE435A /* Pods_Actbind.framework in Frameworks */,
+				66C54FC1005C812251314396 /* Pods_Actbind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,7 +780,7 @@
 				0D9B36EB25F71F9B002EB629 /* CoreLocation.framework */,
 				0D9B36E925F71F91002EB629 /* AVFoundation.framework */,
 				0D9B36E725F71F86002EB629 /* AudioToolbox.framework */,
-				ECE25E4F36CB7AD4BD88E740 /* Pods_Actbind.framework */,
+				3D26A29180CA79A720B1351B /* Pods_Actbind.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1295,7 +1288,6 @@
 		0DDC93E92601AA6400103659 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D9EE494266F2C2F00151FE4 /* Alamofire.framework */,
 				0DA4A34526F4B19700B98ADF /* FirebaseCore.framework */,
 				0DA4A34726F4B19700B98ADF /* FirebaseCoreDiagnostics.framework */,
 				0DA4A34926F4B19700B98ADF /* FirebaseInstallations.framework */,
@@ -1400,8 +1392,8 @@
 		72EBD6F1A0DB26D61C0FD5A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F078F3113B1E20F1EF576F22 /* Pods-Actbind.debug.xcconfig */,
-				3CA17B939676E22DAEDC79A1 /* Pods-Actbind.release.xcconfig */,
+				8D84B26F11F87A2E34A3DDEF /* Pods-Actbind.debug.xcconfig */,
+				E4226C12DB59DFF2B79D0F87 /* Pods-Actbind.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1413,12 +1405,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D23793825F71C2700E43552 /* Build configuration list for PBXNativeTarget "Actbind" */;
 			buildPhases = (
-				9952BC26C9A24DB41A6FA119 /* [CP] Check Pods Manifest.lock */,
+				15E3D1E33EF0DB6FEB8F5CF0 /* [CP] Check Pods Manifest.lock */,
 				0D23792025F71C2500E43552 /* Sources */,
 				0D23792125F71C2500E43552 /* Frameworks */,
 				0D23792225F71C2500E43552 /* Resources */,
 				0D9B36F125F71FDE002EB629 /* ShellScript */,
-				865629236F51959D306C3434 /* [CP] Embed Pods Frameworks */,
+				5489DC4D8CC7F883CA7061A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1522,13 +1514,6 @@
 			fileType = wrapper.framework;
 			path = UITextView_Placeholder.framework;
 			remoteRef = 0D6E170E266F3DF00021D0F4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0D9EE494266F2C2F00151FE4 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 0D9EE493266F2C2F00151FE4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		0DA4A34526F4B19700B98ADF /* FirebaseCore.framework */ = {
@@ -1669,24 +1654,7 @@
 			shellPath = /bin/sh;
 			shellScript = "datetime=$(date +%Y%m%d%H%M%S)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $datetime\" \"$INFOPLIST_FILE\"\n\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" . --exclude Carthage,Pods --trimwhitespace nonblank-lines --stripunusedargs closure-only --disable strongOutlets,trailingCommas\n";
 		};
-		865629236F51959D306C3434 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Actbind/Pods-Actbind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Actbind/Pods-Actbind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Actbind/Pods-Actbind-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9952BC26C9A24DB41A6FA119 /* [CP] Check Pods Manifest.lock */ = {
+		15E3D1E33EF0DB6FEB8F5CF0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1706,6 +1674,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5489DC4D8CC7F883CA7061A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Actbind/Pods-Actbind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Actbind/Pods-Actbind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Actbind/Pods-Actbind-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2044,7 +2029,7 @@
 		};
 		0D23793925F71C2700E43552 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F078F3113B1E20F1EF576F22 /* Pods-Actbind.debug.xcconfig */;
+			baseConfigurationReference = 8D84B26F11F87A2E34A3DDEF /* Pods-Actbind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Rainbow";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2067,7 +2052,7 @@
 		};
 		0D23793A25F71C2700E43552 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CA17B939676E22DAEDC79A1 /* Pods-Actbind.release.xcconfig */;
+			baseConfigurationReference = E4226C12DB59DFF2B79D0F87 /* Pods-Actbind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Rainbow";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

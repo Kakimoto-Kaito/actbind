@@ -21,30 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         AppVersionCompare.toAppStoreVersion { type in
             switch type {
-            case .latest:
-                DispatchQueue.main.async {
-                    if let userDefaults = self.userDefaults {
-                        let loginrecord = userDefaults.bool(forKey: "loginrecord")
-
-                        if !loginrecord {
-                            let window = UIWindow(windowScene: scene as! UIWindowScene)
-                            self.window = window
-                            window.makeKeyAndVisible()
-                
-                            let storyboard = UIStoryboard(name: "LogIn", bundle: nil)
-                            let viewController = storyboard.instantiateViewController(identifier: "LogIn")
-                            window.rootViewController = viewController
-                        } else {
-                            let window = UIWindow(windowScene: scene as! UIWindowScene)
-                            self.window = window
-                            window.makeKeyAndVisible()
-                
-                            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                            let viewController = storyboard.instantiateViewController(identifier: "Main")
-                            window.rootViewController = viewController
-                        }
-                    }
-                }
+            case .latest: break
             case .old:
                 DispatchQueue.main.async {
                     let window = UIWindow(windowScene: scene as! UIWindowScene)
@@ -55,32 +32,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     let viewController = storyboard.instantiateViewController(identifier: "Update")
                     window.rootViewController = viewController
                 }
-            case .error:
-                print("エラー")
-                
-                DispatchQueue.main.async {
-                    if let userDefaults = self.userDefaults {
-                        let loginrecord = userDefaults.bool(forKey: "loginrecord")
+            case .error: break
+            }
+        }
+        
+        if let userDefaults = self.userDefaults {
+            let loginrecord = userDefaults.bool(forKey: "loginrecord")
 
-                        if !loginrecord {
-                            let window = UIWindow(windowScene: scene as! UIWindowScene)
-                            self.window = window
-                            window.makeKeyAndVisible()
-                
-                            let storyboard = UIStoryboard(name: "LogIn", bundle: nil)
-                            let viewController = storyboard.instantiateViewController(identifier: "LogIn")
-                            window.rootViewController = viewController
-                        } else {
-                            let window = UIWindow(windowScene: scene as! UIWindowScene)
-                            self.window = window
-                            window.makeKeyAndVisible()
-                
-                            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                            let viewController = storyboard.instantiateViewController(identifier: "Main")
-                            window.rootViewController = viewController
-                        }
-                    }
-                }
+            if !loginrecord {
+                let window = UIWindow(windowScene: scene as! UIWindowScene)
+                self.window = window
+                window.makeKeyAndVisible()
+            
+                let storyboard = UIStoryboard(name: "LogIn", bundle: nil)
+                let viewController = storyboard.instantiateViewController(identifier: "LogIn")
+                window.rootViewController = viewController
+            } else {
+                let window = UIWindow(windowScene: scene as! UIWindowScene)
+                self.window = window
+                window.makeKeyAndVisible()
+            
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let viewController = storyboard.instantiateViewController(identifier: "Main")
+                window.rootViewController = viewController
             }
         }
     }
